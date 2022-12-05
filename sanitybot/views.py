@@ -210,3 +210,8 @@ def search():
             # Get logged in user
             user = current_user
             return render_template("admin_patients.html", users=user)
+
+@views.route('/chat', methods = ['GET', 'POST'])
+def chat():
+    user = current_user
+    return render_template('chat.html', user=user)
