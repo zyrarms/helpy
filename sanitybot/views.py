@@ -7,6 +7,7 @@ from werkzeug.security import generate_password_hash, check_password_hash
 from flask_login import login_required, current_user
 from datetime import date
 from flask import session
+from .utils import pdd_prediction
 
 
 views = Blueprint('views', __name__)
@@ -214,4 +215,5 @@ def search():
 @views.route('/chat', methods = ['GET', 'POST'])
 def chat():
     user = current_user
-    return render_template('chat.html', user=user)
+    result = pdd_prediction(1,0,3,3,3,2,2,2,0,3,19)
+    return render_template('chat.html', data={'user': user, 'result':result})

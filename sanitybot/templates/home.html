@@ -76,7 +76,12 @@
 
               <!-- modal -->
               <div>
+                {% if user.is_assess %}
+                <a href="{{ url_for('views.chat') }}" class="btn_form">Talk to Sanity</a>
+                {% else %}
                 <a href="#" class="btn_form" id="show-modal">Talk to Sanity</a>
+                {% endif %}
+
                 <div class="modal">
                   <div class="modal-box">
                     <div type="button" class="icon" id="hide-modal">

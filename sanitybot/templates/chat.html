@@ -43,7 +43,7 @@
                         <li><a href="{{ url_for('auth.logout') }}">Logout</a></li>
                     </ul>
                     <ul>
-                        <li><a href="{{ url_for('views.profile') }}">{{ user.firstname }} {{ user.lastname }}</a></li>
+                        <li><a href="{{ url_for('views.profile') }}">{{ data.user.firstname }} {{ data.user.lastname }}</a></li>
                     </ul>
                 </div>
 
