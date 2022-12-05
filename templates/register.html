@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='/css/style.css') }}" />
+  <title>Preggybot</title>
+</head>
+
+       
+<body>
+    {% with messages = get_flashed_messages(with_categories=true) %} {% if
+        messages %} {% for category, message in messages %} {% if category ==
+        'error' %}
+        <div class="alert-error" role="alert">
+          {{ message }}
+          <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+        </div>
+        {% else %}
+        <div class="alert-success" role="alert">
+          {{ message }}
+          <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+        </div>
+        {% endif %} {% endfor %} {% endif %} {% endwith %}
+
+  <div class="container">
+    <div class="forms-container">
+      <div class="signin-signup">
+       
+        <!-- SIGN UP FORM -->
+        <form action="" class="sign-in-form" method="POST">
+          <img class="logo_img" src="{{ url_for('static', filename='/images/preggy_logo.png') }}" alt="logo">
+          <h2 class="title">Sign up</h2>
+          <div class="input-field">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="First Name" name="signup_first_name"  required />
+          </div>
+		      <div class="input-field">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="Last Name" name="signup_last_name"  required />
+          </div>
+          <div class="input-field">
+            <i class="fas fa-envelope"></i>
+            <input type="email" placeholder="Email Address" name="signup_email" minlength="5" required />
+          </div>
+          <div class="input-field">
+            <i class="fas fa-lock"></i>
+            <input type="password" placeholder="Password" name="signup_password"  minlength="6" required />
+          </div>
+          <div class="input-field">
+            <i class="fas fa-lock"></i>
+            <input type="password" placeholder="Confirm Password" name="signup_cpassword"  minlength="6" required />
+          </div>
+          <input type="submit" class="btn" name="signup" value="Sign up" />
+        </form>
+      </div>
+    </div>
+    <!-- SIGN UP FORM END -->
+
+    <!-- CONTENT FORM -->
+    <div class="panels-container">
+      <div class="panel left-panel">
+        <div class="content">
+            <h3>Join with us</h3>
+            <p>
+            Experience Preggybot, your personal healthcare companion during your pregnancy. Already have an account? Signin here.
+            </p>
+            <a href="{{ url_for('auth.login') }}"><button class="btn transparent" id="sign-in-btn">
+              Sign in
+            </button></a>
+        </div>
+        <img src="{{ url_for('static', filename='/images/Sign in-amico.svg') }}" class="image" alt="" />
+      </div>
+  </div>
+
+  <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+  
+
+      
+</body>
+</html>

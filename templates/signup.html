@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='/css/style.css') }}" />
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>SanityBot</title>
+</head>
+       
+<body>
+    {% with messages = get_flashed_messages(with_categories=true) %} {% if
+        messages %} {% for category, message in messages %} {% if category ==
+        'error' %}
+        <div class="alert-error" role="alert">
+          {{ message }}
+          <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+        </div>
+        {% else %}
+        <div class="alert-success" role="alert">
+          {{ message }}
+          <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+        </div>
+        {% endif %} {% endfor %} {% endif %} {% endwith %}
+        <main>
+        <!-- landingpage -->
+    <div class="wrapper light">
+      <header>
+        <div class="container1">
+          <button class="toggle-btn">
+            <i class='bx bxs-moon'></i>
+            <i class='bx bxs-sun'></i>
+          </button>
+          <div class="wrapper2">
+            <div class="logo">
+              <img class="logo_img" src="{{ url_for('static', filename='/images/robot_logo.svg') }}" alt="logo">
+              <h3>SanityBot</h3>
+            </div>
+            <div class="links">
+              <ul class="main">
+                <li><a href="{{ url_for('views.home') }}">Home</a></li>
+                <li><a href="{{ url_for('views.duedate') }}">Sanity</a></li>
+                <li><a href="{{ url_for('views.profile') }}">Features</a></li>
+                <li><a href="{{ url_for('auth.login') }}" style="color:#46A2FF">Log in</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="overlay"></div>
+
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+
+        </div>
+      </header>
+
+  <div class="container">
+    <div class="forms-container">
+      <div class="signin-signup">
+       
+        <!-- SIGN UP FORM -->
+        <form action="" class="sign-in-form" method="POST">
+          <h2 class="title">Sign up</h2>
+          <div class="input-field">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="First Name" name="signup_first_name"  required />
+          </div>
+		      <div class="input-field">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="Last Name" name="signup_last_name"  required />
+          </div>
+          <div class="input-field">
+            <i class="fas fa-envelope"></i>
+            <input type="email" placeholder="Email Address" name="signup_email" minlength="5" required />
+          </div>
+          <div class="input-field">
+            <i class="fas fa-lock"></i>
+            <input type="password" placeholder="Password" name="signup_password"  minlength="6" required />
+          </div>
+          <div class="input-field">
+            <i class="fas fa-lock"></i>
+            <input type="password" placeholder="Confirm Password" name="signup_cpassword"  minlength="6" required />
+          </div>
+          <input type="submit" class="btn" name="Register" value="Sign up" />
+        </form>
+      </div>
+    </div>
+    <!-- SIGN UP FORM END -->
+
+    <!-- CONTENT FORM -->
+    <div class="panels-container">
+      <div class="panel left-panel">
+        <img src="{{ url_for('static', filename='/images/signup.svg') }}" class="image" alt="" />
+      </div>
+  </div>
+
+  <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+  
+
+      
+</body>
+</html>

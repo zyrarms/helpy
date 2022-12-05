@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+    <title>Admin</title>
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='/css/style_dashboard.css') }}">
+</head>
+
+<body>
+
+    <input type="checkbox" id="nav-toggle">
+    <div class="sidebar">
+        <div class="sidebar-brand">
+            <h2><span class="las la-clinic-medical"></span> <span>Preggybot</span></h2>
+        </div>
+        <!--Secciones-del-tablero-->
+        <div class="sidebar-menu">
+            <ul>
+                <li>
+                    <a href="{{ url_for('views.dashboard') }}" ><span class="las la-home"></span>
+                    <span>Dashboard</span></a>
+                </li>
+                <li>
+                    <a href="{{ url_for('views.admin_profile') }}" ><span class="las la-user"></span>
+                    <span>Manage Account</span></a>
+                </li>
+                <li>
+                    <a href="{{ url_for('views.admin_patients') }}" class="active"><span class="las la-book-medical"></span>
+                    <span>Patient Informations</span></a>
+                </li>
+                <li>
+                    <a href="{{ url_for('auth.adminlogout') }}"><span class="las la-sign-out-alt"></span>
+                    <span>Logout</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <header>
+            <h2>
+                <label for="nav-toggle">
+                    <span class="las la-bars"></span>
+                </label> Patient Information
+            </h2>
+
+            <div class="search-wrapper">
+                <span class="las la-search"></span>
+                <form method="POST">
+                <input type="search" placeholder="Search" name="search" />
+                </form>
+            </div>
+            <div class="user-wrapper">
+                <div>
+                    <h4>Administrator</h4>
+                    <small>admin</small>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            
+            <!--Table-->
+            <div class="recent-grid">
+                <div class="projects">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Patient's Complete Information</h3>
+
+                        </div>
+
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table width="100%">
+                                    <thead>
+                                        <tr>
+                                            <td>ID</td>
+                                            <td>Name</td>
+                                            <td>Middlename</td>
+                                            <td>Lastname</td>
+                                            <td>Email</td>
+                                            <td>Contact Number</td>
+                                            <td>Address</td>
+                                            <td>Expected Duedate</td>
+                                            <td>First Trimester</td>
+                                            <td>Second Trimester</td>
+                                           
+                                            
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+
+                                        {% for user in users %}
+                                        <tr>
+                                            <td>{{user.id}}</td>
+                                            <td>{{user.firstname}}</td>
+                                            <td>{{user.middlename}}</td>
+                                            <td>{{user.lastname}}</td>
+                                            <td>{{user.email}}</td>
+                                            <td>{{user.contact}}</td>
+                                            <td>{{user.address}}</td>
+                                            <td>{{user.duedate}}</td>
+                                            <td>{{user.first_trimester}}</td>
+                                            <td>{{user.second_trimester}}</td>
+                                           
+                                          
+                                        </tr>
+                                        {% endfor %}
+
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+               
+                    </div>
+                </div>
+                
+            </div>
+        </main>
+
+    </div>
+
+</body>
+
+</html>
