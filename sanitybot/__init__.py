@@ -6,12 +6,12 @@ from flask_login import LoginManager, login_manager
 
 
 db = SQLAlchemy()
-DB_NAME = "preggybot_database.db"
+DB_NAME = "sanitybot_database.db"
 
 
 def create_app():
      app = Flask(__name__)
-     app.config['SECRET_KEY'] = 'preggybot'
+     app.config['SECRET_KEY'] = 'sanitybot'
      app.config['SQLALCHEMY_DATABASE_URI'] = f'sqlite:///{DB_NAME}'
      db.init_app(app)
 
@@ -36,7 +36,7 @@ def create_app():
      return app
      
 def create_database(app):
-    if not path.exists('preggybot/' + DB_NAME):
+    if not path.exists('sanitybot/' + DB_NAME):
         db.create_all(app=app)
         print('Created Database!')
 
