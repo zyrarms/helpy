@@ -32,10 +32,6 @@
     <div class="wrapper light">
       <header>
         <div class="container1">
-          <button class="toggle-btn">
-            <i class='bx bxs-moon'></i>
-            <i class='bx bxs-sun'></i>
-          </button>
           <div class="wrapper2">
             <div class="logo">
               <img class="logo_img" src="{{ url_for('static', filename='/images/robot_logo.svg') }}" alt="logo">
@@ -43,9 +39,8 @@
             </div>
             <div class="links">
               <ul class="main">
-                <li><a href="{{ url_for('views.home') }}">Home</a></li>
-                <li><a href="{{ url_for('views.duedate') }}">Sanity</a></li>
-                <li><a href="{{ url_for('views.profile') }}">Features</a></li>
+                <li><a href="{{ url_for('views.welcome') }}">Welcome</a></li>
+                <li><a href="{{ url_for('views.profile') }}">Postpartum</a></li>
                 <li><a href="{{ url_for('auth.register') }}" style="color:#46A2FF">Sign Up</a></li>
               </ul>
             </div>

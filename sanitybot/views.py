@@ -88,7 +88,7 @@ def profile():
     else:
         # Get logged in user
         user = current_user
-        return render_template('profile.html', user=user)
+        return render_template('userprofile.html', user=user)
 
 #edit user profile security
 @views.route('/profileupdate', methods = ['GET' , 'POST'])
@@ -215,3 +215,13 @@ def search():
 def chat():
     user = current_user
     return render_template('chat.html', user=user)
+
+@views.route('/welcome', methods = ['GET', 'POST'])
+def welcome():
+    user = current_user
+    return render_template('welcomepage.html', user=user)
+
+@views.route('/postpartum', methods = ['GET', 'POST'])
+def postpartum():
+    user = current_user
+    return render_template('postpartum.html', user=user)

@@ -58,8 +58,8 @@ img {
   position: relative;
   max-width: 80rem;
   width: 100%;
-  margin: 0 auto 2rem;
-  padding: 0 3rem;
+  margin: 1rem auto;
+  padding: 1rem 3rem;
   z-index: 1;
 }
 

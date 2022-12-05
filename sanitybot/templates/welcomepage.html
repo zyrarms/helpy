@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="{{ url_for('static', filename='/css/style_chatbot.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='/css/style_welcome.css') }}" />
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>SanityBot | Home</title>
@@ -26,25 +26,19 @@
       {% endif %} {% endfor %} {% endif %} {% endwith %}
     <main>
        <!-- landingpage -->
-       <div class="wrapper light">
+       <div class="wrapper light scroll-bar">
         <header>
-
-          <button class="toggle-btn">
-            <i class='bx bxs-moon'></i>
-            <i class='bx bxs-sun' ></i>
-          </button>
           
           <div class="container">
             <div class="logo">
               <img class="logo_img" src="{{ url_for('static', filename='/images/robot_logo.svg') }}" alt="logo">
+              <h3>SanityBot</h3>
             </div>
             <div class="links">
-              <ul>
-                <li><a href="{{ url_for('views.home') }}" style="color:#46A2FF" >SanityBot</a></li>
-                <li><a href="{{ url_for('views.home') }}">Home</a></li>
-                <li><a href="{{ url_for('views.duedate') }}">Sanity</a></li>
-                <li><a href="{{ url_for('views.profile') }}">Features</a></li>
-                <li><a href="{{ url_for('auth.logout') }}">Sign Up</a></li>
+              <ul class="main">
+                <li><a href="{{ url_for('views.home') }}"style="color:#46A2FF">Welcome</a></li>
+                <li><a href="{{ url_for('views.postpartum') }}">Postpartum</a></li>
+                <li><a href="{{ url_for('auth.login') }}">Log in</a></li>
               </ul>
             </div>
 
@@ -59,7 +53,7 @@
 
         <div class="content-area">
           <div class="container">
-            <div class="left">
+            <div class="left center-text">
               <div class="title">
                 <h3>Welcome to</h3>
                 <h1>SanityBot</h1>
@@ -67,77 +61,51 @@
               <p class="text">
                 An Artificial Intelligence Chatbot for Postpartum 
                 Women that helps you in your psychological, 
-                emotional and social well-being.  Sanity makes you 
+                emotional and social well-being. Sanity makes you 
                 feel heard without judgement. 
               </p>
 
-              <!-- modal -->
+              <!-- Login -->
               <div>
-                <a href="#" class="btn_form" id="show-modal">Meet Sanitybot</a>
+                <a href="{{ url_for('auth.login') }}" class="btn_form" id="show-modal">Talk to Sanity</a>
                 <div class="modal">
                   <div class="modal-box">
-                    <div class="icon">
-                      <i class="fa fa-times"></i>
-                    </div>
-                   
+                    <div class="icon">                     
+                    </div>        
                   </div>
                 </div>
               </div>
-
-              <!-- end modal -->
+              <!-- end Login -->
             </div>
 
-            <div class="right">
-              <img src="{{ url_for('static', filename='/images/phone4.svg') }}" alt="Image" class="preggy">
+            <div class="right rindex">
+              <img src="{{ url_for('static', filename='/images/phone4.svg') }}" alt="Image" class="sanity">
             </div>
 
           </div>
         </div>
-        <!-- landing page end -->
-
-            <!-- chatbot window -->
-          <div class="container">
-            <div class="chatbox">
-                <div class="chatbox__support">
-                    <div class="chatbox__header">
-                        <div class="chatbox__image--header">
-                            <img src="{{ url_for('static', filename='/images/bot-ic.png') }}" alt="image">
-                        </div>
-                        <div class="chatbox__content--header">
-                            <h4 class="chatbox__heading--header">PreggyBot</h4>
-                            <p class="chatbox__description--header">Ready to assist you during your pregnancy.</p>
-                        </div>
-                    </div>
-                    <div class="chatbox__messages">
-                       <div class="messages__item messages__item--visitor">Hi there! 👋 I'm Preggybot. I am here to guide and answer your questions during pregnancy. Can you tell me what can i do for you? 😊 </div>
-                        <div></div>
-                    </div>
-                    <div class="chatbox__footer">
-                        <input type="text" placeholder="Write a message...">
-                        <button class="chatbox__send--footer send__button">Send</button>
-                    </div>
-                </div>
-                <div class="chatbox__button">
-                    <button><img src="{{ url_for('static', filename='/images/chatbox-icon.svg') }}" /></button>
-                </div>
+        <!-- landing page end -->        
+        <div class="content-area">
+          <div class="container1">
+            <div class="left">
+              <img src="{{ url_for('static', filename='/images/welcome1.svg') }}" alt="Image" class="sanity1">
             </div>
+            <div class="right center-text">
+              <img src="{{ url_for('static', filename='/images/robot_logo.svg') }}" alt="Image" class="robot">
+              <div class="title">
+                <h1>Hello!</h1>
+              </div>
+              <p class="text1">
+                I am Sanity! Your AI friend that helps
+                you with your mental and emotional
+                well-being. I'm always here to listen
+                to make you feel better and cope with your daily stresses as a new
+                mother.
+              </p>
+            </div>
+          </div>
         </div>
-        <!-- chatbot window end -->
-
-      </div>
+       </div>
     </main>
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script>
-      $SCRIPT_ROOT = {{ request.script_root|tojson }};
-      $(document).ready(function(){
-			$('#show-modal').on('click', function(){
-				$('.modal').css({'visibility': 'visible', 'opacity': '1'});
-			});
-			$('.modal .modal-box .icon i').on('click', function(){
-				$('.modal').css({'visibility': 'hidden', 'opacity': '0'});
-			});
-		}); 
-    </script>
-    <script type="text/javascript" src="{{ url_for('static', filename='app-chatbot.js') }}"></script>
   </body>
 </html>
