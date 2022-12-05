@@ -1,0 +1,2284 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hello, thanks for visiting. How are you feeling today?",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot!"],
+      "responses": [
+        "Happy to help you! Do you still have questions that i can help you with? :-)",
+        "Any time, sweetie! Do you still have questions that i can help you with?",
+        "No worries! My pleasure. Do you still have questions that i can help you with?",
+        "You're welcome! It's my pleasure to answer your questions. :-)"]
+    },
+    {
+      "tag": "pregnancy_symptoms",
+      "patterns": [
+        "What are the early signs of pregnancy?",
+        "Early signs of pregnancy.",
+        "What are the symptoms of pregnancy",
+        "Signs of pregnancy.",
+        "Common signs of pregnancy",
+        "Pregnancy symptoms",
+        "What are the pregnancy symptoms?",
+        "How will I know that I am pregnant?",
+        "What are the signs of pregnancy?",
+        "I missed my period",
+        "Im having nausea", 
+        "Im havin heartburn",
+        "Im having constipation",
+        "Is it normal to have  heartburn?",
+        "Is it normal to have nausea?",
+        "Is it normal to have  constipation?",
+        "Im experiencing breast tenderness",
+        "Is it normal to have terder breast?",
+        "Am I pregnant?",
+        "Is it normal to have terder breast when pregnant?"
+      ],
+      "responses": [
+        "You may feel extra tired in the early days of pregnancy. The most common sign of pregnancy is a missing period, but you might also experience nausea, heartburn, constipation, tiredness, or breast tenderness."
+      ]
+    },
+    {
+      "tag": "exercise",
+      "patterns": [
+        "Is it safe to exercise during pregnancy?",
+        "Is is okay to exercise while pregnant?",
+        "I want to exercise, is it safe?",
+        "Is exercise recommended for pregnant woman?",
+        "Is exercise is important in pregnancy?",
+        "Exercise during pregnancy",
+        "Exercise while pregnant",
+        "Can I exercise?"
+      ],
+      "responses": [
+        "Yes mommy! Exercise is a good thing for normal, healthy pregnancies. For regular healthy women who are having a low-risk pregnancy, exercise is actually recommended"
+      ]
+    },
+    {
+      "tag": "notice_pregnancy",
+      "patterns": [
+        "When will i notice it?",
+        "How soon will I see signs of pregnancy",
+        "How long can I notice that I am pregnant?",
+        "When do pregnancy symptoms start?",
+        "What week I will notice that I am pregnant?",
+        "In what week will I notice that I'm pregnant?",
+        "When will I notice that I'm pregnant?",
+        "When this can occur",
+        "How quickly can I know if I'm pregnant?",
+        "How long does it take to know I'm pregnant?"
+      ],
+      "responses": [
+        "These can occur within the first six to eight weeks of pregnancy.",
+        "Pregnancy occurs within the first six to eight weeks. :-)"
+      ]
+    },
+    {
+      "tag": "food",
+      "patterns": [
+        "Is there specific food should I eat during pregnancy?",
+        "What food should I eat during pregnancy?",
+        "Is there specific food should i eat?",
+        "Can you recommend some healthy food to eat during pregnancy?",
+        "Recommend some healthy food to eat.",
+        "Recommend some food to eat."
+      ],
+      "responses": [
+        "Eating well when you are pregnant is important. Here are some food that I can recommend for you; Liver, chicken, beef, nuts, beans, milk, eggs, yogurt, cabbage, spinach, fruits, orange, tomatoes.",
+        "A healthy diet includes proteins, carbohydrates, fats, vitamins, minerals, and plenty of water. Here are some that you can eat: legumes and veggie, cereals and breads, milk, yoghurt and cheese, meat, chicken, fish, and alternatives fruit."
+      ]
+    },
+    {
+      "tag": "tiredness",
+      "patterns": [
+        "Is it normal to feel tired?",
+        "Is it okay to always feel tired while pregnant?",
+        "Is it normal to always feel tired?",
+        "Why do pregnant women feel tired?",
+        "Is it normal to feel exhausted all the time when pregnant?",
+        "When pregnant, should a woman expect to feel exhausted all the time?",
+        "Is it normal to feel exhausted all the time while pregnant?",
+        "Is it usual to be fatigued during pregnancy?",
+        "I am always tired, what can I do about that?"
+      ],
+      "responses": [
+        "No worries! During pregnancy, it is normal to feel tired and exhausted. Try to take naps and rest often."
+      ]
+    },
+    {
+      "tag": "dizziness",
+      "patterns": [
+        "I feel dizzy sometimes",
+        "Im dizzy",
+        "And feel dizzy too",
+        "Sometimes i feel dizzy",
+        "Is it normal to feel dizzy sometimes?",
+        "And dizzy sometimes too",
+        "I always feel dizzy?",
+        "Is it okay to feel dizzy?"
+      ],
+      "responses": [
+        "Mommy, it is normal to feel dizzy. To deal or relieve this, you may have healthy snacks to keep your blood sugar from dropping."
+      ]
+    },
+    {
+      "tag": "coffee",
+      "patterns": [
+        "Can I drink caffeine while pregnant?",
+        "Can I still drink coffee while pregnant?",
+        "Drink coffee while pregnant",
+        "Coffee for pregnant",
+        "Is it okay to drink coffee while pregnant?",
+        "Is it okay to drink coffee?",
+        "Is it safe to drink coffee?",
+        "Is it safe to drink coffee while pregnant?",
+        "I want to drink coffee, is it okay?",
+        "Is drinking coffee bad for pregnant?",
+        "Is drinking coffee not good for pregnant?",
+        "Caffeine for pregnant?"
+      ],
+      "responses": [
+        "Lots of studies have investigated a possible link between caffeine and a higher risk of miscarriage, but the results are unclear, according to the ACOG. The organization adds that a small daily dose of caffeine during pregnancy"
+      ]
+    },
+    {
+      "tag": "weight_gain",
+      "patterns": [
+        "How much weight should I expect to gain during my pregnancy?",
+        "Weight gain range when pregnant",
+        "Weight gain range for pregnant",
+        "Weight gane range",
+        "How much weight should I expect to gain during my pregnancy?",
+        "Weight for pregnant",
+        "Desired weight for pregnant",
+        "Desired weight",
+        "What is the desired weight for pregnant?",
+        "What is the weight range for pregnant?"
+      ],
+      "responses": [
+        "Healthy weight gain ranges depend on your pre-pregnancy BMI. Underweight women (those with a BMI of less than 18.5) should have a weight gain of 28-40 pounds. Overweight women (those with a BMI of 25-29.9) should have a weight gain of 15-25 pounds. Obese women (those with a BMI of 30 or greater) should have a weight gain of 11-20 pounds. Average weight women (those with a BMI of 18.5-24.9) should have a weight gain of 25-35 pounds."
+      ]
+    },
+    {
+      "tag": "travel",
+      "patterns": [
+        "Can I travel during my pregnancy?",
+        "Can I drive during pregnancy?",
+        "Can I drive while pregnant?",
+        "Is driving safe for pregnant?",
+        "Can I drive?",
+        "Can I still drive?",
+        "Can I still travel?",
+        "Can I still travel during pregnancy?",
+        "Can I still travel during my pregnancy?",
+        "Travel while pregnant",
+        "Driving while pregnant",
+        "Is it okay to drive while pregnant?"
+      ],
+      "responses": [
+        "Many pregnant women drive throughout their pregnancies, and wearing a seatbelt is recommended. Many women also fly until late in their pregnancies, and most airlines allow travel up to 37 weeks gestation. Talk to your doctor about safety measures to take when travelling. "
+      ]
+    },
+    {
+      "tag": "hours_exercise",
+      "patterns": [
+        "How much exercise do I need during pregnancy?",
+        "Do I need to exercise?",
+        "Do I need to exercise while pregnant?",
+        "How many hours do I need to exercise?",
+        "How many hours do I have to exercise?",
+        "Hours to exercise",
+        "Atleast how many hours should I need to exercise"
+      ],
+      "responses": [
+        "Healthy pregnant women need at least 2½ hours of moderate-intensity aerobic activity each week. Aerobic activities make you breathe faster and deeply and make your heart beat faster. Moderate-intensity means you’re active enough to sweat and increase your heart rate. Taking a brisk walk is an example of moderate-intensity aerobic activity."
+      ]
+    },
+    {
+      "tag": "activities",
+      "patterns": [
+        "What kinds of activities are safe during pregnancy?",
+        "Recommend some safe activities during pregnancy",
+        "Recommend exercise",
+        "safe activities during pregnancy",
+        "safe exercises during pregnancy",
+        "Safe exercises for pregnancy",
+        "Kinds of activities for pregnant",
+        "kinds of exercises for pregnant",
+        "recommend some exercise",
+        "recommend exercise for pregnant",
+        "Can you recommend me some exercise?",
+        "Can you recommend some exercise?"
+      ],
+      "responses": [
+        "These activities usually are safe during pregnancy: Walking, Swimming and water workouts, riding a stationary bike, yoga and pilates classes, low impact aerobics classes and strength training."
+      ]
+    },
+    {
+      "tag": "benefits_exercise",
+      "patterns": [
+        "Benefits of exercise during pregnancy",
+        "Why exercise during pregnancy?",
+        "Why should I exercise during pregnancy?",
+        "Should I exercise during pregnancy?",
+        "should I exercise?",
+        "Why do I need to exercise?",
+        "Do I need to exercise?",
+        "Do I need to exercise during pregnancy?",
+        "exercise during pregnancy",
+        "advantages of exercise while pregnant",
+        "andvantages of exercise"
+      ],
+      "responses": [
+        "During pregnancy, exercise can: Reduce backaches, constipation, bloating and swelling, Boost your mood and energy levels, Help you sleep better, Prevent excess weight gain, Promote muscle tone, strength and endurance."
+      ]
+    },
+    {
+      "tag": "increase_appetite",
+      "patterns": [
+        "Does pregnancy cause a woman to eat more?",
+        "My appetite increase during pregnancy.",
+        "Why do I feel hungry all the time while I'm pregnant?",
+        "Is it normal to crave food while pregnant?",
+        "Is it normal to eat more ?",
+        "Is it normal that my appetite increase during pregnancy?",
+        "Is it true that being pregnant makes a woman eat more?",
+        "Does a woman's appetite increase during pregnancy?",
+        "Does pregnancy increase a woman's appetite?",
+        "Do pregnant women eat more?",
+        "Appetite increasing",
+        "Increase in appetite",
+        "I want to eat more, is it normal?",
+        "I crave for food more"
+      ],
+      "responses": [
+        "An increased appetite during pregnancy is common, especially in the second trimester when morning sickness fades, cravings pick up and you need more calories to feed your ever-growing baby."
+      ]
+    },
+    {
+      "tag": "avoid_food",
+      "patterns": [
+        "What foods should i avoid while pregnant?",
+        "What foods should I avoid?",
+        "What foods should I avoid when I'm expecting a child?",
+        "What foods should I stay away from while I'm pregnant?",
+        "While pregnant, what should I avoid eating?",
+        "Which foods should I abstain from during pregnancy?",
+        "Foods to be avoided when pregnant",
+        "Foods to avoid",
+        "Foods to Avoid in Pregnancy",
+        "Foods to avoid or limit during pregnancy",
+        "Avoid foods to eat",
+        "Is there are foods that I should avoid while pregnant?",
+        "Is there anything you cannot eat when pregnant?",
+        "Are there any restrictions on what you may consume when pregnant?"
+      ],
+      "responses": [
+        "There are some foods you should not eat when you're pregnant because they might make you ill or harm your baby. Some of these are some types of cheese like brie, camembert and chevre, avoid all types of pâté, raw or partially cooked eggs, raw or undercooked meat, some types of fish like broadbill, marlin and swordfish and don’t eat rockmelon."
+      ]
+    },
+    {
+      "tag": "fish",
+      "patterns": [
+        "Is fish safe during pregnancy?",
+        "Can women safely eat fish while pregnant?",
+        "Is it okay to eat fish when pregnant?",
+        "Is fish safe to eat when pregnant?",
+        "Is it safe to eat fish?",
+        "I want to eat fish, is it safe?",
+        "I want to eat fish, it is okay?",
+        "Eating seafood during pregnancy?",
+        "Seafood during pregnancy?",
+        "Fish during pregnancy",
+        "Eat fish during pregnancy",
+        "Eat seafood during pregnancy?",
+        "Is it safe to eat seafood during pregnancy?",
+        "Is seafood safe during pregnancy?",
+        "Can women safely eat seafood while pregnant?",
+        "Is seafood safe to eat when pregnant?",
+        "Is it safe to eat seafood when pregnancy?",
+        "I want to eat seafood, is it safe?",
+        "I want to eat seafood, it is okay?",
+        "Is there any amount of fish should I take?",
+        "Is there any amount of seafood should I take?",
+        "Seafood intake",
+        "Fish intake",
+        "Enough amount of fish for pregnant",
+        "Amount of fish"
+      ],
+      "responses": [
+        "Eating enough of the right types of seafood is not only healthy but recommended for both you and your baby. Pregnant and breastfeeding women should eat 8 to 12 ounces (that's two to three servings) of low-mercury fish every week."
+      ]
+    },
+    {
+      "tag": "avoid_fish",
+      "patterns": [
+        "What types of fish should I avoid during pregnancy?",
+        "Is there any sort of fish thatI should avoid when pregnant?",
+        "What kinds of fish should I avoid when pregnant?",
+        "Which kinds of fish should you stay away from when you're expecting?",
+        "Which sorts of fish should pregnant women avoid?",
+        "What seafood should I avoid when pregnant?",
+        "Is there any sort of fish that I should avoid when pregnant?",
+        "Fish to avoid during pregnancy",
+        "Is there any types of fish should I avoid?",
+        "Is there any types of fish should I avoid when pregnant?",
+        "Best types of fish to avoid",
+        "types of fish to avoid",
+        "Is it okay to eat Shark?",
+        "is it okay to eat Swordfish?",
+        "is it okay to eat Orange roughy?",
+        "is it okay to eat Bigeye tuna?",
+        "is it okay to eat Marlin?",
+        "is it okay to eat King mackerel?",
+        "Is it safe to eat Shark?",
+        "is it safe to eat Swordfish?",
+        "is it safe to eat Orange roughy?",
+        "is it safe to eat Bigeye tuna?",
+        "is it safe to eat Marlin?",
+        "is it safe to eat King mackerel?"
+      ],
+      "responses": [
+        "It's best to avoid these seven types of fish, which are all higher in mercury: Shark, Swordfish, Orange roughy, Bigeye tuna, Marlin and King mackerel"
+      ]
+    },
+    {
+      "tag": "safe_fish",
+      "patterns": [
+        "What types of fish are safe to eat during pregnancy?",
+        "What is safe to eat?",
+        "Is there any sort of fish that I should eat when pregnant?",
+        "What kinds of fish should I eat when pregnant?",
+        "Which kinds of fish should I eat when you're expecting?",
+        "Which sorts of fish should pregnant women avoid?",
+        "What seafood should I eat when pregnant?",
+        "Is there any sort of fish that I should eat when pregnant?",
+        "Fish to eat during pregnancy",
+        "Is there any types of fish that I should eat?",
+        "Is there any types of fish I should eat when pregnant?",
+        "Best types of fish to eat",
+        "types of fish to avoid",
+        "Is it safe to eat Salmon?",
+        "Is it safe to eat Anchovies?",
+        "Is it safe to eat Herring?",
+        "Is it safe to eat Sardines?",
+        "Is it safe to eat Freshwater trout?",
+        "Is it safe to eat Pacific mackerel?",
+        "Is it safe to eat Shrimp?",
+        "Is it safe to eat Pollock?",
+        "Is it safe to eat Tilapia?",
+        "Is it safe to eat Cod?",
+        "Is it safe to eat Catfish?",
+        "Is it safe to eat Canned light tuna?",
+        "Is it okay to eat Salmon?",
+        "Is it okay to eat Anchovies?",
+        "Is it okay to eat Herring?",
+        "Is it okay to eat Sardines?",
+        "Is it okay to eat Freshwater trout?",
+        "Is it okay to eat Pacific mackerel?",
+        "Is it okay to eat Shrimp?",
+        "Is it okay to eat Pollock?",
+        "Is it okay to eat Tilapia?",
+        "Is it okay to eat Cod?",
+        "Is it okay to eat Catfish?",
+        "Is it okay to eat Canned light tuna?"
+      ],
+      "responses": [
+        "Eat a variety of seafood that's low in mercury and high in omega-3 fatty acids, such as: Salmon, Anchovies, Herring, Sardines, Freshwater trout, Pacific mackerel. Other safe choices include: Shrimp, Pollock. Tilapia, Cod, Catfish and Canned light tuna."
+      ]
+    },
+    {
+      "tag": "work",
+      "patterns": [
+        "Is it okay to work during pregnancy",
+        "Work during pregnancy",
+        "Work when pregnant",
+        "Can I work during pregnancy?",
+        "Working while pregnant",
+        "I want to work, is it okay for pregnant?",
+        "Is going to work is not okay for pregnant?",
+        "Is working bad for pregnant?"
+      ],
+      "responses": [
+        "Most women can continue working during pregnancy. Being pregnant, however, might present challenges at the workplace. To stay healthy and productive on the job, understand how to alleviate common pregnancy discomforts — and know when a work task might jeopardize your pregnancy."
+      ]
+    },
+    {
+      "tag": "uterus",
+      "patterns": [
+        "When will the uterus return to normal size?",
+        "Uterus return to normal size",
+        "When will the uterus shrink back?" ,
+        "How long will it take for the uterus to recover to normal size?",
+        "When will the uterus shrink back to normal size?" ,
+        "How long will it take for the uterus to revert to normal size?",
+        "Size of uterus"
+      ],
+      "responses": [
+        "The uterus returns to prepregnancy size after approximately 6 weeks. This is accomplished through a process called involution. During involution, the uterus has contractions that women may be able to feel, especially during breastfeeding."
+      ]
+    },
+    {
+      "tag": "sex",
+      "patterns": [
+        "When can women resume sexual intercourse after pregnancy?",
+        "Can I have sex after pregnancy?",
+        "Is having sex okay after pregnancy?",
+        "Having sex after pregnancy?",
+        "Sex after pregnancy?",
+        "Is it okay to have sexual intercourse after pregnancy?",
+        "Sexual intercourse after pregnancy",
+        "Can I have sexual intercourse after pregnancy?",
+        "Is having sexual intercourse okay after pregnancy?",
+        "Is there any waiting period before I have a sexual intercourse after pregnancy?",
+        "Waiting period before I have sex again after pregnancy",
+        "required waiting period before you can have sex again",
+        "Is it okay to have sex after pregnancy?"
+      ],
+      "responses": [
+        "While there's no required waiting period before you can have sex again, many health care providers recommend waiting to have sex until four to six weeks after delivery, regardless of the delivery method. The risk of having a complication after delivery is highest during the first two weeks after delivery."
+      ]
+    },
+    {
+      "tag": "dentist",
+      "patterns": [
+        "Can I go to the dentist while I am pregnant?",
+        "Can I see a dentist",
+        "Dentist for pregnant",
+        "Can I visit my dentist during pregnancy?",
+        "Can I visit my dentist"
+      ],
+      "responses": [
+        "It is very important to take good care of yourself when you are pregnant. Dental health is very important. You need to make sure that you visit the dentist to maintain your oral health."
+      ]
+    },
+    {
+      "tag": "breast_tenderness",
+      "patterns": [
+        "What can I do about breast tenderness?",
+        "I have breast tenderness",
+        "Breast tenderness",
+        "Im experiencing breast tenderness",
+        "Is it normal to have breast tenderness?"
+      ],
+      "responses": [
+        "Breast tenderness is normal during pregnancy. To help minimize the tenderness you need to wear a good supporting bra, such as a maternity or nursing bra. Full figured bras also offer more support."
+      ]
+    },
+    {
+      "tag": "leg_swelling",
+      "patterns": [
+        "How can I prevent my legs and ankles from swelling?",
+        "My leg is swelling",
+        "My ankle is swelling",
+        "What can I do to my leg and ankles when swelling",
+        "Swelling leg",
+        "Swelling ankles"
+      ],
+      "responses": [
+        "You cannot keep your legs and ankles from swelling but you can do things to make it better. Make sure that when you are sitting you elevate your legs. Your feet should ideally be higher than your heart. An easy way to do this is to sit in a recliner or on a couch with your feet propped up on the armrest. Avoid standing for long periods of time."
+      ]
+    },
+    {
+      "tag": "constipation",
+      "patterns": [
+        "I am constipated, what can I do to prevent that?",
+        "I am constipated",
+        "I have constipation",
+        "I have constipation, what can I do?",
+        "What can I do when I'm constipated?",
+        "What can I do if I am having constipation?",
+        "I'm bloated",
+        "I'm suffering from constipation.",
+        "Constipation is a problem for me.",
+        "Problems with constipation",
+        "Constipation when pregnant",
+        "Constipation during pregnancy"
+      ],
+      "responses": [
+        "Many pregnant women seem to have problems with constipation. To prevent constipation you can drink plenty of liquids, at least 6-8 glasses of water each day, eat foods that are high in fiber such as raw fruits and vegetables and bran cereals and exercise is another way to help. Walking daily can help with constipation"
+      ]
+    },
+    {
+      "tag": "hemorrhoids",
+      "patterns": [
+        "What can I do if I have hemorrhoids?",
+        "How can I get rid of my hemorrhoids?",
+        "Hemorrhoids",
+        "Hemorrhoids during pregnancy",
+        "Is it normal to have hemorrhoids?",
+        "Is it normal to have hemorrhoids during pregnancy?",
+        "Is it normal to have hemorrhoids while pregnancy?",
+        "How can I treat my hemorrhoids?",
+        "What causes hemorrhoids during pregnancy?",
+        "What causes hemorrhoids"
+      ],
+      "responses": [
+        "Hemorrhoids during pregnancy are often caused by constipation. They occur because you have been straining during bowel movements. To help with relief of hemorrhoids or to avoid the problem you can eat a high fiber diet and drink plenty of liquids. Avoid standing or sitting for long periods of time. Do not strain with bowel movements. Take a warm sits bath to help relieve any pain"
+      ]
+    },
+    {
+      "tag": "backache",
+      "patterns": [
+        "What can I do for a backache?",
+        "My back hurts",
+        "Im having backache",
+        "Is it normal to have backaches while pregnant?",
+        "Backahes during pregnancy",
+        "Backaches",
+        "How to prevent backaches"
+      ],
+      "responses": [
+        "Backaches are expected during pregnancy. As you get bigger, you will experience more back pain at times. You can help minimize your back pain by avoiding doing too much and getting too tired. You need to practice good posture. Wear low heeled shoes."
+      ]
+    },
+    {
+      "tag": "legcramps",
+      "patterns": [
+        "Are leg cramps normal?",
+        "Im having leg cramps",
+        "Leg cramps",
+        "Is it normal to have leg cramps during pregnancy?",
+        "Is it normal to have leg cramps?",
+        "Leg crampings",
+        "My leg hurts, what can I do?"
+      ],
+      "responses": [
+        "In the last three months of pregnancy, you may find that you have more leg cramps. Get plenty of calcium, at least 3 glasses of milk a day. Get plenty of potassium which you can get from oranges or bananas. You can stretch your legs before you go to bed to help relieve cramps."
+      ]
+    },
+    {
+      "tag": "gums_swelling",
+      "patterns": [
+        "Is it normal for my gums to bleed during pregnancy?",
+        "My gums are bleeding",
+        "My gums are swelling?",
+        "Is it normal to have bleeding gums during pregnancy?",
+        "Is it normal to have bleeding gums?",
+        "Is it normal to have swelling gums?",
+        "Is it normal to have swelling gums during pregnancy?"       
+      ],
+      "responses": [
+        "During pregnancy the extra hormones in your body may cause your gums to swell and bleed. Floss and brush regularly, using a soft bristle toothbrush, to keep your teeth in good shape. Have regular dental check ups"
+      ]
+    },
+    {
+      "tag": "body_shape",
+      "patterns": [
+        "Body shape changes",
+        "When do pregnant postural changes occur?",
+        "When my body change?",
+        "Pregnant body change",
+        "Pregnancy postural happen when:",
+        "When does pregnancy cause postural changes?",
+        "When my posture change?",
+        "Postural changes",
+        "Posture change",
+        "When do my postural changes begin?",
+        "Pregnancy-related postural changes",
+        "When do pregnant women's postures change?",
+        "Changes in my body",
+        "Changes in the woman's body due to pregnancy",
+        "Woman's body change while pregnant",
+        "Pregnant postural changes when",
+        "Pregnant postural changes",
+        "Pregnancy-related body changes",
+        "When is my posture change?",
+        "When is my body change?"
+      ],
+      "responses": [
+        "During your pregnancy, the anterior convex curve of the lumbar spine gradually increases. As the uterus grows larger, this adjustment, known as lordosis, helps keep the center of gravity steady and over the legs. Aching, weakness, and numbness of the arms may develop late in pregnancy as a result of compensatory anterior neck posture and shoulder hunching in reaction to excessive lordosis. The ulnar and median nerves get tangled as a result of these positional responses, resulting in the symptoms listed above. "
+      ]
+    },
+    {
+      "tag": "breast_changes",
+      "patterns": [
+        "Changes in my breasts",
+        "Changes of breasts",
+        "Normal changes of breasts",
+        "Normal changes of my breasts?",
+        "Is it natural for my breasts to change?",
+        "Are the changes in my breasts normal?",
+        "Is it common for my breasts to change?",
+        "Common changes of breasts",
+        "Are breast changes usual during pregnancy?",
+        "How do breasts change during pregnancy?",
+        "Pregnancy changes of breasts",
+        "Is it normal to have changes in my breasts?",
+        "Normal changes of breasts considered",
+        "Normal changes in breasts:",
+        "Is it normal to have many changes in my breasts?",
+        "What changes in breasts are normal during pregnancy?",
+        "Changes in the breast during pregnancy:",
+        "Common changes in breasts:",
+        "Kinds of changes are normal in my breasts",
+        "Changes might be expected in my breasts"
+      ],
+      "responses": [
+        "Pregnancy-related breast changes include growth and enlargement, tenderness, darkening of the nipples, and darkened veins due to increased blood flow. In addition, small raised bumps (Montgomery tubercles) appear around the areola in mid-pregnancy."
+      ]
+    },
+    {
+      "tag": "hair_changes",
+      "patterns": [
+        "Is hair changes are common during pregnancy?",
+        "Cause of hair changes",
+        "Why is my hair changes?",
+        "Does hair change during pregnancy?",
+        "Hair changes while pregnant",
+        "Is it normal to loss hair while pregnant?",
+        "Hair loss while pregnant",
+        "Losing hair while pregnant",
+        "Is it normal to lose hair while pregnant?",
+        "Are hair changes usual during pregnancy?",
+        "Does pregnancy cause hair changes?",
+        "Does pregnancy affect hair?",
+        "Can pregnancy change hair?",
+        "Does pregnancy change my hair?",
+        "I am pregnant and I loss hair, is it normal?"
+      ],
+      "responses": [
+        "Hair changes in pregnancy are very common, and body hair changes are common as well. Many women develop mild hirsutism that may be due to levels of male hormone production by the ovary and adrenal "
+      ]
+    },
+    {
+      "tag": "stretch_marks",
+      "patterns": [
+        "How can stretch marks be prevented?",
+        "How can I prevent stretch marks?",
+        "How to avoid stretch marks?",
+        "Avoiding stretch marks",
+        "Best way to avoid stretch marks",
+        "How to prevent stretch marks?",
+        "How can I avoid getting stretch marks?",
+        "Stretch marks remedy",
+        "How to fade stretch marks?",
+        "Fade stretch marks",
+        "Is it possible to avoid stretch marks?",
+        "Is stretch marks fade?",
+        "Stretch marks problem",
+        "Do stretch marks go away?",
+        "Do stretch marks fade?",
+        "Can stretch marks be removed?",
+        "Are stretch marks removable?",
+        "Rid of stretch marks",
+        "Is it possible to get rid of stretch marks?",
+        "Remove stretch marks"
+      ],
+      "responses": [
+        "Stretch marks are unavoidable. The occurrence of stretch marks is genetically determined and frequently arises after rapid weight loss or increase. Creams and gels rarely work. Luckily, stretch marks diminish and the marks turn silvery white, not tan, and only medical laser treatment can reduce them."
+      ]
+    },
+    {
+      "tag": "nosebleed",
+      "patterns": [
+        "Is it normal for my nose to bleed",
+        "My nose is bleeding, is it normal?",
+        "Nose bleeding",
+        "Congested during pregnancy, is it normal?",
+        "Bleeding nose",
+        "Why is my nose bleeding?",
+        "My nose bleeds, is that normal?",
+        "Is it common to get congested during pregnancy?",
+        "Is congestion normal during pregnancy?",
+        "Congestion during pregnancy",
+        "My nose is bleeding. What am I going to do?",
+        "My nose bled. What will I do?",
+        "My nose bleeds. What shall I do?",
+        "My nose is swollen. So, what will I do?",
+        "Nose bleed",
+        "My nose is bleeding"
+      ],
+      "responses": [
+        "The lining of the respiratory system receives more blood during pregnancy, causing congestion. This congestion might produce nasal stuffiness or nosebleeds. Increased blood pressure damages small blood vessels in the nose, causing nosebleeds. Congestion can be relieved with saline nasal spray. You can use a cool mist humidifier to relieve congestion and nose bleeds."
+      ]
+    },
+    {
+      "tag": "hairdye",
+      "patterns": [
+        "Can I perm or color my hair while pregnant?",
+        "Perming hair while pregnant",
+        "Is it okay for me to color my hair?",
+        "Is it okay for me to dye my hair?",
+        "Can I dye or perm my hair when pregnant?",
+        "Color my hair while pregnant",
+        "I want to dye my hair. Is it okay?",
+        "I'd like to color my hair. Is it okay?",
+        "Perming and coloring hair while pregnant",
+        "I want to color my hair. Is it fine?",
+        "I'd like to color my hair. Is that all right?",
+        "Coloring hair",
+        "Perming hair",
+        "Can I have my hair permed or colored while pregnant?",
+        "Can I perm or color my hair when pregnant?",
+        "Can i dye my hair?",
+        "Can i color my hair?"
+
+      ],
+      "responses": [
+        "There is no evidence to suggest that hair color or permanents are harmful during pregnancy. We recommend that you wait until after the first trimester to color or perm your hair. Know that your hair may not perm well during the pregnancy."
+      ]
+    },
+    {
+      "tag": "sauna",
+      "patterns": [
+        "Are saunas safe during pregnancy?",
+        "Are saunas safe for pregnant women?",
+        "Saunas during pregnancy",
+        "Are saunas safe while pregnant?",
+        "Can I go to the sauna when pregnant?",
+        "Is it safe to use saunas when pregnant?",
+        "Is hot tubs are safe during pregnancy?",
+        "Are hot tubs safe to use during pregnancy?",
+        "Are hot tubs safe to use when pregnant?",
+        "Can I use a hot tub when pregnant?",
+        "Are hot baths safe while pregnant?",
+        "Are hot baths safe during pregnancy?",
+        "Tanning booths safe during pregnancy?",
+        "Can you tan when pregnant?",
+        "Are tanning booths safe for pregnant women?",
+        "Are tanning booths safe to use during pregnancy?",
+        "Is it safe to go hot baths while pregnant?",
+        "Hot baths while pregnant"
+      ],
+      "responses": [
+        "The use of saunas, hot tubs and tanning booths is not recommended during pregnancy. The extreme temperature could potentially damage the developing baby. Extremely hot baths are not recommended during pregnancy. Bath temperatures should be below 100 degrees Fahrenheit."
+      ]
+    },
+    {
+      "tag": "paint",
+      "patterns": [
+        "Is it safe to paint during pregnancy?",
+        "Painting while pregnant",
+        "Can I paint when pregnant?",
+        "Is painting safe while pregnant?",
+        "Is it safe to paint while pregnant?",
+        "Do you think it's safe to paint when pregnant?",
+        "I want to paint. Is it safe?",
+        "Is it okay to paint while pregnant?",
+        "Is painting safe during pregnancy?",
+        "Is pregnant women safe to paint?"
+      ],
+      "responses": [
+        "Painting in a well-ventilated location is recommended because latex paint fumes are not thought to be harmful to a developing baby. Pregnant women should avoid oil-based paints, turpentine, paint thinner, and other paint fumes. Avoid painting from a ladder to reduce the chance of injury from a fall. "
+      ]
+    },
+    {
+      "tag": "baby_size",
+      "patterns": [
+        "What is the size of my baby now?",
+        "Size of my baby now",
+        "Size of my baby",
+        "How big is my baby now?",
+        "Current size of my baby",
+        "What is my baby's current size?",
+        "Baby's size",
+        "My baby's current size",
+        "How does my baby look now?",
+        "Appearance of my baby",
+        "How's my baby?"
+      ],
+      "responses": [
+        "In which week your pregnancy is?",
+        "What week are you?",
+        "What week are you pregnant?",
+        "Which week of pregnancy are you in?",
+        "Can you tell me what week of pregnancy you're in?",
+        "In which week your pregnancy is?",
+        "What week are you?",
+        "What week are you pregnant?",
+        "Which week of pregnancy are you in?",
+        "Can you tell me what week of pregnancy you're in?",
+        "In which week your pregnancy is?"
+      ]
+    },
+    {
+      "tag": "week1",
+      "patterns": [
+        "1",
+        "Week 1",
+        "I'm in my first week of pregnancy.",
+        "Week number 1",
+        "I'm one week pregnant.",
+        "I'm only a week pregnant.",
+        "1 week pregnant",
+        "One week pregnant",
+        "1st week of pregnancy",
+        "First week of pregnancy",
+        "I'm 1 week pregnant",
+        "1 week",
+        "One",
+        "1st"
+      ],
+      "responses": [
+        "Hello, mama! You're not even close. Your doctor will track your pregnancy and due date from the first day of your last menstruation, which may seem complicated. In the meantime, your body is preparing for pregnancy. Your uterus is thickening to accommodate and feed your fertilized egg. Now is the time for patience and self-care. You have 40 more weeks!"
+      ]
+    },
+    {
+      "tag": "week2",
+      "patterns": [
+        "2nd",
+        "2",
+        "Week 2",
+        "I'm in my second week of pregnancy.",
+        "Week number 2",
+        "I'm two weeks pregnant.",
+        "I'm 2 weeks pregnant.",
+        "2 weeks pregnant",
+        "Two weeks pregnant",
+        "2nd week of pregnancy",
+        "Second week of pregnancy",
+        "I'm 2 weeks pregnant",
+        "2 weeks",
+        "Two"
+      ],
+      "responses": [
+        "It's a potentially life-changing week. You'll ovulate, and if egg meets sperm, you'll be on your way to pregnancy! A few days later, you could notice some light spotting. It might look like your period, but it's actually a sign that the fertilized egg has attached itself to the wall of your uterus."
+      ]
+    },
+    {
+      "tag": "week3",
+      "patterns": [
+        "3",
+        "3rd",
+        "Week 3",
+        "I'm in my third week of pregnancy.",
+        "Week number 3",
+        "I'm three weeks pregnant.",
+        "I'm 3 weeks pregnant.",
+        "3 weeks pregnant",
+        "Three weeks pregnant",
+        "3rd week of pregnancy",
+        "Third week of pregnancy",
+        "I'm 3 weeks pregnant",
+        "3 weeks",
+        "Three"
+      ],
+      "responses": [
+        "Finally, you're pregnant! Your baby is a tiny ball – called a blastocyst – made up of several hundred cells that are multiplying quickly. A zygote is a single cell formed by sperm and egg. A lot goes on inside that cell. Your chromosomes combine to determine your baby's gender, hair, eye color, and even personality! The zygote will keep dividing as it travels down the fallopian tubes to the uterus. It's like multiplying by two to get four. These cells will eventually form all of your baby's organs."
+      ]
+    },
+    {
+      "tag": "week4",
+      "patterns": [
+        "4",
+        "4th",
+        "Week 4",
+        "I'm in my 4th week of pregnancy.",
+        "Week number 4",
+        "I'm four weeks pregnant.",
+        "I'm 4 weeks pregnant.",
+        "4 weeks pregnant",
+        "Four weeks pregnant",
+        "4th week of pregnancy",
+        "Fourth week of pregnancy",
+        "I'm 4 weeks pregnant",
+        "4 weeks",
+        "Four"
+      ],
+      "responses": [
+        "Deep in your uterus, your baby is an embryo made up of two layers, and your primitive placenta is developing. A fluid-filled cushion called the amniotic sac is forming. It will surround and protect your baby while they grow. Attached to it will be the yolk sac, which will feed baby in these early weeks. Your baby may be big enough to see on ultrasound now, but just barely. They are smaller than a grain of rice."
+      ]
+    },
+    {
+      "tag": "week5",
+      "patterns": [
+        "5",
+        "5th",
+        "Week 5",
+        "I'm in my 5th week of pregnancy.",
+        "Week number 5",
+        "I'm five weeks pregnant.",
+        "I'm 5 weeks pregnant.",
+        "5 weeks pregnant",
+        "Five weeks pregnant",
+        "5th week of pregnancy",
+        "Fifth week of pregnancy",
+        "I'm 5 weeks pregnant",
+        "5 weeks",
+        "Five"
+      ],
+      "responses": [
+        "Your tiny embryo is growing like crazy!  You still might not recognize your baby yet. At this stage, they look like a tiny collection of tubes. But those tubes have important purposes! One tube is forming a brain and spinal cord. Another is developing into baby's heart. Tiny buds on either side of the body will grow into arms and legs. As your baby keeps growing, you might feel the first twinges of pregnancy symptoms, such as sore breasts, morning sickness, and the constant urge to urinate."
+      ]
+    },
+    {
+      "tag": "week6",
+      "patterns": [
+        "6",
+        "6th",
+        "Week 6",
+        "I'm in my 6th week of pregnancy.",
+        "Week number 6",
+        "I'm six weeks pregnant.",
+        "I'm 6 weeks pregnant.",
+        "6 weeks pregnant",
+        "Six weeks pregnant",
+        "6th week of pregnancy",
+        "Sixth week of pregnancy",
+        "I'm 6 weeks pregnant",
+        "6 weeks",
+        "Six"
+      ],
+      "responses": [
+        "Ba-bum, ba-bum. It's way too quiet for you to hear, but your baby's tiny heart has started to beat. That heart sits inside a body that's now almost 1/2-inch long from the top of the head to the rump - about as wide as a pencil eraser. Baby still looks like a tadpole but that won't last for long. Human features are starting to emerge, including two eyes that come complete with lids. The lungs and digestive system are also starting to branch out, forming the organs that will help your baby breathe and eat in just a few months."
+      ]
+    },
+    {
+      "tag": "week7",
+      "patterns": [
+        "7",
+        "7th",
+        "Week 7",
+        "I'm in my 7th week of pregnancy.",
+        "Week number 7",
+        "I'm seven weeks pregnant.",
+        "I'm 7 weeks pregnant.",
+        "7 weeks pregnant",
+        "Seven weeks pregnant",
+        "7th week of pregnancy",
+        "Seventh week of pregnancy",
+        "I'm 7 weeks pregnant",
+        "7 weeks",
+        "Seven"
+      ],
+      "responses": [
+        "Even though you're only in your second month, your baby's body is already forming every organ it will need — including the heart, kidneys, liver, lungs, and intestines. Buds are sprouting from baby's growing arms. Right now they look like paddles, but eventually they'll form hands and feet. Your baby is attached to you by an umbilical cord. Through this connection, you'll provide food, and filter away your baby's wastes until you deliver."
+      ]
+    },
+    {
+      "tag": "week8",
+      "patterns": [
+        "8",
+        "8th",
+        "Week 8",
+        "I'm in my 8th week of pregnancy.",
+        "Week number 8",
+        "I'm eigth weeks pregnant.",
+        "I'm 8 weeks pregnant.",
+        "8  weeks pregnant",
+        "Eight weeks pregnant",
+        "8th week of pregnancy",
+        "Eighth week of pregnancy",
+        "I'm 8  weeks pregnant",
+        "8 weeks",
+        "Eight"
+
+      ],
+      "responses": [
+        "You might not look pregnant yet, but you probably feel it! If the morning sickness hasn't set in, you're at least feeling more tired than usual. Inside your uterus, your baby is developing at a rapid pace. In fact, they have officially graduated from embryo to fetus! If you peeked inside right now, you'd see the beginnings of a face on your bean-sized baby. You could make out two eyes, a nose, ears, and an upper lip. Your baby's body is also starting to straighten out."
+      ]
+    },
+    {
+      "tag": "week9",
+      "patterns": [
+        "9",
+        "9th",
+        "Week 9",
+        "I'm in my 9th week of pregnancy.",
+        "Week number 9",
+        "I'm nine weeks pregnant.",
+        "I'm 9 weeks pregnant.",
+        "9  weeks pregnant",
+        "Nine weeks pregnant",
+        "9th week of pregnancy",
+        "Ninth week of pregnancy",
+        "I'm 9  weeks pregnant",
+        "9 weeks",
+        "Nine"
+      ],
+      "responses": [
+        "Your baby weighs about 1/8 of an ounce — just bigger than a penny. The tadpole-like tail is almost gone, and in its place are two little legs. Your baby's head is still huge compared to the body, but it will get more proportional in the weeks to come. Inside, the reproductive organs are forming — although it's still too early to tell on an ultrasound whether you're having a boy or girl. If you look closely, though, you might see your baby move!"
+      ]
+    },
+    {
+      "tag": "week10",
+      "patterns": [
+        "10",
+        "10th",
+        "Week 10",
+        "I'm in my 10th week of pregnancy.",
+        "Week number 10",
+        "I'm ten weeks pregnant.",
+        "I'm 10 weeks pregnant.",
+        "10 weeks pregnant",
+        "Ten weeks pregnant",
+        "10th week of pregnancy",
+        "Tenth week of pregnancy",
+        "I'm 10  weeks pregnant",
+        "10 weeks",
+        "Ten"
+      ],
+      "responses": [
+        "Your baby has finished the most critical part of development! Organs and structures are in place and ready to grow. Your baby now has a real profile with well-defined eyes, mouth, and ears. Baby's eyes are wide open now, but soon the eyelids will close — at least temporarily. Inside baby's brain, the connections are forming that will one day help them ace a math test, or possibly play the cello."
+      ]
+    },
+    {
+      "tag": "week11",
+      "patterns": [
+        "11",
+        "11th",
+        "Week 11",
+        "I'm in my 11th week of pregnancy.",
+        "Week number 11",
+        "I'm eleven weeks pregnant.",
+        "I'm 11 weeks pregnant.",
+        "11 weeks pregnant",
+        "Eleven weeks pregnant",
+        "11th week of pregnancy",
+        "Eleventh week of pregnancy",
+        "I'm 11  weeks pregnant",
+        "11 weeks",
+        "Eleven"
+      ],
+      "responses": [
+        "Your baby has become very active, though you probably can't feel any flutters just yet. Baby still only measures just 2 inches long from the top of the head to the rump — about the size of a prune. Most of that is the head, which makes up about half of your baby's entire body! In a few weeks, baby's head and body will become more proportional. Also happening this week — your baby is growing fingernails and irises — the part of the eye that controls how much light enters."
+      ]
+    },
+    {
+      "tag": "week12",
+      "patterns": [
+        "12",
+        "12th",
+        "Week 12",
+        "I'm in my 12th week of pregnancy.",
+        "Week number 12",
+        "I'm twelve weeks pregnant.",
+        "I'm 12 weeks pregnant.",
+        "12 weeks pregnant",
+        "Twelve weeks pregnant",
+        "12th week of pregnancy",
+        "Twelfth week of pregnancy",
+        "I'm 12 weeks pregnant",
+        "12 weeks",
+        "Twelve"
+      ],
+      "responses": [
+        "You've reached the end of your first trimester — a major milestone! By the end of this week, your risk of having a miscarriage drops significantly, and you might want to start telling friends and family that you're expecting. By now you've put on 2 to 5 pounds, and your baby looks like a fully formed person. Inside, more organs are developing. Baby's kidneys are getting ready to produce urine. Your little one also has teeth, as well as fingers and toes — complete with nails."
+      ]
+    },
+    {
+      "tag": "week13",
+      "patterns": [
+        "13",
+        "13th",
+        "Week 13",
+        "I'm in my 13th week of pregnancy.",
+        "Week number 13",
+        "I'm thirteen weeks pregnant.",
+        "I'm 13 weeks pregnant.",
+        "13 weeks pregnant",
+        "Thirteen weeks pregnant",
+        "13th week of pregnancy",
+        "Thirteenth  week of pregnancy",
+        "I'm 13 weeks pregnant",
+        "13 weeks",
+        "Thirteen"
+
+      ],
+      "responses": [
+        "Hopefully you're over any morning sickness you had. Now, you should be putting on weight. It won't be long before friends and co-workers start to notice your baby bump! Your baby is growing quickly now and is getting more proportional – now the head makes up only 1/3 of your baby's body. Helping your baby grow is the placenta, which is serving up a steady supply of nutrients and disposing of wastes. If you're having a girl, their ovaries are already filled with hundreds to thousands of eggs."
+      ]
+    },
+    {
+      "tag": "week14",
+      "patterns": [
+        "14",
+        "14th",
+        "Week 14",
+        "I'm in my 14th week of pregnancy.",
+        "Week number 14",
+        "I'm fourteen weeks pregnant.",
+        "I'm 14 weeks pregnant.",
+        "14 weeks pregnant",
+        "Fourteen weeks pregnant",
+        "14th week of pregnancy",
+        "Fourteenth  week of pregnancy",
+        "I'm 14 weeks pregnant",
+        "14 weeks",
+        "Fourteen"
+      ],
+      "responses": [
+        "Your baby is right around 4 inches long from the top of the head to the rump and weighs about 4 1/2 ounces — roughly the size of a small peach. Like a peach, their body is covered with soft hairs. These are called lanugo, and they're like a little coat providing warmth in the womb. Don't worry — this fine covering of fur should be gone by your due date. Baby is also becoming an individual! They are developing fingerprints, including on the thumb, which might have already found its way into baby's mouth.  You may be feeling more energetic and less nauseated."
+      ]
+    },
+    {
+      "tag": "week15",
+      "patterns": [
+        "15",
+        "15th",
+        "Week 15",
+        "I'm in my 15th week of pregnancy.",
+        "Week number 15",
+        "I'm fifteen weeks pregnant.",
+        "I'm 15 weeks pregnant.",
+        "15 weeks pregnant",
+        "Fifteen weeks pregnant",
+        "15th week of pregnancy",
+        "Fifteenth  week of pregnancy",
+        "I'm 15 weeks pregnant",
+        "15 weeks",
+        "Fifteen"
+
+      ],
+      "responses": [
+        "It's very clear what's going on right now inside your baby's body. Baby's skin is so thin you can see right through it! Look closely, and you'll be able to see a network of fine blood vessels forming. Baby's muscles are getting stronger, and they are testing them out by moving around, making fists, and trying out different facial expressions. At one of your next visits, your doctor should offer you a quad screening test to check for Down syndrome and other chromosome problems. Have a stuffy nose? It's a surprising pregnancy side effect."
+      ]
+    },
+    {
+      "tag": "week16",
+      "patterns": [
+        "16",
+        "16th",
+        "Week 16",
+        "I'm in my 16th week of pregnancy.",
+        "Week number 16",
+        "I'm sixteen weeks pregnant.",
+        "I'm 16 weeks pregnant.",
+        "16 weeks pregnant",
+        "Sixteen weeks pregnant",
+        "16th week of pregnancy",
+         "Sixteenth week of pregnancy",
+        "I'm 16 weeks pregnant",
+        "16 weeks",
+        "Sixteen"        
+      ],
+      "responses": [
+        "By now, your baby is nearly 5 inches long from the top of the head to the rump and weighs close to 4 ounces — about the size of a small apple. And you're probably enjoying a \"pregnancy glow\" right now. If your cheeks look flushed and healthy, it's because your blood volume has increased to supply your growing baby! There are also some downsides to this extra blood flow, including nosebleeds and bigger leg veins. Ask your doctor for tips to deal with these issues."
+      ]
+    },
+    {
+      "tag": "week17",
+      "patterns": [
+        "17",
+        "17th",
+        "Week 17",
+        "I'm in my 17th week of pregnancy.",
+        "Week number 17",
+        "I'm seventeen weeks pregnant.",
+        "I'm 17 weeks pregnant.",
+        "17 weeks pregnant",
+        "Seventeen weeks pregnant",
+        "17th week of pregnancy",
+        "Seventeenth week of pregnancy",
+        "I'm 17 weeks pregnant",
+        "17 weeks",
+        "Seventeen" 
+      ],
+      "responses": [
+        "All systems are a go — or nearly there — inside your growing baby. The lungs are breathing in amniotic fluid. Blood is pumping around the circulatory system. The kidneys are filtering urine. Your baby's looks are changing, as hair, eyebrows, and eyelashes grow in. Your body is changing, too. You might have trouble buttoning your blouse now, because your breasts have grown in preparation to feed your baby. Some women get a full cup size bigger."
+      ]
+    },
+    {
+      "tag": "week18",
+      "patterns": [
+        "18",
+        "18th",
+        "Week 18",
+        "I'm in my 18th week of pregnancy.",
+        "Week number 18",
+        "I'm eighteen weeks pregnant.",
+        "I'm 18 weeks pregnant.",
+        "18 weeks pregnant",
+        "Eighteen weeks pregnant",
+        "18th week of pregnancy",
+        "Eighteenth week of pregnancy",
+        "I'm 18 weeks pregnant",
+        "18 weeks",
+        "Eighteen"
+      ],
+      "responses": [
+        "Are you feeling the first flutters of movement? You might be, because baby is now 5 1/2 inches long from the top of the head to the rump and weighs about 5 ounces. That's about the size of a small cell phone and big enough to cause a stir with every roll. Start talking to your baby. Their ears are developed enough to hear you! In the next week or two, you'll get to see what baby looks like during your first pregnancy ultrasound. You can also learn whether you're having a boy or girl — that is if you want to know!"
+      ]
+    },
+    {
+      "tag": "week19",
+      "patterns": [
+        "19",
+        "19th",
+        "Week 19",
+        "I'm in my 19th week of pregnancy.",
+        "Week number 19",
+        "I'm nineteen weeks pregnant.",
+        "I'm 19 weeks pregnant.",
+        "19 weeks pregnant",
+        "Nineteen weeks pregnant",
+        "19th week of pregnancy",
+        "Nineteenth week of pregnancy",
+        "I'm 19 weeks pregnant",
+        "19 weeks",
+        "Nineteen"
+      ],
+      "responses": [
+        "The amniotic fluid that surrounds and protects your baby can also irritate their delicate skin. That's why baby's body is now coated with a waxy, white substance called vernix caseosa. It should be gone before birth, unless your baby is born early. Under the skin, a layer of fat is forming to provide warmth. As baby's hair grows in, you might notice your own hair getting thicker. This is because your normal hair shedding cycle has slowed down. Enjoy your thick mane while it lasts!"
+      ]
+    },
+    {
+      "tag": "week20",
+      "patterns": [
+        "20",
+        "20th",
+        "Week 20",
+        "I'm in my 20th week of pregnancy.",
+        "Week number 20",
+        "I'm twenty weeks pregnant.",
+        "I'm 20 weeks pregnant.",
+        "20 weeks pregnant",
+        "Twenty weeks pregnant",
+        "20th week of pregnancy",
+        "Twentieth week of pregnancy",
+        "I'm 20 weeks pregnant",
+        "20 weeks",
+        "Twenty"
+      ],
+      "responses": [
+        "You're halfway through your pregnancy! In about 20 weeks, you'll get to meet your baby for the very first time. Inside you, baby can hear and may respond to sounds. Talk or sing — even if you can't carry a tune — so your baby can get familiar with your voice. By now, baby measures 6 1/2 inches from the top of the head to the rump and weighs about 11 ounces — roughly the size of a small banana. Your baby will keep growing, and so will you. Expect to gain about 1/2 pound a week from here on out."
+      ]
+    },
+    {
+      "tag": "week21",
+      "patterns": [
+        "21",
+        "21st",
+        "Week 21",
+        "I'm in my 21st week of pregnancy.",
+        "Week number 21",
+        "I'm twenty one weeks pregnant.",
+        "I'm 21 weeks pregnant.",
+        "21 weeks pregnant",
+        "Twenty one weeks pregnant",
+        "21st week of pregnancy",
+        "Twenty first week of pregnancy",
+        "I'm 21 weeks pregnant",
+        "21 weeks",
+        "Twenty one"
+
+      ],
+      "responses": [
+        "A lot is going on under the surface of your tummy! Tiny tooth buds are popping up in baby's gums. The intestines are starting to produce meconium, the sticky, tarry-looking waste that you'll see in baby's first few dirty diapers. Rapid eye movements may occur. And the bone marrow is ramping up its production of red blood cells, which will soon deliver oxygen to baby's body. Friends and co-workers should already be commenting on your growing belly, and congratulating you on your upcoming arrival!"
+      ]
+    },
+    {
+      "tag": "week22",
+      "patterns": [
+        "22",
+        "22nd",
+        "Week 22",
+        "I'm in my 22nd week of pregnancy.",
+        "Week number 22",
+        "I'm twenty two weeks pregnant.",
+        "I'm 22 weeks pregnant.",
+        "22 weeks pregnant",
+        "Twenty two weeks pregnant",
+        "22nd week of pregnancy",
+        "Twenty second week of pregnancy",
+        "I'm 22 weeks pregnant",
+        "22 weeks",
+        "Twenty two weeks pregnant"
+      ],
+      "responses": [
+        "This week your baby is almost 1 pound and 8 inches long from the top of the head to the rump! All sorts of systems are forming inside your baby, including hormones that will give their organs the commands they need to operate, and the nerves baby needs to touch, smell, and experience all sorts of other sensations. Baby's sex organs are also developing now. In boys, the testes have started to descend. In girls, the uterus, ovaries, and vagina are where they should be."
+      ]
+    },
+    {
+      "tag": "week23",
+      "patterns": [
+        "23",
+        "23rd",
+        "Week 23",
+        "I'm in my 23rd week of pregnancy.",
+        "Week number 23",
+        "I'm twenty three weeks pregnant.",
+        "I'm 23 weeks pregnant.",
+        "23 weeks pregnant",
+        "Twenty three weeks pregnant",
+        "23rd week of pregnancy",
+        "Twenty third week of pregnancy",
+        "I'm 23 weeks pregnant",
+        "23 weeks",
+        "Twenty three weeks pregnant"
+      ],
+      "responses": [
+        "Your baby has passed the 1-pound mark and is almost developed enough to survive outside the womb, but you've still got a few more months to go. Now it's time for baby to practice for life out in the world. The lungs continue to get ready to breathe by inhaling amniotic fluid. They're also producing a substance called surfactant, which will allow the lungs to inflate. Baby's brain is making the connections needed to think — and negotiate with you some day!"
+      ]
+    },
+    {
+      "tag": "week24",
+      "patterns": [
+        "24",
+        "24th",
+        "Week 24",
+        "I'm in my 24th week of pregnancy.",
+        "Week number 24",
+        "I'm twenty four weeks pregnant.",
+        "I'm 24 weeks pregnant.",
+        "24 weeks pregnant",
+        "Twenty four weeks pregnant",
+        "24th week of pregnancy",
+        "Twenty fourth week of pregnancy",
+        "I'm 24 weeks pregnant",
+        "24 weeks",
+        "Twenty four weeks pregnant"
+      ],
+      "responses": [
+        "Your baby now weighs more than a pound and extends almost a foot long from the top of the head to the rump — stretched out that's about as big as a jumbo ballpark hotdog. Your baby has now reached viability – meaning that the baby would most likely survive with the help of a ventilator if delivery had to take place. In weeks past, baby's skin was as wrinkled as a prune. But those wrinkles are filling in and smoothing out as fat builds up underneath. Fingernails are present. As your own belly expands, you may notice stretch marks forming across your abdomen. These should fade after you deliver. Between now and week 28, your doctor should give you a glucose screening test to check for gestational diabetes."
+      ]
+    },
+    {
+      "tag": "week25",
+      "patterns": [
+        "25",
+        "25th",
+        "Week 25",
+        "I'm in my 25th week of pregnancy.",
+        "Week number 25",
+        "I'm twenty five weeks pregnant.",
+        "I'm 25 weeks pregnant.",
+        "25 weeks pregnant",
+        "Twenty five weeks pregnant",
+        "25th week of pregnancy",
+        "Twenty fifth week of pregnancy",
+        "I'm 25 weeks pregnant",
+        "25 weeks",
+        "Twenty five weeks pregnant"
+      ],
+      "responses": [
+        "Your baby is getting bigger — weighing in at a pound-and-a-half — about the size of a head of broccoli. The window into the amazing world inside your baby is closing, as their skin goes from see-through to cloudy. Yet baby's heartbeat is becoming clearer. If your partner puts an ear against your belly, a faint and fast bah-boom, bah-boom may be strong enough to hear. You might also feel a gentle hiccup or two emanating from your belly."
+      ]
+    },
+    {
+      "tag": "week26",
+      "patterns": [
+        "26",
+        "26th",
+        "Week 26",
+        "I'm in my 26th week of pregnancy.",
+        "Week number 26",
+        "I'm twenty six weeks pregnant.",
+        "I'm 26 weeks pregnant.",
+        "26 weeks pregnant",
+        "Twenty six weeks pregnant",
+        "26th week of pregnancy",
+        "Twenty sixth week of pregnancy",
+        "I'm 26 weeks pregnant",
+        "26 weeks",
+        "Twenty six weeks pregnant"
+      ],
+      "responses": [
+        "Your baby is a 2-pound bundle of joy. They weigh about the same as the quart of milk you drink from daily to get your recommended 1,200 mg of calcium. For the first time since your baby's eyelids formed, they've opened, revealing bluish-colored eyes. Don't get too attached to the color — it might change in the first few months of life. There isn't much to see inside your uterus, but if you shine a light on your abdomen, your baby might react with a flurry of movement."
+      ]
+    },
+    {
+      "tag": "week27",
+      "patterns": [
+        "27",
+        "27th",
+        "Week 27",
+        "I'm in my 27th week of pregnancy.",
+        "Week number 27",
+        "I'm twenty seven weeks pregnant.",
+        "I'm 27 weeks pregnant.",
+        "27 weeks pregnant",
+        "Twenty seven weeks pregnant",
+        "27th week of pregnancy",
+        "Twenty seventh week of pregnancy",
+        "I'm 27 weeks pregnant",
+        "27 weeks",
+        "Twenty seven weeks pregnant"
+
+      ],
+      "responses": [
+        "You've entered your third trimester — the home stretch! Your baby is starting to look like they will at delivery, but inside, the organs still have some maturing to do. That includes the brain, which is quickly making the connections needed to control baby's body. By now baby has settled into a regular schedule, alternating between periods of sleep and wakefulness. Unfortunately, baby's schedule might not be the same as yours. Don't be surprised if a few kicks jolt you awake at night."
+      ]
+    },
+    {
+      "tag": "week28",
+      "patterns": [
+        "28",
+        "28th",
+        "Week 28",
+        "I'm in my 28th week of pregnancy.",
+        "Week number 28",
+        "I'm twenty eight weeks pregnant.",
+        "I'm 28 weeks pregnant.",
+        "28 weeks pregnant",
+        "Twenty eight weeks pregnant",
+        "28th week of pregnancy",
+        "Twenty eighth week of pregnancy",
+        "I'm 28 weeks pregnant",
+        "28 weeks",
+        "Twenty eight weeks pregnant"
+      ],
+      "responses": [
+        "By now your baby measures about 10 inches long from the top of the head to the rump and weighs more than 2 pounds — about as large as a squash. They can do all sorts of things — blink, cough, hiccup, and possibly even dream! Baby is moving into position for childbirth, which is getting closer every day. If they are facing rump first, don't panic. There's still time to move into a headfirst position. That's something you can discuss with your ob-gyn, who you'll be seeing more of now, with visits about once every 2 weeks during a normal pregnancy."
+      ]
+    },
+    {
+      "tag": "week29",
+      "patterns": [
+        "29",
+        "29th",
+        "Week 29",
+        "I'm in my 29th week of pregnancy.",
+        "Week number 29",
+        "I'm twenty nine weeks pregnant.",
+        "I'm 29 weeks pregnant.",
+        "29 weeks pregnant",
+        "Twenty nine weeks pregnant",
+        "29th week of pregnancy",
+        "Twenty ninth week of pregnancy",
+        "I'm 29 weeks pregnant",
+        "29 weeks",
+        "Twenty nine weeks pregnant"
+      ],
+      "responses": [
+        "Baby is growing at a rapid rate, and because there's less room in the womb, you should be able to feel just about every movement. Some of those elbow and knee jabs will be pretty intense as baby's bones and muscles get stronger. Every other part of baby's body is maturing too, from lungs to brain. That brain is developing more wrinkles as nerve cell connections are established. Baby's senses are also becoming more aware of sound, light, and touch."
+      ]
+    },
+    {
+      "tag": "week30",
+      "patterns": [
+        "30",
+        "30th",
+        "Week 30",
+        "I'm in my 30th week of pregnancy.",
+        "Week number 30",
+        "I'm thirty weeks pregnant.",
+        "I'm 30 weeks pregnant.",
+        "30 weeks pregnant",
+        "Thirty weeks pregnant",
+        "30th week of pregnancy",
+        "Thirtieth week of pregnancy",
+        "I'm 30 weeks pregnant",
+        "30 weeks",
+        "Thirty weeks pregnant"
+
+      ],
+      "responses": [
+        "This week your baby measures about 11 inches long from the top of the head to the rump, and tips the scales at nearly 3 pounds — about the size of a small roasting chicken. As your baby grows, your belly is growing to match. That can be uncomfortable, and awkward, as your center of balance shifts. You might notice your feet expanding too, as your joints loosen up in preparation for labor. If that's the case, a shopping trip for a bigger pair of shoes may be in order."
+      ]
+    },
+    {
+      "tag": "week31",
+      "patterns": [
+        "31",
+        "31st",
+        "Week 31",
+        "I'm in my 31st week of pregnancy.",
+        "Week number 31",
+        "I'm thirty one weeks pregnant.",
+        "I'm 31 weeks pregnant.",
+        "31 weeks pregnant",
+        "Thirty one weeks pregnant",
+        "31st week of pregnancy",
+        "Thirty first week of pregnancy",
+        "I'm 31  weeks pregnant",
+        "31 weeks",
+        "Thirty one weeks pregnant"
+      ],
+      "responses": [
+        "You're putting on about a pound a week, and your baby is plumping up too. To get your body ready for labor, you may be starting to have Braxton Hicks contractions. These \"practice\" contractions can last from 30 seconds to 2 minutes. If contractions get more intense or closer together, call your doctor to make sure you're not in labor for real. Baby's lungs are still developing, and they would need the help of a ventilator to breathe if you gave birth right now."
+      ]
+    },
+    {
+      "tag": "week32",
+      "patterns": [
+        "32",
+        "32nd",
+        "Week 32",
+        "I'm in my 32nd week of pregnancy.",
+        "Week number 32",
+        "I'm thirty two weeks pregnant.",
+        "I'm 32 weeks pregnant.",
+        "32 weeks pregnant",
+        "Thirty two weeks pregnant",
+        "32nd week of pregnancy",
+         "Thirty second week of pregnancy",
+        "I'm 32 weeks pregnant",
+        "32 weeks",
+        "Thirty two weeks pregnant"        
+      ],
+      "responses": [
+        "Your baby, at almost 4 pounds, is like a cantaloupe weighing down your belly! There isn't much room left in your uterus, but somehow your little bundle will still manage to wriggle and squirm around in there, though maybe not as forcefully as before. Your baby is making final preparations for their appearance. The fine covering of body hair called lanugo is falling off, and hair only remains where it's meant to be — on the eyelashes, eyebrows, and head."
+      ]
+    },
+    {
+      "tag": "week33",
+      "patterns": [
+        "33",
+        "33rd",
+        "Week 33",
+        "I'm in my 33rd week of pregnancy.",
+        "Week number 33",
+        "I'm thirty three weeks pregnant.",
+        "I'm 33 weeks pregnant.",
+        "33 weeks pregnant",
+        "Thirty three weeks pregnant",
+        "33rd week of pregnancy",
+        "Thirty third week of pregnancy",
+        "I'm 33 weeks pregnant",
+        "33 weeks",
+        "Thirty three weeks pregnant"
+      
+      ],
+      "responses": [
+        "This week your baby's body continues to plump up, while the bones underneath harden to support it. The only bones that will stay soft are inside your baby's skull, which will need to compress slightly to fit through the birth canal. There will still be soft spots in your baby's skull throughout the first few years, to allow the brain to grow. Meanwhile, your growing girth is making you more uncomfortable, with afflictions ranging from heartburn to hemorrhoids. Don't worry — only a few more weeks to go!"
+      ]
+    },
+    {
+      "tag": "week34",
+      "patterns": [
+        "34",
+        "34th",
+        "Week 34",
+        "I'm in my 34th week of pregnancy.",
+        "Week number 34",
+        "I'm thirty four weeks pregnant.",
+        "I'm 34 weeks pregnant.",
+        "34 weeks pregnant",
+        "Thirty four weeks pregnant",
+        "34th week of pregnancy",
+        "Thirty fourth week of pregnancy",
+        "I'm 34 weeks pregnant",
+        "34 weeks",
+        "Thirty four weeks pregnant"
+      ],
+      "responses": [
+        "Right now your baby measures more than 12 inches from the top of the head to the rump, and weighs 5 pounds — about the size of a large pineapple. Most of the major organs — digestive, respiratory, and nervous systems — are almost able to work on their own. Your baby may already be in the head-down position, ready for delivery! Space in your uterus is tight these days, so don't be surprised if you see an errant elbow or knee poking out from your belly."
+      ]
+    },
+    {
+      "tag": "week35",
+      "patterns": [
+        "35",
+        "35th",
+        "Week 35",
+        "I'm in my 35th week of pregnancy.",
+        "Week number 35",
+        "I'm thirty five weeks pregnant.",
+        "I'm 35 weeks pregnant.",
+        "35 weeks pregnant",
+        "Thirty five weeks pregnant",
+        "35th week of pregnancy",
+        "Thirty fifth week of pregnancy",
+        "I'm 35 weeks pregnant",
+        "35 weeks",
+        "Thirty five weeks pregnant"
+      ],
+      "responses": [
+        "There may not be much room left in your uterus, with your baby weighing in at nearly 5 1/2 pounds, but now the serious growth begins. For the next few weeks, your baby will put on 1/2 pound or more a week. Baby is also settling into position lower in your pelvis for delivery – this movement is called \"lightening.\" That's good news for your lungs — breathing should get easier now — but bad news for your bladder, which will start to feel more pressure. As a result, you'll be spending even more time in the bathroom."
+      ]
+    },
+    {
+      "tag": "week36",
+      "patterns": [
+        "36",
+        "36th",
+        "Week 36",
+        "I'm in my 36th week of pregnancy.",
+        "Week number 36",
+        "I'm thirty six weeks pregnant.",
+        "I'm 36 weeks pregnant.",
+        "36 weeks pregnant",
+        "Thirty six weeks pregnant",
+        "36th week of pregnancy",
+        "Thirty sixth week of pregnancy",
+        "I'm 36 weeks pregnant",
+        "36 weeks",
+        "Thirty six weeks pregnant"
+
+      ],
+      "responses": [
+        "In just a few days, your baby will be considered full-term. At almost 6 pounds — about the size of a honeydew melon — your child's body is just about ready for birth. The waxy, white substance called vernix caseosa that covered much of their body during this 9-month journey has dissolved. Baby has swallowed this and other substances, which will form the blackish-green meconium bowel movements you'll find in baby's first diapers. From now until the end of your pregnancy, you'll see your ob-gyn at least once a week."
+      ]
+    },
+    {
+      "tag": "week37",
+      "patterns": [
+        "37",
+        "37th",
+        "Week 37",
+        "I'm in my 37th week of pregnancy.",
+        "Week number 37",
+        "I'm thirty seven weeks pregnant.",
+        "I'm 37 weeks pregnant.",
+        "37 weeks pregnant",
+        "Thirty seven weeks pregnant",
+        "37th week of pregnancy",
+        "Thirty seventh week of pregnancy",
+        "I'm 37 weeks pregnant",
+        "37 weeks",
+        "Thirty seven weeks pregnant"
+      ],
+      "responses": [
+        "Your pregnancy is now full-term, and your baby is just about full-sized. At a weight of 6 1/2 pounds, it's like you're carrying around a small bowling ball! Baby is getting ready for labor, which could be a couple of weeks away — or any day now! Their head is moving into position in your pelvis, which is called \"engaged.\" Baby's immune system is also arming up, and will keep developing after birth. If you breastfeed, you'll boost baby's immune system even more."
+      ]
+    },
+    {
+      "tag": "week38",
+      "patterns": [
+        "38",
+        "38th",
+        "Week 38",
+        "I'm in my 38th week of pregnancy.",
+        "Week number 38",
+        "I'm thirty eight weeks pregnant.",
+        "I'm 38 weeks pregnant.",
+        "38 weeks pregnant",
+        "Thirty eight weeks pregnant",
+        "38th week of pregnancy",
+        "Thirty eighth week of pregnancy",
+        "I'm 38 weeks pregnant",
+        "38 weeks",
+        "Thirty eight weeks pregnant"
+
+      ],
+      "responses": [
+        "You're in the home stretch! Baby now weighs more than 6 1/2 pounds. Much of that weight is a layer of fat, which will help keep them warm in the outside world. Your baby's growth has slowed down, but the organs should all be working now. The brain has started to control the functions of the entire body — from breathing to regulating the heart rate. Reflexes are also active — including the grasping and sucking that allow baby to grab your hand and latch on to a breast soon after birth."
+      ]
+    },
+    {
+      "tag": "week39",
+      "patterns": [
+        "39",
+        "39th",
+        "Week 39",
+        "I'm in my 39th week of pregnancy.",
+        "Week number 39",
+        "I'm thirty nine weeks pregnant.",
+        "I'm 39 weeks pregnant.",
+        "39 weeks pregnant",
+        "Thirty nine weeks pregnant",
+        "39th week of pregnancy",
+        "Thirty ninth week of pregnancy",
+        "I'm 39 weeks pregnant",
+        "39 weeks",
+        "Thirty nine weeks pregnant"
+      ],
+      "responses": [
+        "At just over 7 pounds, your baby is like a little watermelon in your belly — and you can feel every ounce. You're probably more than ready to be done with the heartburn, backaches, and constant bathroom visits and ready to meet your baby already! You won't have to wait much longer. Baby could be born any day now. You may notice more Braxton Hicks contractions as your body prepares for labor. If they get more regular and intense, it's time to call the doctor."
+      ]
+    },
+    {
+      "tag": "week40",
+      "patterns": [
+        "40",
+        "40th",
+        "Week 40",
+        "I'm in my 40th week of pregnancy.",
+        "Week number 40",
+        "I'm forty weeks pregnant.",
+        "I'm 40 weeks pregnant.",
+        "40 weeks pregnant",
+        "Forty weeks pregnant",
+        "40th week of pregnancy",
+        "Fortieth week of pregnancy",
+        "I'm 40 weeks pregnant",
+        "40 weeks",
+        "Forty weeks pregnant"
+
+      ],
+      "responses": [
+        "This is the week when you should finally get to meet the squirmy little bundle you've been carrying around for the last 9 months! However, often babies don't cooperate and arrive on schedule. If yours decides to stick around in your womb past your due date, talk to your doctor about whether they will cause you to go into labor, also known as inducing. Your baby is now full-sized. Although newborn sizes can vary, the average baby weighs 7 pounds, and measures 20 inches long from the top of the head to the rump."
+      ]
+    },
+    {
+      "tag": "week41",
+      "patterns": [
+        "41",
+        "41st",
+        "Week 41",
+        "I'm in my 41st week of pregnancy.",
+        "Week number 41",
+        "I'm forty one weeks pregnant.",
+        "I'm 41 weeks pregnant.",
+        "41cweeks pregnant",
+        "Forty one weeks pregnant",
+        "41st week of pregnancy",
+        "Forty first  week of pregnancy",
+        "I'm 41 weeks pregnant",
+        "41 weeks",
+        "Forty one weeks pregnant"
+      ],
+      "responses": [
+        "As cozy as he is, your baby can't stay inside you much longer. You'll go into labor or be induced soon. Congratulations mommy!"
+      ]
+    },
+    {
+      "tag": "not_feeling_well",
+      "patterns": [
+        "I'm not feeling well",
+        "I'm not well",
+        "I'm not okay",
+        "I don't feel well",
+        "I am not feelling well"
+      ],
+      "responses": [
+        "Hello Mommy! What are you feeling right now?",
+        "Hello, Mommy! How are you feeling today?",
+        "Hello Mommy! What are you feeling right now?",
+        "Hello, Mommy! How are you feeling today?",
+        "Hello Mommy! What are you feeling right now?"
+      ]
+    },
+    {
+      "tag": "symptoms1_commoncolds",
+      "patterns": [
+        "I have runny nose",
+        "I have stuffy nose",
+        "I have cough",
+        "I have chills",
+        "I have sore throat",
+        "My throat aches",
+        "I have headaches"
+      ],
+      "responses": [
+        "oh I see! What else are you feeling aside from that, mommy? Do you feel any of these; please type your symptoms. Coughing, sore throat, watery eyes, fever, headache, sore throat, vomiting, tiredness, chills, sneezing?"
+
+      ]
+    },
+    {
+      "tag": "common_colds",
+      "patterns": [
+        "Coughing, sore throat, watery eyes, fever",
+        "sore throat, coughing, fever, watery eyes",
+        "watery eyes, Coughing, fever, sore throat",
+        "fever, rCoughing, sore throat, watery eyes",
+        "Coughing",
+        "sore throat",
+        "watery eyes",
+        "fever"
+      ],
+      "responses": [
+        "Based on the symptoms that you mentioned, you have common cold and cough Mommy. A cold is a very common mild viral infection of the nose, throat, sinuses and upper airways. It can cause a blocked nose followed by a runny nose, sneezing, a sore throat and a cough. The cold will usually last for about a week as the body fights off the infection. You should get some rest and stay hydrated with fluids Mommy. You can also use nasal sprays, cough drops and other medicine such as acetaminophen like Tylenol. But it's advisable  to go to your health care provider to  prescribe the safest medication at the most appropriate dose."
+      ]
+    },
+    {
+      "tag": "flu",
+      "patterns": [
+        "Coughing, fever, headache, sore throat, vomiting, tiredness, chills, sneezing",
+        "headache, sore throat, vomiting, tiredness, chills, sneezing",
+        "Coughing",
+        "Fever",
+        "headache",
+        "sore throat",
+        "tiredness",
+        "chills",
+        "Vomiting"
+      ],
+      "responses": [
+        "Based on the symptoms that you mentioned, you have Flu Mommy. Flu is an infectious viral illness spread by coughs and sneezes. It's not the same as a cold. Flu is caused by a different group of viruses. Symptoms tend to be more severe and last longer. You should get plenty of rest. Drink a lot of fluids. Gargle with warm salt water, if you have a sore throat or cough.   If your symptoms worsen, you might want to try Saline nasal drops and sprays to loosen nasal mucus and soothe inflamed nasal tissue."
+      ]
+    },
+    {
+      "tag": "symptoms1_morningsickness",
+      "patterns": [
+        "I feel like vomiting",
+        "I vomit",
+        "I have nausea",
+        "Fatigue",
+        "I have fatigue",
+        "I feel very cold",
+        "Sweating",
+        "feeling cold",
+        "feeling hot",
+        "I have chest pain",
+        "Chest pain",
+        "Shortness of breathe",
+        "I feel numbness and tingling",
+        "i feel numb",
+        "Double vision",
+        "I have double vision",
+        "Irregular heartbeat",
+        "My heart beats fast",
+        "I have high blood pressure",
+        "highblood pressure",
+        "My pee is color dark yellow",
+        "I have dark yellow urine",
+        "I have migraine",
+        "I have severe headache",
+        "Severe headache",
+        "I have abdominal pain",
+        "My lower back aches",
+        "I have lower back pain",
+        "Im bleeding",
+        "Bleeding",
+        "The bleeding don't stop",
+        "I am low blood",
+        "Post-delivery pain",
+        "I have pale lips",
+        "My nails are pale",
+        "Vertigo",
+        "Sensation of spinning",
+        "High temperature",
+        "I have high temperature and fever",
+        "I have discharge from the vagina that has an unusual smell",
+        "My vaginal discharge has an unusual smell",
+        "I am sweating",
+        "I frequently pee",
+        "I always pee",
+        "Weight loss even with increased appetite",
+        "I am loosing weight even I have increased appetite"
+
+
+      ],
+      "responses": [
+        "Oh I see! What else are you feeling aside from that, mommy? Do you feel any of these; please type your symptoms. Vomiting, dizziness, nausea, double vision, Chest pain, Sweating, fatigue, dizziness, chills, alternating between feeling cold and feeling hot, migraine, Fainting, Shortness of breathe, high blood pressure, dark yellow urine, swelling, abdominal or shoulder pain, lower back pain, non-stop bleeding, low blood pressure, rapid heartbeat, anemia, sensation of spinning, laboured breathing, blurred vision, unusual vaginal discharge, fever, increased frequent urination, Weight loss, increased thirst?"
+      ]
+    },
+    {
+      "tag": "Vertigo",
+      "patterns": [
+       "Chest pain, Fainting, shortness of breathe, double vision, dizziness ",
+       "Chest Pain",
+       "Fainting",
+       "Shortness of Breathe",
+       "Double Vision",
+       "Dizziness"
+        
+      ],
+      "responses": [
+        "Based on the symptoms that you mentioned, you are experiencing Vertigo. Vertigo is a sensation of feeling off balance. If you have these dizzy spells, you might feel like you are spinning or that the world around you is spinning. Vertigo is often caused by an inner ear problem. You should sit down or lie still and have a good hydration to help combat vertigo. There are safe medicines that you can take such as Benzodiazepines - like clonazepam, diazepam, lorazepam but of course, the best way to do is to consult you health care provider for you to be safe."
+      ]
+    },
+    {
+      "tag": "Fever",
+      "patterns": [
+       "Fatigue, nausea, alternating between feeling cold and feeling hot, sweating",
+       "Fatigue",
+       "nausea",
+       "Alternating between feeling cold and feeling hot",
+       "Sweating"
+        
+      ],
+      "responses": [
+        "Based on the symptoms that you mentioned, you have fever. A fever occurs when a person's body reaches a higher temperature than the expected normal range. Resting and drinking lots of fluids may help with the symptoms of a fever and shorten the length of many illnesses."
+      ] 
+    },
+    {
+      "tag": "morningsickness",
+      "patterns": [
+       "vomiting, dizziness, nausea",
+       "Vomiting",
+       "dizziness",
+       "nausea"
+        
+      ],
+      "responses": [
+        "Based on the symptoms that you mentioned, you are experiencing morning sickness. Morning sickness is a common symptom of pregnancy and is marked by nausea and occasional vomiting. Despite the name, morning sickness can cause discomfort at any time of the day. You can take antihistamines to help with nausea and motion sickness and phenothiazine to help calm severe nausea and vomiting. Do not take these medications on your own without first talking with your doctor."
+      ] 
+    },
+    {
+      "tag": "preeclampsia",
+      "patterns": [
+       "High blood pressure ",
+       "Dark yellow urine",
+       "swelling",
+       "Migraine",
+       "abdominal or shoulder pain",
+       "lower back pain",
+       "nausea",
+       "vomiting"
+        
+      ],
+      "responses": [
+        "Based on the symptoms that you mentioned, you are experiencing preeclampsia. Preeclampsia is a disorder that occurs only during pregnancy and the postpartum period and affects both the mother and the unborn baby. Affecting at least 5-8% of all pregnancies, it is a rapidly progressive condition characterized by high blood pressure and the presence of protein in the urine. Swelling, sudden weight gain, headaches and changes in vision are important symptoms; however, some women with rapidly advancing disease report few symptoms. If you observe this, contact your health care provider."
+      ] 
+    },
+    {
+      "tag": "Postpartum_hemorrhage",
+      "patterns": [
+        "non-stop bleeding, low blood pressure, rapid heartbeat, anemia",
+        "Non-stop bleedin",
+        "Bleeding",
+        "Low blood pressure",
+        "Rapid heartbeat",
+        "Anemia",
+        "fatigue",
+        "dizziness",
+        "Swelling",
+        "Post-delivery pain"
+        
+      ],
+      "responses": [
+        "Based on the symptoms that you mentioned, you are experiencing Postpratum Hemorrhage. Postpartum hemorrhaging occurs when a woman loses 500 milliliters or more of blood after giving birth. It’s estimated that 18 percent of births involve postpartum hemorrhage. Losing a lot of blood isn’t uncommon after delivery. If you experience this, please contact your health provider immediately."
+      ] 
+    },
+    {
+      "tag": "anemia",
+      "patterns": [
+        "sensation of spinning, laboured breathing",
+        "Sensation of spinning",
+        "Vertigo",
+        "laboured breathing",
+        "Rapid heartbeat",
+        "fatigue",
+        "pale skin"        
+      ],
+      "responses": [
+        "Based on the symptoms that you mentioned, you are experiencing Anemia. Anemia is when your blood has too few red blood cells. Having too few red blood cells makes it harder for your blood to carry oxygen or iron. This can affect how cells work in nerves and muscles. During pregnancy, your baby also needs your blood. For alternatives, you can eat good food sources of iron like Meats, Beef, pork, lamb, liver, and other organ meats, Chicken, duck, turkey, and liver, especially dark meat. However, it is better if you will notify your health care provider."
+      ] 
+    },
+    {
+      "tag": "chorioamnionitis",
+      "patterns": [
+        "unusual vaginal discharge, fever",
+        "unusual vaginal discharge",
+        "fever",
+        "sweating",
+        "rapid heartbeat",
+        "high temperature"      
+      ],
+      "responses": [
+        "Based on the symptoms that you mentioned, you are experiencing Choriomionitis. Chorioamnionitis is a condition that can affect pregnant women. In this condition, bacteria infect the chorion and amnion. This can lead to infections in both the mother and fetus. In most cases, this may mean the fetus has to be delivered as soon as possible. If you have experienced any symptoms of this, do not hesitate to call your health care provider. If your doctor diagnoses chorioamnionitis, he or she may treat you with antibiotics to help treat the infection. However, often the treatment is to deliver the fetus. If the newborn has an infection, he or she will be given antibiotics as well."
+      ] 
+    },
+    {
+      "tag": "Gestational_Diabetes",
+      "patterns": [
+        "increased frequent urination, Weight loss, increased thirst",
+        "increased frequent urination",
+        "weight loss",
+        "increase thirst",
+        "blurred vision",
+        "fatigue",
+        "nausea",
+        "vomiting" 
+      ],
+      "responses": [
+        "Based on the symptoms that you mentioned, you are experiencing gestational diabetes. Diabetes is a condition that prevents your body from breaking down sugar. Gestational diabetes mellitus (GDM) is a type of diabetes that occurs during pregnancy. Treatment includes controlling blood sugar levels through a healthy diet and exercise, and through medication if blood sugar values remain high. It is very important to notify your health care provider regarding your health condition."
+      ] 
+    },
+    {
+      "tag": "insomia",
+      "patterns": [
+        "I can't sleep",
+        "I cant sleep",
+        "Lack of sleep",
+        "I can not sleep properly",
+        "I'm having trouble sleeping",
+        "Im having trouble sleeping",
+        "Unable to sleep early",
+        "Unable to sleep early",
+        "I can't sleep at night",
+        "I cant sleep at night",
+        "Im having a hard time sleeping at night",
+        "Im having a hard time sleeping",
+        "I always wake up in the middle of the night",
+        "waking up in the middle of the night."
+
+      ],
+      "responses": [
+        "How long have you been experiencing this?"
+      ]
+    },
+    {
+      "tag": "insomia_days",
+      "patterns": [
+       "Frequently",
+       "a few nights",
+       "A few days",
+       "A few weeks",
+       "Everyday",
+       "More than a week",
+       "1 day",
+       "1 night",
+       "2 days",
+       "3 days",
+       "1 week",
+       "For a month",
+       "1 month",
+       "More than a month"
+      ],
+      "responses": [
+        "You are experiencing Insomnia Mommy. Pregnant women tend to get more sleep during their first trimesters  but experience a big drop in the quality of their sleep. It turns out that pregnancy can make you feel exhausted all day long. You should avoid chemicals that disrupt sleep, such as nicotine, caffeine and eat lighter meals at night and at least two hours before bed. You can also take meds like doxepin (Silenor) and eszopiclone (Lunesta) but of course, the best way is to ask first  your health care provider."
+      ]
+    },
+    {
+      "tag": "okay",
+      "patterns": [
+        "Okay"
+        
+      ],
+      "responses": [
+        "Do you want to submit a report form regarding your condition? You can submit your health condition anytime. Just click the 'Report Form' button on your left side. This will help the admin to monitor your health condition. "
+      ]
+    },
+    {
+      "tag": "medicine_highblood",
+      "patterns": [
+        "what medicine is for highblood",
+        "medicine for highblood",
+        "highblood medicine",
+        "a medicine for highblood",
+        "for highblood nadecine",
+        "what to take for highblood",
+        "medicine for my highblood",
+        "recommendation of medicine for highblood",
+        "remedy for highblood",
+        "remedies for highblood",
+        "remedies for my highblood",
+        "remedy for my highblood",
+        "what are the medcine for highblood",
+        "highblood remedy",
+        "highblood remedies",
+        "medicinal for highblood",
+        "over the counter medecines for highblood"
+      ],
+      "responses": [
+        "For the initial treatment of high blood pressure in pregnancy, the three most commonly used medications are labetalol (Normodyne, Trandate), nifedipine (Procardia, Adalat) and methyldopa (Aldomet) and these are recommended above all other medications."
+      ]
+    },
+    {
+      "tag": "medicine_fever",
+      "patterns": [
+        "what medicine is for fever",
+        "medicine for fever",
+        "fever medicine",
+        "a medicine for fever",
+        "for fever medicine",
+        "what to take for fever",
+        "medicine for my fever",
+        "recommendation of medicine for fever",
+        "remedy for fever",
+        "remedies for fever",
+        "remedies for my fever",
+        "remedy for my fever",
+        "what are the medcine for fever",
+        "fever remedy",
+        "fever remedies",
+        "medicinal for fever",
+        "over the counter medecines for fever"
+      ],
+      "responses": [
+        "Take acetaminophen (Tylenol) to relieve your temperature while you wait to talk with your doctor. When you're pregnant, don't take aspirin or ibuprofen (Advil or Motrin) unless your doctor says so."
+      ]
+    },
+    {
+      "tag": "medicine_sorethroat",
+      "patterns": [
+        "what medicine is for sore throat",
+        "medicine for sore throat",
+        "sore throat medicine",
+        "a medicine for sore throat",
+        "for sore throat medicine",
+        "what to take for sore throat",
+        "medicine for my sore throat",
+        "recommendation of medicine for sore throat",
+        "remedy for sore throat",
+        "remedies for sore throat",
+        "remedies for my sore throat",
+        "remedy for my sore throat",
+        "what are the medcine for sore throat",
+        "sore throat remedy",
+        "sore throat remedies",
+        "medicinal for sore throat",
+        "over the counter medecines for sore throat"
+
+      ],
+      "responses": [
+        "For a sore throat, pregnant women can take acetaminophen (Tylenol) up to 3,000 mg in 24 hours. If your sore throat is caused by postnasal drip, an antihistamine can assist by drying up the fluids. Benzocaine, a local anesthetic, can be used in sprays or lozenges to numb the throat."
+      ]
+    },
+    {
+      "tag": "medicine_vertigo",
+      "patterns": [
+        "what medicine is for vertigo",
+        "medicine for vertigo",
+        "vertigo medicine",
+        "a medicine for vertigo",
+        "for vertigo medicine",
+        "what to take for vertigo",
+        "medicine for my vertigo",
+        "recommendation of medicine for vertigo",
+        "remedy for vertigo",
+        "remedies for vertigo",
+        "remedies for my vertigo",
+        "remedy for my vertigo",
+        "what are the medcine for vertigo",
+        "vertigo remedy",
+        "vertigo remedies",
+        "medicinal for vertigo",
+        "over the counter medecines for vertigo"
+      ],
+      "responses": [
+        "Meclizine. Meclizine is an antihistaminic medication. During the acute period, it helps to reduce vertigo. It's the only anti-vertigo medication that's safe to take when pregnant or breastfeeding."
+      ]
+    },
+    {
+      "tag": "medicine_colds",
+      "patterns": [
+        "what medicine is for cold and cough",
+        "medicine for cold and cough",
+        "cold and cough medicine",
+        "a medicine for cold and cough",
+        "for cold and cough medicine",
+        "what to take for cold and cough",
+        "medicine for my cold and cough",
+        "recommendation of medicine for cold and cough",
+        "remedy for cold and cough",
+        "remedies for cold and cough",
+        "remedies for my cold and cough",
+        "remedy for my cold and cough",
+        "what are the medcine for cold and cough",
+        "cold and cough remedy",
+        "cold and cough remedies",
+        "medicinal for cold and cough",
+        "over the counter medecines for cold and cough"        
+      ],
+      "responses": [
+        "Acetaminophen (Tylenol). Note that many combination medications contain acetaminophen. Take the lowest effective total dose, and don't exceed the maximum recommended daily dose. May not be safe to take for prolonged periods, so take only as needed. You can also take Cough drops or use Vicks VapoRub"
+      ]
+    },
+    {
+      "tag": "medicine_insomnia",
+      "patterns": [
+        "what medicine is for insomnia",
+        "medicine for insomnia",
+        "insomnia medicine",
+        "a medicine for insomnia",
+        "for insomnia medicine",
+        "what to take for insomnia",
+        "medicine for my insomnia",
+        "recommendation of medicine for insomnia",
+        "remedy for insomnia",
+        "remedies for insomia",
+        "remedies for my insomnia",
+        "remedy for my insomnia",
+        "what are the medcine for insomnia",
+        "insomnia remedy",
+        "insomnia remedies",
+        "medicinal for insomnia",
+        "over the counter medecines for insomnia"    
+      ],
+      "responses": [
+        "There are also other over-the-counter and prescription sleep aids that are considered safe for occasional use in pregnancy, including Unisom, Tylenol PM, Sominex and Nytol, but always check with your doctor before taking these or any kinds of herbal preparations. You should also try not to take sleep aids every night."
+      ]
+    },
+    {
+      "tag": "medicine_flu",
+      "patterns": [
+        "what medicine is for flu",
+        "medicine for flu",
+        "flu medicine",
+        "a medicine for flu",
+        "for flu medicine",
+        "what to take for flu",
+        "medicine for my flu",
+        "recommendation of medicine for flu",
+        "remedy for flu",
+        "remedies for flu",
+        "remedies for my flu",
+        "remedy for my flu",
+        "what are the medcine for flu",
+        "flu remedy",
+        "flu  remedies",
+        "medicinal for flu",
+        "over the counter medecines for flu"
+  
+      ],
+      "responses": [
+        "You can take Acetaminophen (Tylenol), Actifed, Saline nasal drops or spray, and Sudafed."
+      ]
+    },
+    {
+      "tag": "medicine_backache",
+      "patterns": [
+        "what medicine is for back ache",
+        "medicine for back ache",
+        "back ache medicine",
+        "a medicine for back ache",
+        "for back ache medicine",
+        "what to take for back ache",
+        "medicine for my back ache",
+        "recommendation of medicine for back ache",
+        "remedy for back ache",
+        "remedies for back ache",
+        "remedies for my back ache",
+        "remedy for my back ache",
+        "what are the medcine for back ache",
+        "back ache remedy",
+        "back ache  remedies",
+        "medicinal for back ache",
+        "over the counter medecines for back ache"
+      ],
+      "responses": [
+        "Acetaminophen (Tylenol) is safe for most women to take during pregnancy. Aspirin and other nonsteroidal anti-inflammatory drugs (NSAIDs) such as ibuprofen (Advil, Motrin) or naproxen (Aleve) are not advised."
+      ]
+    },
+    {
+      "tag": "medicine_constipation",
+      "patterns": [
+        "what medicine is for constipation",
+        "medicine for constipation",
+        "constipation medicine",
+        "a medicine for constipation",
+        "for constipation medicine",
+        "what to take for constipation",
+        "medicine for my constipation",
+        "recommendation of medicine for constipation",
+        "remedy for constipation",
+        "remedies for constipation",
+        "remedies for my constipation",
+        "remedy for my constipation",
+        "what are the medcine for constipation",
+        "constipation remedy",
+        "constipation  remedies",
+        "medicinal for constipation",
+        "over the counter medecines for constipation"
+      ],
+      "responses": [
+        "Milk of Magnesia is a mild laxative that is safe to use while pregnant. A bulk-producing substance such as Metamucil may be recommended by your doctor. Finally, to relieve constipation, your doctor might recommend a stool softener containing docusate."
+      ]
+    },
+    {
+      "tag": "medicine_morningsickness",
+      "patterns": [
+        "what medicine is for morning sickness or nausea",
+        "medicine for morning sickness or nausea",
+        "morning sickness or nausea medicine",
+        "a medicine for morning sickness or nausea",
+        "for morning sickness or nausea medicine",
+        "what to take for morning sickness or nausea",
+        "medicine for my morning sickness or nausea",
+        "recommendation of medicine for morning sickness or nausea",
+        "remedy for morning sickness or nausea",
+        "remedies for morning sickness or nausea",
+        "remedies for my morning sickness or nausea",
+        "remedy for my morning sickness or nausea",
+        "what are the medcine for morning sickness or nausea",
+        "morning sickness or nausea remedy",
+        "morning sickness or nausea  remedies",
+        "medicinal for morning sickness or nausea",
+        "over the counter medecines for morning sickness or nausea"      
+      ],
+      "responses": [
+        "If your morning sickness symptoms persist, your doctor may prescribe vitamin B-6 (pyridoxine) supplements, ginger, or over-the-counter medications like doxylamine (Unisom). If your symptoms persist, your health care practitioner may prescribe anti-nausea drugs."
+      ]
+    }
+  ]
+}
