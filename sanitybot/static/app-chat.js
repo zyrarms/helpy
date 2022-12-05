@@ -152,7 +152,7 @@ class Chatbox {
 
       fetch("http://127.0.0.1:5000/predict_epds", {
       method: "POST",
-      body: JSON.stringify({ message: currentChat }),
+      body: JSON.stringify({ message: epdsData }),
       mode: "cors",
       headers: {
         "Content-Type": "application/json",

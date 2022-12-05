@@ -21,7 +21,7 @@ def predict():
 def predict_epds():
     text1 = request.get_json().get("message")
     # TODO: check if text is valid
-    response = pdd_prediction(1,0,3,3,3,2,2,2,0,3,19)
+    response = pdd_prediction(text1)
     print(response)
     message = {"answer": response}
     return jsonify(message)

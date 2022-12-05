@@ -8,17 +8,17 @@ with open(r'sanitybot\pickles\ppd_naiveBayes.pkl', 'rb') as f:
 with open(r'sanitybot\pickles\ppd_svm.pkl', 'rb') as f:
     svm_model = pickle.load(f)
 
-def pdd_prediction(*args):
-  pred_result = svm_model.predict([args])[0]
+def pdd_prediction(list):
+  pred_result = svm_model.predict([list])[0]
 
   if pred_result == 0:
-    ppd = 'None or Minimal Depression'
+    ppd = 'Based on you assessment None or Minimal Depression'
   elif pred_result == 1:
-    ppd = 'Mild Depression'
+    ppd = 'Based on you assessment Mild Depression'
   elif pred_result == 2:
-    ppd = 'Moderate Depression'
+    ppd = 'Based on you assessment Moderate Depression'
   elif pred_result == 3:
-    ppd = 'Severe Depression'
+    ppd = 'Based on you assessment Severe Depression'
   else :
     ppd = 'None'
 
