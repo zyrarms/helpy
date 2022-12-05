@@ -179,13 +179,11 @@ def edit(id):
     else:
         return render_template('editAdmin.html', user=user)
 
-
 # ADMIN patient info
 @views.route('/patientprofile', methods = ['GET','POST'])
 def admin_patients():
     users = User.query.all()
     return render_template("admin_patients.html", users=users)
-
 
 # DELETE
 @views.route('/delete/<int:id>')
