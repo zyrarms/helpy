@@ -75,7 +75,7 @@ img {
   max-width: 80rem;
   width: 100%;
   margin: 0 auto 2rem;
-  padding: 0 3rem 0 0;
+  padding: 1.5rem 3rem 0 0;
   z-index: 1;
 }
 .scroll-bar{
@@ -292,10 +292,11 @@ header .container2{
 .text1{
   color: var(--lightOne);
   font-size: 1.3rem;
-  font-weight: 400;
+  font-weight: 300;
   margin: 0 0 1rem;
   max-width: 600px;
   line-height: 1.5;
+  text-align: justify;
 }
 
 .sanity{
