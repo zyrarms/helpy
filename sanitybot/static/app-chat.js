@@ -78,7 +78,7 @@ let epdsData = [];
 elements = document.getElementsByClassName("preset-chat");
 
 enterPreset = (e) => {
-  epdsData.splice(currentChat - 1, 1, e.target.id);
+  epdsData.splice(currentChat - 1, 1, parseInt(e.target.id));
   console.log(epdsData);
   document.querySelector(".chat_input").firstElementChild.value =
     e.target.textContent;
@@ -142,7 +142,14 @@ class Chatbox {
   onSendButton(chatbox) {
     if (currentChat < 10) {
       currentChat++;
+    } else {
+      let sum = 0;
+      for (let data of epdsData) {
+        sum += data;
+      }
+      epdsData.splice(currentChat, 1, sum);
     }
+    console.log(epdsData);
     changeChatPreset();
 
     var textField = chatbox.querySelector("input");
