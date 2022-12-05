@@ -148,7 +148,30 @@ class Chatbox {
         sum += data;
       }
       epdsData.splice(currentChat, 1, sum);
+
+
+      fetch("http://127.0.0.1:5000/predict_epds", {
+      method: "POST",
+      body: JSON.stringify({ message: currentChat }),
+      mode: "cors",
+      headers: {
+        "Content-Type": "application/json",
+      },
+    })
+      .then((r) => r.json())
+      .then((r) => {
+        let msg2 = { name: "Sanitybot", message: r.answer };
+        this.messages.push(msg2);
+        this.updateChatText(chatbox);
+        textField.value = "";
+      })
+      .catch((error) => {
+        console.error("Error:", error);
+        this.updateChatText(chatbox);
+        textField.value = "";
+      });
     }
+
     console.log(epdsData);
     changeChatPreset();
 
@@ -167,26 +190,7 @@ class Chatbox {
     this.updateChatText(chatbox);
     textField.value = "";
 
-    // fetch("http://127.0.0.1:5000/predict", {
-    //   method: "POST",
-    //   body: JSON.stringify({ message: text1 }),
-    //   mode: "cors",
-    //   headers: {
-    //     "Content-Type": "application/json",
-    //   },
-    // })
-    //   .then((r) => r.json())
-    //   .then((r) => {
-    //     let msg2 = { name: "Sanitybot", message: r.answer };
-    //     this.messages.push(msg2);
-    //     this.updateChatText(chatbox);
-    //     textField.value = "";
-    //   })
-    //   .catch((error) => {
-    //     console.error("Error:", error);
-    //     this.updateChatText(chatbox);
-    //     textField.value = "";
-    //   });
+    
   }
 
   updateChatText(chatbox) {
