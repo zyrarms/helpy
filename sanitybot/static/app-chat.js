@@ -76,24 +76,29 @@ epds = {
 let epdsData = [];
 
 elements = document.getElementsByClassName("preset-chat");
+presetWrapper = document.querySelector(".chat_preset");
 
 enterPreset = (e) => {
   epdsData.splice(currentChat - 1, 1, parseInt(e.target.id));
-  console.log(epdsData);
   document.querySelector(".chat_input").firstElementChild.value =
     e.target.textContent;
 };
 
 function changeChatPreset() {
-  elements[0].innerText = epds[currentChat][0];
-  elements[1].innerText = epds[currentChat][1];
-  elements[2].innerText = epds[currentChat][2];
-  elements[3].innerText = epds[currentChat][3];
+  if (currentChat <= 10) {
+    elements[0].innerText = epds[currentChat][0];
+    elements[1].innerText = epds[currentChat][1];
+    elements[2].innerText = epds[currentChat][2];
+    elements[3].innerText = epds[currentChat][3];
 
-  elements[0].id = 0;
-  elements[1].id = 1;
-  elements[2].id = 2;
-  elements[3].id = 3;
+    elements[0].id = 0;
+    elements[1].id = 1;
+    elements[2].id = 2;
+    elements[3].id = 3;
+  } else {
+    presetWrapper.remove();
+  }
+
 }
 
 elements[0].addEventListener("click", enterPreset);
@@ -140,8 +145,16 @@ class Chatbox {
   }
 
   onSendButton(chatbox) {
-    if (currentChat < 10) {
-      currentChat++;
+    var textField = chatbox.querySelector("input");
+    let text1 = textField.value;
+    if (text1 === "") {
+      return;
+    }
+
+
+    currentChat++;
+    if (currentChat <= 10) {
+      console.log(currentChat)
     } else {
       let sum = 0;
       for (let data of epdsData) {
@@ -149,48 +162,72 @@ class Chatbox {
       }
       epdsData.splice(currentChat, 1, sum);
 
+      if (currentChat <= 11) {
 
-      fetch("http://127.0.0.1:5000/predict_epds", {
-      method: "POST",
-      body: JSON.stringify({ message: epdsData }),
-      mode: "cors",
-      headers: {
-        "Content-Type": "application/json",
-      },
-    })
-      .then((r) => r.json())
-      .then((r) => {
-        let msg2 = { name: "Sanitybot", message: r.answer };
-        this.messages.push(msg2);
-        this.updateChatText(chatbox);
-        textField.value = "";
-      })
-      .catch((error) => {
-        console.error("Error:", error);
-        this.updateChatText(chatbox);
-        textField.value = "";
-      });
+        fetch("http://127.0.0.1:5000/predict_epds", {
+          method: "POST",
+          body: JSON.stringify({ message: epdsData }),
+          mode: "cors",
+          headers: {
+            "Content-Type": "application/json",
+          },
+        })
+          .then((r) => r.json())
+          .then((r) => {
+            let msg2 = { name: "Sanitybot", message: r.answer };
+            this.messages.push(msg2);
+            msg2 = { name: "Sanitybot", message: "Heres what you can do.... Do you have any questions?" };
+            this.messages.push(msg2);
+            this.updateChatText(chatbox);
+            textField.value = "";
+          })
+          .catch((error) => {
+            console.error("Error:", error);
+            this.updateChatText(chatbox);
+            textField.value = "";
+          });
+      } else {
+        fetch('http://127.0.0.1:5000/predict', {
+          method: 'POST',
+          body: JSON.stringify({ message: text1 }),
+          mode: 'cors',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+        })
+          .then(r => r.json())
+          .then(r => {
+            let msg2 = { name: "Sanitybot", message: r.answer };
+            this.messages.push(msg2);
+            this.updateChatText(chatbox)
+            textField.value = ''
+
+          }).catch((error) => {
+            console.error('Error:', error);
+            this.updateChatText(chatbox)
+            textField.value = ''
+          });
+      }
     }
 
     console.log(epdsData);
     changeChatPreset();
 
-    var textField = chatbox.querySelector("input");
-    let text1 = textField.value;
-    if (text1 === "") {
-      return;
-    }
+    
 
     let msg1 = { name: "User", message: text1 };
     this.messages.push(msg1);
 
-    let msg2 = { name: "Sanitybot", message: epds[currentChat]["question"] };
-    this.messages.push(msg2);
+    if (currentChat <= 10) {
+      let msg2 = { name: "Sanitybot", message: epds[currentChat]["question"] };
+      this.messages.push(msg2);
+    }
+
 
     this.updateChatText(chatbox);
     textField.value = "";
 
-    
+
   }
 
   updateChatText(chatbox) {

@@ -12,13 +12,13 @@ def pdd_prediction(list):
   pred_result = svm_model.predict([list])[0]
 
   if pred_result == 0:
-    ppd = 'Based on you assessment None or Minimal Depression'
+    ppd = 'Based on you assessment you have None or Minimal Depression'
   elif pred_result == 1:
-    ppd = 'Based on you assessment Mild Depression'
+    ppd = 'Based on you assessment you have Mild Depression'
   elif pred_result == 2:
-    ppd = 'Based on you assessment Moderate Depression'
+    ppd = 'Based on you assessment you have Moderate Depression'
   elif pred_result == 3:
-    ppd = 'Based on you assessment Severe Depression'
+    ppd = 'Based on you assessment you have Severe Depression'
   else :
     ppd = 'None'
 
