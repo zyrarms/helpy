@@ -225,3 +225,13 @@ def welcome():
 def postpartum():
     user = current_user
     return render_template('postpartum.html', user=user)
+
+@views.route('/sanity', methods = ['GET', 'POST'])
+def sanity():
+    user = current_user
+    return render_template('sanity.html', user=user)
+
+@views.route('/aboutpostpartum', methods = ['GET', 'POST'])
+def aboutpostpartum():
+    user = current_user
+    return render_template('about_postpartum.html', user=user)

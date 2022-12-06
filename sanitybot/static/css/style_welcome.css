@@ -75,7 +75,7 @@ img {
   max-width: 80rem;
   width: 100%;
   margin: 0 auto 2rem;
-  padding: 1.5rem 3rem 0 0;
+  padding: 1.5rem 3rem 1.5rem 3rem;
   z-index: 1;
 }
 .scroll-bar{
@@ -299,6 +299,16 @@ header .container2{
   text-align: justify;
 }
 
+.text2{
+  color: var(--lightOne);
+  font-size: 1.3rem;
+  font-weight: 900;
+  margin: 0 0 1rem;
+  max-width: 600px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
 .sanity{
   width: 100%;
   transform: translate(15%, 25px);
@@ -312,6 +322,10 @@ header .container2{
 .motherbaby{
   width: 50%;
   transform: translate(60%, 0px);
+}
+.motherdaugh{
+  width: 100%;
+  transform: translate(-20px, 15px);
 }
 .robot{
   width: 30%;
