@@ -115,7 +115,6 @@ header .container{
 
 .links a{
   color: var(--lightTwo);
-  margin-left: 4.5rem;
   display: inline-block;
   transition: 0.3s;
 }

@@ -116,7 +116,7 @@ def profile_security():
     else:
         # Get logged in user
         user = current_user
-        return render_template('profile_security.html', user=user)
+        return render_template('changepassword.html', user=user)
 
 # ADMIN HOME DASHBOARD
 @views.route('/dashboard' , methods = ['GET' , 'POST'])
