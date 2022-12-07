@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 :root {
-    --main-color: #1f8fc3;
+    --main-color: repeating-linear-gradient(#46A2FF, #00317C);
     --color-dark: #1D2231;
     --text-grey: #8390A2;
 }
@@ -57,8 +57,8 @@
     background: #fff;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    color: var(--main-color);
-    border-radius: 30px 0px 0px 30px;
+    color: #00317C;
+    border-radius: 30px 30px 0px 30px;
 }
 
 .sidebar-menu a span:first-child {
@@ -119,17 +119,32 @@ header {
 
 header h2 {
     color: #222;
+    transform:translate(0, 15%);
 }
 
 header label span {
     font-size: 1.7rem;
     padding-right: 1rem;
 }
-
+.logo{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin: 20px 0 0 0;
+  }
+  
+.logo_img{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 50px;
+    margin: 0 10px 0 0;
+  }
 .search-wrapper {
     border: 1px solid #ccc;
     border-radius: 30px;
     height: 50px;
+    width: 800px;
     display: flex;
     align-items: center;
     overflow-x: hidden;
@@ -165,7 +180,7 @@ header label span {
 
 main {
     margin-top: 85px;
-    padding: 2rem 1.5rem;
+    padding: 0 1.5rem 0 1.5rem;
     background: #f1f5f9;
     min-height: calc(100vh - 90px);
 }
@@ -205,7 +220,7 @@ main {
 }
 
 .recent-grid {
-    margin-top: 3.5rem;
+    margin-top: 1rem;
     display: grid;
     grid-gap: 2rem;
     grid-template-columns: 100% auto;
@@ -432,19 +447,22 @@ a.btnAdminNew{
     display:inline-block;
     padding:1em 1.9em;
     margin:0 0.3em 0.3em 0;
-    border-radius:.5em;
+    border-radius:50px;
     box-sizing: border-box;
     text-decoration:none;
     font-family:'Roboto',sans-serif;
     font-weight:bold;
     color:#FFFFFF;
-    background-color:rgb(80, 162, 209);
+    background-color:#46A2FF;
     text-align:center;
     transition: all 0.2s;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
    
 }
 a.btnAdminNew:hover{
-    background-color: #1f8fc3;
+    background-color: #ffffff;
+    color: rgb(70, 162, 255) !important;
+    transform: scale(1) !important;
 }
 
 
@@ -459,19 +477,22 @@ a.editbtn{
     display:inline-block;
     padding:.8em 1.9em;
     margin:0 0.3em 0.3em 0;
-    border-radius:.5em;
+    border-radius:50px;
     box-sizing: border-box;
     text-decoration:none;
     font-family:'Roboto',sans-serif;
     font-weight:bold;
     color:#FFFFFF;
-    background-color:rgb(46, 192, 90);
+    background-color:#46A2FF;
     text-align:center;
     transition: all 0.2s;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
    
 }
 a.editbtn:hover{
-    background-color: rgb(26, 136, 59);
+    background-color: #ffff;
+    color: rgb(70, 162, 255) !important;
+    transform: scale(1) !important;
 }
 
 
@@ -486,19 +507,22 @@ a.delbtn{
     display:inline-block;
     padding:.8em 1.9em;
     margin:0 0.3em 0.3em 0;
-    border-radius:.5em;
+    border-radius:50px;
     box-sizing: border-box;
     text-decoration:none;
     font-family:'Roboto',sans-serif;
     font-weight:bold;
     color:#FFFFFF;
-    background-color:rgb(235, 69, 69);
+    background-color:#00317C;
     text-align:center;
     transition: all 0.2s;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
    
 }
 a.delbtn:hover{
-    background-color: rgb(172, 45, 45);
+    background-color: #ffff;
+    color: rgb(70, 162, 255) !important;
+    transform: scale(1) !important;
 }
 
 
@@ -541,7 +565,7 @@ a.delbtn{
   
   /* The Close Button */
   .close {
-    color: #aaaaaa;
+    color: #46A2FF;
     float: right;
     font-size: 28px;
     font-weight: bold;
@@ -555,11 +579,12 @@ a.delbtn{
   }
 
   .label_admin{
-      color: gray;
+      color: rgb(0, 0, 0);
+      text-align:center;
   }
 
   label{
-    color: gray;
+    color: rgb(0, 0, 0);
     font-size: 18px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
@@ -602,22 +627,25 @@ input[type="password"]:focus{
 .btnSaveModal{
     display:inline-block;
     padding:1em 3.9em;
-    margin:0 0.3em 0.3em 0;
-    border-radius:.5em;
+    margin:0 0.3em 0.3em 11em;
+    border-radius:50px;
     box-sizing: border-box;
     text-decoration:none;
     font-family:'Roboto',sans-serif;
     font-weight:bold;
     color:#FFFFFF;
-    background-color:rgb(80, 162, 209);
+    background-color:#46A2FF;
     text-align:center;
     transition: all 0.2s;
     border: none;
     outline: none;
     font-size: 15px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .btnSaveModal:hover{
-    background-color: #1f8fc3;
+    background-color: #ffff;
+    color: rgb(70, 162, 255) !important;
+    transform: scale(1) !important;
 }
 
 
@@ -655,4 +683,25 @@ input[type="password"]:focus{
 .closebtn:hover {
     color: black;
 }
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #2e309600;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #46A2FF;
+    border-radius: 50px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #00317C;
+  }
   

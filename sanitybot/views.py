@@ -124,7 +124,7 @@ def dashboard():
     users = User_health.query.all()
     intensive = User_health.query.filter_by(state='Intensive Care').count()
     mild = User_health.query.filter_by(state='Mild').count()
-    return render_template("dashboard.html", users=users, intensive=intensive, mild=mild)
+    return render_template("controlpanel.html", users=users, intensive=intensive, mild=mild)
 
 # ADMIN PROFILE
 @views.route('/adminprofile',  methods = ['GET', 'POST'])
@@ -149,7 +149,7 @@ def admin_profile():
             return redirect(url_for('views.admin_profile'))
 
     users = Admin.query.all()
-    return render_template("admin_profile.html", users=users)
+    return render_template("admin_manageaccounts.html", users=users)
 
 # ADMIN edit profile
 @views.route('/edit/<int:id>', methods = ['GET' , 'POST'])

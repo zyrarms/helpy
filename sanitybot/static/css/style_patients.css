@@ -57,8 +57,8 @@
     background: #fff;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    color: var(--main-color);
-    border-radius: 30px 0px 0px 30px;
+    color: #00317C;
+    border-radius: 30px 30px 0px 30px;
 }
 
 .sidebar-menu a span:first-child {
@@ -113,19 +113,12 @@ header {
     transition: left 300ms;
 }
 
-#nav-toggle {
-    display: none;
-}
-
-header h2 {
-    color: #222;
-    transform:translate(0, 15%);
-}
-
-header label span {
-    font-size: 1.7rem;
-    padding-right: 1rem;
-}
+header .container{
+    display: flex;
+    gap: 70px;
+    justify-content: space-between;
+    align-items: center;
+  }
 
 .logo{
     display: flex;
@@ -141,6 +134,20 @@ header label span {
     width: 50px;
     margin: 0 10px 0 0;
   }
+#nav-toggle {
+    display: none;
+}
+
+header h2 {
+    color: #222;
+    transform:translate(0, 15%);
+}
+
+header label span {
+    font-size: 1.7rem;
+    padding-right: 1rem;
+}
+
 .search-wrapper {
     border: 1px solid #ccc;
     border-radius: 30px;
@@ -180,20 +187,10 @@ header label span {
 }
 
 main {
-    margin: 85px 0 0 150px;
+    margin-top: 10px;
     padding: 2rem 1.5rem;
-    background: #ffffff;
+    background: #f1f5f9;
     min-height: calc(100vh - 90px);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 0rem 5rem;
-    transition: all 0.2s 0.7s;
-    overflow: hidden;
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
-    transform: translate(-80px, -70px);
 }
 
 .cards {
@@ -454,236 +451,23 @@ tr td:last-child {
     }
 }
 
-a.btnAdminNew{
-    display:inline-block;
-    padding:1em 1.9em;
-    margin:0 0.3em 0.3em 0;
-    border-radius:.5em;
-    box-sizing: border-box;
-    text-decoration:none;
-    font-family:'Roboto',sans-serif;
-    font-weight:bold;
-    color:#FFFFFF;
-    background-color:rgb(80, 162, 209);
-    text-align:center;
-    transition: all 0.2s;
-   
-}
-a.btnAdminNew:hover{
-    background-color: #1f8fc3;
-}
-
-
-@media all and (max-width:30em){
-a.btnAdminNew{
-    display:block;
-    margin:0.2em auto;
-    }
-    }
-
-a.editbtn{
-    display:inline-block;
-    padding:.8em 1.9em;
-    margin:0 0.3em 0.3em 0;
-    border-radius:.5em;
-    box-sizing: border-box;
-    text-decoration:none;
-    font-family:'Roboto',sans-serif;
-    font-weight:bold;
-    color:#FFFFFF;
-    background-color:rgb(46, 192, 90);
-    text-align:center;
-    transition: all 0.2s;
-   
-}
-a.editbtn:hover{
-    background-color: rgb(26, 136, 59);
-}
-
-
-@media all and (max-width:30em){
-a.editbtn{
-    display:block;
-    margin:0.2em auto;
-    }
-}
-
-a.delbtn{
-    display:inline-block;
-    padding:.8em 1.9em;
-    margin:0 0.3em 0.3em 0;
-    border-radius:.5em;
-    box-sizing: border-box;
-    text-decoration:none;
-    font-family:'Roboto',sans-serif;
-    font-weight:bold;
-    color:#FFFFFF;
-    background-color:rgb(235, 69, 69);
-    text-align:center;
-    transition: all 0.2s;
-   
-}
-a.delbtn:hover{
-    background-color: rgb(172, 45, 45);
-}
-
-
-
-
-@media all and (max-width:30em){
-a.delbtn{
-    display:block;
-    margin:0.2em auto;
-    }
-    }
-
-    /* The Modal (background) */
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-   
-    z-index: 10000;
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
   }
   
-  /* Modal Content */
-  .modal-content {
-    background-color: #fefefe;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 35%;
-    transition: .15s ease-in;
-    z-index: 10000;
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #2e309600;
   }
   
-  /* The Close Button */
-  .close {
-    color: #aaaaaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #46A2FF;
+    border-radius: 50px;
   }
   
-  .close:hover,
-  .close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #00317C;
   }
-
-  .label_admin{
-    color: rgb(0, 0, 0);
-    align-items:center;
-  }
-
-  label{
-    color: rgb(0, 0, 0);
-    font-size: 18px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-
-input[type="text"] {
-  width:100%;
-  height: 45px;
-  padding:8px 20px;
-  border:1px solid #aaa;
-  border-radius:10px;
-  margin:3px 0;
-  outline:none;
-  box-sizing:border-box;
-  transition:.3s;
-  font-size: 18px;
-}
-
-input[type=text]:focus{
-    border-color:rgb(80, 162, 209);
-    box-shadow:0 0 8px 0 rgb(80, 162, 209);
-  }
-
-input[type="password"] {
-  width:100%;
-  height: 45px;
-  padding:8px 20px;
-  border:1px solid #aaa;
-  border-radius:10px;
-  margin:3px 0;
-  outline:none;
-  box-sizing:border-box;
-  transition:.3s;
-}
-
-input[type="password"]:focus{
-    border-color:rgb(80, 162, 209);
-    box-shadow:0 0 8px 0 rgb(80, 162, 209);
-  }
-
-.btnSaveModal{
-    display:inline-block;
-    padding:1em 3.9em;
-    margin:0 0.3em 0.3em 0;
-    border-radius:50px;
-    box-sizing: border-box;
-    text-decoration:none;
-    font-family:'Roboto',sans-serif;
-    font-weight:bold;
-    color:#FFFFFF;
-    background-color:#46A2FF;
-    text-align:center;
-    transition: all 0.2s;
-    border: none;
-    outline: none;
-    font-size: 15px;
-    cursor: pointer;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-.btnSaveModal:hover{
-    background-color: #ffffff;
-    color: rgb(70, 162, 255) !important;
-    transform: scale(1) !important;
-}
-
-
-@media all and (max-width:30em){
-.btnSaveModal{
-    display:block;
-    margin:0.2em auto;
-    }
-    }
-
-
-.alert-error {
-    padding: 20px;
-    background-color: #e8c8cb;
-    color: #452a2d;
-  }
-  
-.alert-success {
-    padding: 20px;
-    background-color: #94d4ae;
-    color: #3c4f44;
-  }
-  
-.closebtn {
-    margin-left: 15px;
-    color: white;
-    font-weight: bold;
-    float: right;
-    font-size: 22px;
-    line-height: 20px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-  
-.closebtn:hover {
-    color: black;
-}
-  

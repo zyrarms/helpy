@@ -67,7 +67,7 @@ img {
   max-width: 80rem;
   width: 100%;
   margin: 0 auto 2rem;
-  padding: 5rem 3rem 0 0;
+  padding: 3rem 3rem 6rem 0;
   z-index: 1;
 }
 .container2{
@@ -75,7 +75,7 @@ img {
   max-width: 80rem;
   width: 100%;
   margin: 0 auto 2rem;
-  padding: 1.5rem 3rem 1.5rem 3rem;
+  padding: 4rem 3rem 1.5rem 3rem;
   z-index: 1;
 }
 .scroll-bar{
@@ -307,6 +307,15 @@ header .container2{
   max-width: 600px;
   line-height: 1.5;
   text-align: justify;
+}
+.text3{
+  color: var(--lightOne);
+  font-size: 1.3rem;
+  font-weight: 900;
+  margin: 0 0 1rem;
+  max-width: 600px;
+  line-height: 1.5;
+
 }
 
 .sanity{

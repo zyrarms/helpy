@@ -21,8 +21,11 @@
       </div>
       {% endif %} {% endfor %} {% endif %} {% endwith %}
   
-    <div class="center">
-      <h1>Admin Panel</h1>
+    <div class="center ">
+      <div class="logo">
+        <img class="logo_img" src="{{ url_for('static', filename='/images/robot_logo.svg') }}" alt="logo">
+      </div>
+      <h1>Admin</h1>
       <form method="POST">
         <div class="txt_field">
           <input type="text" name="username" minlength="5" required>

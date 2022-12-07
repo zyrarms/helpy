@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 :root {
-    --main-color: #1f8fc3;
+    --main-color: repeating-linear-gradient(#46A2FF, #00317C);
     --color-dark: #1D2231;
     --text-grey: #8390A2;
 }
@@ -57,8 +57,8 @@
     background: #fff;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    color: var(--main-color);
-    border-radius: 30px 0px 0px 30px;
+    color: #00317C;
+    border-radius: 30px 30px 0px 30px;
 }
 
 .sidebar-menu a span:first-child {
@@ -120,12 +120,27 @@ header .container{
     align-items: center;
   }
 
+.logo{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin: 20px 0 0 0;
+  }
+  
+.logo_img{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 50px;
+    margin: 0 10px 0 0;
+  }
 #nav-toggle {
     display: none;
 }
 
 header h2 {
     color: #222;
+    transform:translate(0, 15%);
 }
 
 header label span {
@@ -137,6 +152,7 @@ header label span {
     border: 1px solid #ccc;
     border-radius: 30px;
     height: 50px;
+    width: 800px;
     display: flex;
     align-items: center;
     overflow-x: hidden;
@@ -434,3 +450,24 @@ tr td:last-child {
         grid-template-columns: 100%;
     }
 }
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #2e309600;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #46A2FF;
+    border-radius: 50px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #00317C;
+  }
