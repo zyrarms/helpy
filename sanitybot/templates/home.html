@@ -67,12 +67,22 @@
 
               <!-- chatbot -->
               <div>
-                <a href="{{ url_for('views.chat') }}" class="btn_form" id="show-modal">Talk to Sanity</a>
+                {% if user.is_assess %}
+                <a href="{{ url_for('views.chat') }}" class="btn_form">Talk to Sanity</a>
+                {% else %}
+                <a href="#" class="btn_form" id="show-modal">Talk to Sanity</a>
+                {% endif %}
+
                 <div class="modal">
                   <div class="modal-box">
-                    <div class="icon">
+                    <div type="button" class="icon" id="hide-modal">
                       <i class="fa fa-times"></i>
-                    </div>        
+                    </div>
+                    <img class="logo_img" src="{{ url_for('static', filename='/images/robot_logo.svg') }}" alt="logo">
+                    <div class="my-3">
+                      Let me Assess you first! 
+                    </div>
+                    <a href="{{ url_for('views.chat') }}" class="btn_form" >Okay</a>
                   </div>
                 </div>
               </div>

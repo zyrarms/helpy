@@ -10,6 +10,8 @@ class User(db.Model, UserMixin):
     contact = db.Column(db.String(15))
     email = db.Column(db.String(80), unique=True)
     password = db.Column(db.String(100))
+    is_assess = db.Column(db.Boolean, default=False, nullable=False)
+    epds_score = db.Column(db.Integer)
 
 
 class User_health(db.Model, UserMixin):

@@ -174,13 +174,11 @@ def edit(id):
     else:
         return render_template('editAdmin.html', user=user)
 
-
 # ADMIN patient info
 @views.route('/patientprofile', methods = ['GET','POST'])
 def admin_patients():
     users = User.query.all()
     return render_template("admin_patients.html", users=users)
-
 
 # DELETE
 @views.route('/delete/<int:id>')
@@ -210,7 +208,7 @@ def search():
 @views.route('/chat', methods = ['GET', 'POST'])
 def chat():
     user = current_user
-    return render_template('chat.html', user=user)
+    return render_template('chat.html', data={'user': user})
 
 @views.route('/welcome', methods = ['GET', 'POST'])
 def welcome():
@@ -231,3 +229,4 @@ def sanity():
 def aboutpostpartum():
     user = current_user
     return render_template('about_postpartum.html', user=user)
+    

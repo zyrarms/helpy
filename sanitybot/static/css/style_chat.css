@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100;300;400;500;600&display=swap");
 
 /*========================= Variables CSS ==============================*/
 .light {
-  --mainColor: #46A2FF;
+  --mainColor: #46a2ff;
   --hoverColor: #d5e0fd;
   --backgroundColor: #ffffff;
   --darkOne: rgb(0, 0, 0);
@@ -12,7 +12,7 @@
 }
 
 .dark {
-  --mainColor: #46A2FF;
+  --mainColor: #46a2ff;
   --hoverColor: #d5e0fd;
   --backgroundColor: #302f3d;
   --darkOne: #ffffff;
@@ -20,7 +20,6 @@
   --lightOne: rgb(255, 255, 255);
   --lightTwo: #e7e3e3;
 }
-
 
 *,
 *::before,
@@ -121,7 +120,7 @@ header .container {
 }
 
 .links a:hover {
-  color: #46A2FF !important;
+  color: #46a2ff !important;
   transform: scale(1.05);
 }
 
@@ -430,19 +429,22 @@ header .container {
 }
 
 body {
-
   font-weight: 400;
   font-size: 100%;
-  background: #F1F1F1;
+  background: #f1f1f1;
 }
 
 *,
 html {
-  --primaryGradient: linear-gradient(93.12deg, #2f89e2 0.52%, #46A2FF 100%);
-  --secondaryGradient: linear-gradient(268.91deg, #46A2FF -2.14%, #2f89e2 99.69%);
+  --primaryGradient: linear-gradient(93.12deg, #2f89e2 0.52%, #46a2ff 100%);
+  --secondaryGradient: linear-gradient(
+    268.91deg,
+    #46a2ff -2.14%,
+    #2f89e2 99.69%
+  );
   --primaryBoxShadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
   --secondaryBoxShadow: 0px -10px 15px rgba(0, 0, 0, 0.1);
-  --primary: #581B98;
+  --primary: #581b98;
 }
 
 /* CHATBOX
@@ -465,8 +467,8 @@ html {
   width: 90vw;
   height: 100%;
   /* opacity: 0; */
-  transition: all .5s ease-in-out;
-  background-color: #E9ECEE;
+  transition: all 0.5s ease-in-out;
+  background-color: #e9ecee;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -477,7 +479,6 @@ html {
   transform: translateY(-40px);
   z-index: 123456;
   opacity: 1;
-
 }
 
 /* BUTTON */
@@ -493,7 +494,6 @@ html {
   outline: none;
   cursor: pointer;
 }
-
 
 /* MESSAGES */
 .chatbox__messages {
@@ -548,19 +548,19 @@ html {
 }
 
 .chatbox__description--header {
-  font-size: .9rem;
+  font-size: 0.9rem;
   color: white;
 }
 
 /* Messages */
 .chatbox__messages {
   padding: 20px;
-  background-color: #E9ECEE;
+  background-color: #e9ecee;
 }
 
 .messages__item {
   margin-top: 10px;
-  background: #E0E0E0;
+  background: #e0e0e0;
   padding: 8px 12px;
   max-width: 70%;
 }
@@ -602,7 +602,7 @@ html {
 }
 
 .chatbox__send--footer {
-  color: white;
+  /* color: white; */
 }
 
 .chatbox__button button,
@@ -629,17 +629,17 @@ html {
   top: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, .3);
+  background: rgba(0, 0, 0, 0.3);
   display: flex;
   justify-content: center;
   align-items: center;
   visibility: hidden;
   opacity: 0;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .modal .modal-box {
-  background: #FFF;
+  background: #fff;
   border-radius: 5px;
   width: 600px;
   min-height: 400px;
@@ -662,7 +662,7 @@ html {
   color: #111;
   font-size: 1rem;
   cursor: pointer;
-  transition: .1s;
+  transition: 0.1s;
 }
 
 .modal .modal-box .icon i:hover {
@@ -693,7 +693,7 @@ html {
   margin: 20px 0;
   text-align: center;
   color: #444;
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 .modal .modal-box .content .modal-links {
@@ -707,15 +707,15 @@ html {
   text-decoration: none;
   display: inline-block;
   background: #6c5ce7;
-  color: #FFF;
-  padding: .5rem 1.5rem;
+  color: #fff;
+  padding: 0.5rem 1.5rem;
   margin: 10px;
   border-radius: 4px;
   text-align: center;
   box-shadow: 0 13px 34px -6px #6c5ce7;
 }
 
-input[type=text] {
+input[type="text"] {
   width: 100%;
   height: 45px;
   padding: 8px 20px;
@@ -724,17 +724,17 @@ input[type=text] {
   margin: 6px 0;
   outline: none;
   box-sizing: border-box;
-  transition: .3s;
+  transition: 0.3s;
 }
 
-input[type=text]:focus {
-  border-color: #8F00FF;
-  box-shadow: 0 0 8px 0 #8F00FF;
+input[type="text"]:focus {
+  border-color: #8f00ff;
+  box-shadow: 0 0 8px 0 #8f00ff;
 }
 
 .modal-btn {
   width: 100%;
-  background-color: #8F00FF;
+  background-color: #8f00ff;
   border: none;
   outline: none;
   height: 45px;
@@ -750,11 +750,11 @@ input[type=text]:focus {
 
 .modal-btn.transparent:hover {
   background-color: white;
-  color: #8F00FF;
+  color: #8f00ff;
 }
 
 .modal-btn:hover {
-  background-color: #8F00FF;
+  background-color: #8f00ff;
 }
 
 .date_due {
@@ -766,9 +766,8 @@ input[type=text]:focus {
   margin: 6px 0;
   outline: none;
   box-sizing: border-box;
-  transition: .3s;
+  transition: 0.3s;
 }
-
 
 .alert-error {
   padding: 20px;
@@ -795,4 +794,30 @@ input[type=text]:focus {
 
 .closebtn:hover {
   color: black;
+}
+
+.chat_input{
+  display: flex;
+  padding: 0 20px 20px 20px;
+}
+
+/* CHAT PRESET */
+.chat_preset {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0 20px 20px 20px;
+}
+
+.preset-chat{
+  background-color: #2f89e2;
+  border-radius: 20px;
+  padding: 5px 10px;
+  cursor: pointer;
+  border: #2f89e200 solid 1px;
+}
+
+.preset-chat:hover{
+  background-color: #46a2ff;
+  border: #2f89e2 solid 1px;
 }
