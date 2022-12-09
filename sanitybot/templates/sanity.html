@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='/css/style_welcome.css') }}" />
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>SanityBot | Home</title>
+    <title>SanityBot | Sanity</title>
   </head>
   <body>
     {% with messages = get_flashed_messages(with_categories=true) %} 
@@ -69,17 +69,28 @@
                 feel heard without judgement. 
               </p>
 
-              <!-- Login -->
+              <!-- chatbot -->
               <div>
-                <a href="{{ url_for('auth.login') }}" class="btn_form" id="show-modal">Talk to Sanity</a>
+                {% if user.is_assess %}
+                <a href="{{ url_for('views.chat') }}" class="btn_form">Talk to Sanity</a>
+                {% else %}
+                <a href="#" class="btn_form" id="show-modal">Talk to Sanity</a>
+                {% endif %}
+
                 <div class="modal">
                   <div class="modal-box">
-                    <div class="icon">                     
-                    </div>        
+                    <div type="button" class="icon" id="hide-modal">
+                      <i class="fa fa-times"></i>
+                    </div>
+                    <img class="logo_img1" src="{{ url_for('static', filename='/images/robot_logo.svg') }}" alt="logo">
+                    <div class="modaltext">
+                      Hello There! I am Sanity, your AI friend. I know you’re excited to talk and meet me but before you have an interaction with me, I want you to answer first our initial assessment to know your condition. I hope you enjoy this little assessment. 
+                    </div>
+                    <a href="{{ url_for('views.chat') }}" class="btn_form" >Okay</a>
                   </div>
                 </div>
               </div>
-              <!-- end Login -->
+              <!-- end chatbot -->
             </div>
 
             <div class="right rindex">
@@ -111,5 +122,17 @@
         </div>
        </div>
     </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script>
+    $(document).ready(function(){
+    $('#show-modal').on('click', function(){
+      $('.modal').css({'visibility': 'visible', 'opacity': '1'});
+    });
+    $('.modal .modal-box .icon i').on('click', function(){
+      $('.modal').css({'visibility': 'hidden', 'opacity': '0'});
+      clearAll();
+    });
+  }); 
+    </script>
   </body>
 </html>

@@ -235,7 +235,7 @@ header .container{
   line-height: 2.3;
 }
 
-.preggy{
+.sanity{
   width: 100%;
   transform: translate(15%, 25px);
   z-index: -1;
@@ -365,7 +365,7 @@ header .container{
   font-size: 0.95rem;
   margin: 1.4rem 0 1.5rem;
 }
-.preggy {
+.sanity {
   width: 100%;
   transform: none;
   z-index: -1;

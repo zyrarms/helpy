@@ -2,70 +2,70 @@ let currentChat = 1;
 
 epds = {
   1: {
-    question: "I have been able to laugh and see the funny side of things",
+    question: "Have you been able to laugh and see the funny side of things?",
     0: "As much as I always could",
     1: "Not quite so much now",
     2: "Definitely not so much now",
     3: "Hardly at all",
   },
   2: {
-    question: "I have looked forward with enjoyment to things",
+    question: "Have you looked forward with enjoyment to things?",
     0: "As much as I ever did",
     1: "Rather less than I used to",
     2: "Definitely less than I used to",
     3: "Hardly at all",
   },
   3: {
-    question: "I have blamed myself unncessarily when things went wrong",
+    question: "Do you blame yourself unnecessarily when things go wrong?",
     3: "Yes, most of the time",
     2: "Yes, some of the time",
     1: "Not very often",
     0: "No, Never",
   },
   4: {
-    question: "I have been anxious or worried for no good reason",
+    question: "Have you been anxious or worried for no good reason?",
     0: "No, not at all",
     1: "Hardly ever",
     2: "Yes, sometimes",
     3: "Yes, very often",
   },
   5: {
-    question: "I have felt scared or panicky for no very good reason",
+    question: "Have you felt scared or panicky for no very good reason?",
     3: "Yes, quite a lot",
     2: "Yes, sometimes",
     1: "No, not much",
     0: "No, not at all",
   },
   6: {
-    question: "Things have been getiing on top of me",
+    question: "Have things been getting on top of you?",
     3: "Yes, most of the time I haven't been able to cope",
     2: "Yes, sometimes I haven't been coping as well as usual",
     1: "No, most of the time I have coped quite well",
     0: "No, I have been coping as well as ever",
   },
   7: {
-    question: "I have been so unhappy that I have had difficulty sleeping",
+    question: "Have you been so unhappy that you have had difficulty sleeping?",
     3: "Yes, most of the time",
     2: "Yes, sometimes",
     1: "Not very often",
     0: "No, not at all",
   },
   8: {
-    question: "I have felt sad or miserable",
+    question: "Have you felt sad or miserable?",
     3: "Yes, most of the time",
     2: "Yes, quite often",
     1: "Not very often",
     0: "No, not at all",
   },
   9: {
-    question: "I have been so unhappy that I have been crying",
+    question: "Have you been so unhappy that you have been crying?",
     3: "Yes, most of the time",
     2: "Yes, quite often",
     1: "Only occasionally",
     0: "No, never",
   },
   10: {
-    question: "The thought of harming myself has occured to me",
+    question: "Has the thought of harming yourself occurred to you?",
     3: "Yes, quite often",
     2: "Sometimes",
     1: "Hardly ever",
@@ -84,6 +84,8 @@ enterPreset = (e) => {
     e.target.textContent;
 };
 
+changeChatPreset();
+
 function changeChatPreset() {
   if (currentChat <= 10) {
     elements[0].innerText = epds[currentChat][0];
@@ -97,6 +99,7 @@ function changeChatPreset() {
     elements[3].id = 3;
   } else {
     presetWrapper.remove();
+    // presetWrapper.style.display = 'none';
   }
 
 }
@@ -163,7 +166,7 @@ class Chatbox {
       epdsData.splice(currentChat, 1, sum);
 
       if (currentChat <= 11) {
-
+        console.log(epdsData)
         fetch("http://127.0.0.1:5000/predict_epds", {
           method: "POST",
           body: JSON.stringify({ message: epdsData }),
@@ -178,6 +181,11 @@ class Chatbox {
             this.messages.push(msg2);
             msg2 = { name: "Sanitybot", message: "Heres what you can do.... Do you have any questions?" };
             this.messages.push(msg2);
+            // presetWrapper.style.display = 'flex';
+            // elements[0].innerText = "Yes"
+            // elements[1].innerText = "No"
+            // elements[2].style.display = 'none'
+            // elements[3].style.display = 'none'
             this.updateChatText(chatbox);
             textField.value = "";
           })
@@ -213,7 +221,7 @@ class Chatbox {
     console.log(epdsData);
     changeChatPreset();
 
-    
+
 
     let msg1 = { name: "User", message: text1 };
     this.messages.push(msg1);

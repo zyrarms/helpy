@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;300;400;500;600&display=swap');
 :root {
     --main-color: repeating-linear-gradient(#46A2FF, #00317C);
     --color-dark: #1D2231;
@@ -11,7 +11,7 @@
     box-sizing: border-box;
     list-style-type: none;
     text-decoration: none;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Sora", sans-serif;
 }
 
 .sidebar {
@@ -450,7 +450,7 @@ a.btnAdminNew{
     border-radius:50px;
     box-sizing: border-box;
     text-decoration:none;
-    font-family:'Roboto',sans-serif;
+    font-family: "Sora", sans-serif;
     font-weight:bold;
     color:#FFFFFF;
     background-color:#46A2FF;
@@ -480,7 +480,7 @@ a.editbtn{
     border-radius:50px;
     box-sizing: border-box;
     text-decoration:none;
-    font-family:'Roboto',sans-serif;
+    font-family: "Sora", sans-serif;
     font-weight:bold;
     color:#FFFFFF;
     background-color:#46A2FF;
@@ -510,7 +510,7 @@ a.delbtn{
     border-radius:50px;
     box-sizing: border-box;
     text-decoration:none;
-    font-family:'Roboto',sans-serif;
+    font-family: "Sora", sans-serif;
     font-weight:bold;
     color:#FFFFFF;
     background-color:#00317C;
@@ -586,7 +586,7 @@ a.delbtn{
   label{
     color: rgb(0, 0, 0);
     font-size: 18px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Sora", sans-serif;
   }
 
 input[type="text"] {
@@ -631,7 +631,7 @@ input[type="password"]:focus{
     border-radius:50px;
     box-sizing: border-box;
     text-decoration:none;
-    font-family:'Roboto',sans-serif;
+    font-family: "Sora", sans-serif;
     font-weight:bold;
     color:#FFFFFF;
     background-color:#46A2FF;

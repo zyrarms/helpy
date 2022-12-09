@@ -24,8 +24,6 @@ def home():
         date_submit = date.today()
         condition = request.form.get('condition')
         
-
-
         if condition == 'Preeclampsia' or condition == 'Postpartum hemorrhage' or condition== 'Anemia' or condition == 'Chorioamnionitis' or condition == 'Gestational diabetes':
             state = 'Intensive Care'
             try:
@@ -51,14 +49,6 @@ def home():
         # Get logged in user
         user = current_user
         return render_template('home.html', user=user)
-
-# duedate calculator
-@views.route('/duedate', methods = ['GET','POST'])
-@login_required
-def duedate():
-    # Get logged in user
-    user = current_user
-    return render_template('duedate.html', user=user)
 
 # user profile
 @views.route('/profile', methods = ['GET', 'POST'])
@@ -230,3 +220,7 @@ def aboutpostpartum():
     user = current_user
     return render_template('about_postpartum.html', user=user)
     
+@views.route('/welcomeback', methods = ['GET', 'POST'])
+def home2():
+    user = current_user
+    return render_template('home2.html', user=user)

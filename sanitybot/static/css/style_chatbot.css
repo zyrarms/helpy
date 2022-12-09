@@ -97,6 +97,13 @@ header .container{
   width: 65px;
 }
 
+.logo_img1{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  width: 120px;
+}
+
 .links ul{
   list-style: none;
   align-items: center;
@@ -230,7 +237,7 @@ header .container{
 .text{
   color: var(--lightOne);
   font-size: 1.1rem;
-  margin: .5rem 0 2.5rem;
+  margin: .5rem 0 1.5rem;
   max-width: 600px;
   line-height: 2.3;
   text-align:justify;
@@ -783,4 +790,9 @@ input[type=text]:focus{
   color: black;
 }
 
-
+.modaltext{
+  text-align:center;
+  font-size:large;
+  font-weight:800;
+  padding-bottom:20px;
+}

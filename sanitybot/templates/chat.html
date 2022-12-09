@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    
     <link rel="stylesheet" href="{{ url_for('static', filename='/css/style_chat.css') }}" />
     <script type="text/javascript" defer src="{{ url_for('static', filename='app-chat.js') }}"></script>
     <script defer src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <title>SanityBot | Talk to Sanity</title>
 </head>
 
 <body>
@@ -20,20 +21,15 @@
                     <img class="logo_img" src="{{ url_for('static', filename='/images/robot_logo.svg') }}" alt="logo">
                     <h3>SanityBot</h3>
                 </div>
-                <button class="toggle-btn">
-                    <i class='bx bxs-moon'></i>
-                    <i class='bx bxs-sun'></i>
-                </button>
                 <div class="links">
                     <ul class="main">
-                        <li><a href="{{ url_for('views.home') }}">Home</a></li>
-                        <li><a href="{{ url_for('views.duedate') }}">Sanity</a></li>
-                        <li><a href="{{ url_for('views.profile') }}">Features</a></li>
+                        <li><a href="{{ url_for('views.home2') }}">Home</a></li>
+                        <li><a href="{{ url_for('views.sanity') }}">Sanity</a></li>
+                        <li><a href="{{ url_for('views.aboutpostpartum') }}">Postpartum</a></li>
                         <li><a href="{{ url_for('auth.logout') }}">Logout</a></li>
                     </ul>
                     <ul>
-                        <li><a href="{{ url_for('views.profile') }}">{{ data.user.firstname }} {{ data.user.lastname
-                                }}</a></li>
+                        <li><a href="{{ url_for('views.profile') }}">{{ data.user.firstname }} {{ data.user.lastname }}</a></li>
                     </ul>
                 </div>
 
@@ -52,7 +48,7 @@
             <div class="chatbox__support">
                 <div class="chatbox__header">
                     <div class="chatbox__image--header">
-                        <img src="{{ url_for('static', filename='/images/bot-ic.png') }}" alt="image">
+                        <img src="{{ url_for('static', filename='/images/robot_logo.svg') }}" alt="image">
                     </div>
                     <div class="chatbox__content--header">
                         <p class="chatbox__description--header">Ready to assist you during your pregnancy.</p>
