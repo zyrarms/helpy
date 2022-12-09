@@ -8,9 +8,6 @@ class User(db.Model, UserMixin):
     lastname = db.Column(db.String(25))
     address = db.Column(db.String(50))
     contact = db.Column(db.String(15))
-    duedate = db.Column(db.String(10))
-    first_trimester = db.Column(db.String(10))
-    second_trimester = db.Column(db.String(10))
     email = db.Column(db.String(80), unique=True)
     password = db.Column(db.String(100))
 

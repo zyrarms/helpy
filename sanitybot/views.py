@@ -74,10 +74,7 @@ def profile():
         user.address = request.form['address']
         user.contact = request.form['contact']
         user.email = request.form['email']
-        user.duedate = request.form['duedate']
-        user.first_trimester = request.form['first_trimester']
-        user.second_trimester = request.form['second_trimester']
-      
+        
         # update database
         try:
             db.session.commit()
@@ -94,8 +91,7 @@ def profile():
 @views.route('/profileupdate', methods = ['GET' , 'POST'])
 def profile_security():
     if request.method == "POST":
-        id = request.form['id']
-
+        user = current_user
         pword = request.form['newpassword']
         rpword = request.form['retypepass']
 
@@ -103,7 +99,7 @@ def profile_security():
             flash('Password and Retype password does not match.', category='error')
             return redirect(url_for('views.profile_security'))
         else:
-            user = User.query.filter_by(id=id).first()
+            user = User.query.filter_by(id=user.id).first()
             user.password = generate_password_hash(pword, method='sha256')
         
             # update database
