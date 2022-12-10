@@ -32,52 +32,2250 @@
       "responses": ["Happy to help!", "Any time!", "My pleasure"]
     },
     {
-      "tag": "items",
+      "tag": "ppd_occurence",
       "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
+        "When does postpartum depression occur?",
+        "Postpartum depression occurence",
+        "When does postpartum happen?"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "Postpartum depression can occur up to 1 year after having a baby, but it most commonly starts about 1–3 weeks after childbirth."
+        
       ]
     },
     {
-      "tag": "payments",
+      "tag": "ppd_commonness",
       "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
+        "How common is postpartum depression?",
+        "Commonness of postpartum depression",
+        "How common is postpartum depression?"
       ],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
+        "Depression is a common problem after pregnancy. One in 9 new mothers has postpartum depression."
+        
       ]
     },
     {
-      "tag": "delivery",
+      "tag": "ppd_symptoms",
       "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
+        "What are the symptoms of postpartum depression?",
+        "What are the symptoms of postpartum depression?",
+        "Symptoms of postpartum depression",
+        "Symptoms of PPD",
+        "Symptoms",
+        "Signs and symptoms"
       ],
       "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
+        "If you have any of the following symptoms of depression for more than 2 weeks, call your doctor, nurse, or midwife. Feeling restless or moody, feeling sad, hopeless, or overwhelmed, crying a lot, having thoughts of hurting the baby, having thoughts of hurting yourself, not having any interest in the baby, not feeling connected to the baby, or feeling as if your baby is someone else’s baby, eating too little or too much, sleeping too little or too much, feeling worthless, guilty, or like a bad mother."
       ]
     },
     {
-      "tag": "funny",
+      "tag": "ppd",
       "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
+        "What is postpartum depression?",
+        "What is PPD?",
+        "What is meant by postpartum depression?",
+        "Postpartum depression?",
+        "What is Postpartum?"
       ],
       "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+        "Postpartum depression (PPD) is a complex mix of physical, emotional, and behavioral changes that happen in some women after giving birth."
+        
+      ]
+    },
+    {
+      "tag": "ppd_causes",
+      "patterns": [
+        "What causes postpartum depression?",
+        "Causes of postpartum depression",
+        "Causes of PDD",
+        "What triggers postpartum depression?",
+        "Causes"
+
+      ],
+      "responses": [
+        "Hormonal changes may trigger symptoms of postpartum depression. When you are pregnant, levels of the female hormones estrogen and progesterone are the highest they’ll ever be. Levels of thyroid hormones may also drop after giving birth. The thyroid is a small gland in the neck that helps regulate how your body uses and stores energy from food."
+      ]
+    },
+    {
+      "tag": "ppd_otherfeelings",
+      "patterns": [
+        "What are the other feelings that may contribute to postpartum depression?",
+        "Other feelings that  may contribute to postpartum depression ",
+        "Other factors affecting postpartum depression"
+        
+      ],
+      "responses": [
+        "Other feelings that may contribute to PPD are tired after labor and delivery, tired from a lack of sleep or broken sleep, overwhelmed with a new baby, doubts about their ability to be a good mother, stress from changes in work and home routines, an unrealistic need to be a perfect mom, grief about loss of who they were before having the baby, less attractive and a lack of free time."
+      ]
+    },
+    {
+      "tag": "ppd_risks",
+      "patterns": [
+        "Are some women more at risk of postpartum depression?",
+        "Risk of postpartum depression",
+        "Who is more risky with postpartum depression?",
+        "Vulnerable in postpartum depression",
+        "Risks",
+        "Reason of postpartum risks"
+      ],
+      "responses": [
+        "Yes. You may be more at risk of postpartum depression if you have a personal history of depression or bipolar disorder, have a family history of depression or bipolar disorder, do  not  have  support  from  family and friends, were depressed during pregnancy, had problems with a previous pregnancy or birth, have relationship or money problems, are younger than 20, have alcoholism, use illegal drugs, or have some other problem with drugs, have a baby with special needs, have difficulty breastfeeding and had an unplanned or unwanted pregnancy. "
+      ]
+    },
+    {
+      "tag": "ppd_last",
+      "patterns": [
+        "How long does postpartum depression last?",
+        "How long will it last?",
+        "How long does ppd lasts?"
+
+      ],
+      "responses": [
+        "Postpartum depression can last until one year after your child is born. However, this doesn't mean you should feel cured in one year."
+      ]
+    },
+    {
+      "tag": "ppd_do's",
+      "patterns": [
+        "What should I do if I want to know if I have postpartum depression?",
+        "What should I do?",
+        "I want to know what should I do?",
+        "How do I overcome it?",
+        "Overcome",
+        "What to do?"
+      
+      ],
+      "responses": [
+        "Talk to your healthcare provider about your symptoms and treatment. Be honest about how you feel. Think carefully about if you feel better than you did at the beginning of your diagnosis. Then, they can recommend ongoing treatment for your symptoms."
+      ]
+    },
+    {
+      "tag": "ppd_types",
+      "patterns": [
+        "What are the types of postpartum depression?",
+        "Types of postpartum depression",
+        "Types of PPD",
+        "Types"
+      ],
+      "responses": [
+        "There are three types of PPD women can have after giving birth, the baby  blues, postpartum depression and postpartum psychosis."
+        
+      ]
+    },
+    {
+      "tag": "ppd_bblues",
+      "patterns": [
+        "What is baby blues?",
+        "Baby blues",
+        "Can you explain baby blues?",
+        "What is meant by baby blues?"
+      ],
+      "responses": [
+        "Most new moms experience postpartum baby blues after childbirth, which commonly include mood swings, crying spells, anxiety and difficulty sleeping. Baby blues typically begin within the first two to three days after delivery, and may last for up to two weeks."
+        
+      ]
+    },
+    {
+      "tag": "ppd_diff",
+      "patterns": [
+        "What is the difference between baby blues and postpartum depression?",
+        "Difference of baby blues and postpartum depression",
+        "baby blues and postpartum depression"
+      ],
+      "responses": [
+        "The baby blues usually go away in 3 to 5 days after they start. The symptoms of postpartum depression last longer and are more severe. Postpartum depression usually begins within the first month after childbirth, but it can begin during pregnancy or for up to a year after birth."
+      ]
+    },
+    {
+      "tag": "ppd_bblues symptoms",
+      "patterns": [
+        "What are the symptoms of baby blues?",
+        "Symptoms of baby blues",
+        "baby blue symptoms"
+
+      ],
+      "responses": [
+        "Many women have the baby blues in the days after childbirth. If you have the baby blues, you may have mood swings, feel sad, anxious, or overwhelmed, have crying spells, lose your appetite and have trouble sleeping."
+      ]
+    },
+    {
+      "tag": "ppd_bblue last",
+      "patterns": [
+        "How long do the baby blues usually last?",
+        "How long do baby blues last",
+        "Baby blues last"
+        
+      ],
+      "responses": [
+        "The baby blues usually get better within a few days or 1–2 weeks without any treatment."
+      ]
+    },
+    {
+      "tag": "ppd_bblueppd",
+      "patterns": [
+        "How do I know if I have baby blues or postpartum depression?",
+        "Am I having baby blues or postpartum depression?",
+        "Is this baby blues or postpartum depression?",
+        "Is this baby blues only or ppd?"
+      ],
+      "responses": [
+        "Many people have baby blues after giving birth. Baby blues and postpartum depression have similar symptoms. However, symptoms of baby blues last about 10 days and are less intense. With postpartum depression, the symptoms last weeks or months, and the symptoms are more severe."
+      ]
+    },
+    {
+      "tag": "ppd_psychosis",
+      "patterns": [
+        "What is postpartum psychosis?",
+        "Postpartum psychosis",
+        "Pyschosis",
+        "Meaning of postpartum psychosis"
+
+      ],
+      "responses": [
+        "Postpartum psychosis is  an extremely severe form of postpartum depression and requires emergency medical attention. Postpartum psychosis is rare. It happens in up to 4 new mothers out of every 1,000 births. It usually begins in the first 2 weeks after childbirth."
+      ]
+    },
+    {
+      "tag": "ppd_psychosis symp",
+      "patterns": [
+        "What are the symptoms of postpartum psychosis?",
+        "Symptoms of postpartum psychosis",
+        "Postpartum psychosis symptoms"
+      ],
+      "responses": [
+        "Women who have bipolar disorder or another mental health condition called schizoaffective disorder have a higher risk of postpartum psychosis. Symptoms may include seeing  or  hearing  things  that  aren’t there, feeling confused most of the time, having rapid mood  swings  within several minutes (for example, crying hysterically, then laughing a lot, followed by extreme sadness), trying to hurt yourself or your baby, paranoia   (thinking   that   others   are focused on harming you), restlessness or agitation and behaving recklessly or in a way that is not normal for you."
+        
+      ]
+    },
+    {
+      "tag": "ppd_todo",
+      "patterns": ["What should I do if I have symptoms of postpartum depression?", 
+      "I have feel the symptoms, what should i do?", 
+      "What should  I do to stop this symptoms?"],
+      "responses": [
+        "Call your doctor, nurse, midwife, or pediatrician if your baby blues don’t go away after 2 weeks, symptoms of depression get more and more intense, symptoms of depression begin within 1 year of delivery and last more than 2 weeks, it is difficult to work or get things done at home, you cannot care for yourself or your baby (e.g., eating, sleeping, bathing) and you have thoughts about hurting yourself or your baby. "
+       
+      ]
+    },
+    {
+      "tag": "pdd_todohome",
+      "patterns": ["What can I do at home to feel better while seeing a doctor for postpartum depression?",
+      "Home remedy", 
+      "What can I do at home?", 
+      "Tasks at home to feel me better"],
+      "responses": ["Here are some ways to begin feeling better or getting more rest, in addition to talking to a healthcare professional. Rest as much as you can. Sleep when the baby is sleeping, don’t try to do too much or to do everything by yourself. Ask your partner, family, and friends for help, make time to go out, visit  friends,  or spend time alone with your partner, talk about your feelings  with  your partner, supportive family members, and friends, talk with other mothers so that you can learn from their experiences, join a support group. Ask your doctor or nurse about groups in your area and don’t make any major life changes right after giving birth. More major life changes in addition to a new baby can cause unneeded stress. Sometimes big changes can’t  be avoided. When that happens, try to arrange support and help in your new situation ahead of time."]
+    },
+    {
+      "tag": "ppd_treatment",
+      "patterns": [
+        "How is postpartum depression treated?",
+        "Postpartum depression treatment",
+        "Postpartum treatment",
+        "What are the treatments?",
+        "treatments for postpartum",
+        "treatments"
+      ],
+      "responses": [
+        "The common types of treatment for postpartum depression are talk therapy/psychotherapy, medicine and Electroconvulsive therapy (ECT)."
+        
+      ]
+    },
+    {
+      "tag": "ppd_talkt",
+      "patterns": [
+        "What is talk therapy?",
+        "talk therapy",
+        "talk therapy/psychotherapy",
+        "psychotherapy",
+        "Mental health counselling"
+
+     
+      ],
+      "responses": [
+        "Postpartum depression is often treated with psychotherapy (also called talk therapy  or mental health counseling) Psychotherapy may help to talk through your concerns with a psychiatrist, psychologist or other mental health professional."
+      ]
+    },
+    {
+      "tag": "ppd_talktsession",
+      "patterns": [
+        "What happens in talk therapy?",
+        "How talk therapy happen?",
+        "Happenings in talk therapy"
+      
+      ],
+      "responses": [
+        "In talk therapy (also called psychotherapy), you and a mental health professional talk about your feelings and discuss how to manage them. Sometimes, therapy is needed for only a few weeks, but it may be needed for a few months or longer."
+        
+      ]
+    },
+    {
+      "tag": "ppd_typestalkt",
+      "patterns": [
+        "What are the types of talk therapy?",
+        "Types of talk therapy",
+        "Talk Therapy types"
+      ],
+      "responses": [
+        "You may have one-on-one therapy with just you and the therapist or group therapy where you meet with a therapist and other people with problems similar to yours. Another option is family or couples therapy, in which you and your family members or your partner may work with a therapist."
+        
+      ]
+    },
+    {
+      "tag": "ppd_med",
+      "patterns": [
+        "What medicine should I take to treat postpartum depression?",
+        "Medicines to treat postpartum",
+        "Medicines to treat ppd",
+        "Medicines",
+        "What medicine should I take?"
+      ],
+      "responses": [
+        "There are different types of medicines for postpartum depression. All of them must be prescribed by your doctor or nurse. The most common type is antidepressants. Antidepressants can help relieve symptoms of depression and some can be taken while you're breastfeeding. Antidepressants may take several weeks to start working."
+      ]
+    },
+    {
+      "tag": "ppd_antidepressant",
+      "patterns": [
+        "What are antidepressants?",
+        "Is antidepressants good?",
+        "Should I take anti depressants?",
+        "Anti depressants",
+        "Anti-depressants",
+        "Antidepressants"
+
+      ],
+      "responses": [
+        "Antidepressants are medications that work to balance the chemicals in the brain that control moods. There are many types of antidepressants. Drugs sometimes  are combined when needed to get the best results. It may take 3–4 weeks of taking the medication before you start to feel better."
+      ]
+    },
+    {
+      "tag": "ppd_adside",
+      "patterns": [
+        "Can antidepressants cause side effects?",
+        "Can anti depressants cause side effects?",
+        "Side effects of anti depressants",
+        "Side effects of antidepressants",
+        "antidepressants side effects",
+        "anti depressants side effects"
+        
+      ],
+      "responses": [
+        "Antidepressants can cause side effects, but most are temporary and go away after a short time. If you have severe or unusual side effects that get in the way of your normal daily habits, notify your ob-gyn or other health care professional. You may need to try another type of antidepressant."
+      ]
+    },
+    {
+      "tag": "ppd_ppdnottreated",
+      "patterns": [
+        "What can happen if postpartum depression is not treated?",
+        "Not treated postpartum",
+        "Not treated ppd",
+        "What can happen if postpartum is not treated?",
+        "What can happen if ppd is not treated?"
+      ],
+      "responses": [
+        "Untreated  postpartum  depression  can  affect your ability to parent. You may not have enough energy, have  trouble  focusing  on  the  baby's needs and your own needs, feel moody, not be able to care for your baby and have a higher risk of attempting suicide."
+      ]
+    },
+    {
+      "tag": "ppd_inchild",
+      "patterns": [
+        "How does postpartum depression affect her child throughout childhood?",
+        "How does postpartum affect her child throughout childhood?",
+        "Can it affect my child throughout childhood?"
+
+      ],
+      "responses": [
+        "Researchers believe postpartum depression in a mother can affect her child throughout childhood, causing delays  in  language  development  and problems learning, problems with mother-child bonding, behavior problems, more crying or agitation. shorter height and higher risk of obesity in preschoolers and problems dealing with stress and adjusting to school and other social situations. "
+      ]
+    },
+    {
+      "tag": "ppd_healthcare",
+      "patterns": [
+        "If I think I have postpartum depression, when should I see my health care provider?",
+        "I think I have postpartum",
+        "I think I have ppd"
+      
+      ],
+      "responses": [
+        "If you think you may have postpartum depression, or if your partner or family members are concerned that you do, it is important to see your obstetrician–gynecologist (ob-gyn) or other health care professional as soon as possible. Do not wait until your postpartum checkup."
+      ]
+    },
+    {
+      "tag": "ppd_hisofdep",
+      "patterns": [
+        "What can be done to help prevent postpartum depression in women with a history of depression?",
+        "Help prevent postpartum depression in women with a history of depression",
+        "History of depression",
+        "Depression history",
+        "History"
+      ],
+      "responses": [
+        "If you have a history of depression at any time in your life or if you are taking an antidepressant, tell your ob-gyn or other health care professional early in your prenatal care. Ideally, you should tell him or her before you become pregnant. He or she may suggest that you begin treatment right after you give birth to prevent postpartum depression."
+        
+      ]
+    },
+    {
+      "tag": "ppd_mood",
+      "patterns": [
+        "I feel scared and anxious, is it related to postpartum depression?",
+        "Emotional distress",
+        "Feeling scared and anxious"
+      ],
+      "responses": [
+        "Yes it is related. PPD is a term that most people use to describe postpartum emotional distress, but many pregnant and postpartum moms have mostly anxiety-related symptoms. That includes feeling irritable, agitated, or overwhelmed — without primary depression."
+        
+      ]
+    },
+    {
+      "tag": "ppd_support",
+      "patterns": [
+        "What support is available to help me come with postpartum depression?",
+        "What support is available?",
+        "Available support",
+        "Support groups"
+      ],
+      "responses": [
+        "Support groups can be found at local hospitals, family planning clinics, or community centers. The hospital where you gave birth or your health care professional may be able to assist you in finding a support group."
+      ]
+    },
+    {
+      "tag": "ppd_cope",
+      "patterns": [
+        "What are ways to cope with postpartum depression?",
+        "Ways to cope with postpartum",
+        "Ways to cope with ppd",
+        "List of ways to cope with postpartum",
+        "Overwhelmed"
+
+      ],
+      "responses": [
+        "It's OK to feel overwhelmed. Parenting is full of ups and downs and having a baby isn't easy. If you have depression, you don't have to suffer alone. Your healthcare provider can help find a treatment that works for you. Here are some things you can do to help cope with postpartum depression. Find someone to talk to a therapist, friend, family member or someone who will listen to you and help you, join a support group for new parents, try to eat healthily and find time for exercise, prioritize rest for yourself, go out with friends or talk to them on the phone, find time for self-care and doing things you enjoy, like reading or other hobbies and get help with household chores or errands."
+      ]
+    },
+    {
+      "tag": "ppd_prevention",
+      "patterns": [
+        "Can postpartum depression be prevented?",
+        "Prevention in postpartum",
+        "Prevention in ppd",
+        "Prevented",
+        "How is it being prevented?",
+        "Is it preventable?"
+        
+      ],
+      "responses": [
+        "Postpartum depression isn't entirely preventable. It helps to know warning signs of the condition and what factors increase your risk. Here are some tips that can help prevent postpartum depression. Be realistic about your expectations for yourself and your baby, limit visitors when you first go home, ask for help let others know how they can help you, sleep or rest when your baby sleeps, exercis take a walk and get out of the house for a break, keep in touch with your family and friends don't isolate yourself, foster your relationship with your partner make time for each other and expect some good days and some bad days."
+      ]
+    },
+    {
+      "tag": "ppd_prevent",
+      "patterns": [
+        "Can I prevent postpartum depression?",
+        "Can I stop postpartum depression?",
+        "Can I prevent postpartum?"
+      ],
+      "responses": [
+        "Since depression  during pregnancy or a past incident of postpartum depression are two of the main risk factors for PPD, your doctor may recommend that you continue treatment for depression throughout pregnancy if you have a history of either condition to help reduce your risk of developing postpartum depression."
+      ]
+    },
+    {
+      "tag": "ppd_noofwomen",
+      "patterns": [
+        "How many women get postpartum depression?",
+        "New mother getting postpartum",
+        "New mothers"
+
+      ],
+      "responses": [
+        "According to recent studies, 15% of new mothers, or one in every seven, suffer from postpartum depression. We do know, however, that the risk rises to 25% in low socioeconomic status women."
+      ]
+    },
+    {
+      "tag": "ppd_miscarriage",
+      "patterns": [
+        "Can you get postpartum depression after a miscarriage?",
+        "Miscarriage",
+        "Perinatal loss"
+      ],
+      "responses": [
+        "You can certainly experience grief after a miscarriage as well as depression following a perinatal loss. If you have suffered a miscarriage or stillbirth, please accept our heartfelt condolences. We hope these resources  offer you some comfort."
+        
+      ]
+    },
+    {
+      "tag": "ppd_choices",
+      "patterns": [
+        "Does postpartum depression go away on its own? What could happen if I choose not to get professional help?",
+        "Ignore postpartum"
+       
+      ],
+      "responses": [
+        "If you ignore PPD, it may develop into persistent severe depression for the rest of your life. It may also have an impact on your child's cognitive and behavioral development, as well as his or her future mental health. This is why waiting for PPD to go away on its own is not a smart option. There are several excellent therapies available to assist you in recovering. It is important to seek assistance."
+        
+      ]
+    },
+    {
+      "tag": "ppd_breastfeed",
+      "patterns": [
+        "Can you breastfeed during postpartum depression? Should you? Do I need to quit?",
+        "Breastfeeding suring postpartum",
+        "Breastfeeding"
+      ],
+      "responses": [
+        "Breastfeeding and depression are huge issues for PPD moms! Some want to quit because it is tough for them or gives them too much stress, but they don't because they feel pushed to continue. Others do not seek professional help for their condition because they are afraid of being forced to quit when breastfeeding is the only way they feel connected to their baby. You must understand that you can and should do what is best for you, and that you can obtain treatment while still nursing. You should also feel free to pause if necessary – you have options."
+      ]
+    },
+    {
+      "tag": "ppd_adopt",
+      "patterns": [
+        "Can you get postpartum depression or anxiety after adopting a baby or child?",
+        "Adopting a baby",
+        "Postpartum depression or anxiety after adopting a baby or child"
+
+      ],
+      "responses": [
+        "Research shows that adoptive mothers are just as likely as birth mothers to suffer from depression. Post-adoption depression, also known as post-adoption depression syndrome, is a condition that occurs after an adoption."
+      ]
+    },
+    {
+      "tag": "ppd_ppd",
+      "patterns": [
+        "Can you get postpartum depression or anxiety much later after the birth of your child? What if you get it when you are six months postpartum, or ten"
+        
+      ],
+      "responses": [
+        "Postpartum depression can strike at any time within the first 12 months after giving birth. If your doctor tells you that postpartum depression can only occur in the first few weeks or months after giving birth, he or she is incorrect. You can also experience PPD with any child, whether it's your first, fifth, or anywhere in between."
+      ]
+    },
+    {
+      "tag": "ppd_factors",
+      "patterns": [
+        "What are the risk factors/triggers for postpartum depression?",
+        "Risks factors of postpartum",
+        "Risks factors of postpartum depression",
+        "Risks factors",
+        "What triggers ppd?"
+      ],
+      "responses": [
+        "Postpartum mood disorders can develop after the birth of any child. Women may be a greater risk of developing a postpartum mood disorder if they have a history of depression, they have had postpartum depression following a previous pregnancy, they have experienced stressful events during the previous year, they have a weak support system and women living with bipolar disorder are at greater risk of developing postpartum psychosis."
+      ]
+    },
+    {
+      "tag": "ppd_like",
+      "patterns": [
+        "What does postpartum depression feel like?",
+        "What does it feels",
+        "How it feels with postpartum?"
+
+      ],
+      "responses": [
+        "PPD symptoms differ from woman to woman. Feelings of great sorrow, depression, worry, rage, restlessness, fear, and intrusive thoughts are some of the symptoms. PPD symptoms include crying, exhaustion, loss of appetite, weight loss or increase, and insomnia. Although suicide is uncommon, some women with PPD may have suicidal thoughts, and others may have obsessive thoughts of hurting their infant. These ideas may potentially be symptoms of postpartum psychosis."
+      ]
+    },
+    {
+      "tag": "ppd_diagnosed",
+      "patterns": [
+        "How is postpartum depression diagnosed?",
+        "How is postpartum diagnosed?",
+        "How is ppd diagnosed?",
+        "Diagnosis of postpartum",
+        "Diagnosis of PPD"
+      ],
+      "responses": [
+        "DSM-5-TR does not recognize postpartum depression as a separate diagnosis; rather, patients must meet the criteria for a major depressive episode and the criteria for the peripartum-onset specifier. The definition is therefore a major depressive episode with an onset in pregnancy or within 4 weeks of delivery.The DSM-5-TR criteria for a major depressive episode are as follows. Five or more out of 9 symptoms (including at least one of depressed mood and loss of interest or pleasure) in the same 2-week period, depressed mood (subjective or observed); can be irritable mood in children and adolescents, most of the day, loss of interest or pleasure, in all, or almost all, activities most of the day, change in weight or appetite (weight: 5% change over 1 month), insomnia or hypersomnia; nearly every day, psychomotor retardation or agitation (observed by others, not subjective feelings of being slowed down or restlessness), loss of energy or fatigue, feelings of worthlessness or excessive or inappropriate guilt, diminished concentration or indecisiveness; or recurrent thoughts of death, recurrent suicidal ideation with or without a specific plan, or a suicide attempt."
+        
+      ]
+    },
+    {
+      "tag": "ppd_todo",
+      "patterns": ["What should I do if I have symptoms of postpartum depression?", 
+      "I have feel the symptoms, what should i do?", 
+      "What should  I do to stop this symptoms?"],
+      "responses": [
+        "Call your doctor, nurse, midwife, or pediatrician if your baby blues don’t go away after 2 weeks, symptoms of depression get more and more intense, symptoms of depression begin within 1 year of delivery and last more than 2 weeks, it is difficult to work or get things done at home, you cannot care for yourself or your baby (e.g., eating, sleeping, bathing) and you have thoughts about hurting yourself or your baby. "
+       
+      ]
+    },
+    {
+      "tag": "pdd_relatioship",
+      "patterns": ["Does postpartum depression affect relationships?",
+      "Does poespartum affect relationships?", 
+      "Impact of relationships", 
+      "Relationships"],
+      "responses": ["Postpartum depression can have an impact on your relationships, particularly with your husband and kid or children, and can make bonding with your new baby difficult. Postpartum depression can have a particularly negative influence on the breastfeeding relationship between a woman and her child, and problems breastfeeding can increase the likelihood of postpartum depression. Postpartum depression can be caused by, as well as contribute to, marital discord."]
+    },
+    {
+      "tag": "ppd_prevmed",
+      "patterns": [
+        "Is postpartum depression a prevalent medical condition?",
+        "Is it a medical condition?",
+        "Does postpartum a medical condition?",
+        "PPD as medical condition"
+      ],
+      "responses": [
+        "According to the American Psychiatric Association, postpartum depression is a common mental health problem. This is a medical problem that has both physical and social consequences for both the new mother and the infant. Saving a woman's life by treating this disease has ramifications for the entire family, since when postpartum depression is addressed, the mother is able to care for herself, the new baby, and others who rely on her."
+        
+      ]
+    },
+    {
+      "tag": "ppd_thoughts",
+      "patterns": [
+        "I’m having disturbing, unwanted thoughts about hurting my baby. Is this normal?",
+        "I am experiencing unwanted thoughts",
+        "Hurting my baby",
+        "intrusive thoughts"
+
+     
+      ],
+      "responses": [
+        "This is referred to as intrusive thoughts in psychology, and when PPD is accompanied by these thoughts, it is commonly referred to as postpartum OCD (obsessive compulsive disorder). According to a research published in the Journal of Reproductive Medicine, up to 11% of women may develop postpartum OCD symptoms. It's important to remember that in most circumstances, these ideas are just a symptom. These ideas are typically focused on the baby, but they may also include thoughts of self-harm or violence directed towards a partner or family member. Patients who are having these distressing ideas may believe they are going insane. They believe that a good parent could never have such horrible sentiments. Actually, these feelings of concern are indications that you are not insane. Keep  in mind that you are not your thoughts. These are only symptoms caused by your brain, and they will pass as well."
+      ]
+    },
+    {
+      "tag": "ppd_learn",
+      "patterns": [
+        "Where else can I go to learn more about Postpartum depression?",
+        "I want to learn more regarding postpartum",
+        "Learn about postpartum"
+      
+      ],
+      "responses": [
+        "Postpartum Support International (information for moms, their partners and link to chat room), Online Postpartum Depression Support Group, Pacificm Postpartum Support Society and Postpartum Depression."
+        
+      ]
+    },
+    {
+      "tag": "ppd_treatmmop",
+      "patterns": [
+        "What are the treatment options for postpartum mood disorders for mothers?",
+        "Treatment options for postpartum",
+        "Treatment options for this mood disorder"
+      ],
+      "responses": [
+        "The signs and symptoms of postpartum mood disorders can be effectively treated with medication and therapy, according to extensive research. Although there is currently no cure, medications can enhance quality of life. Find out from your healthcare provider which drugs or treatments might be best for you."
+        
+      ]
+    },
+    {
+      "tag": "ppd_factorsofpd",
+      "patterns": [
+        "What are the biggest factors of postnatal depression?",
+        "Factors of postnatal depression"
+
+      ],
+      "responses": [
+        "Past history of depression or anxiety, including during pregnancy, Baby blues, Family history of depression, Lack of social support, Poor partner relationship and Preterm birth, infant health problems, need for neonatal intensive care."
+      ]
+    },
+    {
+      "tag": "ppd_strategies",
+      "patterns": [
+        "Which are strategies for preventing postpartum depression?",
+        "Strategies that can do with postpartum",
+        "List of strategies",
+        "strategies"
+
+      ],
+      "responses": [
+        "There are 8 strategies you can do to prevent postpartum depression such as Talk to Your Medical Team, Get Active, Rest, Eat a Healthy Diet, Seek Breastfeeding Support, Ask For Help, Take Time to Connect with Your Baby and Talk to Other Mothers."
+      ]
+    },
+    {
+      "tag": "ppd_advice",
+      "patterns": [
+        "What advice do you give to postpartum mothers?",
+        "I need advice",
+        "Give me an advice",
+        "Advice"
+        
+      ],
+      "responses": [
+        "Women in the postnatal period need to maintain a balanced diet, just as they did during pregnancy. Iron and folic acid supplementation should also continue for 3 months after birth. Women who are breastfeeding require additional food and should drink sufficient clean water."
+      ]
+    },
+    {
+      "tag": "ppd_manage",
+      "patterns": [
+        "How do you manage postpartum care?",
+        "Ways to manage postpartum care",
+        "Manage postpartum care"
+    
+      ],
+      "responses": [
+        "There are ways to manage postpartum care such as Get plenty of rest, Get as much sleep as possible to cope with tiredness and fatigue, Seek help, Don't hesitate to accept help from family and friends during the postpartum period, as well as after this period, Eat healthy meals, Maintain a healthy diet to promote healing and Exercise."
+      ]
+    },
+    {
+      "tag": "ppd_highrisk",
+      "patterns": [
+        "What puts a woman at higher risk for PPD?",
+        "Reason of high risk ppd",
+        "Common risk in postpartum"
+
+      ],
+      "responses": [
+        "The most common risk factors identified were high life stress, lack of social support, current or past abuse, prenatal depression, and marital or partner dissatisfaction. The 2 strongest risk factors for PPD were prenatal depression and current abuse."
+      ]
+    },
+    {
+      "tag": "ppd_long",
+      "patterns": [
+        "How long are you considered as postpartum?",
+        "How long are you considered depressed?"
+      
+      ],
+      "responses": [
+        "There is consensus that the postpartum period begins upon birth of the newborn. The end is less well defined, but is often considered the six to eight weeks after birth because the effects of pregnancy on many systems have largely returned to the prepregnancy state by this time."
+      ]
+    },
+    {
+      "tag": "ppd_common",
+      "patterns": [
+        "How common is postpartum?",
+        "Is postpartum common?",
+        "Is PPD common?",
+        "Is postpartum depression common?",
+        "History"
+      ],
+      "responses": [
+        "Postpartum depression is common. As many as 75% of people experience baby blues after delivery. Up to 15% of these people will develop postpartum depression."
+        
+      ]
+    },
+    {
+      "tag": "ppd_mainways",
+      "patterns": [
+        "What are two main ways to treat postpartum depression?",
+        "Two main ways to treat postpartum depression",
+        "Main ways to treat postpartum",
+        "Ways to treat postpartum depression"
+      ],
+      "responses": [
+        "Medications and psychotherapy are effective for most people with depression. Your primary care doctor or psychiatrist can prescribe medications to relieve symptoms. However, many people with depression also benefit from seeing a psychiatrist, psychologist or other mental health professional."
+        
+      ]
+    },
+    {
+      "tag": "ppd_anxiety",
+      "patterns": [
+        "How can I stop postpartum anxiety?",
+        "Can I control postpartum anxiety?",
+        "Who should I talk?"
+      ],
+      "responses": [
+        "It may be helpful to talk to a partner, family member or friend about how you feel. They may be able to support you emotionally and practically. For example, they may be able to look after the baby so you can try and sleep. It may also be helpful to talk to other parents."
+      ]
+    },
+    {
+      "tag": "ppd_avoid",
+      "patterns": [
+        "What should you avoid during postpartum?",
+        "Ways to avoid postpartum",
+        "How can I avoid postpartum?",
+        "How to avoid"
+
+      ],
+      "responses": [
+        "Avoid stairs and lifting until your doctor says these activities are OK. Don't take a bath or go swimming until the doctor says it's OK. Don't drive until your doctor says it's OK. Also wait until you can make sudden movements and wear a safety belt properly without discomfort."
+      ]
+    },
+    {
+      "tag": "ppd_pcare",
+      "patterns": [
+        "Why postpartum care is important?",
+        "Is postpartum care importance?",
+        "Importance of postpartum care"
+        
+      ],
+      "responses": [
+        "Since medical complications can occur after a woman has given birth, postpartum visits can address any adverse effects that giving birth had on a woman's body, such as persistent bleeding, inadequate iron levels, blood pressure, pain, emotional changes, and infections."
+      ]
+    },
+    {
+      "tag": "ppd_prevent",
+      "patterns": [
+        "Can I prevent postpartum depression?",
+        "Can I stop postpartum depression?",
+        "Can I prevent postpartum?"
+      ],
+      "responses": [
+        "Since depression  during pregnancy or a past incident of postpartum depression are two of the main risk factors for PPD, your doctor may recommend that you continue treatment for depression throughout pregnancy if you have a history of either condition to help reduce your risk of developing postpartum depression."
+      ]
+    },
+    {
+      "tag": "ppd_difficulty",
+      "patterns": [
+        "Why is postpartum is difficult?",
+        "Is it difficult to have postpartum?",
+        "Difficulty of postpartum",
+        "Difficulty of birth"
+      ],
+      "responses": [
+        "Birth is hard work for the body. Afterwards, a woman is exhausted, but usually cannot rest because the needs of the newborn baby come first. In addition, there are physical changes – the stomach, breasts and metabolism change abruptly."
+      ]
+    },
+    {
+      "tag": "ppd_monitor",
+      "patterns": [
+        "What do you monitor in postpartum?",
+        "Why postpartum should be monitored?"
+
+      ],
+      "responses": [
+        "The comprehensive postpartum visit should include a full assessment of physical, social, and psychological well-being, including the following domains: mood and emotional well-being; infant care and feeding; sexuality, contraception, and birth spacing; sleep and fatigue; physical recovery from birth; chronic disease"
+      ]
+    },
+    {
+      "tag": "ppd_rest",
+      "patterns": [
+        "How long should a woman rest with postpartum?",
+        "How long should a woman rest with postpartum depression?",
+        "How long should a woman rest with ppd",
+        "rest"
+        
+      ],
+      "responses": [
+        "No matter how you delivered your baby, the postpartum recovery period is generally considered to be the first six weeks after childbirth. This doesn't mean that at six weeks you'll magically bounce back to pre-baby condition."
+      ]
+    },
+    {
+      "tag": "ppd_stay",
+      "patterns": [
+        "Does postpartum stay forever?",
+        "Does it stay forever?",
+        "Does potpartum depression stay forever?"
+      ],
+      "responses": [
+        "Most mothers experience symptoms within the first few weeks of giving birth (often within 6 weeks). But some people do not develop PPD symptoms until after 6 months. Women with PPD can experience symptoms for months or longer. In fact, studies have found that PDD can even last up to 3 years after birth."
+      ]
+    },
+    {
+      "tag": "ppd_end",
+      "patterns": [
+        "Does postpartum ever end?",
+        "Does it stops?",
+        "Does postpartum depression ends?",
+        "Postpartum withoud treatment"
+
+      ],
+      "responses": [
+        "Without treatment, postpartum depression can last for months or even years. However, effective treatment is available that can help women manage their symptoms and improve their quality of life."
+      ]
+    },
+    {
+      "tag": "ppd_alone",
+      "patterns": [
+        "Is feeling alone part of postpartum?",
+        "Sense of isolation",
+        "Feeling alone"
+      ],
+      "responses": [
+        "What you may not be expecting is the sense of isolation that is common for parents who have just given birth to a baby, especially for first-time mothers. Any life change—like starting a new job or moving to a new town—is known to cause feelings of loneliness and disconnection."
+        
+      ]
+    },
+    {
+      "tag": "ppd_panxiety",
+      "patterns": [
+        "Is postpartum anxiety a thing?",
+        "Does postpartum anxiety a thing?",
+        "What is postpartum anxiety?",
+        "Postpartum anxiety"
+       
+      ],
+      "responses": [
+        "Postpartum anxiety is excessive worrying that occurs after childbirth or adoption. People with postpartum anxiety may feel consumed with worry and constantly nervous or panicked. If you or someone you know has symptoms of postpartum anxiety, get help from a healthcare provider immediately"
+        
+      ]
+    },
+    {
+      "tag": "ppd_postnatald",
+      "patterns": [
+        "How does postnatal depression affect the brain?",
+        "Can postnatal depression affects te brain?"
+        
+      ],
+      "responses": [
+        "In the postpartum period, the hippocampus also loses some of its plasticity — its ability to adapt and reroute connections between nerve cells, according to research conducted by Galea. Depression disrupts the typical patterns of brain activity."
+      ]
+    },
+    {
+      "tag": "ppd_defense",
+      "patterns": [
+        "Can post partum depression be used as a defense",
+        "Postpartum as defense",
+        "Defense"
+
+      ],
+      "responses": [
+        "This analysis of basic principles of the insanity defense and research on postpartum depression (PPD) concludes that postpartum depression should be admitted as a defense in criminal proceedings."
+      ]
+    },
+    {
+      "tag": "ppd_morelikely",
+      "patterns": [
+        "Who is more likely to get PPD?",
+        "Who is more prone with postpartum?",
+        "Who is more at risks?",
+        "Highest risks"
+        
+      ],
+      "responses": [
+        "The risk for postpartum depression is highest among first-time mothers, mothers younger than 25 years old and mothers of twins, according to a survey of more than 1.1 million moms worldwide."
+      ]
+    },
+    {
+      "tag": "ppd_anger",
+      "patterns": [
+        "Can PPD include anger?",
+        "Can postpartum include anger?",
+        "Can postpartum depression include anger?",
+        "Anger",
+        "Rage"
+      ],
+      "responses": [
+        "Postpartum depression encompasses many symptoms, including anxiety, irritability, and misery. But the symptom that many surprise you most is rage. Yes: it's actually very common for women who are experiencing postpartum depression to have moments—and sometimes a more pervasive feeling—of anger and full-on rage."
+      ]
+    },
+    {
+      "tag": "ppd_stages",
+      "patterns": [
+        "What are the three stages of postpartum?",
+        "Three stages of postpartum",
+        "Three stages of postpartum depression",
+        "3 stages of postpartum"
+
+      ],
+      "responses": [
+        "The postpartum period can be divided into three distinct stages; the initial or acute phase, 8–19 hours after childbirth; subacute postpartum period, which lasts two to six weeks, and the delayed postpartum period, which can last up to eight months."
+      ]
+    },
+    {
+      "tag": "ppd_delayed",
+      "patterns": [
+        "What is delayed postpartum?",
+        "What is delayed postpartum depression?",
+        "Delayed postpartum",
+        "Delayed postpartum depression"
+      ],
+      "responses": [
+        "Delayed postpartum depression, also known as late-onset postpartum depression, can affect women up to 18 months after delivery. It can even appear later than that in some women, depending on the hormonal changes that occur after having a baby."
+        
+      ]
+    },
+    {
+      "tag": "ppd_todo",
+      "patterns": ["What should I do if I have symptoms of postpartum depression?", 
+      "I have feel the symptoms, what should i do?", 
+      "What should  I do to stop this symptoms?"],
+      "responses": [
+        "Call your doctor, nurse, midwife, or pediatrician if your baby blues don’t go away after 2 weeks, symptoms of depression get more and more intense, symptoms of depression begin within 1 year of delivery and last more than 2 weeks, it is difficult to work or get things done at home, you cannot care for yourself or your baby (e.g., eating, sleeping, bathing) and you have thoughts about hurting yourself or your baby. "
+       
+      ]
+    },
+    {
+      "tag": "pdd_hormones",
+      "patterns": ["How long do postpartum hormones last",
+      "Hormones return to normal"
+    ],
+      "responses": ["Six months postpartum is a reasonable estimate for when your hormones will return to normal, but it could be earlier depending on whether or how frequently you breastfeed. Midway through the first year is also around when many people have their first postpartum period, and that's no accident."]
+    },
+    {
+      "tag": "ppd_stress",
+      "patterns": [
+        "Does stress cause postpartum?",
+        "Does stress cause postpartum depression?",
+        "Stress as a cause of postpartum depression",
+        "Is stress can cause postpartum"
+      ],
+      "responses": [
+        "Some women may live with chronic levels of high stress related to relationships or financial strain, all of which may contribute to the development of postpartum depression (PPD)."
+        
+      ]
+    },
+    {
+      "tag": "ppd_commoncause",
+      "patterns": [
+        "What is the most common cause of postpartum?",
+        "Common cause of postpartum",
+        "What is the most common cause of postpartum depression?",
+        "Common cause of postpartum depression"
+     
+      ],
+      "responses": [
+        "Uterine atony. This is the most common cause of PPH. It happens when the muscles in your uterus don't contract (tighten) well after birth. Uterine contractions after birth help stop bleeding from the place in the uterus where the placenta breaks away."
+      ]
+    },
+    {
+      "tag": "ppd_problems",
+      "patterns": [
+        "What are common postpartum problems?",
+        "Common postpartum problems",
+        "What are common postpartum depression problems?",
+        "Common postpartum depression problems",
+        "Common problems with ppd"
+
+      
+      ],
+      "responses": [
+        "Infection or sepsis. Excessive bleeding after giving birth (hemorrhage) A disease of the heart muscle that makes it harder for your heart to pump blood to the rest of your body (cardiomyopathy)"
+        
+      ]
+    },
+    {
+      "tag": "ppd_recurrent",
+      "patterns": [
+        "Can you have postpartum twice?",
+        "Does postpartum reoccur?",
+        "Recurrence of postpartum"
+      ],
+      "responses": [
+        "The recurrence of postpartum depression is very common. Oftentimes the recurrence is more likely after a subsequent childbirth because women experience new challenges of caring for multiple children, or they have other changes in their support system."
+        
+      ]
+    },
+    {
+      "tag": "ppd_mothersdo",
+      "patterns": [
+        "What can mothers do when faced with postpartum mood disorders?",
+        "Ways a mother can do with postpartum depression.",
+        "Treatments for postpartum mood disorder"
+
+      ],
+      "responses": [
+        "There are well-researched treatments for the symptoms of postpartum mood disorders, including medication and therapy. There is no cure yet, but medications can improve quality of life. Talk to your healthcare provider about which medications or therapies might be right for you."
+      ]
+    },
+    {
+      "tag": "ppd_say",
+      "patterns": [
+        "What do you say to someone who is struggling with postpartum?",
+        "Advice to someone who has postpartum depression",
+        "Advice",
+        "Give me advice"
+
+      ],
+      "responses": [
+        "Let your friend know that you love her no matter what. Validate her feelings and let her know that you wish you could understand. Put her in touch with a support group or help her research support groups."
+      ]
+    },
+    {
+      "tag": "ppd_depression",
+      "patterns": [
+        "What are the 4 levels of depression?",
+        "4 levels of depression",
+        "Different levels of depression",
+        "Levels of depression"
+        
+      ],
+      "responses": [
+        "You may be diagnosed with none, mild, moderate or severe depression. Your mental health professional may diagnose you with depression if these symptoms: happen most days."
+      ]
+    },
+    {
+      "tag": "ppd_destress",
+      "patterns": [
+        "How do you destress postpartum?",
+        "Destressing postpartum depression",
+        "How to destress postpartum?"
+    
+      ],
+      "responses": [
+        "Exercise may be the safest 'antidepressant' for women suffering from postpartum stress, anxiety, or depression, she continues. Regular exercise can improve mental health, relieve stress, improve depression and anxiety, and help you sleep better."
+      ]
+    },
+    {
+      "tag": "ppd_worry",
+      "patterns": [
+        "When should I worry about postpartum?",
+        "Worry about postpartum"
+
+      ],
+      "responses": [
+        "Swelling, redness, discharge or bleeding from your cesarean incision or episiotomy site. An incision that begins to separate. Problems urinating, including inability to urinate, burning while urinating or extremely dark urine. No bowel movement within four days of giving birth."
+      ]
+    },
+    {
+      "tag": "ppd_improve",
+      "patterns": [
+        "How can I improve my postpartum recovery?",
+        "What can I do to improve my postpartum recovery? ",
+        "Postpartum recovery"
+      
+      ],
+      "responses": [
+        "There are 5 tips I can recommend. These are Get Physical. While you're still pregnant, take steps to plan for your physical postpartum care, Be Real With Your Emotions. The time after you have a baby is often incredibly emotional, Prioritize Yourself, Hire a Postpartum Doula and Don't Skimp on Rest."
+      ]
+    },
+    {
+      "tag": "ppd_postpartumstage",
+      "patterns": [
+        "How long is postpartum stage?",
+        "Postpartum stage",
+        "How long does postpartum stage takes place?"
+      ],
+      "responses": [
+        "The first six weeks after giving birth are known as the postpartum period. This period is an intense time that requires all sorts of care for you and your baby."
+      ]
+    },
+    {
+      "tag": "ppd_active",
+      "patterns": [
+        "How active should you be during postpartum period?",
+        "Should I become active during postpartum?"
+        
+      ],
+      "responses": [
+        "For most healthy women, the Department of Health and Human Services recommends at least 150 minutes a week of moderate-intensity aerobic activity — preferably spread throughout the week — after pregnancy. Consider these guidelines: Take time to warm up and cool down. Begin slowly and increase your pace gradually."
+      ]
+    },
+    {
+      "tag": "ppd_postanx",
+      "patterns": [
+        "How long can you have postpartum anxiety?",
+        "How long can postpartum anxiety affects your body?",
+        "Does postpartum anxiety go away easily?"
+      ],
+      "responses": [
+        "Unlike the baby blues, which last about two weeks, postpartum anxiety doesn't always go away on its own. It's crucial to seek help if anxiety is disrupting your sleep or you're constantly preoccupied with worries. In moderate to severe untreated cases, postpartum anxiety can last indefinitely."
+      ]
+    },
+    {
+      "tag": "ppd_overthinking",
+      "patterns": [
+        "Is overthinking part of postpartum?",
+        "Doesoverthinking part of postpartum?",
+        "Is overthinking related to postpartum depression?"
+      ],
+      "responses": [
+        "Postpartum anxiety also can occur after women give childbirth. Anxiety symptoms include panic attacks, worrying, poor focus, lack of sleep and overthinking and overprotecting."
+      ]
+    },
+    {
+      "tag": "ppd_stop",
+      "patterns": [
+        "How can I stop postpartum anxiety?",
+        "How to stop postpartum anxiety?",
+        "Stop postpartum anxiety"
+
+      ],
+      "responses": [
+        "It may be helpful to talk to a partner, family member or friend about how you feel. They may be able to support you emotionally and practically. For example, they may be able to look after the baby so you can try and sleep. It may also be helpful to talk to other parents."
+      ]
+    },
+    {
+      "tag": "ppd_affectmem",
+      "patterns": [
+        "Does PPD affect memory?",
+        "Does postpartum affect memory?",
+        "Does postpartum depression affect memory?"
+        
+      ],
+      "responses": [
+        "This study shows that postpartum depression affects both men and women, and the symptoms of depression affect the working and short-term memories of affected individuals."
+      ]
+    },
+    {
+      "tag": "ppd_intrusive",
+      "patterns": [
+        "How do I deal with postpartum intrusive thoughts?",
+        "Dealing with postpartum intrusive thoughts",
+        "Overcoming with postpartum intrusive thoughts"
+      ],
+      "responses": [
+        "The most important step in overcoming postpartum OCD is being honest with yourself and those around you. It's recognizing that your intrusive thoughts are not crazy. The obsessive need to protect your baby is reassurance that your thoughts are just that—thoughts, not intentions."
+      ]
+    },
+    {
+      "tag": "ppd_ptsd",
+      "patterns": [
+        "Is PPD a form of PTSD?",
+        "Is PPD a PTSD?",
+        "PPD-PTSD",
+        "PTSD"
+      ],
+      "responses": [
+        "P-PTSD happens as the result of a trauma or perceived trauma, while PPD happens because of hormonal changes in a woman's body after delivery. It's important that you and the medical professionals you turn to for help are able to distinguish between the two so that you can seek the most effective treatment plan."
+      ]
+    },
+    {
+      "tag": "neurotic_psychotic",
+      "patterns": [
+        "Is postpartum depression neurotic or psychotic?",
+        "Neurotic or Psychotic?",
+        "Neurotic",
+        "Psychotic"
+      ],
+      "responses": [
+        "The postpartum period is a time of increased risk for the onset or exacerbation of mood instability particularly in women with bipolar disorder. Though the nosological status of PP remains controversial, it is generally considered a psychotic episode of bipolar disorder."
+      ]
+    },
+    {
+      "tag": "trigger_postpartum",
+      "patterns": [
+        "What can trigger postpartum depression?",
+        "Trigger postpartum",
+        "Provoke postpartum",
+        "Stir up postpartum",
+        "Cause postpartum",
+        "Work up postpartum"
+      ],
+      "responses": [
+        "During pregnancy, your body has higher levels of the hormones estrogen and progesterone. But in the first 24 hours after giving birth, these hormones quickly go back to their normal levels. This rapid drop in hormone levels may lead to PPD."
+      ]
+    },
+    {
+      "tag": "higherrisk_ppd",
+      "patterns": [
+        "What puts a woman at higher risk for postpartum depression?",
+        "Higher risk for postpartum depression",
+        "Risk of postpartum depression",
+        "Risk of postpartum"
+      ],
+      "responses": [
+        "The most common risk factors identified were high life stress, lack of social support, current or past abuse, prenatal depression, and marital or partner dissatisfaction. The 2 strongest risk factors for PPD were prenatal depression and current abuse."
+      ]
+    },
+    {
+      "tag": "bipolar",
+      "patterns": [
+        "Can postpartum depression turn into bipolar?",
+        "Bipolar",
+        "Am I bipolar?",
+        "If I have postpartum depression I have bipolar disorder?"
+      ],
+      "responses": [
+        "Postpartum depression doesn't cause bipolar disorder. Depression is a symptom of postpartum bipolar disorder, and for many women, it's the first recognized symptom after giving birth. Because of this, many women with postpartum bipolar disorder are misdiagnosed with unipolar PPD rather than postpartum bipolar disorder."
+      ]
+    },
+    {
+      "tag": "ppd_lastlifetime",
+      "patterns": [
+        "Can postpartum depression last a lifetime?",
+        "How long does it last?",
+        "How long does ppd last?",
+        "How long does postpartum depression lasts?",
+        "Does it last a lifetime?"
+      ],
+      "responses": [
+        "Left untreated, post-partum depression can persist for months or years. Mothers with long-term undiagnosed post-partum depression may fail to connect with their babies, which can cause babies problems with eating and sleeping, as well as mental health and behavioral issues that can persist throughout their lifetime."
+      ]
+    },
+    {
+      "tag": "live_ppd",
+      "patterns": [
+        "How do people live with postpartum depression?",
+        "How can I live with postpartum depression",
+        "Live with PPD",
+        "Live with postpartum"
+      ],
+      "responses": [
+        "Cognitive-behavioral therapy (CBT) can help someone with paranoid personality disorder recognize their destructive beliefs and thought patterns. By changing how these beliefs influence their behavior, CBT can help reduce paranoia and improve how well your loved one interacts with others."
+      ]
+    },
+    {
+      "tag": "affect_life",
+      "patterns": [
+        "How does postpartum depression affect daily life?",
+        "Affect daily life",
+        "How does it affect my life?",
+        "How does it affect my daily life?",
+        "Affects my life",
+        "Affects me"
+      ],
+      "responses": [
+        "Difficulty concentrating, remembering things or making decisions. Feeling that life isn't worth living. Having low energy or extreme fatigue that doesn't improve with rest. Physical aches and pains, including frequent headaches, stomach problems, and muscle pain."
+      ]
+    },
+    {
+      "tag": "types_ppd",
+      "patterns": [
+        "What are the different types of postpartum?",
+        "Types of Postpartum",
+        "Types",
+        "Different types",
+        "Different types of postpartum"
+      ],
+      "responses": [
+        "The baby blues happen to as many as 70% of women in the days right after childbirth. Postpartum depression (PPD) can happen a few days or even months after childbirth. Postpartum psychosis is a very serious mental illness that can affect new mothers."
+      ]
+    },
+    {
+      "tag": "pain_last",
+      "patterns": [
+        "How long does postpartum pain last?",
+        "Postpartum pain last?",
+        "Pain last?",
+        "How long does pain last?"
+      ],
+      "responses": [
+        "If you had a vaginal birth, your perineum (the area between the anus and the vagina) will be sore and may take three to six weeks to heal. If you had an episiotomy or perineal tear, expect the full six weeks and don't be surprised if complete healing takes longer."
+      ]
+    },
+    {
+      "tag": "immediate_care",
+      "patterns": [
+        "What is the immediate postpartum care?",
+        "Immediate care",
+        "Postpartum care",
+        "Care",
+        "Remedy",
+        "Treatment",
+        "Home treatment",
+        "Home care"
+      ],
+      "responses": [
+        "Following childbirth at home, it is important that the mother and baby receive a postnatal examination as early as possible, preferably within 24 hours of birth. If the birth was at a facility, mother and baby should receive a postnatal examination before discharge."
+      ]
+    },
+    {
+      "tag": "cant_sleep",
+      "patterns": [
+        "Why can't I sleep postpartum?",
+        "I can't sleep, is it because of postpartum?",
+        "Is it because of postpartum, that why I can't sleep"
+      ],
+      "responses": [
+        "Once you give birth, your levels of estrogen and progesterone drop precipitously. These hormones influence circadian rhythms, your body's natural sleep-wake cycle. 1 When your circadian rhythms are disrupted, you may be sleepier during the day and more alert at night."
+      ]
+    },
+    {
+      "tag": "body_postpartum",
+      "patterns": [
+        "What happens to your body postpartum?",
+        "Postpartum body",
+        "Body after giving birth",
+        "I feel I have a postpartum body"
+      ],
+      "responses": [
+        "After your baby is born, your body gets rid of the blood and tissue that was inside your uterus. This is called vaginal discharge or lochia. For the first few days, it's heavy, bright red and may contain blood clots. Over time, the flow gets less and lighter in color."
+      ]
+    },
+    {
+      "tag": "stress_ppd",
+      "patterns": [
+        "How does stress affect postpartum?",
+        "Does stress affect postpartum",
+        "Stress affects postpartum",
+        "I'm stress does it affect postpartum"
+      ],
+      "responses": [
+        "During labor, the hormones associated with psychological stress — epinephrine and cortisol — rise by a whopping 500%. And in the aftermath, mothers may experience a number of physical stressors, like perineal pain, torn tissues, backaches, and urinary tract problems."
+      ]
+    },
+    {
+      "tag": "postpartum_difficul",
+      "patterns": [
+        "Why is postpartum difficult?",
+        "Is postpartum difficult?",
+        "Why is postpartum so hard"
+      ],
+      "responses": [
+        "Birth is hard work for the body. Afterwards, a woman is exhausted, but usually cannot rest because the needs of the newborn baby come first. In addition, there are physical changes – the stomach, breasts and metabolism change abruptly."
+      ]
+    },
+    {
+      "tag": "ppd_changes",
+      "patterns": [
+        "What are some postpartum changes?",
+        "Postpartum changes",
+        "What does postpartum change?"
+      ],
+      "responses": [
+        "You may experience certain changes after delivery, including lochia (discharge), breast engorgement, discomfort in the perineal area, and constipation. Tips are provided for dealing with these, and other changes."
+      ]
+    },
+    {
+      "tag": "benefits_ppd",
+      "patterns": [
+        "What are the benefits of postpartum?",
+        "Benefits of postpartum",
+        "Is there any benefits in having postpartum?",
+        "Does acquiring postpartum give benefits?"
+      ],
+      "responses": [
+        "Later postpartum benefits include decreased symptoms of depression, improved self-esteem, exclusive breastfeeding, and increased sensitivity of the mother to her child's needs. The results of these 12 trials strongly suggest that doula support is an essential component of childbirth."
+      ]
+    },
+    {
+      "tag": "ppd_dangersigns",
+      "patterns": [
+        "What are postpartum danger signs?",
+        "Danger Signs",
+        "Postpartum danger signs",
+        "Danger sign in postpartum"
+      ],
+      "responses": [
+        "In general, warning signs of serious health conditions include chest pain, trouble breathing, heavy bleeding and extreme pain."
+      ]
+    },
+    {
+      "tag": "ppd_occur",
+      "patterns": [
+        "When is PPD most likely to occur?",
+        "Postpartum occur?",
+        "When does it occur?",
+        "When does postpartum occur?",
+        "PPD most likely occur when?"
+      ],
+      "responses": [
+        "On average, PPD usually begins in the first 3 weeks after having a baby, according to ACOG, the American College of Obstetricians and Gynecologists."
+      ]
+    },
+    {
+      "tag": "prone_ppd",
+      "patterns": [
+        "Which patient is most prone to postpartum depression?",
+        "Kind of women who is most likely to acquire postpartum depression",
+        "Prone to postpartum",
+        "Women prone to postpartum"
+      ],
+      "responses": [
+        "The risk for postpartum depression is highest among first-time mothers, mothers younger than 25 years old and mothers of twins, according to a survey of more than 1.1 million moms worldwide."
+      ]
+    },
+    {
+      "tag": "riskfactor_pnd",
+      "patterns": [
+        "What is the largest risk factor for postnatal depression?",
+        "Risk factor for postnatal depression"
+      ],
+      "responses": [
+        "Inadequate social supports. Poor marital relationship – One of the most consistent findings is that among women who report marital dissatisfaction and/or inadequate social supports, postpartum depressive illness is more common."
+      ]
+    },
+    {
+      "tag": "rest_important",
+      "patterns": [
+        "Why postpartum rest is important?",
+        "Why rest is important",
+        "Is rest important after giving birth?"
+      ],
+      "responses": [
+        "Resting: Delivering a baby is hard work and you probably weren't able to sleep much in the hospital. The first few weeks after delivery are an important time for you to rest whenever you can. Try and sleep or rest when your baby sleeps. This rest will help you recover."
+      ]
+    },
+    {
+      "tag": "rest_ppd",
+      "patterns": [
+        "How much rest should I get postpartum?",
+        "How long should I rest?",
+        "Does resting should be long?",
+        "How much rest should I get?"
+      ],
+      "responses": [
+        "It is going to need time to recover. Your postpartum recovery won't be just a few days. Fully recovering from pregnancy and childbirth can take months. While many women feel mostly recovered by 6-8 weeks, it may take longer than this to feel like yourself again."
+      ]
+    },
+    {
+      "tag": "babies_stress",
+      "patterns": [
+        "Can babies feel your stress?",
+        "Does my baby feel my stress?",
+        "When I'm stress does my baby feel it?"
+      ],
+      "responses": [
+        "Babies sense stress. While most caregivers and parents tend to think the ability to sense stress only happens later in their child's life (after a year or so of age), studies show babies can sense their caretaker's stress as early as three months of age."
+      ]
+    },
+    {
+      "tag": "therapy_ppd",
+      "patterns": [
+        "What type of therapy is best for postpartum?",
+        "Types of therapy for postpartum",
+        "Best therapy for postpartum",
+        "Treatment for postpartum",
+        "Possible treatment for postpartum",
+        "Remedy for postpartum",
+        "Therapy for postpartum"
+      ],
+      "responses": [
+        "Postpartum depression is often treated with psychotherapy — also called talk therapy or mental health counseling — medicine or both. Psychotherapy. It may help to talk through your concerns with a psychiatrist, psychologist or other mental health professional."
+      ]
+    },
+    {
+      "tag": "ppd_timeline",
+      "patterns": [
+        "How long is postpartum timeline?",
+        "Timeline of postpartum",
+        "Longevity of postpartum"
+      ],
+      "responses": [
+        "No matter how you delivered your baby, the postpartum recovery period is generally considered to be the first six weeks after childbirth. This doesn't mean that at six weeks you'll magically bounce back to pre-baby condition."
+      ]
+    },
+    {
+      "tag": "hormones_ppd",
+      "patterns": [
+        "What hormones are high during postpartum?",
+        "Hormones during postpartum"
+      ],
+      "responses": [
+        "Your oxytocin levels surge postpartum to help you feel that strong, motherly instinct and to compensate for the sudden drop in progesterone and estrogen. The prolactin hormone will increase as well to encourage milk production."
+      ]
+    },
+    {
+      "tag": "during_ppd",
+      "patterns": [
+        "What happens to you during postpartum?",
+        "During postpartum",
+        "What happen when you have postpartum",
+        "Symptoms of postpartum",
+        "Symptoms",
+        "What will happen to me when I have postpartum"
+      ],
+      "responses": [
+        "Symptoms can include insomnia, anxiety, rapid heart rate, fatigue, weight loss and irritability (one to four months after birth) or fatigue, weight gain, constipation, dry skin and depression (four to eight months after birth)."
+      ]
+    },
+    {
+      "tag": "overdo_ppd",
+      "patterns": [
+        "What happens if you overdo it postpartum?",
+        "Overdo postpartum",
+        "What will happen to me if I overdo postpartum"
+      ],
+      "responses": [
+        "The structural and hormonal changes that happen during pregnancy don't just disappear as soon as your baby is delivered, and overdoing it after pregnancy can result in urine or feces leakages, pelvis discomfort, joint pain and even injury."
+      ]
+    },
+    {
+      "tag": "focus_ppdcare",
+      "patterns": [
+        "What is the focus of postpartum care?",
+        "Focus of postpartum care",
+        "Postpartum care",
+        "Care for postpartum"
+      ],
+      "responses": [
+        "Specifically, comprehensive postpartum care is based and focused on maximizing maternal and newborn health and wellbeing, which contains routine maternal- and infant-care services together with special care for newborns."
+      ]
+    },
+    {
+      "tag": "ppd_mother",
+      "patterns": [
+        "Who is a postpartum mother?",
+        "Postpartum mother",
+        "Am I postpartum mother?"
+      ],
+      "responses": [
+        "The postpartum period begins soon after the delivery of the baby and usually lasts six to eight weeks and ends when the mother's body has nearly returned to its pre-pregnant state. The postpartum period for a woman and her newborn is very important for both short-term and long-term health and well-being."
+      ]
+    },
+    {
+      "tag": "postpartum_changes",
+      "patterns": [
+        "What are some postpartum changes?",
+        "Changes when I have postpartum",
+        "Changes in me when I have postpartum",
+        "Possible changes that I will acquire when I have postpartum",
+        "Changes when acquire postpartum"
+      ],
+      "responses": [
+        "You may experience certain changes after delivery, including lochia (discharge), breast engorgement, discomfort in the perineal area, and constipation. Tips are provided for dealing with these, and other changes."
+      ]
+    },
+    {
+      "tag": "considered_mental",
+      "patterns": [
+        "Is postpartum considered a mental illness?",
+        "When I have postpartum does it mean I'm ill?",
+        "Does it mean I have mental illness when I have postpartum?",
+        "Is postpartum a mental illness?"
+      ],
+      "responses": [
+        "Symptoms generally do not last for more than a few weeks, and this condition is not considered a mental health disorder, however if a person continues to experience moods swings or feelings of depression for more than two weeks after childbirth, the problem may be more serious."
+      ]
+    },
+    {
+      "tag": "panic_attacks",
+      "patterns": [
+        "Can postpartum cause panic attacks?",
+        "Kind of women who is most likely to acquire postpartum depression",
+        "Prone to postpartum",
+        "Women prone to postpartum"
+      ],
+      "responses": [
+        "Some women experience panic attacks or symptoms of obsessive-compulsive disorder (OCD) in the postpartum period. Panic attacks are distinct episodes of intense anxiety accompanied by physical symptoms including a rapidly beating heart, feelings of doom, shortness of breath, and dizziness."
+      ]
+    },
+    {
+      "tag": "prone_ppd",
+      "patterns": [
+        "What is Mom anxiety?",
+        "Kind of women who is most likely to acquire postpartum depression",
+        "Prone to postpartum",
+        "Women prone to postpartum"
+      ],
+      "responses": [
+        "Postpartum anxiety is excessive worrying that occurs after childbirth or adoption. People with postpartum anxiety may feel consumed with worry and constantly nervous or panicked. If you or someone you know has symptoms of postpartum anxiety, get help from a healthcare provider immediately."
+      ]
+    },
+    {
+      "tag": "suffer_ppd",
+      "patterns": [
+        "Why do people suffer from postpartum?",
+        "Suffer from postpartum",
+        "Why do I suffer from postpartum?",
+        "Why do mothers suffer from postpartum?"
+      ],
+      "responses": [
+        "Some help control your emotions and mood. During pregnancy, your body has higher levels of the hormones estrogen and progesterone. But in the first 24 hours after giving birth, these hormones quickly go back to their normal levels. This rapid drop in hormone levels may lead to PPD."
+      ]
+    },
+    {
+      "tag": "ppd_life",
+      "patterns": [
+        "What is postpartum life?",
+        "Postpartum life",
+        "Life of women with postpartum"
+      ],
+      "responses": [
+        "The postpartum period begins after the delivery of your baby and ends when your body has nearly returned to its pre-pregnant state. This period often lasts 6 to 8 weeks. The postpartum period involves your moving through many changes, both emotionally and physically."
+      ]
+    },
+    {
+      "tag": "ppd_dysphoria",
+      "patterns": [
+        "What is postpartum dysphoria?",
+        "Postpartum Dysphoria",
+        "Dysphoria"
+      ],
+      "responses": [
+        "Postpartum dysphoria (Baby Blues) is a puerperal-disease of mothers who have recently given birth; its prevalence in western industrialized countries ranges from 26 to 85% The baby-blues may begin during the first week after birth, lasts a few days and disappears without any medical treatment."
+      ]
+    },
+    {
+      "tag": "risk_ppdpsychosis",
+      "patterns": [
+        "What increases risk of postpartum psychosis?",
+        "Triggers risk of postpartum psychosis",
+        "Triggers postpartum psychosis",
+        "Risk factors of postpartum psychosis"
+      ],
+      "responses": [
+        "The most significant risk factors for postpartum psychosis are a personal or family history of bipolar disorder, or a previous psychotic episode. Of the women who develop a postpartum psychosis, research has suggested that there is approximately a 5% suicide rate and a 4% infanticide rate associated with the illness."
+      ]
+    },
+    {
+      "tag": "recover_psychosis",
+      "patterns": [
+        "Can you recover from postpartum psychosis?",
+        "Recover from postpartum psychosis",
+        "Can I recover from postpartum psychosis?",
+        "Do people with postpartum psychosis recover?"
+      ],
+      "responses": [
+        "Recovering from postpartum psychosis. The most severe symptoms tend to last 2 to 12 weeks. It can take 6 to 12 months or more to recover from the condition. But with treatment, most women with postpartum psychosis do make a full recovery."
+      ]
+    },
+    {
+      "tag": "rage_symptoms",
+      "patterns": [
+        "Is rage a symptom of PPD?",
+        "Is feeling rage a symptoms of postpartum?",
+        "I can't control my anger.",
+        "I'm angry."
+      ],
+      "responses": [
+        "Feeling intense rage is a sign that you may have a postpartum mood disorder. Know you're not alone in your feelings, and help is available. If your current OB-GYN doesn't seem to acknowledge your symptoms, don't be afraid to ask for a referral to a mental health professional."
+      ]
+    },
+    {
+      "tag": "ppd_depression",
+      "patterns": [
+        "Is Postpartum depression the same as depression?",
+        "Is postpartum depression and depression the same?",
+        "Is depression connected to postpartum depression?",
+        "Is depression part of postpartum depression?"
+      ],
+      "responses": [
+        "Regular depression and postpartum depression (PPD), two forms of clinical depression, share a number of symptoms. But there's a difference between the two: Depression is unrelated to pregnancy and childbirth, while postpartum depression can occur during pregnancy or after the birth of your baby."
+      ]
+    },
+    {
+      "tag": "ppd_family",
+      "patterns": [
+        "Does postpartum depression run in families?",
+        "My mother had postpartum depression do I also have it?",
+        "Does postpartum can pass down to children?",
+        "I have postpartum does my baby also have it?"
+      ],
+      "responses": [
+        "Scientists are confident that depression, including postpartum depression, can be inherited."
+      ]
+    },
+    {
+      "tag": "ppd_memoryloss",
+      "patterns": [
+        "Does postpartum depression cause memory loss?",
+        "Is memory loss cause by postpartum depression?"
+      ],
+      "responses": [
+        "For 15% of those women, the period following childbirth becomes a nightmare as they experience sleeplessness, confusion, memory loss, and anxiety during the already stressful adjustment to motherhood."
+      ]
+    },
+    {
+      "tag": "clinical_depression",
+      "patterns": [
+        "Can postpartum depression turn into clinical depression?",
+        "Is postpartum a clinical depression?"
+      ],
+      "responses": [
+        "In more serious cases, it can develop into chronic episodes of depression. Apart from the fact that it happens soon after childbirth, PPD is clinically no different from a depressive episode that occurs at any other time in a woman's life."
+      ]
+    },
+    {
+      "tag": "ppd_control",
+      "patterns": [
+        "What is postpartum control?",
+        "Postpartum control"
+      ],
+      "responses": [
+        "If you are not using a birth control method, it is possible to get pregnant very soon after having a baby. Using a birth control method in the weeks after you have a baby (the postpartum period) helps you avoid an unintended pregnancy and lets you plan your family."
+      ]
+    },
+    {
+      "tag": "highrisk_ppd",
+      "patterns": [
+        "What makes you high risk for postpartum?",
+        "High risk for postpartum",
+        "How do I know if I am a high risk for postpartum"
+      ],
+      "responses": [
+        "You have bipolar disorder. You had postpartum depression after a previous pregnancy. You have family members who've had depression or other mood disorders. You've experienced stressful events during the past year, such as pregnancy complications, illness or job loss."
+      ]
+    },
+    {
+      "tag": "affect_brain",
+      "patterns": [
+        "How does postpartum affect the brain?",
+        "Does postpartum affect the brain?",
+        "Postpartum affect the brain"
+      ],
+      "responses": [
+        "Recent research has shown that postpartum anxiety is related to neurobiological disruptions, such increased activation in the amygdala and insula, and decreased activity in prefrontal regions including the lateral prefrontal cortex."
+      ]
+    },
+    {
+      "tag": "ppd_lonely",
+      "patterns": [
+        "Does postpartum make you lonely?",
+        "I am lonely. Do I have postpartum?"
+      ],
+      "responses": [
+        "What you may not be expecting is the sense of isolation that is common for parents who have just given birth to a baby, especially for first-time mothers. Any life change—like starting a new job or moving to a new town—is known to cause feelings of loneliness and disconnection."
+      ]
+    },
+    {
+      "tag": "ppd_death",
+      "patterns": [
+        "What is the number one cause of death postpartum?"
+      ],
+      "responses": [
+        "In the week after delivery, severe bleeding, high blood pressure and infection are most common. Cardiomyopathy (weakened heart muscle) is the leading cause of deaths 1 week to 1 year after delivery."
+      ]
+    },
+    {
+      "tag": "ppd_paranoia",
+      "patterns": [
+        "What is postpartum paranoia?",
+        "Postpartum Paranoia",
+        "Paranoia"
+      ],
+      "responses": [
+        "If you have postpartum psychosis, you may see or hear things that are not there (hallucinations), feel everyone is against you (paranoia) and experience powerful delusions (beliefs that don't match with reality). If you have postpartum psychosis you will need specialised psychiatric treatment to get better."
+      ]
+    },
+    {
+      "tag": "ppd_bipolar",
+      "patterns": [
+        "How long does postpartum bipolar last?",
+        "How many months does postpartum bipolar last?"
+      ],
+      "responses": [
+        "Postpartum manic episodes tend to be briefer, with a duration of 1 month, as compared to 2.5 months for patients with mixed or depressed episodes. Shorter episodes are associated with a better long term prognosis."
+      ]
+    },
+    {
+      "tag": "ppd_dizzy",
+      "patterns": [
+        "Can postpartum depression make you dizzy?",
+        "Does postpartum depression can make you feel dizzy?",
+        "Can PPD make you dizzy?"
+      ],
+      "responses": [
+        "Physical symptoms of PPD are similar to those of perinatal anxiety and typically include changes in sleep and appetite, nausea, headaches, body aches, and dizziness."
+      ]
+    },
+    {
+      "tag": "term_postpartum",
+      "patterns": [
+        "What is another word for postpartum?",
+        "Other term for postpartum",
+        "Term for postpartum",
+        "Meaning of postpartum"
+      ],
+      "responses": [
+        "While postpartum narrowly refers to a mother after giving birth, the similar term postnatal maybe be used either to contrast, referring to the baby after being born, or may be used synonymously, also referring to the mother."
+      ]
+    },
+    {
+      "tag": "factors_maternal",
+      "patterns": [
+        "Which factors affect in maternal health?",
+        "Factors affect in maternal health"
+      ],
+      "responses": [
+        "Maternal morbidity and mortality particularly affects women of color and women living in low and lower-middle income countries."
+      ]
+    },
+    {
+      "tag": "importance_maternal",
+      "patterns": [
+        "What is the importance of maternal health?",
+        "Importance of maternal health"
+      ],
+      "responses": [
+        "Improving maternal health is key to saving the lives of more than half a million women who die as a result of complications from pregnancy and childbirth each year."
+      ]
+    },
+    {
+      "tag": "ensure_maternal",
+      "patterns": [
+        "How do you ensure maternal health?",
+        "How can I ensure my maternal health?",
+        "How do I ensure maternal healh?"
+      ],
+      "responses": [
+        "The WHO recommends four or more antenatal care visits during pregnancy to ensure the wellbeing of mothers and newborns. During these visits, women should be given nutritional advice, alerted to warning signs indicating possible problems during their term, and given support when planning a safe delivery."
+      ]
+    },
+    {
+      "tag": "stress_maternal",
+      "patterns": [
+        "How does stress affect maternal health?",
+        "Can stress affect maternal health?",
+        "Does maternal health can be affected by stress?"
+      ],
+      "responses": [
+        "Maternal stress has been associated with poor birth outcomes including preterm birth, infant mortality and low birthweight. Stress results in increases in cortisol, norepinephrine and inflammation which affect the fetal environment and have implications for maternal and infant health."
+      ]
+    },
+    {
+      "tag": "mothers_mood",
+      "patterns": [
+        "What can mothers do if they experience postpartum mood disorders?",
+        "What can I do if I experience postpartum mood disorders?",
+        "What will I do if I experience postpartum mood disorders?"
+      ],
+      "responses": [
+        "Medication and therapy are two well-studied treatments for the symptoms of postpartum mood disorders. Although there is no cure, medications can improve quality of life. Consult your healthcare provider about which medications or therapies may be appropriate for you."
+      ]
+    },
+    {
+      "tag": "ppd_pain",
+      "patterns": [
+        "How long have you experienced postpartum pain?",
+        "How long should I experienced postpartum pain?",
+        "When will postpartum pain will go away?"
+      ],
+      "responses": [
+        "After childbirth, most new mothers experience postpartum baby blues, which include mood swings, crying spells, anxiety, and difficulty sleeping. Baby blues typically begin within the first two to three days of birth and can last for up to two weeks."
+      ]
+    },
+    {
+      "tag": "Ts_ppd",
+      "patterns": [
+        "What are the four T's of postpartum?",
+        "Four T's of Postpartum",
+        "T's of Postpartum"
+      ],
+      "responses": [
+        "The causes of postpartum hemorrhage are called the four Ts (tone, trauma, tissue and thrombin). The most common causes of PPH are: Uterine atony: Uterine atony (or uterine tone) refers to a soft and weak uterus after delivery."
+      ]
+    },
+    {
+      "tag": "ppd_chemical",
+      "patterns": [
+        "Is postpartum depression a chemical imbalance?",
+        "Chemical imbalance",
+        "Can postpartum cause chemical imbalance?"
+      ],
+      "responses": [
+        "Like other forms of depression, postpartum depression (PPD) is often associated with a neurotransmitter imbalance. Many new mothers with PPD have low serotonin or norepinephrine levels in the brain that are aggravated by nutritional deficiencies."
+      ]
+    },
+    {
+      "tag": "ppd_affectbrain",
+      "patterns": [
+        "What part of the brain does PPD affect?",
+        "PPD affect brain",
+        "Part of the brain PPD affect",
+        "Part of the brain postpartum affect"
+      ],
+      "responses": [
+        "Recent research has linked postpartum anxiety to neurobiological disruptions such as increased amygdala and insula activation and decreased activity in prefrontal regions such as the lateral prefrontal cortex."
+      ]
+    },
+    {
+      "tag": "maternal_mental",
+      "patterns": [
+        "What is maternal mental health?",
+        "Maternal Mental Health"
+      ],
+      "responses": [
+        "Maternal Mental Health (MMH) disorders include a range of disorders and symptoms, including but not limited to depression, anxiety and psychosis. These disorders and symptoms can occur during pregnancy and/or the postpartum period (together often referred to as the perinatal period)."
+      ]
+    },
+    {
+      "tag": "ppd_mania",
+      "patterns": [
+        "Can postpartum depression cause mania?",
+        "Does postpartum cause mania?",
+        "Mania"
+      ],
+      "responses": [
+        "The high moods of postpartum bipolar disorder can manifest as either mania or hypomania. Mania is very severe symptoms that cause functional impairment."
+      ]
+    },
+    {
+      "tag": "ppd_misdiagnosed",
+      "patterns": [
+        "Can postpartum depression be misdiagnosed?",
+        "PPD misdiagnosed",
+        "Is it possible that postpartum be misdiagnosed?"
+      ],
+      "responses": [
+        "Many women with postpartum depression experience high levels of anxiety and that's one key reason the condition often goes undiagnosed."
+      ]
+    },
+    {
+      "tag": "555_rule",
+      "patterns": [
+        "What is the 555 rule in postpartum?",
+        "555 Rule",
+        "555 Rule in Postpartum"
+      ],
+      "responses": [
+        "New mothers should plan to spend at least 5 days in the bed, 5 days on the bed, and 5 days near the bed. Do you remember birthing your placenta? There is a wound that size that needs to heal."
+      ]
+    },
+    {
+      "tag": "ppd_relapse",
+      "patterns": [
+        "Can you relapse PPD?",
+        "Relapse PPD",
+        "PPD relapse"
+      ],
+      "responses": [
+        "The thing to remember is that postpartum depression doesn't magically resolve the moment your child turns one, and many people experience episodes of relapse long after their original depression has been resolved."
+      ]
+    },
+    {
+      "tag": "mental_baby",
+      "patterns": [
+        "How does my mental health affect my baby?",
+        "Does my mental health affect my baby?",
+        "I have mental health problems. Does it affect my baby?"
+      ],
+      "responses": [
+        "More recent research shows that a mother's mental health can affect her baby while she is pregnant. Stress. Animal studies show that babies exposed to more stress hormones while they are in the womb are more likely to have a very active amygdala in the brain. This means that they have higher anxiety levels."
+      ]
+    },
+    {
+      "tag": "affect_baby",
+      "patterns": [
+        "Can a mothers mental health affect the baby?",
+        "Does my mental health affect my baby?",
+        "I have mental health problems. Does it affect my baby?"
+      ],
+      "responses": [
+        "It shows that babies whose moms had higher levels of anxiety and symptoms of depression may impact the parts of a baby's brain that plays an important role in healthy brain development and the baby's mental health outcomes as they get older."
+      ]
+    },
+    {
+      "tag": "mental_mother",
+      "patterns": [
+        "How important is mental health for mother?",
+        "Important mental health",
+        "How important mental health?",
+        "Is mental health important?"
+      ],
+      "responses": [
+        "The importance of mothers taking care of themselves cannot be overestimated. If a woman is not well – in her body, mind, and emotions – she is more prone to physical illness and mental health issues, and she is also less likely to be able to provide the best care for her child(ren)."
+      ]
+    },
+    {
+      "tag": "ppd_goaway",
+      "patterns": [
+        "How long does PPD take to go away?",
+        "How many months for PPD to go away?",
+        "Does PPD go away?"
+      ],
+      "responses": [
+        "Because PPD can appear anywhere from a couple of weeks to 12 months after birth, there's no average length of time it lasts. A 2014 review of studies suggests that PPD symptoms improve over time, with many cases of depression resolving 3 to 6 months after they begin"
+      ]
+    },
+    {
+      "tag": "factors_baby",
+      "patterns": [
+        "What factors could affect baby if mom is exposed to stress depression?",
+        "I am exposed to stress depression. Does it affect my baby?",
+        "Factor that could affect my baby if I am exposed to stress depression.",
+        "Factors that could affect baby if mother is exposed to stress depression."
+      ],
+      "responses": [
+        "Many independent prospective studies have now shown that if a mother is stressed, anxious or depressed while pregnant, her child is at increased risk for having a range of problems, including emotional problems, ADHD, conduct disorder and impaired cognitive development."
+      ]
+    },
+    {
+      "tag": "crying_pregnancy",
+      "patterns": [
+        "Does crying affect pregnancy?",
+        "I am crying. Does it affect my pregnacy?"
+      ],
+      "responses": [
+        "Having an occasional crying spell isn't likely to harm your unborn baby. More severe depression during pregnancy, however, could possibly have a negative impact on your pregnancy."
+      ]
+    },
+    {
+      "tag": "child_maltreatment",
+      "patterns": [
+        "What is a known risk factor for child maltreatment?",
+        "Risk factor for child maltreatment",
+        "Child Maltreatment"
+      ],
+      "responses": [
+        "A parent's or caregiver's mental health disorders can be a risk factor for child maltreatment. Depression, low self-esteem, poor impulse control, anxiety, and antisocial behavior are linked to a heightened potential for child abuse and neglect as these factors can compromise parenting."
+      ]
+    },
+    {
+      "tag": "complication_pregnancy",
+      "patterns": [
+        "What is the most common major mental health complication of pregnancy?",
+        "Major mental health complication of pregnancy.",
+        "Mental health complication of pregnancy"
+      ],
+      "responses": [
+        "As many as 1 in 5 women have mental health problems in pregnancy or after birth. It can happen to anyone. Depression and anxiety are the most common mental health problems in pregnancy."
+      ]
+    },
+    {
+      "tag": "ppd_disability",
+      "patterns": [
+        "Is postpartum depression considered a disability?",
+        "Is postpartum a disability?"
+      ],
+      "responses": [
+        "State and federal law consider mental health disorders like PPD to be a disability when they interfere with your ability to work or live your life. PPD is recognized as a mental health disorder by the Diagnostic and Statistical Manual of Mental Disorders (5th ed.; DSM-5) and by all major medical organizations"
+      ]
+    },
+    {
+      "tag": "ppd_emotions",
+      "patterns": [
+        "How long does it take for your emotions to return to normal following childbirth?",
+        "How many months or year does it take for emotions to return to normal after giving birth?",
+        "How long does it take for my emotions to return to normal after giving birth?"
+      ],
+      "responses": [
+        "They usually end two weeks after birth. You may experience tears, impatience, irritability, restlessness, or anxiety. These periods are relatively brief and do not last all day. Feelings appear and then vanish on their own."
+      ]
+    },
+    {
+      "tag": "ppd_problems",
+      "patterns": [
+        "What are common postpartum problems?",
+        "Postpartum problems",
+        "Common postpartum problems"
+      ],
+      "responses": [
+        "Cardiovascular diseases. Other medical conditions often reflecting pre-existing illnesses. Infection or sepsis. Excessive bleeding after giving birth (hemorrhage)"
+      ]
+    },
+    {
+      "tag": "kind_depression",
+      "patterns": [
+        "What kind of depression do you get after having a baby?",
+        "Kind of depression you get after giving birth",
+        "What kind of depression do I get after giving birth?"
+      ],
+      "responses": [
+        "Postpartum depression (also called PPD) is a medical condition that many women get after having a baby. It's strong feelings of sadness, anxiety (worry) and tiredness that last for a long time after giving birth. These feelings can make it hard for you to take care of yourself and your baby."
+      ]
+    },
+    {
+      "tag": "care_ppd",
+      "patterns": [
+        "How do you take care of postpartum?",
+        "Care postpartum",
+        "How can I take care of postpartum?"
+      ],
+      "responses": [
+        "Follow your doctor's orders. Don't skip your follow-up appointments and do take it easy, Get as much rest as you can, Accept help from friends and family, Eat healthy meals, Get some exercise, Spend some quality time with your partner and Join a mommy support group."
+      ]
+    },
+    {
+      "tag": "relax_delivery",
+      "patterns": [
+        "How can I relax my mind after delivery?"
+      ],
+      "responses": [
+        "There are several ways to relaqx your mind after delivery such as counseling, improving self-care (getting enough sleep, eating well, exercising, and taking time to relax), getting more support by joining a group or talking (by phone or online) with others going through postpartum depression and taking medicine."
+      ]
+    },
+    {
+      "tag": "ppd_healing",
+      "patterns": [
+        "What helps postpartum healing?",
+        "Postpartum healing",
+        "Tips to postpartum healing",
+        "What can I do to help my postpartum healing?"
+      ],
+      "responses": [
+        "There tips to help you recover with postpartum such as Core strengthening exercises. Try exercises that target your abdominal muscles in your torso, Prenatal vitamins. Keep taking your prenatal vitamins while you breastfeed and Retinoid cream."
+      ]
+    },
+    {
+      "tag": "watch_ppd",
+      "patterns": [
+        "What should I watch for postpartum?"
+      ],
+      "responses": [
+        "Postpartum symptoms to watch out for are very heavy bleeding, like soaking through more than one pad in an hour or noticing large blood clots. A red or swollen leg that feels warm or painful when you touch it. A bad headache that doesn't get better after taking medication, or a bad headache that affects your vision."
+      ]
+    },
+    {
+      "tag": "postnatal_social",
+      "patterns": [
+        "Is postnatal depression a social issue?"
+      ],
+      "responses": [
+        "Diagnosis and treatment of depression during pregnancy and after childbirth becomes a challenge that is not only medical but also social."
+      ]
+    },
+    {
+      "tag": "mom_fog",
+      "patterns": [
+        "What is mom fog?",
+        "Mom fog"
+      ],
+      "responses": [
+        "Colloquially, 'mom brain' refers to the forgetfulness and brain fog that some mothers experience after the birth of their children."
+      ]
+    },
+    {
+      "tag": "go-to_treatment",
+      "patterns": [
+        "What is your go-to treatment for postpartum depression?",
+        "Go-to treatment fot postpartum depression"
+      ],
+      "responses": [
+        "Postpartum depression is frequently treated with psychotherapy, also known as talk therapy or mental health counseling, medication, or a combination of the two. Psychotherapy. It might be beneficial to discuss your concerns with a psychiatrist, psychologist, or other mental health professional."
+      ]
+    },
+    {
+      "tag": "love_baby",
+      "patterns": [
+        "Can you love a baby too much?",
+        "Can I love my baby too much?",
+        "Is it wrong to love my baby too much?"
+      ],
+      "responses": [
+        "While raising babies, parents must remember that there is no such thing as too much affection, too much attention, or too much care. In fact, research proves that parenting is one aspect of adult life when doing things in excess is actually encouraged."
+      ]
+    },
+    {
+      "tag": "ppd_depletion",
+      "patterns": [
+        "What is postpartum depletion?",
+        "Postpartum Depletion"
+      ],
+      "responses": [
+        "Also known as postpartum depletion, the term refers to the combination of physical, hormonal and emotional depletion that a mother can experience after giving birth."
+      ]
+    },
+    {
+      "tag": "baby_rejection",
+      "patterns": [
+        "Can babies feel rejection?",
+        "Does baby feel rejection?",
+        "Can baby sense of rejection?",
+        "Can baby feel rejected?"
+      ],
+      "responses": [
+        "An unborn child can sense and react to emotions such as love and rejection but also to more complex emotions such as ambivalence and ambiguity."
+      ]
+    },
+    {
+      "tag": "hormones_elevated",
+      "patterns": [
+        "What hormones are elevated during postpartum?",
+        "Hormones elevated during postpartum"
+      ],
+      "responses": [
+        "There is a hormonal cascade that occurs after birth—-after delivering the placenta, progesterone and estrogen drop precipitously from their high levels during pregnancy."
+      ]
+    },
+    {
+      "tag": "night_sweats",
+      "patterns": [
+        "When do night sweats stop postpartum?",
+        "When my night sweats will stop?",
+        "How long will my night sweats will last?"
+      ],
+      "responses": [
+        "Most women report that it peaks around two weeks after childbirth and begins to improve after that, resolving completely by the six-week mark. If you experience night sweats that do not resolve after six weeks, it becomes more likely that there is another underlying cause. In those cases, your OB-GYN can help."
+      ]
+    },
+    {
+      "tag": "hormonal_imbalance",
+      "patterns": [
+        "Can postpartum cause hormonal imbalance?",
+        "Is hormonal imbalance cause by postpartum?"
+      ],
+      "responses": [
+        "Postpartum hormonal shifts can leave many new parents feeling down and not like their usual selves. Mood swings, poor sleep, lack of appetite, depression and anxiety, as well as irresistible urges to cry, might all become commonplace. Fortunately, baby blues tend to subside after a week or two."
+      ]
+    },
+    {
+      "tag": "bed_rest",
+      "patterns": [
+        "How long should you be on bed rest postpartum?",
+        "How many months should I be bed rest?"
+      ],
+      "responses": [
+        "For at least the first 24 to 72 hours post-birth, spend as much time as possible in bed, skin-to-skin with the baby, especially if you're trying to get the hang of breastfeeding."
+      ]
+    },
+    {
+      "tag": "ppd_anxiety",
+      "patterns": [
+        "What hormone causes postpartum anxiety?",
+        "Hormone that causes postpartum anxiety"
+      ],
+      "responses": [
+        "Estrogen withdrawal induces oxytocin neuroplasticity in the PVH and DRN to increase anxiety-like behavior during the postpartum period."
+      ]
+    },
+    {
+      "tag": "ppd_headaches",
+      "patterns": [
+        "Are postpartum headaches normal?",
+        "Is it normal to have postpartum headaches?"
+      ],
+      "responses": [
+        "Almost half of all women have a headache in the first few weeks after they give birth to their baby, and it's especially common in the first week. Causes of postpartum headaches include: A sharp drop in hormones. Not enough fluids."
+      ]
+    },
+    {
+      "tag": "ppd_pnd",
+      "patterns": [
+        "What is postpartum/perinatal depression?"
+      ],
+      "responses": [
+        "Postpartum or perinatal depression is a form of depression that occurs following the birth of a baby. It’s a relatively common but serious medical condition, affecting up to 1 in 7 new mothers after birth."
       ]
     }
   ]

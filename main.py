@@ -1,7 +1,8 @@
 from socket import socket
 from sanitybot import create_app
 from flask import request, jsonify
-from chat import chat
+# from chat import chat
+from chat2 import get_response
 from utils import pdd_prediction
 
 app = create_app()
@@ -13,7 +14,7 @@ app = create_app()
 def predict():
     text1 = request.get_json().get("message")
     # TODO: check if text is valid
-    response = chat(text1)
+    response = get_response(text1)
     print(response)
     message = {"answer": response}
     return jsonify(message)
