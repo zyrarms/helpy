@@ -11,9 +11,9 @@
         "Good day"
       ],
       "responses": [
-        "Hello, thanks for visiting. How are you feeling today?",
-        "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
+        "Ang baho",
+        "Ang baho",
+        "Ang baho"
       ]
     },
     {
@@ -37,29 +37,13 @@
     {
       "tag": "pregnancy_symptoms",
       "patterns": [
-        "What are the early signs of pregnancy?",
-        "Early signs of pregnancy.",
-        "What are the symptoms of pregnancy",
-        "Signs of pregnancy.",
-        "Common signs of pregnancy",
-        "Pregnancy symptoms",
-        "What are the pregnancy symptoms?",
-        "How will I know that I am pregnant?",
-        "What are the signs of pregnancy?",
-        "I missed my period",
-        "Im having nausea", 
-        "Im havin heartburn",
-        "Im having constipation",
-        "Is it normal to have  heartburn?",
-        "Is it normal to have nausea?",
-        "Is it normal to have  constipation?",
-        "Im experiencing breast tenderness",
-        "Is it normal to have terder breast?",
-        "Am I pregnant?",
-        "Is it normal to have terder breast when pregnant?"
+        "Is it normal to cry all night?",
+        "I feel sad all the time?"
       ],
       "responses": [
-        "You may feel extra tired in the early days of pregnancy. The most common sign of pregnancy is a missing period, but you might also experience nausea, heartburn, constipation, tiredness, or breast tenderness."
+        "If you have any of the following symptoms of depression for more than 2 weeks, call your doctor, nurse, or midwife. Feeling restless or moody, Feeling sad, hopeless, or overwhelmed, Crying a lot, Having thoughts of hurting the baby, Having thoughts of hurting yourself, Not having any interest in the baby, not feeling connected to the baby, or feeling as if your baby is someone else’s baby, Eating too little or too much, Sleeping too little or too much, Feeling worthless, guilty, or like a bad mother", 
+        "If you have any of the following symptoms of depression for more than 2 weeks, call your doctor, nurse, or midwife. Feeling restless or moody, Feeling sad, hopeless, or overwhelmed, Crying a lot, Having thoughts of hurting the baby, Having thoughts of hurting yourself, Not having any interest in the baby, not feeling connected to the baby, or feeling as if your baby is someone else’s baby, Eating too little or too much, Sleeping too little or too much, Feeling worthless, guilty, or like a bad mother",
+        "If you have any of the following symptoms of depression for more than 2 weeks, call your doctor, nurse, or midwife. Feeling restless or moody, Feeling sad, hopeless, or overwhelmed, Crying a lot, Having thoughts of hurting the baby, Having thoughts of hurting yourself, Not having any interest in the baby, not feeling connected to the baby, or feeling as if your baby is someone else’s baby, Eating too little or too much, Sleeping too little or too much, Feeling worthless, guilty, or like a bad mother"
       ]
     },
     {
@@ -81,20 +65,20 @@
     {
       "tag": "notice_pregnancy",
       "patterns": [
-        "When will i notice it?",
-        "How soon will I see signs of pregnancy",
-        "How long can I notice that I am pregnant?",
-        "When do pregnancy symptoms start?",
-        "What week I will notice that I am pregnant?",
-        "In what week will I notice that I'm pregnant?",
-        "When will I notice that I'm pregnant?",
+        "When are the symptoms of postpartum?",
+        "How soon will I see signs of postpartum?",
+        "How long can I notice that I am depressed",
+        "When do postpartum symptoms start?",
+        "What week I will notice that I am depressed?",
+        "In what week will I notice that I'm depressed?",
+        "When will I notice that I'm depressed?",
         "When this can occur",
-        "How quickly can I know if I'm pregnant?",
-        "How long does it take to know I'm pregnant?"
+        "How quickly can I know if I'm depressed?",
+        "How long does it take to know I'm depressed?"
       ],
       "responses": [
-        "These can occur within the first six to eight weeks of pregnancy.",
-        "Pregnancy occurs within the first six to eight weeks. :-)"
+        "These can occur within the first four to six weeks of delivery.",
+        "Postpartum occurs within the three to four day after giving birth."
       ]
     },
     {
@@ -215,7 +199,9 @@
         "Atleast how many hours should I need to exercise"
       ],
       "responses": [
-        "Healthy pregnant women need at least 2½ hours of moderate-intensity aerobic activity each week. Aerobic activities make you breathe faster and deeply and make your heart beat faster. Moderate-intensity means you’re active enough to sweat and increase your heart rate. Taking a brisk walk is an example of moderate-intensity aerobic activity."
+        "Wag ka na magexercise",
+        "Wag ka na magexercise",
+        "Wag ka na magexercise"
       ]
     },
     {
@@ -332,38 +318,6 @@
       ],
       "responses": [
         "Eating enough of the right types of seafood is not only healthy but recommended for both you and your baby. Pregnant and breastfeeding women should eat 8 to 12 ounces (that's two to three servings) of low-mercury fish every week."
-      ]
-    },
-    {
-      "tag": "avoid_fish",
-      "patterns": [
-        "What types of fish should I avoid during pregnancy?",
-        "Is there any sort of fish thatI should avoid when pregnant?",
-        "What kinds of fish should I avoid when pregnant?",
-        "Which kinds of fish should you stay away from when you're expecting?",
-        "Which sorts of fish should pregnant women avoid?",
-        "What seafood should I avoid when pregnant?",
-        "Is there any sort of fish that I should avoid when pregnant?",
-        "Fish to avoid during pregnancy",
-        "Is there any types of fish should I avoid?",
-        "Is there any types of fish should I avoid when pregnant?",
-        "Best types of fish to avoid",
-        "types of fish to avoid",
-        "Is it okay to eat Shark?",
-        "is it okay to eat Swordfish?",
-        "is it okay to eat Orange roughy?",
-        "is it okay to eat Bigeye tuna?",
-        "is it okay to eat Marlin?",
-        "is it okay to eat King mackerel?",
-        "Is it safe to eat Shark?",
-        "is it safe to eat Swordfish?",
-        "is it safe to eat Orange roughy?",
-        "is it safe to eat Bigeye tuna?",
-        "is it safe to eat Marlin?",
-        "is it safe to eat King mackerel?"
-      ],
-      "responses": [
-        "It's best to avoid these seven types of fish, which are all higher in mercury: Shark, Swordfish, Orange roughy, Bigeye tuna, Marlin and King mackerel"
       ]
     },
     {
@@ -857,7 +811,9 @@
         "Two"
       ],
       "responses": [
-        "It's a potentially life-changing week. You'll ovulate, and if egg meets sperm, you'll be on your way to pregnancy! A few days later, you could notice some light spotting. It might look like your period, but it's actually a sign that the fertilized egg has attached itself to the wall of your uterus."
+        "21021",
+        "21021",
+        "21021"
       ]
     },
     {
@@ -1703,7 +1659,9 @@
 
       ],
       "responses": [
-        "This is the week when you should finally get to meet the squirmy little bundle you've been carrying around for the last 9 months! However, often babies don't cooperate and arrive on schedule. If yours decides to stick around in your womb past your due date, talk to your doctor about whether they will cause you to go into labor, also known as inducing. Your baby is now full-sized. Although newborn sizes can vary, the average baby weighs 7 pounds, and measures 20 inches long from the top of the head to the rump."
+        "bobo ka talaga",
+        "bobo ka talaga",
+        "bobo ka talaga"
       ]
     },
     {
@@ -1757,7 +1715,9 @@
         "I have headaches"
       ],
       "responses": [
-        "oh I see! What else are you feeling aside from that, mommy? Do you feel any of these; please type your symptoms. Coughing, sore throat, watery eyes, fever, headache, sore throat, vomiting, tiredness, chills, sneezing?"
+        "tanga ka",
+        "tanga ka",
+        "tanga ka"
 
       ]
     },
@@ -2259,6 +2219,25 @@
       ],
       "responses": [
         "If your morning sickness symptoms persist, your doctor may prescribe vitamin B-6 (pyridoxine) supplements, ginger, or over-the-counter medications like doxylamine (Unisom). If your symptoms persist, your health care practitioner may prescribe anti-nausea drugs."
+      ]
+    },
+    {
+      "tag": "postpartum",
+      "patterns": [
+        "What is postpartum",
+        "what is postpartum",
+        "what is postpartum?",
+        "postpartum?",
+        "postpartum",
+        "postpartum ?",
+        "What is postpartum?"
+      ],
+      "responses": [
+        "Postpartum is ....",
+        "Postpartum is ....",
+        "Postpartum is ....",
+        "Postpartum is ....",
+        "Postpartum is ...."
       ]
     }
   ]

@@ -14,6 +14,7 @@ def predict():
     text1 = request.get_json().get("message")
     # TODO: check if text is valid
     response = chat(text1)
+    print(response)
     message = {"answer": response}
     return jsonify(message)
 

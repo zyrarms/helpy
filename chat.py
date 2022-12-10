@@ -117,6 +117,8 @@ def bag_of_words(s, words):
 
 #chat method to take input and show output 
 def chat(inp):
+        print(inp)
+        print(words)
         results = model.predict([bag_of_words(inp, words)])[0]
         results_index = numpy.argmax(results)
         tag = labels[results_index]
