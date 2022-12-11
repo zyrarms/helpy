@@ -179,7 +179,7 @@ class Chatbox {
           .then((r) => {
             let msg2 = { name: "Sanitybot", message: r.answer };
             this.messages.push(msg2);
-            msg2 = { name: "Sanitybot", message: "Heres what you can do.... Do you have any questions?" };
+            msg2 = { name: "Sanitybot", message: "Do you have any questions? I will be glad to answer all your queries." };
             this.messages.push(msg2);
             // presetWrapper.style.display = 'flex';
             // elements[0].innerText = "Yes"
