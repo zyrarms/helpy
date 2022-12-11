@@ -2,7 +2,7 @@ from socket import socket
 from sanitybot import create_app
 from flask import request, jsonify
 # from chat import chat
-from chat2 import get_response
+from chat import get_response
 from utils import pdd_prediction
 
 app = create_app()

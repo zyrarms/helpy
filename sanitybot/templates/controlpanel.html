@@ -67,7 +67,7 @@
                 <div class="projects">
                     <div class="card">
                         <div class="card-header">
-                            <h3>User's Health Report</h3>
+                            <h3>User's Maternal Mental Health Report</h3>
 
                         </div>
 
@@ -84,14 +84,10 @@
                                             <td>Contact Number</td>
                                             <td>Date Submitted</td>
                                             <td>Condition</td>
-                                            <td>State</td>
-                                            
-                                           
-                                            
+                                            <td>State</td>                                   
                                         </tr>
                                     </thead>
                                     <tbody>
-
                                         {% for user in users %}
                                         <tr>
                                             <td>{{user.id}}</td>
@@ -101,9 +97,7 @@
                                             <td>{{user.address}}</td>
                                             <td>{{user.contact}}</td>
                                             <td>{{user.date_submitted}}</td>
-                                            <td>{{user.condition}}</td>
-                                            
-
+                                            <td>{{user.condition}}</td>                                            
                                             <td>
                                                 {% if user.state == 'Mild' %}
                                                 <span class="status green"></span> {{user.state}}
@@ -111,27 +105,18 @@
                                                 <span class="status red"></span> {{user.state}}
                                                 {% endif %}
                                             </td>
-                                          
                                         </tr>
                                         {% endfor %}
-
                                     </tbody>
                                 </table>
                             </div>
                         </div>
-
+                    </div>
+                </div>               
                     </div>
                 </div>
-
-               
-                    </div>
-                </div>
-                
             </div>
         </main>
-
     </div>
-
 </body>
-
 </html>

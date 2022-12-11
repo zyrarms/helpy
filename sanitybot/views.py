@@ -24,27 +24,6 @@ def home():
         date_submit = date.today()
         condition = request.form.get('condition')
         
-        if condition == 'Preeclampsia' or condition == 'Postpartum hemorrhage' or condition== 'Anemia' or condition == 'Chorioamnionitis' or condition == 'Gestational diabetes':
-            state = 'Intensive Care'
-            try:
-                report = User_health(firstname=firstname, middlename=middlename, lastname=lastname, address=address, date_submitted=date_submit, contact=contact, condition=condition, state=state)
-                db.session.add(report)
-                db.session.commit()
-                flash('Health Report successfully submitted!', category='success')
-                return redirect(url_for('views.home'))
-            except:
-                return 'ERROR'
-        else:
-            state = 'Mild'
-            # add health report to the database
-            try:
-                report = User_health(firstname=firstname, middlename=middlename, lastname=lastname, address=address, date_submitted=date_submit, contact=contact, condition=condition, state=state)
-                db.session.add(report)
-                db.session.commit()
-                flash('Health Report successfully submitted!', category='success')
-                return redirect(url_for('views.home'))
-            except:
-                return 'ERROR'
     else:       
         # Get logged in user
         user = current_user
@@ -108,9 +87,7 @@ def profile_security():
 @views.route('/dashboard' , methods = ['GET' , 'POST'])
 def dashboard():
     users = User_health.query.all()
-    intensive = User_health.query.filter_by(state='Intensive Care').count()
-    mild = User_health.query.filter_by(state='Mild').count()
-    return render_template("controlpanel.html", users=users, intensive=intensive, mild=mild)
+    return render_template("controlpanel.html", users=users)
 
 # ADMIN PROFILE
 @views.route('/adminprofile',  methods = ['GET', 'POST'])
