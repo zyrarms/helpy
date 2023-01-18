@@ -4,6 +4,7 @@ from sanitybot.models import User_health
 from flask_login import login_required, current_user
 from sanitybot import db
 from sanitybot.models import User
+from datetime import datetime
 
 with open(r'sanitybot\pickles\ppd_decisiontree.pkl', 'rb') as f:
     decisionTree_model = pickle.load(f)
@@ -19,6 +20,7 @@ def pdd_prediction(list):
   user = current_user
   user = User.query.filter_by(id=user.id).first()
   user.epds_score = int(pred_result)
+  user.date_submitted = datetime.now()
   # health = User_health(firstname=user.firstname, middlename=user.middlename,
   #                      lastname=user.lastname, address=user.address, contact=user.contact, condition=int(pred_result))
   # db.session.add(health)
