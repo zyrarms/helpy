@@ -289,6 +289,10 @@ tr td:last-child {
     align-items: center;
 }
 
+.status.neutral {
+    background: rgb(102, 102, 102);
+}
+
 .status.green {
     background: rgb(6, 192, 6);
 }

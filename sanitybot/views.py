@@ -86,7 +86,7 @@ def profile_security():
 # ADMIN HOME DASHBOARD
 @views.route('/dashboard' , methods = ['GET' , 'POST'])
 def dashboard():
-    users = User_health.query.all()
+    users = User.query.all()
     return render_template("controlpanel.html", users=users)
 
 # ADMIN PROFILE

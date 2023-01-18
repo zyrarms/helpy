@@ -1,6 +1,9 @@
 import pickle
 import sklearn
-from sanitybot.models import 
+from sanitybot.models import User_health
+from flask_login import login_required, current_user
+from sanitybot import db
+from sanitybot.models import User
 
 with open(r'sanitybot\pickles\ppd_decisiontree.pkl', 'rb') as f:
     decisionTree_model = pickle.load(f)
@@ -12,6 +15,14 @@ with open(r'sanitybot\pickles\ppd_svm.pkl', 'rb') as f:
 def pdd_prediction(list):
   pred_result = svm_model.predict([list])[0]
   #TODO save data in the database
+
+  user = current_user
+  user = User.query.filter_by(id=user.id).first()
+  user.epds_score = int(pred_result)
+  # health = User_health(firstname=user.firstname, middlename=user.middlename,
+  #                      lastname=user.lastname, address=user.address, contact=user.contact, condition=int(pred_result))
+  # db.session.add(health)
+  db.session.commit()
 
   if pred_result == 0:
     ppd = """Thankyou for answering my initial assessment. Based on your answers, you have “None or Minimal Postpartum Depression” or the depression itself is not likely detectable. That's good news for you. Please continue to support and take care of yourself to have a more positive life after you give birth."""

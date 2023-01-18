@@ -84,7 +84,6 @@
                                             <td>Contact Number</td>
                                             <td>Date Submitted</td>
                                             <td>Condition</td>
-                                            <td>State</td>                                   
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -97,12 +96,17 @@
                                             <td>{{user.address}}</td>
                                             <td>{{user.contact}}</td>
                                             <td>{{user.date_submitted}}</td>
-                                            <td>{{user.condition}}</td>                                            
                                             <td>
-                                                {% if user.state == 'Mild' %}
-                                                <span class="status green"></span> {{user.state}}
+                                                {% if user.epds_score == 0 %}
+                                                <span class="status neutral"></span> {{user.epds_score}}
+                                                {% elif user.epds_score == 1 %}
+                                                <span class="status green"></span> {{user.epds_score}}
+                                                {% elif user.epds_score == 2 %}
+                                                <span class="status yellow"></span> {{user.epds_score}}
+                                                {% elif user.epds_score == 3 %}
+                                                <span class="status red"></span> {{user.epds_score}}
                                                 {% else %}
-                                                <span class="status red"></span> {{user.state}}
+                                                <span class="status neutral"></span> {{user.epds_score}}
                                                 {% endif %}
                                             </td>
                                         </tr>
