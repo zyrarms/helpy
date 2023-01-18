@@ -13,7 +13,6 @@ app = create_app()
 @app.post("/predict")
 def predict():
     text1 = request.get_json().get("message")
-    # TODO: check if text is valid
     response = get_response(text1)
     print(response)
     message = {"answer": response}
@@ -22,7 +21,6 @@ def predict():
 @app.post("/predict_epds")
 def predict_epds():
     text1 = request.get_json().get("message")
-    # TODO: check if text is valid
     response = pdd_prediction(text1)
     print(response)
     message = {"answer": response}
@@ -31,7 +29,6 @@ def predict_epds():
 # @socketio.on('message')
 # def handleMessage(msg):
 #     text1 = request.get_json().get("message")
-#     # TODO: check if text is valid
 #     response = chat(text1)
 #     message = {"answer": response}
 #     send(message, broadcast=True )

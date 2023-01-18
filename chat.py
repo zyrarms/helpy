@@ -61,6 +61,8 @@ def chat(inp):
             if tg['tag'] == tag:
                 responses = tg['responses']
                 return (random.choice(responses))
+            
+    #TODO save data in the database
 
     return 'Sorry, I didnt get that. what is your question again?'
 
