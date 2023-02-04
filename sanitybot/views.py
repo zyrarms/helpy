@@ -201,3 +201,7 @@ def aboutpostpartum():
 def home2():
     user = current_user
     return render_template('home2.html', user=user)
+
+@views.route('/loading', methods = ['GET', 'POST'])
+def loading():
+    return render_template('splash_screen.html')

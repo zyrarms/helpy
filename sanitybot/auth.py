@@ -117,3 +117,8 @@ def admin():
 def adminlogout():
     logout_user()
     return redirect(url_for('auth.admin'))
+
+
+@auth.route('/login')
+def signin():
+    return render_template("login.html")
