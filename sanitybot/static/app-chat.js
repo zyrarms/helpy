@@ -179,6 +179,8 @@ class Chatbox {
           .then((r) => {
             let msg2 = { name: "Sanitybot", message: r.answer };
             this.messages.push(msg2);
+            // TODO: updated the link
+            this.messages.push({ name: "Sanitybot", message: "link" })
             msg2 = { name: "Sanitybot", message: "Do you have any questions? I will be glad to answer all your queries." };
             this.messages.push(msg2);
             // presetWrapper.style.display = 'flex';

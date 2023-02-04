@@ -13,7 +13,7 @@ class User(db.Model, UserMixin):
     is_assess = db.Column(db.Boolean, default=False, nullable=False)
     epds_score = db.Column(db.Integer)
     date_submitted = db.Column(db.Date)
-
+    file = db.Column(db.LargeBinary)
 
 class User_health(db.Model, UserMixin):
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
