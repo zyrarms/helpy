@@ -263,19 +263,7 @@ header .container{
 }
 
 .toggle-btn{
-  position: absolute;
-  display: inline-block;
-  border: none;
-  background: var(--darkTwo);
-  color: var(--backgroundColor);
-  outline: none;
-  cursor: pointer;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  font-size: 1.1rem;
-  transition: 0.3s;
-  z-index: 100;
+  cursor:pointer;
 }
 
 .toggle-btn i {
@@ -795,4 +783,30 @@ input[type=text]:focus{
   font-size:large;
   font-weight:800;
   padding-bottom:20px;
+}
+
+/* Style the dropdown menu */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
 }

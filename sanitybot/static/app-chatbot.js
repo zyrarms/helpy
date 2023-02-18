@@ -110,7 +110,10 @@ const main = document.querySelector("main");
 let dark = false;
 
 function toggleAnimation() {
+  
+
   // Clone the wrapper
+  console.log("Dark mode")
   dark = !dark;
   let clone = wrapper.cloneNode(true);
   if (dark) {

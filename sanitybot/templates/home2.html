@@ -41,7 +41,13 @@
                 <li><a href="{{ url_for('auth.logout') }}">Logout</a></li>
               </ul>
               <ul>
-                <li><a href="{{ url_for('views.profile') }}">{{ user.firstname }} {{ user.lastname }}</a></li>
+                <li class="dropdown">
+                  <a href="{{ url_for('views.profile') }}">{{ user.firstname }} {{ user.lastname }}</a></li>
+                  <div class="dropdown-content">
+                    <a href="#">Service 1</a>
+                    <a href="#">Service 2</a>
+                    <a href="#">Service 3</a>
+                  </div>
               </ul>
             </div>
             <div class="overlay"></div>
@@ -80,7 +86,7 @@
                     </div>
                     <img class="logo_img1" src="{{ url_for('static', filename='/images/robot_logo.svg') }}" alt="logo">
                     <div class="modaltext">
-                      Hello There! I am Sanity, your AI friend. I know you’re excited to talk and meet me but before you have an interaction with me, I want you to answer first our initial assessment to know your condition. I hope you enjoy this little assessment. 
+                      Hello There! I am Sanity, your AI friend. I hope you'll find joy talking to me. Thank you! 
                     </div>
                     <a href="{{ url_for('views.chat') }}" class="btn_form" >Okay</a>
                   </div>

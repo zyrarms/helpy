@@ -32,16 +32,16 @@ def pdd_prediction(input_list):
     ppd = ""
     epds_class = ""
     if (pred_result) == 0:
-        ppd = """Thankyou for answering my initial assessment. Based on your answers, you have “Depression not likely” or the depression itself is not likely detectable. That's good news for you. Please continue to support and take care of yourself to have a more positive life after you give birth."""
+        ppd = """Thankyou for answering my initial assessment. Based on your answers, Postpartum Depression is not likely detectable. That's good news for you. Please continue to support and take care of yourself to have a more positive life after you give birth."""
         epds_class = "Depression not likely"
     elif (pred_result) == 1:
-        ppd = """Thankyou for answering my initial assessment. Based on your answers, you have “Depression possible” or some postpartum depression is slightly present. Mild depression involves more than just feeling blue temporarily. These symptoms can go on for days and are noticeable enough to interfere with your usual activities."""
+        ppd = """Thankyou for answering my initial assessment. Based on your answers, Postpartum Depression is possible or some postpartum depression symptoms are slightly present. This level of postpartum depression involves more than just feeling blue temporarily. These symptoms can go on for days and are noticeable enough to interfere with your usual activities."""
         epds_class = "Depression possible"
     elif (pred_result) == 2:
-        ppd = """Thankyou for answering my initial assessment. Based on your answers, you have “Fairly high possibility of depression” or more symptoms are noticeable. Moderate and mild depression share similar symptoms, the greatest difference is that the symptoms of moderate depression are severe enough to cause problems at home and work."""
+        ppd = """Thankyou for answering my initial assessment. Based on your answers, there's a fairly high possibility of Postpartum Depression or more symptoms are noticeable. This level of postpartum depression shares similar symptoms, the greatest difference is that the symptoms of moderate depression are severe enough to cause problems at home and work. You may also find significant difficulties in your social life."""
         epds_class = "Fairly high possibility of depression"
     elif (pred_result) == 3:
-        ppd = """Thankyou for answering my initial assessment. Based on your answers, you have “Probable depression” or most of the postpartum depression symptoms are obviously noticeable. Severe (major) depression is classified as having the symptoms of mild to moderate depression, but the symptoms are severe and noticeable, even to your loved ones. Episodes of major depression last an average of six months or longer. Diagnosis is especially crucial in severe depression, and it may even be time-sensitive."""
+        ppd = """Thankyou for answering my initial assessment. Based on your answers, you have probable Postpartum Depression or most of the postpartum depression symptoms are obviously noticeable. Severe (major) depression is classified as having the symptoms of mild to moderate depression, but the symptoms are severe and noticeable, even to your loved ones. Episodes of major depression last an average of six months or longer. Diagnosis is especially crucial in severe depression, and it may even be time-sensitive."""
         epds_class = "Probable depression"
     else:
         ppd = 'Nothing'
@@ -53,12 +53,11 @@ def pdd_prediction(input_list):
         "address": user.address,
         "date_submitted": str(user.date_submitted), 
         "epds_score": epds_class,
-        "questions": ["QUESTIONS", "Have you been able to laugh and see the funny side of things?", "Have you looked forward with enjoyment to things?", "Do you blame yourself unnecessarily when things go wrong?", "Have you been anxious or worried for no good reason?", "Have you felt scared or panicky for no very good reason?", "Have things been getting on top of you?", "Have you been so unhappy that you have had difficulty sleeping?", "Have you felt sad or miserable?", "Have you been so unhappy that you have been crying?", "Has the thought of harming yourself occurred to you?", "EPDS Score"],
+        "questions": ["QUESTIONS", "Have you been capable of finding humor and laughing about situations?", "Have you anticipated things with pleasure and excitement?", "Have you needlessly held yourself responsible when things didn't go well?", "Have you experienced anxiety or concern without a valid cause?", "Have you experienced fear or panic without a clear or justifiable reason?", "Have things been overwhelming you?", "Have you been so unhappy that you have experienced trouble sleeping?", "Have you experienced feelings of sadness or misery?", "Have you been so unhappy that you have shed tears?", "Have you had thoughts of self-harm?", "EPDS Score"],
         "message": ppd.replace("Thankyou for answering my initial assessment. ", "")
     }
 
-    table = ["Have you been able to laugh and see the funny side of things?", "Have you looked forward with enjoyment to things?", "Do you blame yourself unnecessarily when things go wrong?", "Have you been anxious or worried for no good reason?", "Have you felt scared or panicky for no very good reason?",
-             "Have things been getting on top of you?", "Have you been so unhappy that you have had difficulty sleeping?", "Have you felt sad or miserable?", "Have you been so unhappy that you have been crying?", "Has the thought of harming yourself occurred to you?"]
+    table = ["Have you been capable of finding humor and laughing about situations?", "Have you anticipated things with pleasure and excitement?", "Have you needlessly held yourself responsible when things didn't go well?", "Have you experienced anxiety or concern without a valid cause?", "Have you experienced fear or panic without a clear or justifiable reason?", "Have things been overwhelming you?", "Have you been so unhappy that you have experienced trouble sleeping?", "Have you experienced feelings of sadness or misery?", "Have you been so unhappy that you have shed tears?", "Have you had thoughts of self-harm?"]
 
     epds = [
         {
@@ -69,77 +68,77 @@ def pdd_prediction(input_list):
             3: "Hardly at all",
         },
         {
-            "question": "Have you been able to laugh and see the funny side of things?",
+            "question": "Have you been capable of finding humor and laughing about situations?",
             0: "As much as I always could",
             1: "Not quite so much now",
             2: "Definitely not so much now",
             3: "Hardly at all",
         },
         {
-            "question": "Have you looked forward with enjoyment to things?",
+            "question": "Have you anticipated things with pleasure and excitement?",
             0: "As much as I ever did",
             1: "Rather less than I used to",
             2: "Definitely less than I used to",
             3: "Hardly at all",
         },
         {
-            "question": "Do you blame yourself unnecessarily when things go wrong?",
+            "question": "Have you needlessly held yourself responsible when things didn't go well?",
             3: "Yes, most of the time",
             2: "Yes, some of the time",
             1: "Not very often",
             0: "No, Never",
         },
         {
-            "question": "Have you been anxious or worried for no good reason?",
+            "question": "Have you experienced anxiety or concern without a valid cause?",
             0: "No, not at all",
             1: "Hardly ever",
             2: "Yes, sometimes",
             3: "Yes, very often",
         },
         {
-            "question": "Have you felt scared or panicky for no very good reason?",
+            "question": "Have you experienced fear or panic without a clear or justifiable reason?",
             3: "Yes, quite a lot",
             2: "Yes, sometimes",
             1: "No, not much",
             0: "No, not at all",
         },
         {
-            "question": "Have things been getting on top of you?",
+            "question": "Have things been overwhelming you?",
             3: "Yes, most of the time I haven't been able to cope",
             2: "Yes, sometimes I haven't been coping as well as usual",
             1: "No, most of the time I have coped quite well",
             0: "No, I have been coping as well as ever",
         },
         {
-            "question": "Have you been so unhappy that you have had difficulty sleeping?",
+            "question": "Have you been so unhappy that you have experienced trouble sleeping?",
             3: "Yes, most of the time",
             2: "Yes, sometimes",
             1: "Not very often",
             0: "No, not at all",
         },
         {
-            "question": "Have you felt sad or miserable?",
+            "question": "Have you experienced feelings of sadness or misery?",
             3: "Yes, most of the time",
             2: "Yes, quite often",
             1: "Not very often",
             0: "No, not at all",
         },
         {
-            "question": "Have you been so unhappy that you have been crying?",
+            "question": "Have you been so unhappy that you have shed tears?",
             3: "Yes, most of the time",
             2: "Yes, quite often",
             1: "Only occasionally",
             0: "No, never",
         },
         {
-            "question": "Has the thought of harming yourself occurred to you?",
+            "question": "Have you had thoughts of self-harm?",
             3: "Yes, quite often",
             2: "Sometimes",
             1: "Hardly ever",
             0: "Never",
         },
         {
-            "question": "Has the thought of harming yourself occurred to you?",
+            "question": "Have you had thoughts of self-harm?",
             3: "Yes, quite often",
             2: "Sometimes",
             1: "Hardly ever",
@@ -194,16 +193,16 @@ def pdd_prediction(input_list):
     table.cell(0, 1).text = "Interpretation"
     table.cell(0, 2).text = "Action"
 
-    table.cell(1, 0).text = "0–6"
+    table.cell(1, 0).text = "Less than 8"
     table.cell(1, 1).text = "Depression not likely"
     table.cell(1, 2).text = "Continue support"
-    table.cell(2, 0).text = "7–13"
+    table.cell(2, 0).text = "9-11"
     table.cell(2, 1).text = "Depression possible"
     table.cell(2, 2).text = "Support, re-screen in 2–4 weeks. Consider referral to primary care provide(PCP)."
-    table.cell(3, 0).text = "14–19"
+    table.cell(3, 0).text = "12-13"
     table.cell(3, 1).text = "Fairly high possibility of depression"
     table.cell(3, 2).text = "Monitor, support and offer education. Refer to PCP."
-    table.cell(4, 0).text = "19–30"
+    table.cell(4, 0).text = "14 and higher (positive screen)"
     table.cell(4, 1).text = "Probable depression"
     table.cell(4, 2).text = "Diagnostic assessment and treatment by PCP and/or specialist."
     table.cell(5, 0).text = "Positive score (1, 2 or 3) on question 10 (suicidality risk)"
@@ -219,7 +218,7 @@ def pdd_prediction(input_list):
     # user.file = temp_file
     # user.file.url
 
-    document.save('demo.docx')
+    document.save('./sanitybot/AssessmentResult.docx')
     db.session.commit()
 
     response = {}

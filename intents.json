@@ -5000,10 +5000,23 @@
             "Loving yourself… does not mean being self-absorbed or narcissistic, or disregarding others. Rather it means welcoming yourself as the most honored guest in your own heart, a guest worthy of respect, a lovable companion. - Margo Anand",
             "Self-love is the source of all our other loves. - Pierre Corneille"
             ]
-            }
-        
+            },
+            {
+              "tag": "p_selfhelp",
+              "patterns": [
+              "Can you recommend self-help websites for me?",
+              "Other self-help options",
+              "Self-help websites"
+              ],
+              "responses": [
+              "There are many websites that offer resources and support for postpartum depression. Here are some self-help website for postpartum depression: Postpartum Support International (PSI) - PSI is a nonprofit organization that provides support, resources, and education for families struggling with perinatal mood and anxiety disorders, including postpartum depression. Their website offers resources for new mothers, partners, and healthcare providers. <a href='https://www.postpartum.net/' target='_blank'>Click here</a>",
+              "PostpartumDepression.org - This website offers information about postpartum depression, including symptoms, risk factors, and treatment options. It also provides a list of resources and support groups for mothers who are struggling with postpartum depression. <a href='https://www.postpartumdepression.org/' target='_blank'>Click here</a>",
+              "The Blue Dot Project - The Blue Dot Project is an initiative of Postpartum Support International that aims to raise awareness about perinatal mental health and reduce stigma surrounding postpartum depression. Their website offers information and resources for mothers, partners, and healthcare providers. <a href='https://www.thebluedotproject.org/' target='_blank'>Click here</a>",
+              "The National Institute of Mental Health - The NIMH offers information about postpartum depression, including research, statistics, and treatment options. Their website also offers resources for finding help and support. <a href='https://www.nimh.nih.gov/' target='_blank'>Click here</a>",
+              "The American Psychological Association - The APA offers information and resources for mothers struggling with postpartum depression, including tips for self-care and finding support. <a href='https://www.apa.org/' target='_blank'>Click here</a>"
+              ]
+              }
 
-    
-     ]
-  }
+        ]
+     }
     
