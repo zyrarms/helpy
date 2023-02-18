@@ -180,7 +180,7 @@ class Chatbox {
             let msg2 = { name: "Sanitybot", message: r.answer };
             this.messages.push(msg2);
             // TODO: updated the link
-            this.messages.push({ name: "Sanitybot", message: "link" })
+            this.messages.push({ name: "Sanitybot", message: "You can download the detailed version of the assessment. <a href='http://localhost:5000/file/demo.docx'>Click here</a>" })
             msg2 = { name: "Sanitybot", message: "Do you have any questions? I will be glad to answer all your queries." };
             this.messages.push(msg2);
             // presetWrapper.style.display = 'flex';

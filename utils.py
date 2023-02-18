@@ -32,17 +32,17 @@ def pdd_prediction(input_list):
     ppd = ""
     epds_class = ""
     if (pred_result) == 0:
-        ppd = """Thankyou for answering my initial assessment. Based on your answers, you have “None or Minimal Postpartum Depression” or the depression itself is not likely detectable. That's good news for you. Please continue to support and take care of yourself to have a more positive life after you give birth."""
-        epds_class = "None or Minimal Postpartum Depression"
+        ppd = """Thankyou for answering my initial assessment. Based on your answers, you have “Depression not likely” or the depression itself is not likely detectable. That's good news for you. Please continue to support and take care of yourself to have a more positive life after you give birth."""
+        epds_class = "Depression not likely"
     elif (pred_result) == 1:
-        ppd = """Thankyou for answering my initial assessment. Based on your answers, you have “Mild Postpartum Depression” or some postpartum depression is slightly present. Mild depression involves more than just feeling blue temporarily. These symptoms can go on for days and are noticeable enough to interfere with your usual activities."""
-        epds_class = "Mild Postpartum Depression"
+        ppd = """Thankyou for answering my initial assessment. Based on your answers, you have “Depression possible” or some postpartum depression is slightly present. Mild depression involves more than just feeling blue temporarily. These symptoms can go on for days and are noticeable enough to interfere with your usual activities."""
+        epds_class = "Depression possible"
     elif (pred_result) == 2:
-        ppd = """Thankyou for answering my initial assessment. Based on your answers, you have “Moderate Postpartum Depression” or more symptoms are noticeable. Moderate and mild depression share similar symptoms, the greatest difference is that the symptoms of moderate depression are severe enough to cause problems at home and work."""
-        epds_class = "Moderate Postpartum Depression"
+        ppd = """Thankyou for answering my initial assessment. Based on your answers, you have “Fairly high possibility of depression” or more symptoms are noticeable. Moderate and mild depression share similar symptoms, the greatest difference is that the symptoms of moderate depression are severe enough to cause problems at home and work."""
+        epds_class = "Fairly high possibility of depression"
     elif (pred_result) == 3:
-        ppd = """Thankyou for answering my initial assessment. Based on your answers, you have “Severe Postpartum Depression” or most of the postpartum depression symptoms are obviously noticeable. Severe (major) depression is classified as having the symptoms of mild to moderate depression, but the symptoms are severe and noticeable, even to your loved ones. Episodes of major depression last an average of six months or longer. Diagnosis is especially crucial in severe depression, and it may even be time-sensitive."""
-        epds_class = "Severe Postpartum Depression"
+        ppd = """Thankyou for answering my initial assessment. Based on your answers, you have “Probable depression” or most of the postpartum depression symptoms are obviously noticeable. Severe (major) depression is classified as having the symptoms of mild to moderate depression, but the symptoms are severe and noticeable, even to your loved ones. Episodes of major depression last an average of six months or longer. Diagnosis is especially crucial in severe depression, and it may even be time-sensitive."""
+        epds_class = "Probable depression"
     else:
         ppd = 'Nothing'
 
@@ -195,16 +195,16 @@ def pdd_prediction(input_list):
     table.cell(0, 2).text = "Action"
 
     table.cell(1, 0).text = "0–6"
-    table.cell(1, 1).text = "None or minimal depression"
+    table.cell(1, 1).text = "Depression not likely"
     table.cell(1, 2).text = "Continue support"
     table.cell(2, 0).text = "7–13"
-    table.cell(2, 1).text = "Mild depression"
+    table.cell(2, 1).text = "Depression possible"
     table.cell(2, 2).text = "Support, re-screen in 2–4 weeks. Consider referral to primary care provide(PCP)."
     table.cell(3, 0).text = "14–19"
-    table.cell(3, 1).text = "Moderate depression"
+    table.cell(3, 1).text = "Fairly high possibility of depression"
     table.cell(3, 2).text = "Monitor, support and offer education. Refer to PCP."
     table.cell(4, 0).text = "19–30"
-    table.cell(4, 1).text = "Severe depression"
+    table.cell(4, 1).text = "Probable depression"
     table.cell(4, 2).text = "Diagnostic assessment and treatment by PCP and/or specialist."
     table.cell(5, 0).text = "Positive score (1, 2 or 3) on question 10 (suicidality risk)"
     table.cell(5, 1).text = ""
