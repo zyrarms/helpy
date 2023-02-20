@@ -47,9 +47,8 @@
     {
       "tag": "ppd_commonness",
       "patterns": [
-        "How common is postpartum depression?",
-        "Commonness of postpartum depression",
-        "How common is postpartum depression?"
+        "How common is PPD?",
+        "Commonness of postpartum depression"
       ],
       "responses": [
         "Depression is a common problem after pregnancy. One in 9 new mothers has postpartum depression."
@@ -59,7 +58,6 @@
     {
       "tag": "ppd_symptoms",
       "patterns": [
-        "What are the symptoms of postpartum depression?",
         "What are the symptoms of postpartum depression?",
         "Symptoms of postpartum depression",
         "Symptoms of PPD",
@@ -73,7 +71,7 @@
     {
       "tag": "ppd",
       "patterns": [
-        "What is postpartum depression?",
+        "What does postpartum depression mean?",
         "What is PPD?",
         "What is meant by postpartum depression?",
         "Postpartum depression?",
@@ -375,7 +373,7 @@
         "What can happen if ppd is not treated?"
       ],
       "responses": [
-        "Untreated  postpartum  depression  can  affect your ability to parent. You may not have enough energy, have  trouble  focusing  on  the  baby's needs and your own needs, feel moody, not be able to care for your baby and have a higher risk of attempting suicide."
+        "Untreated  postpartum  depression  can  affect your ability to parent. You may not have enough energy, have  trouble  focusing  on  the  baby's needs and your own needs, feel moody, and not be able to care for your baby."
       ]
     },
     {
@@ -571,7 +569,7 @@
 
       ],
       "responses": [
-        "PPD symptoms differ from woman to woman. Feelings of great sorrow, depression, worry, rage, restlessness, fear, and intrusive thoughts are some of the symptoms. PPD symptoms include crying, exhaustion, loss of appetite, weight loss or increase, and insomnia. Although suicide is uncommon, some women with PPD may have suicidal thoughts, and others may have obsessive thoughts of hurting their infant. These ideas may potentially be symptoms of postpartum psychosis."
+        "PPD symptoms differ from woman to woman. Feelings of great sorrow, depression, worry, rage, restlessness, fear, and intrusive thoughts are some of the symptoms. PPD symptoms include crying, exhaustion, loss of appetite, weight loss or increase, and insomnia."
       ]
     },
     {
@@ -584,7 +582,7 @@
         "Diagnosis of PPD"
       ],
       "responses": [
-        "DSM-5-TR does not recognize postpartum depression as a separate diagnosis; rather, patients must meet the criteria for a major depressive episode and the criteria for the peripartum-onset specifier. The definition is therefore a major depressive episode with an onset in pregnancy or within 4 weeks of delivery.The DSM-5-TR criteria for a major depressive episode are as follows. Five or more out of 9 symptoms (including at least one of depressed mood and loss of interest or pleasure) in the same 2-week period, depressed mood (subjective or observed); can be irritable mood in children and adolescents, most of the day, loss of interest or pleasure, in all, or almost all, activities most of the day, change in weight or appetite (weight: 5% change over 1 month), insomnia or hypersomnia; nearly every day, psychomotor retardation or agitation (observed by others, not subjective feelings of being slowed down or restlessness), loss of energy or fatigue, feelings of worthlessness or excessive or inappropriate guilt, diminished concentration or indecisiveness; or recurrent thoughts of death, recurrent suicidal ideation with or without a specific plan, or a suicide attempt."
+        "DSM-5-TR does not recognize postpartum depression as a separate diagnosis; rather, patients must meet the criteria for a major depressive episode and the criteria for the peripartum-onset specifier. The definition is therefore a major depressive episode with an onset in pregnancy or within 4 weeks of delivery.The DSM-5-TR criteria for a major depressive episode are as follows. Five or more out of 9 symptoms (including at least one of depressed mood and loss of interest or pleasure) in the same 2-week period, depressed mood (subjective or observed); can be irritable mood in children and adolescents, most of the day, loss of interest or pleasure, in all, or almost all, activities most of the day, change in weight or appetite (weight: 5% change over 1 month), insomnia or hypersomnia; nearly every day, psychomotor retardation or agitation (observed by others, not subjective feelings of being slowed down or restlessness), loss of energy or fatigue, feelings of worthlessness or excessive or inappropriate guilt, diminished concentration or indecisiveness;"
         
       ]
     },
@@ -1656,7 +1654,7 @@
         "Risk factors of postpartum psychosis"
       ],
       "responses": [
-        "The most significant risk factors for postpartum psychosis are a personal or family history of bipolar disorder, or a previous psychotic episode. Of the women who develop a postpartum psychosis, research has suggested that there is approximately a 5% suicide rate and a 4% infanticide rate associated with the illness."
+        "The most significant risk factors for postpartum psychosis are a personal or family history of bipolar disorder, or a previous psychotic episode."
       ]
     },
     {
@@ -2283,38 +2281,54 @@
         "tag": "p_pancakes",
         "patterns": [
         "I love pancakes",
-        "Pancakes with ketchup",
+        "I want pancakes",
         "Can I have pancakes?"
         ],
         "responses": [
-        "According to a study, pancakes with ketchup is a unique but delicious combination.",
-        "Sure, why not? Pancakes can be enjoyed at any time of the day."
+        "Almost everyone love pancakes as it can be sweet or savory, and can be topped with a variety of ingredients such as butter, syrup, fruit, whipped cream, chocolate chips, or bacon.",
+        "Sure, why not? Pancakes can be enjoyed at any time of the day.",
+        "Pancakes can be made in different shapes and sizes, such as thin French crêpes, thick American pancakes, or small, fluffy Japanese pancakes",
+        "Pancakes are often served with other breakfast foods such as bacon, eggs, and sausage, and can also be served as a dessert.",
+        "Ofcourse, pancakes can be a good source of carbohydrates, protein, and fiber, and can be a healthy breakfast option when made with whole grain flour and topped with fruit or nuts instead of syrup or whipped cream."
         ]
         },
         {
         "tag": "p_virus",
         "patterns": [
         "The virus",
-        "Virus with powers",
-        "Do we know about the virus?"
+        "Virus",
+        "What do you know about virus?",
+        ""
         ],
         "responses": [
         "The virus had powers none of us knew existed.",
         "The virus is still a mystery and its powers are still being studied by scientists and experts.",
-        "It's true, the virus was more powerful than we initially thought."
+        "The virus was more powerful than we initially thought."
+        ]
+        },
+        {
+        "tag": "p_peacheat",
+        "patterns": [
+        "Can I eat peach?",
+        "Can I have peach?",
+        "I want peach"
+        ],
+        "responses": [
+        "I'm SanityBot, I do not have the capability to provide you with an actual peach. However, assuming you are not allergic to peaches, they are generally considered safe to eat in moderation as part of a healthy diet. Peaches can be a good source of vitamins and fiber, and they can be eaten fresh, canned, or in a variety of recipes. However, if you have any concerns or health conditions, you should always consult with your doctor or a qualified healthcare professional before making any changes to your diet."
         ]
         },
         {
         "tag": "p_peach",
         "patterns": [
-        "Shaving a peach",
         "Peach",
-        "Why did he shave the peach?"
+        "What do you know about peaches?"
         ],
         "responses": [
-        "He shaved the peach to prove a point.",
-        "It was an unusual but meaningful act.",
-        "The reason for shaving the peach is still unknown, but it made a lasting impression."
+        "Peaches are a fruit that belongs to the Rosaceae family, which also includes other fruits such as apricots, cherries, and plums.",
+        "Peaches are typically round or oblong in shape and have a fuzzy, velvety skin that can range in color from yellow to red.",
+        "The flesh of a peach is sweet and juicy, with a distinct flavor and aroma.",
+        "Peaches are a good source of vitamins C and A, as well as fiber and potassium.",
+        "Peaches are often eaten fresh, but they can also be used in a variety of recipes, including pies, cobblers, jams, and sauces."
         ]
         },
         {
@@ -2325,7 +2339,7 @@
         "Difficulty with craziness"
         ],
         "responses": [
-        "She had a difficult time owning up to her own crazy self.",
+        "We all had a difficult time owning up to our own crazy self.",
         "It's not easy to embrace our quirks and eccentricities.",
         "We all have a little bit of crazy within us, it's just a matter of accepting it."
         ]
@@ -2334,8 +2348,7 @@
         "tag": "p_stairwaytoheaven",
         "patterns": [
         "Stairway to heaven",
-        "Highway to hell",
-        "Explaining life"
+        "Highway to hell"
         ],
         "responses": [
         "The fact that there's a stairway to heaven and a highway to hell explains life well.",
@@ -2364,7 +2377,10 @@
         "New beginning"
         ],
         "responses": [
-        "She moved forward only because she trusted that the ending she now was going through must be followed by a new beginning."
+        "We moved forward only because we trusted that the ending we're going through must be followed by a new beginning.",
+        "It's important to remember that even small steps forward can make a big difference in the long run. Whether it's making a change in your personal or professional life, taking the first step can be the hardest part, but it's worth it.",
+        "It's important to trust that everything happens for a reason and that even the difficult moments can teach us something valuable. Sometimes, the journey can be more important than the destination, so try to stay present and enjoy the process.",
+        "It's important to stay positive and keep an open mind, even if things don't go as planned. Remember that mistakes and setbacks are a normal part of the learning process, and they can help us grow and improve. Embrace the opportunity to try something different and see where it takes you."
         ]
         },
         {
@@ -2375,7 +2391,7 @@
         "What city do you want to visit?"
         ],
         "responses": [
-        "I'm an AI language model, I don't have personal preferences but cities are great places to visit!",
+        "I'm SanityBot a chatbot, I don't have personal preferences but cities are great places to visit!",
         "There are so many cities to choose from, each with its own unique culture, history, and attractions.",
         "It depends on the person's interests, some may prefer a bustling city like New York or a more relaxed city like Sydney."
         ]
@@ -2388,7 +2404,7 @@
         "Can you play music?"
         ],
         "responses": [
-        "As an AI language model, I don't have personal preferences but music is a form of art that can evoke emotions and memories!",
+        "I'm SanityBot a chatbot, I don't have personal preferences but music is a form of art that can evoke emotions and memories!",
         "Yes, music can be enjoyed by everyone. It is a universal language that transcends borders and cultural differences.",
         "I am not able to play music but I can provide information about different types of music, artists, and songs."
         ]
@@ -2401,7 +2417,7 @@
         "What is the best food?"
         ],
         "responses": [
-        "I'm an AI language model, I don't have personal preferences but food is a vital part of our daily lives!",
+        "I'm SanityBot a chatbot, I don't have personal preferences but food is a vital part of our daily lives!",
         "Food is a source of fuel for our bodies and it also brings people together, whether it's for a family meal or a cultural festival.",
         "The best food is subjective and varies from person to person. Some may prefer spicy food while others may prefer sweet food."
         ]
@@ -2414,7 +2430,7 @@
         "What is the purpose of art?"
         ],
         "responses": [
-        "As an AI language model, I don't have personal preferences but art is a way for people to express themselves and convey emotions!",
+        "I'm SanityBot a chatbot, I don't have personal preferences but art is a way for people to express themselves and convey emotions!",
         "Art can serve many purposes such as self-expression, communication, and decoration.",
         "The purpose of art is to evoke emotions and create a connection with the audience. It can also provide a way to reflect on society and human experiences."
         ]
@@ -2494,7 +2510,7 @@
         "responses": [
         "Elephants are indeed fascinating creatures. They are highly intelligent and social animals, and are known for their memory and problem-solving abilities.",
         "Elephants play an important role in many ecosystems and cultures. In many African countries, they are considered a symbol of strength and power, and are revered for their wisdom and longevity.",
-        "However, elephants are also facing many threats, including habitat loss and poaching, as well as the ivory trade. It's important to protect these magnificent animals and their habitats to ensure their survival."
+        "Elephants are also facing many threats, including habitat loss and poaching, as well as the ivory trade. It's important to protect these magnificent animals and their habitats to ensure their survival."
         ]
         },
         {
@@ -2741,7 +2757,7 @@
         "responses": [
         "Music has the power to bring people together and create a sense of unity.",
         "Music has been shown to have a positive impact on our mood and mental health. It can also evoke powerful emotions and memories.",
-        "As a language model, I don't have personal preferences, but I can tell you that different genres of music appeal to different people and can be enjoyed for various reasons."
+        "I'm SanityBot a chatbot, I don't have personal preferences, but I can tell you that different genres of music appeal to different people and can be enjoyed for various reasons."
         ]
         },
         {
@@ -2754,7 +2770,7 @@
         "responses": [
         "Having a pet can be a wonderful and rewarding experience. Pets can bring joy, companionship, and a sense of purpose to our lives.",
         "Studies have shown that owning a pet can have a positive impact on our physical and mental health, including reducing stress and anxiety.",
-        "As a language model, I don't have personal experiences, but I understand that many people find great comfort and enjoyment in their relationships with their pets."
+        "I'm SanityBot a chatbot, I don't have personal experiences, but I understand that many people find great comfort and enjoyment in their relationships with their pets."
         ]
         },
         {
@@ -2767,7 +2783,7 @@
         "responses": [
         "Travel can be a wonderful way to broaden our horizons and gain new perspectives.",
         "Traveling to new places can challenge us and help us grow, both personally and professionally.",
-        "As a language model, I don't have personal experiences, but I understand that different people have different travel destinations they find appealing for various reasons."
+        "I'm SanityBot a chatbot, I don't have personal experiences, but I understand that different people have different travel destinations they find appealing for various reasons."
         ]
         },
         {
@@ -2817,7 +2833,7 @@
         "How did you feel about your high school nickname?"
         ],
         "responses": [
-        "I am an AI language model and do not have personal experiences, but the sentence in the content says that someone was very proud of their high school nickname but now feels differently about it.",
+        "I'm SanityBot a chatbot and I do not have personal experiences, but the sentence in the content says that someone was very proud of their high school nickname but now feels differently about it.",
         "High school nicknames can be a source of pride or embarrassment, depending on the individual. Some people may embrace their nickname and continue to use it well into adulthood, while others may prefer to leave it in the past.",
         "It is not uncommon for people to feel differently about their high school nickname as they grow and mature. What was once a source of pride can become a source of embarrassment, or vice versa."
         ]
@@ -3026,7 +3042,7 @@
         ],
         "responses": [
         "Pets are great! They bring so much joy and companionship to our lives.",
-        "I'm a language model, so I don't have personal preferences. But many people love dogs and cats as pets.",
+        "I'm SanityBot a chatbot, so I don't have personal preferences. But many people love dogs and cats as pets.",
         "No, I don't have a pet. But I can help answer questions about different types of pets and how to care for them."
         ]
         },
@@ -3039,7 +3055,7 @@
         ],
         "responses": [
         "Traveling is a great way to broaden your horizons and experience new cultures.",
-        "As a language model, I don't have personal preferences, but some popular travel destinations include Paris, Tokyo, and Bali.",
+        "I'm SanityBot a chatbot, I don't have personal preferences, but some popular travel destinations include Paris, Tokyo, and Bali.",
         "It's difficult for me to choose a single favorite destination since I have not physically traveled anywhere. But I'd love to visit some of the world's most interesting and beautiful places."
         ]
         },
@@ -3052,7 +3068,7 @@
         ],
         "responses": [
         "Reading is a great way to expand your knowledge and imagination.",
-        "As a language model, I don't have personal preferences, but some popular books include To Kill a Mockingbird, 1984, and The Lord of the Rings.",
+        "I'm SanityBot a chatbot, I don't have personal preferences, but some popular books include To Kill a Mockingbird, 1984, and The Lord of the Rings.",
         "Yes, I have been trained on a diverse range of texts, including books, so I have a vast knowledge of different literary works."
         ]
         },
@@ -3289,7 +3305,7 @@
         ],
         "responses": [
         "Food is an important part of our lives and provides us with the energy and nutrients we need to live and be healthy.",
-        "As a language model, I don't eat, but I understand that people have many different favorite foods.",
+        "I'm SanityBot a chatbot, I don't eat, but I understand that people have many different favorite foods.",
         "It's important to listen to our bodies and eat when we are hungry, but also to make sure to make healthy choices."
         ]
         },
@@ -3327,7 +3343,7 @@
         "What color do you think is the best?"
         ],
         "responses": [
-        "As a language model, I don't have personal preferences, but colors have different meanings and emotions associated with them.",
+        "I'm SanityBot a chatbot, I don't have personal preferences, but colors have different meanings and emotions associated with them.",
         "Red is often associated with love, passion, and energy. It can also evoke feelings of anger, danger, or warning.",
         "It really depends on personal preference and cultural background. Some people prefer bright colors, while others prefer calming shades of blue or green."
         ]
@@ -3340,7 +3356,7 @@
         "Do you think pets are good for mental health?"
         ],
         "responses": [
-        "As a language model, I do not have the capability to own pets or have personal feelings, but studies have shown that pets can be beneficial for mental health.",
+        "I'm SanityBot a chatbot, I do not have the capability to own pets or have personal feelings, but studies have shown that pets can be beneficial for mental health.",
         "Pets, such as dogs and cats, can provide comfort, reduce stress, and increase feelings of happiness and social support.",
         "However, pet ownership also comes with responsibility and should not be taken lightly. It's important to make sure you have the resources and ability to properly care for a pet before getting one."
         ]
@@ -3353,7 +3369,7 @@
         "What are some benefits of reading books?"
         ],
         "responses": [
-        "As a language model, I don't have personal preferences, but I have been trained on a vast corpus of text which includes books, articles, and other written works.",
+        "I'm SanityBot a chatbot, I don't have personal preferences, but I have been trained on a vast corpus of text which includes books, articles, and other written works.",
         "Reading books has been shown to have many benefits, including increased knowledge and vocabulary, improved empathy and emotional intelligence, and reduced stress.",
         "There is no one specific book that is considered the best, as it often depends on personal preference and individual taste. Some popular classic books include To Kill a Mockingbird by Harper Lee, The Great Gatsby by F. Scott Fitzgerald, and 1984 by George Orwell."
         ]
@@ -4391,13 +4407,13 @@
           ],
           "responses": [
           "Staying motivated can be a challenge, but here are some tips that can help:",
-          "1. Set clear and achievable goals: Having specific goals can give you direction and purpose. Break your goals down into smaller, manageable steps.",
-          "2. Surround yourself with positive influences: Spend time with people who support and inspire you.",
-          "3. Find your purpose: Identify what truly motivates you and what gives your life meaning.",
-          "4. Celebrate your successes: Recognize and reward yourself for your accomplishments, no matter how small they may be.",
-          "5. Stay positive: Focus on the good things in your life and try to see challenges as opportunities for growth.",
-          "6. Take care of yourself: Get plenty of sleep, exercise regularly, and eat a healthy diet to keep your mind and body energized.",
-          "7. Reframe negative thoughts: Challenge limiting beliefs and focus on the possibilities.",
+          "Set clear and achievable goals: Having specific goals can give you direction and purpose. Break your goals down into smaller, manageable steps.",
+          "Surround yourself with positive influences: Spend time with people who support and inspire you.",
+          "Find your purpose: Identify what truly motivates you and what gives your life meaning.",
+          "Celebrate your successes: Recognize and reward yourself for your accomplishments, no matter how small they may be.",
+          "Stay positive: Focus on the good things in your life and try to see challenges as opportunities for growth.",
+          "Take care of yourself: Get plenty of sleep, exercise regularly, and eat a healthy diet to keep your mind and body energized.",
+          "Reframe negative thoughts: Challenge limiting beliefs and focus on the possibilities.",
           "Remember, motivation is not a one-time thing, it's a continuous process. Stay persistent and don't give up."
           ]
           },
@@ -4410,13 +4426,13 @@
           ],
           "responses": [
           "Low self esteem can be a challenging issue, but there are steps you can take to improve it:",
-          "1. Practice self-care: Engage in activities that bring you joy and make you feel good about yourself.",
-          "2. Surround yourself with positive influences: Spend time with people who support and encourage you.",
-          "3. Set achievable goals: Accomplishing something, no matter how small, can give you a sense of pride and accomplishment.",
-          "4. Focus on your strengths: Recognize and celebrate your unique skills, talents, and abilities.",
-          "5. Challenge negative thoughts: Replace negative self-talk with positive affirmations.",
-          "6. Avoid comparisons: Comparing yourself to others will only lower your self esteem. Instead, focus on your own personal journey.",
-          "7. Learn to forgive: Holding grudges and harboring anger can harm your self esteem. Practice forgiveness and let go of negative emotions.",
+          "Practice self-care: Engage in activities that bring you joy and make you feel good about yourself.",
+          "Surround yourself with positive influences: Spend time with people who support and encourage you.",
+          "Set achievable goals: Accomplishing something, no matter how small, can give you a sense of pride and accomplishment.",
+          "Focus on your strengths: Recognize and celebrate your unique skills, talents, and abilities.",
+          "Challenge negative thoughts: Replace negative self-talk with positive affirmations.",
+          "Avoid comparisons: Comparing yourself to others will only lower your self esteem. Instead, focus on your own personal journey.",
+          "Learn to forgive: Holding grudges and harboring anger can harm your self esteem. Practice forgiveness and let go of negative emotions.",
           "Improving self esteem takes time and effort, but by being kind to yourself and focusing on your own personal growth, you can boost your confidence and feel good about yourself."
           ]
           },
@@ -5015,8 +5031,216 @@
               "The National Institute of Mental Health - The NIMH offers information about postpartum depression, including research, statistics, and treatment options. Their website also offers resources for finding help and support. <a href='https://www.nimh.nih.gov/' target='_blank'>Click here</a>",
               "The American Psychological Association - The APA offers information and resources for mothers struggling with postpartum depression, including tips for self-care and finding support. <a href='https://www.apa.org/' target='_blank'>Click here</a>"
               ]
+              },
+              {
+              "tag": "p_icecreamm",
+              "patterns": [
+              "I want to eat ice cream",
+              "Ice cream",
+              "Can I eat ice cream?"
+              ],
+              "responses": [
+              "Did you know that vanilla is the most popular flavor of ice cream in the United States?",
+              "There are many interesting flavors of ice cream available these days, such as bacon, avocado, and even beer!",
+              "While ice cream can be a delicious treat, it's important to remember that it's high in sugar and calories. It's best to enjoy it in moderation as part of a balanced diet."
+              ]
+              },
+              {
+              "tag": "p_sleepp",
+              "patterns": [
+              "I'm having trouble sleeping",
+              "How can I improve my sleep?",
+              "What can I do to sleep better?"
+              ],
+              "responses": [
+              "Establishing a regular sleep routine can be helpful in improving sleep. Try going to bed and waking up at the same time every day, even on weekends.",
+              "Creating a relaxing bedtime routine can also be beneficial. Consider taking a warm bath, reading a book, or practicing relaxation techniques such as deep breathing or meditation.",
+              "Avoiding caffeine, nicotine, and alcohol before bed can also improve sleep quality. Additionally, keeping your bedroom cool, dark, and quiet can create a more conducive sleep environment."
+              ]
+              },
+              {
+              "tag": "p_social_supportt",
+              "patterns": [
+              "I feel so alone",
+              "I don't have anyone to talk to",
+              "I need some support"
+              ],
+              "responses": [
+              "It's important to remember that you're not alone. Many people go through difficult times and feel like they don't have anyone to talk to. Consider reaching out to a trusted friend or family member and sharing how you're feeling.",
+              "Alternatively, you may want to consider joining a support group or seeking out a therapist or counselor. They can provide a safe space for you to express your emotions and offer guidance and support.",
+              "Remember that it's okay to ask for help. You don't have to go through this alone."
+              ]
+              },
+              {
+              "tag": "p_self_caree",
+              "patterns": [
+              "I don't have time for myself",
+              "I'm always taking care of others",
+              "How can I practice self-care?"
+              ],
+              "responses": [
+              "Self-care is important, especially when you're feeling overwhelmed or stressed. It can be as simple as taking a few minutes to meditate, read a book, or take a relaxing bath.",
+              "You can also try incorporating small acts of self-care into your daily routine, such as taking a walk outside or indulging in your favorite hobby.",
+              "Remember that taking care of yourself isn't selfish, it's necessary. By prioritizing your own well-being, you'll have more energy and emotional reserves to take care of others."
+              ]
+              },
+              {
+              "tag": "p_relationshipss",
+              "patterns": [
+              "I'm having trouble with my partner",
+              "How can I improve my relationship?",
+              "What can I do to communicate better with my partner?"
+              ],
+              "responses": [
+              "Communication is key in any relationship. Try setting aside time each day to check in with each other and share how you're feeling.",
+              "It's also important to listen actively and validate each other's feelings, even if you don't always agree.",
+              "Remember to show appreciation and express gratitude for each other's efforts and contributions to the relationship. Small acts of kindness can go a long way.",
+              "If you're having trouble resolving issues on your own, consider seeking couples therapy. A trained therapist can help you identify patterns and work through conflicts in a constructive way.",
+              "Ultimately, a healthy relationship requires effort and commitment from both partners. Don't be afraid to prioritize your relationship and invest in its growth and development."
+              ]
+              },
+              {
+              "tag": "p_sleepy",
+              "patterns": [
+              "I'm having trouble sleeping",
+              "How can I improve my sleep?",
+              "I'm not getting enough sleep"
+              ],
+              "responses": [
+              "It's important to create a sleep-conducive environment by keeping your bedroom cool, quiet, and dark. Additionally, establish a consistent bedtime routine and avoid stimulating activities like watching TV or using your phone in bed.",
+              "Incorporating regular exercise into your routine can help you fall asleep faster and sleep more soundly. However, try to avoid exercising too close to bedtime as it can interfere with your ability to fall asleep.",
+              "Limiting caffeine and alcohol consumption, particularly in the hours leading up to bedtime, can improve the quality of your sleep. Additionally, avoiding heavy meals and drinking plenty of water throughout the day can help you sleep better at night."
+              ]
+              },
+              {
+                "tag": "p_nutrition",
+                "patterns": [
+                  "What are some healthy foods I can eat?",
+                  "How can I improve my diet?",
+                  "What should I eat to stay healthy?"
+                ],
+                "responses": [
+                  "Eating a balanced diet with plenty of fruits, vegetables, whole grains, lean proteins, and healthy fats is key to staying healthy.",
+                  "Try to limit your intake of processed and sugary foods, and focus on getting a variety of nutrients from whole foods.",
+                  "It's also important to stay hydrated by drinking plenty of water and avoiding sugary drinks."
+                ]
+              },
+              {
+                "tag": "p_mealprep",
+                "patterns": [
+                  "How can I meal prep for the week?",
+                  "What are some easy meal prep ideas?",
+                  "What are some benefits of meal prepping?"
+                ],
+                "responses": [
+                  "Meal prepping can save you time and money, and can help you make healthier choices throughout the week.",
+                  "Try planning your meals for the week ahead of time, and batch cook some staples like rice, quinoa, or roasted vegetables to make meal assembly easier.",
+                  "Invest in some good storage containers to make portioning and storing your meals a breeze."
+                ]
+              },
+              {
+                "tag": "p_snacks",
+                "patterns": [
+                  "What are some healthy snack options?",
+                  "How can I avoid unhealthy snacking?",
+                  "What are some easy snacks to pack for work or school?"
+                ],
+                "responses": [
+                  "Fruits, vegetables, nuts, and seeds are all great options for healthy snacks that will keep you feeling satisfied.",
+                  "Try to avoid sugary or salty snacks, and opt for whole foods instead.",
+                  "Prepping snacks ahead of time, like cutting up veggies or making homemade granola bars, can help you avoid reaching for unhealthy options when hunger strikes."
+                ]
+              },
+              {
+              "tag": "p_dogs",
+              "patterns": [
+              "I love dogs",
+              "Do you have a dog?",
+              "What's your favorite breed of dog?"
+              ],
+              "responses": [
+              "Dogs are great companions and often referred to as 'man's best friend'.",
+              "I don't have a dog, but I know they make great pets for many people.",
+              "There are so many different breeds of dogs, it's hard to choose just one favorite. Some popular breeds include Labrador Retrievers, German Shepherds, and Golden Retrievers.",
+              "Did you know that owning a dog can have health benefits? Studies have shown that dog owners have lower blood pressure, less anxiety, and lower risk of depression.",
+              "Training and socialization are important aspects of owning a dog. It's important to teach your dog good manners and expose them to different people, places, and situations to help them become well-rounded pets.",
+              "If you're considering getting a dog, be sure to do your research and find a breed that fits your lifestyle and personality.",
+              "Remember that owning a dog is a big responsibility and requires a lot of time, effort, and resources. It's important to be prepared for the commitment before bringing a furry friend into your home."
+              ]
+              },
+              {
+              "tag": "p_pets",
+              "patterns": [
+                "Do you have any pets?",
+                "I'm thinking about getting a pet",
+                "What are the benefits of having a pet?"
+                ],
+              "responses": [
+                "Pets can provide companionship and social support, which can be beneficial for mental health.",
+                 "Having a pet can also help reduce stress and anxiety. Spending time with a pet, such as petting or playing with them, has been shown to release oxytocin, a hormone that can help reduce cortisol levels and increase feelings of well-being.",
+                "Pets can also encourage physical activity, such as going for walks or playing fetch. This can be a great way to stay active and improve overall health.",
+                "Before getting a pet, it's important to do your research and make sure you have the time, resources, and commitment to care for them properly.",
+                "If you're not sure what type of pet is right for you, consider volunteering at a local animal shelter or rescue to get a sense of different animals and their needs."
+                    ]
+              },
+              {
+               "tag": "p_singing",
+               "patterns": [
+               "Can singing help with depression?",
+               "I love singing, can it improve my mood?",
+               "Is there a connection between singing and mental health?"
+                  ],
+               "responses": [
+                "Yes, singing can have a positive impact on mental health. It has been found to reduce stress, anxiety, and depression. Singing releases endorphins, which are the body's feel-good chemicals, and can help improve mood.",
+                "Studies have shown that group singing in particular can lead to a reduction in symptoms of depression and anxiety. This is thought to be due to the social nature of singing, as it provides a sense of community and belonging.",
+                "If you love singing, keep doing it! Whether it's in the shower, in the car, or with a choir, singing can be a great way to boost your mood and improve your mental health."
+                    ]
+              },
+              {
+                "tag": "p_meditation",
+                "patterns": [
+                  "How can meditation help with PPD?",
+                  "I want to try meditation for PPD",
+                  "What are some mindfulness resources for PPD?"
+                  ],
+                  "responses": [
+                  "Mindfulness meditation can help reduce symptoms of PPD by helping you focus on the present moment without judgment.",
+                  "Meditation can be a helpful tool for managing PPD symptoms. You might try guided meditations to get started, like those found in the Headspace app.",
+                  "There are many resources available for mindfulness meditation, including apps like Headspace and Calm, as well as online courses and local classes. It's important to find what works best for you."
+                  ]
+              },
+              {
+              "tag": "p_postpartum_depression",
+              "patterns": [
+              "What is postpartum depression?",
+              "How common is postpartum depression?",
+              "Can you describe the indications or signs of postpartum depression?"
+              ],
+              "responses": [
+              "Postpartum depression is a mood disorder that can affect new mothers after childbirth. It is different from the 'baby blues' and can last for more than 2 weeks.",
+              "Postpartum depression affects around one out of five mothers, making it quite common.",
+              "Symptoms of postpartum depression can include feelings of sadness, hopelessness, and worthlessness, loss of interest in activities, changes in appetite or sleep patterns, and difficulty bonding with the baby."
+              ]
+              },
+              {
+              "tag": "postp_depression",
+              "patterns": [
+              "Can you explain what postpartum depression is?",
+              "What causes postpartum depression?",
+              "What are the indications of postpartum depression?",
+              "How is postpartum depression treated?",
+              "Can postpartum depression affect dads too?",
+              "What are some self-care tips for postpartum depression?"
+              ],
+              "responses": [
+              "Postpartum depression is a type of depression that occurs in mothers after giving birth.",
+              "The exact causes of postpartum depression are not known, but hormonal changes and the emotional adjustment to motherhood may play a role.",
+              "Symptoms of postpartum depression can include feelings of sadness, hopelessness, guilt, anxiety, and irritability, as well as changes in appetite, sleep patterns, and energy levels.",
+              "Postpartum depression can be treated with therapy, medication, or a combination of both. It's important to seek help if you think you may be experiencing postpartum depression.",
+              "Yes, dads can also experience postpartum depression. It's important for both parents to take care of their mental health after the birth of a child.",
+              "Some self-care tips for postpartum depression include getting enough sleep, eating a healthy diet, getting regular exercise, and seeking support from family, friends, or a therapist."
+              ]
               }
-
         ]
      }
     
