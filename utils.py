@@ -14,7 +14,7 @@ with open(r'sanitybot\pickles\ppd_decisiontree.pkl', 'rb') as f:
     decisionTree_model = pickle.load(f)
 with open(r'sanitybot\pickles\ppd_naiveBayes.pkl', 'rb') as f:
     naiveBayes_model = pickle.load(f)
-with open(r'sanitybot\pickles\ppd_svm.pkl', 'rb') as f:
+with open(r'sanitybot\pickles\PHQ9_svm.pkl', 'rb') as f:
     svm_model = pickle.load(f)
 
 
@@ -32,17 +32,17 @@ def pdd_prediction(input_list):
     ppd = ""
     epds_class = ""
     if (pred_result) == 0:
-        ppd = """Thankyou for answering my initial assessment. Based on your answers, Postpartum Depression is not likely detectable. That's good news for you. Please continue to support and take care of yourself to have a more positive life after you give birth."""
-        epds_class = "Depression not likely"
+        ppd = """Thank you for answering questions. Based on the conversation in AI chatbot, A mental health disorder may start out as subtle changes to a person’s feelings, thinking and behaviour. Ongoing and significant changes, you are likely to have a Low Risk mental health problem or possible developing a mental health disorder. If something doesn’t seem ‘quite right’, it’s important to start the conversation or consultation about getting help.  So you better  monitored closely about your condition."""
+        epds_class = "Low Risk"
     elif (pred_result) == 1:
-        ppd = """Thankyou for answering my initial assessment. Based on your answers, Postpartum Depression is possible or some postpartum depression symptoms are slightly present. This level of postpartum depression involves more than just feeling blue temporarily. These symptoms can go on for days and are noticeable enough to interfere with your usual activities."""
-        epds_class = "Depression possible"
+        ppd = """Thank you for answering questions. Based on the conversation in AI chatbot, You are possible to have a mild risk level on mental health problem, learning about developing symptoms, or early warning signs, and taking action can help to ensure prompt treatment. Early intervention can help reduce the severity of this problem and interruptions in quality of life and functions. It may even be possible to delay or prevent a major mental illness altogether. Most mental problem don't improve on their own, and if untreated, a mental illness may get worse over time and cause serious problems."""
+        epds_class = "Mild Risk"
     elif (pred_result) == 2:
-        ppd = """Thankyou for answering my initial assessment. Based on your answers, there's a fairly high possibility of Postpartum Depression or more symptoms are noticeable. This level of postpartum depression shares similar symptoms, the greatest difference is that the symptoms of moderate depression are severe enough to cause problems at home and work. You may also find significant difficulties in your social life."""
-        epds_class = "Fairly high possibility of depression"
+        ppd = """Thank you for answering questions. Based on the conversation in AI chatbot, You are possible in a moderate risk level of mental health problem that is something to look out for! When concerned that a you may be  is a change in behavior or the presence of entirely new behaviors. It can make you miserable and can cause problems in your daily life, such as at school or work or in relationships. In most cases, symptoms can be managed with a combination of medications and talk therapy (psychotherapy)."""
+        epds_class = "Moderate Risk"
     elif (pred_result) == 3:
-        ppd = """Thankyou for answering my initial assessment. Based on your answers, you have probable Postpartum Depression or most of the postpartum depression symptoms are obviously noticeable. Severe (major) depression is classified as having the symptoms of mild to moderate depression, but the symptoms are severe and noticeable, even to your loved ones. Episodes of major depression last an average of six months or longer. Diagnosis is especially crucial in severe depression, and it may even be time-sensitive."""
-        epds_class = "Probable depression"
+        ppd = """Thank you for answering questions. Based on the conversation in AI chatbot, This is the sharpest concern if the new or changed behavior is related to a painful event, loss, or change. Most people who take their lives exhibit one or more warning signs, either through what they say or what they do. Untreated mental problem can cause severe emotional, behavioral and physical health problems. If you have any signs or symptoms of this problems, see your primary care provider or a mental health professional right away."""
+        epds_class = "High Risk"
     else:
         ppd = 'Nothing'
 
@@ -53,22 +53,15 @@ def pdd_prediction(input_list):
         "address": user.address,
         "date_submitted": str(user.date_submitted), 
         "epds_score": epds_class,
-        "questions": ["QUESTIONS", "Have you been capable of finding humor and laughing about situations?", "Have you anticipated things with pleasure and excitement?", "Have you needlessly held yourself responsible when things didn't go well?", "Have you experienced anxiety or concern without a valid cause?", "Have you experienced fear or panic without a clear or justifiable reason?", "Have things been overwhelming you?", "Have you been so unhappy that you have experienced trouble sleeping?", "Have you experienced feelings of sadness or misery?", "Have you been so unhappy that you have shed tears?", "Have you had thoughts of self-harm?", "EPDS Score"],
+        "questions": ["QUESTIONS", "Have you been capable of finding humor and laughing about situations?", "Have you anticipated things with pleasure and excitement?", "Have you needlessly held yourself responsible when things didn't go well?", "Have you experienced anxiety or concern without a valid cause?", "Have you experienced fear or panic without a clear or justifiable reason?", "Have things been overwhelming you?", "Have you been so unhappy that you have experienced trouble sleeping?", "Have you experienced feelings of sadness or misery?", "Have you been so unhappy that you have shed tears?", "EPDS Score"],
         "message": ppd.replace("Thankyou for answering my initial assessment. ", "")
     }
 
-    table = ["Have you been capable of finding humor and laughing about situations?", "Have you anticipated things with pleasure and excitement?", "Have you needlessly held yourself responsible when things didn't go well?", "Have you experienced anxiety or concern without a valid cause?", "Have you experienced fear or panic without a clear or justifiable reason?", "Have things been overwhelming you?", "Have you been so unhappy that you have experienced trouble sleeping?", "Have you experienced feelings of sadness or misery?", "Have you been so unhappy that you have shed tears?", "Have you had thoughts of self-harm?"]
+    table = ["Have you been capable of finding humor and laughing about situations?", "Have you anticipated things with pleasure and excitement?", "Have you needlessly held yourself responsible when things didn't go well?", "Have you experienced anxiety or concern without a valid cause?", "Have you experienced fear or panic without a clear or justifiable reason?", "Have things been overwhelming you?", "Have you been so unhappy that you have experienced trouble sleeping?", "Have you experienced feelings of sadness or misery?", "Have you been so unhappy that you have shed tears?"]
 
     epds = [
         {
             "ANSWER": "",
-            0: "As much as I always could",
-            1: "Not quite so much now",
-            2: "Definitely not so much now",
-            3: "Hardly at all",
-        },
-        {
-            "question": "Have you been capable of finding humor and laughing about situations?",
             0: "As much as I always could",
             1: "Not quite so much now",
             2: "Definitely not so much now",
@@ -122,6 +115,7 @@ def pdd_prediction(input_list):
             2: "Yes, quite often",
             1: "Not very often",
             0: "No, not at all",
+            
         },
         {
             "question": "Have you been so unhappy that you have shed tears?",
@@ -131,19 +125,19 @@ def pdd_prediction(input_list):
             0: "No, never",
         },
         {
-            "question": "Have you had thoughts of self-harm?",
-            3: "Yes, quite often",
-            2: "Sometimes",
-            1: "Hardly ever",
-            0: "Never",
+            "question": "Have you been so unhappy that you have shed tears?",
+            3: "Yes, most of the time",
+            2: "Yes, quite often",
+            1: "Only occasionally",
+            0: "No, never",
         },
         {
-            "question": "Have you had thoughts of self-harm?",
-            3: "Yes, quite often",
-            2: "Sometimes",
-            1: "Hardly ever",
-            0: "Never",
-        },
+            "question": "Have you experienced feelings of sadness or misery?",
+            3: "Yes, most of the time",
+            2: "Yes, quite often",
+            1: "Not very often",
+            0: "",
+        }
     ]
 
     document = Document()

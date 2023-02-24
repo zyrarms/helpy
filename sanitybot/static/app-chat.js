@@ -2,75 +2,68 @@ let currentChat = 1;
 
 epds = {
   1: {
-    question: "Have you been capable of finding humor and laughing about situations?",
-    0: "As much as I always could",
-    1: "Not quite so much now",
-    2: "Definitely not so much now",
-    3: "Hardly at all",
+    question: "Little interest or pleasure in doing things?",
+    0: "Not at all",
+    1: "Several days",
+    2: "More than half the days",
+    3: "Nearly everyday",
   },
   2: {
-    question: "Have you anticipated things with pleasure and excitement?",
+    question: "Feeling down, depressed, or hopeless?",
     
-    0: "As much as I ever did",
-    1: "Rather less than I used to",
-    2: "Definitely less than I used to",
-    3: "Hardly at all",
+    0: "Not at all",
+    1: "Several days",
+    2: "More than half the days",
+    3: "Nearly everyday",
   },
   3: {
-    question: "Have you needlessly held yourself responsible when things didn't go well?",
-    3: "Yes, most of the time",
-    2: "Yes, some of the time",
-    1: "Not very often",
-    0: "No, Never",
+    question: "Trouble falling or staying asleep, or sleeping too much?",
+    3: "Not at all",
+    2: "Several days",
+    1: "More than half the days",
+    0: "Nearly everyday",
   },
   4: {
-    question: "Have you experienced anxiety or concern without a valid cause?",
-    0: "No, not at all",
-    1: "Hardly ever",
-    2: "Yes, sometimes",
-    3: "Yes, very often",
+    question: "Feeling tired or having little energy?",
+    0: "Not at all",
+    1: "Several days",
+    2: "More than half the days",
+    3: "Nearly everyday",
   },
   5: {
-    question: "Have you experienced fear or panic without a clear or justifiable reason?",
-    3: "Yes, quite a lot",
-    2: "Yes, sometimes",
-    1: "No, not much",
-    0: "No, not at all",
+    question: "Poor appetite or overeating?",
+    3: "Not at all",
+    2: "Several days",
+    1: "More than half the days",
+    0: "Nearly everyday",
   },
   6: {
-    question: "Have things been overwhelming you?",
-    3: "Yes, most of the time I haven't been able to cope",
-    2: "Yes, sometimes I haven't been coping as well as usual",
-    1: "No, most of the time I have coped quite well",
-    0: "No, I have been coping as well as ever",
+    question: "Feeling bad about yourself — or that you are a failure or have let yourself or your family down?",
+    3: "Not at all",
+    2: "Several days",
+    1: "More than half the days",
+    0: "Nearly everyday",
   },
   7: {
-    question: "Have you been so unhappy that you have experienced trouble sleeping?",
-    3: "Yes, most of the time",
-    2: "Yes, sometimes",
-    1: "Not very often",
-    0: "No, not at all",
+    question: "Trouble concentrating on things, such as reading the newspaper or watching television?",
+    3: "Not at all",
+    2: "Several days",
+    1: "More than half the days",
+    0: "Nearly everyday",
   },
   8: {
-    question: "Have you experienced feelings of sadness or misery?",
-    3: "Yes, most of the time",
-    2: "Yes, quite often",
-    1: "Not very often",
-    0: "No, not at all",
+    question: "Moving or speaking so slowly that other people could have noticed? Or so fidgety or restless that you have been moving a lot more than usual?",
+    3: "Not at all",
+    2: "Several days",
+    1: "More than half the days",
+    0: "Nearly everyday",
   },
   9: {
-    question: "Have you been so unhappy that you have shed tears?",
-    3: "Yes, most of the time",
-    2: "Yes, quite often",
-    1: "Only occasionally",
-    0: "No, never",
-  },
-  10: {
-    question: "Have you had thoughts of self-harm?",
-    3: "Yes, quite often",
-    2: "Sometimes",
-    1: "Hardly ever",
-    0: "Never",
+    question: "Thoughts that you would be better off dead, or thoughts of hurting yourself in some way?",
+    3: "Not at all",
+    2: "Several days",
+    1: "More than half the days",
+    0: "Nearly everyday",
   },
 };
 
@@ -88,7 +81,7 @@ enterPreset = (e) => {
 changeChatPreset();
 
 function changeChatPreset() {
-  if (currentChat <= 10) {
+  if (currentChat <= 9) {
     elements[0].innerText = epds[currentChat][0];
     elements[1].innerText = epds[currentChat][1];
     elements[2].innerText = epds[currentChat][2];
@@ -157,7 +150,7 @@ class Chatbox {
 
 
     currentChat++;
-    if (currentChat <= 10) {
+    if (currentChat <= 9) {
       console.log(currentChat)
     } else {
       let sum = 0;
@@ -166,7 +159,7 @@ class Chatbox {
       }
       epdsData.splice(currentChat, 1, sum);
 
-      if (currentChat <= 11) {
+      if (currentChat <= 10) {
         console.log(epdsData)
         fetch("http://127.0.0.1:5000/predict_epds", {
           method: "POST",
@@ -229,7 +222,7 @@ class Chatbox {
     let msg1 = { name: "User", message: text1 };
     this.messages.push(msg1);
 
-    if (currentChat <= 10) {
+    if (currentChat <= 9) {
       let msg2 = { name: "Sanitybot", message: epds[currentChat]["question"] };
       this.messages.push(msg2);
     }
