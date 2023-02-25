@@ -437,11 +437,9 @@ body {
 *,
 html {
   --primaryGradient: linear-gradient(93.12deg, #2f89e2 0.52%, #46a2ff 100%);
-  --secondaryGradient: linear-gradient(
-    268.91deg,
-    #46a2ff -2.14%,
-    #2f89e2 99.69%
-  );
+  --secondaryGradient: linear-gradient(268.91deg,
+      #46a2ff -2.14%,
+      #2f89e2 99.69%);
   --primaryBoxShadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
   --secondaryBoxShadow: 0px -10px 15px rgba(0, 0, 0, 0.1);
   --primary: #46a2ff;
@@ -493,12 +491,13 @@ html {
   border: none;
   outline: none;
   cursor: pointer;
-  color:#FFFF;
-  font-weight:500;
-  font-size:medium;
+  color: #FFFF;
+  font-weight: 500;
+  font-size: medium;
 }
+
 .send__button:hover {
-  font-weight:600;
+  font-weight: 600;
 }
 
 /* MESSAGES */
@@ -662,7 +661,7 @@ html {
   position: absolute;
   right: 20px;
   top: 15px;
-  color:#FFFF;
+  color: #FFFF;
 }
 
 .icon i {
@@ -803,11 +802,11 @@ input[type="text"]:focus {
   color: black;
 }
 
-.chat_input{
+.chat_input {
   display: flex;
-  gap:15px;
+  gap: 15px;
   padding: 20px 20px 20px 20px;
-  background:#46a2ff;
+  background: #46a2ff;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
 }
@@ -820,7 +819,7 @@ input[type="text"]:focus {
   padding: 0 20px 20px 20px;
 }
 
-.preset-chat{
+.preset-chat {
   background-color: #E9ECEE;
   border-radius: 20px;
   padding: 5px 10px;
@@ -829,10 +828,11 @@ input[type="text"]:focus {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.preset-chat:hover{
+.preset-chat:hover {
   background-color: #46a2ff;
-  color:#ffff;
+  color: #ffff;
 }
+
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
@@ -852,4 +852,106 @@ input[type="text"]:focus {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #00317C;
+}
+
+
+/* modal deisgn */
+
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, .3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: .3s;
+}
+
+.modal .modal-box {
+  background: #FFF;
+  border-radius: 5px;
+  width: 600px;
+  min-height: 400px;
+  margin: 20px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 60px;
+}
+
+.modal .modal-box .icon {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+}
+
+.modal .modal-box .icon i {
+  color: #111;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: .1s;
+}
+
+.modal .modal-box .icon i:hover {
+  color: #6c5ce7;
+  transform: scale(1.1);
+}
+
+.modal .modal-box .imgBox {
+  width: 100px;
+  height: 100px;
+}
+
+.modal .modal-box .imgBox img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.modal .modal-box .content .title {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  font-weight: 800;
+  text-align: center;
+  color: #111;
+}
+
+.modal .modal-box .content .desc {
+  margin: 20px 0;
+  text-align: center;
+  color: #444;
+  font-size: .9rem;
+}
+
+.modal .modal-box .content .modal-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.modal .modal-box .content .modal-links a {
+  text-decoration: none;
+  display: inline-block;
+  background: #6c5ce7;
+  color: #FFF;
+  padding: .5rem 1.5rem;
+  margin: 10px;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 13px 34px -6px #6c5ce7;
+}
+
+.logo_img1{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  width: 120px;
 }

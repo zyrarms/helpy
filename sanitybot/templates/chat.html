@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <link rel="stylesheet" href="{{ url_for('static', filename='/css/style_chat.css') }}" />
-    <script type="text/javascript" defer src="{{ url_for('static', filename='app-chat.js') }}"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script type="text/javascript" defer src="{{ url_for('static', filename='app-chatbot.js') }}"></script>
     <script defer src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <title>SanityBot | Talk to Sanity</title>
 </head>
@@ -47,17 +48,45 @@
         <div class="chatbox">
             <div class="chatbox__support">
                 <div class="chatbox__header">
+                    <div type="button" class="icon" id="hide-modal">
+                        {% if data.user.is_assess %}
+                        <a href="{{ url_for('views.home') }}" class="btn_form"><i class="fa fa-times"></i></a>
+                        {% else %}
+                        <a href="#" class="btn_form" id="show-modal"><i class="fa fa-times"></i></a>
+                        {% endif %}
+                    </div>
                     <div class="chatbox__image--header">
                         <img src="{{ url_for('static', filename='/images/robot_logo.svg') }}" alt="image">
                     </div>
                     <div class="chatbox__content--header">
                         <h1 class="chatbox__description--header">I will make you feel heard.</h1>
                     </div>
+                    <!-- chatbot -->
+                    <div>
+                        <div class="modal">
+                            <div class="modal-box">
+                                <div type="button" class="icon" id="hide-modal">
+                                    <i class="fa fa-times"></i>
+                                </div>
+                                <img class="logo_img1" src="{{ url_for('static', filename='/images/robot_logo.svg') }}"
+                                    alt="logo">
+                                <div class="modaltext">
+                                    Hello There! I am Helpy again, your AI friend. Before you go.
+                                    Would you like to answer some of my questions?
+                                </div>
+                                <a onclick="toggleChatPreset(false)" class="btn_yes_no btn_form">Yes</a>
+                                <a href="{{ url_for('views.home') }}" class="btn_yes_no btn_form">No</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end chatbot -->
                 </div>
                 <div class="chatbox__messages">
                     <div class="messages__item messages__item--visitor">Little interest or pleasure in doing things?
                     </div>
-                    <div class="messages__item messages__item--visitor">Hi there! I'm SanityBot. I'm here to make you feel heard. Please try to answer my questions honestly for me to have maternal attachment with you. Thank you!
+                    <div class="messages__item messages__item--visitor">Hi there! I'm SanityBot. I'm here to make you
+                        feel heard. Please try to answer my questions honestly for me to have maternal attachment with
+                        you. Thank you!
                     </div>
                     <div></div>
                 </div>
@@ -85,6 +114,23 @@
             });
             $('.modal .modal-box .icon i').on('click', function () {
                 $('.modal').css({ 'visibility': 'hidden', 'opacity': '0' });
+            });
+        }); 
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="../static/app-chatbot.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#show-modal').on('click', function () {
+                $('.modal').css({ 'visibility': 'visible', 'opacity': '1' });
+            });
+            $('.modal .modal-box .icon i').on('click', function () {
+                $('.modal').css({ 'visibility': 'hidden', 'opacity': '0' });
+                clearAll();
+            });
+            $('.btn_yes_no').on('click', function () {
+                $('.modal').css({ 'visibility': 'hidden', 'opacity': '0' });
+                clearAll();
             });
         }); 
     </script>
