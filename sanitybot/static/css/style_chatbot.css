@@ -241,11 +241,12 @@ header .container{
   max-width: 600px;
   line-height: 2.3;
   text-align:justify;
+
 }
 
-.preggy{
+.sanity{
   width: 100%;
-  transform: translate(15%, 25px);
+  transform: translate(10%, 20%);
   z-index: -1;
 }
 
@@ -360,6 +361,7 @@ header .container{
 .text{
   font-size: 0.95rem;
   margin: 1.4rem 0 1.5rem;
+  transform: translateY(30%);
 }
 .preggy {
   width: 100%;
@@ -455,6 +457,7 @@ body {
 .send__button {
   padding: 6px;
   background: transparent;
+  background-image: url("path/to/vector.svg");
   border: none;
   outline: none;
   cursor: pointer;
@@ -584,6 +587,7 @@ body {
 
 .chatbox__send--footer {
   color: white;
+
 }
 
 .chatbox__button button,
@@ -810,4 +814,34 @@ input[type=text]:focus{
 .dropdown-content a:hover {
   background-color: #f1f1f1;
 }
+
+.welcome{
+  align-items: center;
+  cursor: pointer;
+}
+
+.welcome_img{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  width: 400px;
+}
+
+.spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px;
+  height: 50px;
+  border: 3px solid transparent;
+  border-top-color: #fff;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
 
