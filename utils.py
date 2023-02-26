@@ -18,12 +18,32 @@ with open(r'sanitybot\pickles\PHQ9_svm.pkl', 'rb') as f:
     svm_model = pickle.load(f)
 
 
+def get_frequency_label(frequency):
+    switcher = {
+        0: "Not at all",
+        1: "Several days",
+        2: "More than half the days",
+        3: "Nearly everyday"
+    }
+    return switcher.get(frequency, "Invalid frequency")
+
+
 def pdd_prediction(input_list):
     pred_result = svm_model.predict([input_list])[0]
     print(pred_result)
 
     user = current_user
     user = User.query.filter_by(id=user.id).first()
+    user.q1 = get_frequency_label(input_list[0])
+    user.q2 = get_frequency_label(input_list[1])
+    user.q3 = get_frequency_label(input_list[2])
+    user.q4 = get_frequency_label(input_list[3])
+    user.q5 = get_frequency_label(input_list[4])
+    user.q6 = get_frequency_label(input_list[5])
+    user.q7 = get_frequency_label(input_list[6])
+    user.q8 = get_frequency_label(input_list[7])
+    user.q9 = get_frequency_label(input_list[8])
+    user.result = int(input_list[9])
     user.epds_score = int(pred_result)
     user.date_submitted = datetime.now()
     # health = User_health(firstname=user.firstname, middlename=user.middlename,

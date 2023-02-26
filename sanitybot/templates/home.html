@@ -13,9 +13,9 @@
 
 <body>
   <!-- LOADING HERE -->
-  <div id="loading" data-isloading="true" style="background-color:#c3c3c3; width:100vw; height:100vh;">
-    <div style="position:absolute; top:25%; right:50%; transform:translate(50%, -50%); z-index:100; ">
-      <img class="sanitybot_img" src="{{ url_for('static', filename='/images/sanitybot_logo.svg') }}" alt="logo">
+  <div id="loading" data-isloading="true" style="background-color:#c3c3c3; width:100vw; height:500vh;">
+    <div>
+      <img class="sanitybot_img" src="{{ url_for('static', filename='/images/loading.svg') }}" alt="logo">
       <h2 class="tagline">An AI chatbot that makes you feel heard</h2>
     </div>
   </div>
@@ -72,17 +72,12 @@
       <div class="content-area">
         <div class="container">
           <div class="left">
-            <div class="title">
-              <h3>Start talking with</h3>
-              <h1>SanityBot</h1>
-            </div>
+            <div class="welcome">
+              <img src="{{ url_for('static', filename='/images/welcome.svg') }}" alt="Image" class="sanity">
             <p class="text">
-              An Artificial Intelligence Chatbot that helps you to
-              openly share your feelings, thoughts, and behaviors
-              with the use of digital mental health counseling as
-              well as psychotherapy.
+              Your AI friend. I am excited to talk to you  for the first time. I am here to help about your mental health concerns. 
             </p>
-
+            </div>
             <!-- chatbot -->
             <div>
               {% if user.is_assess %}
@@ -105,13 +100,6 @@
               </div>
             </div>
             <!-- end chatbot -->
-
-          </div>
-          <div class="right">
-            <img src="{{ url_for('static', filename='/images/homepage.svg') }}" alt="Image" class="sanity">
-          </div>
-        </div>
-      </div>
       <!-- landing page end -->
     </div>
   </main>
@@ -137,7 +125,7 @@
 
     if (!isLoaded) {
       if (loadingElement.getAttribute("data-isloading") === "true") {
-        setTimeout(() => { loadingElement.style.display = "none"; }, 500)
+        setTimeout(() => { loadingElement.style.display = "none"; }, 20000)
       }
       isLoaded = true;
     }

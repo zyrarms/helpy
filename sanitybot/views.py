@@ -7,7 +7,8 @@ from werkzeug.security import generate_password_hash, check_password_hash
 from flask_login import login_required, current_user
 from datetime import date
 from flask import session
-
+# from chat import chat
+from chat import get_response
 
 views = Blueprint('views', __name__)
 
@@ -205,3 +206,10 @@ def home2():
 @views.route('/loading', methods = ['GET', 'POST'])
 def loading():
     return render_template('splash_screen.html')
+
+@views.route('/result', methods = ['GET', 'POST'])
+def result():
+    user = current_user
+    # answers = request.get_json().get("message")
+    # print(answers)
+    return render_template('result.html', user=user)

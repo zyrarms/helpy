@@ -168,8 +168,10 @@ class Chatbox {
     //   this.epds_chatbot(chatbox)
     // } else 
     if (text1.toLowerCase().includes("thanks") || text1.toLowerCase().includes("thank you") || text1.toLowerCase().includes("thank you!")) {
-      let msg2 = { name: "Sanitybot", message: "Your welcome! But before you go. Lately did you have a little interest or pleasure in doing things?" };
+      let msg2 = { name: "Sanitybot", message: "Your welcome! But before you go." };
+      let msg3 = { name: "Sanitybot", message: "Lately did you have a little interest or pleasure in doing things?" };
       this.messages.push(msg2);
+      this.messages.push(msg3);
       this.updateChatText(chatbox)
       textField.value = ''
       is_done = true;
@@ -242,7 +244,7 @@ class Chatbox {
             let msg2 = { name: "Sanitybot", message: r.answer };
             this.messages.push(msg2);
             // TODO: updated the link
-            this.messages.push({ name: "Sanitybot", message: "You can download the detailed version of the assessment. <a href='http://localhost:5000/file/AssessmentResult.docx'>Click here</a>" })
+            this.messages.push({ name: "Sanitybot", message: "You can download the detailed version of the assessment. <a href='/result'>Click here</a>" })
             msg2 = { name: "Sanitybot", message: "Do you have any questions? I will be glad to answer all your queries." };
             this.messages.push(msg2);
             // presetWrapper.style.display = 'flex';
