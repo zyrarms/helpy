@@ -487,7 +487,6 @@ html {
 
 .send__button {
   padding: 15px;
-  background: transparent;
   border: none;
   outline: none;
   cursor: pointer;
@@ -865,38 +864,9 @@ input[type="text"]:focus {
   height: 100%;
   background: rgba(0, 0, 0, .3);
   display: flex;
-  justify-content: center;
   align-items: center;
-  visibility: hidden;
-  opacity: 0;
-  transition: .3s;
-}
-
-.modal .modal-box {
-  background: #FFF;
-  border-radius: 5px;
-  width: 600px;
-  min-height: 400px;
-  margin: 20px;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: 60px;
-}
-
-.modal .modal-box .icon {
-  position: absolute;
-  right: 20px;
-  top: 15px;
-}
-
-.modal .modal-box .icon i {
-  color: #111;
-  font-size: 1rem;
   cursor: pointer;
-  transition: .1s;
+  width: 120px;
 }
 
 .modal .modal-box .icon i:hover {

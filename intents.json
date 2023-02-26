@@ -1128,6 +1128,35 @@
                   "You may have goals and dreams, but procrastinating or not acting on them can make you feel dissatisfied and unfulfilled. Take small steps to work towards your goals instead of simply building castles in the air.",
                   "I know it can be so difficult to take action on our goals and can be really discouraging when we don't make progress. I think one way to help motivate yourself and stay focused is to break down your goal into smaller, more achievable goals.",
                   "To overcome these obstacles, start small by breaking your goal into concrete and manageable steps, set realistic timelines and expectations, find positive motivators to keep you going, practice self-compassion, make a plan and stick to it, and make sure you hold yourself accountable."
+                ]
+              },
+              {
+                  "tag": "time management",
+                  "patterns": [
+                    "I struggle with managing my time.",
+                    "struggling in time management",
+                    "managing my time",
+                    ""
+              
+                  ],
+                  "responses": [
+                    "The key to making enough time to work towards health, fitness, and other goals is to be organized with your time so that you can prioritize what is important.",
+                    "I totally understand how it feels to struggle with managing your time. It can be really overwhelming and make us feel like we're not in control."
+                  ]
+              },
+              {
+                  "tag": "self confidence",
+                  "patterns": [
+                    "I lack of self-confidence",
+                    "lack of confidence",
+                    "How can I reframe negative thoughts and self-talk into positive ones?",
+                    "self confidence"
+              
+                  ],
+                  "responses": [
+                    "If you feel insecure about yourself, it can be difficult to unlock your true potential. Building self-esteem takes work, but it can help you avoid much unhappiness and anxiety.",
+                    "Try to reframe negative thoughts and self-talk by acknowledging them and then turning them around and replacing them with something more positive and realistic. Whenever something negative pops into your head, try to replace it with an affirmation or positive statement.",
+                    "Make sure to remind yourself that you are loved and that no matter what you are going through, you are never alone."                 
               ]
               }
         ]
