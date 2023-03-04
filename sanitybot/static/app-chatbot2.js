@@ -1,5 +1,7 @@
 let currentChat = 1;
 let is_done = false;
+let currentCount = 0;
+
 
 epds = {
   1: {
@@ -160,30 +162,19 @@ class Chatbox {
     if (text1 === "") {
       return;
     }
+    console.log('text1 out:', text1)
 
     let msg1 = { name: "User", message: text1 }
     this.messages.push(msg1);
 
-    // if (text1.toLowerCase().includes("yes") || text1.toLowerCase().includes("okay") || text1.toLowerCase().includes("sure")) {
-    //   this.epds_chatbot(chatbox)
-    // } else 
-    if (text1.toLowerCase().includes("thanks") || text1.toLowerCase().includes("thank you") || text1.toLowerCase().includes("thank you!")) {
-      let msg2 = { name: "Sanitybot", message: "Wait up! May I ask you something if... " };
-      let msg3 = { name: "Sanitybot", message: "Lately did you have a little interest or pleasure in doing things?" };
-      this.messages.push(msg2);
-      this.messages.push(msg3);
-      this.updateChatText(chatbox)
-      textField.value = ''
-      is_done = true;
-      // show the chat_preset
-      toggleChatPreset(false);
-    }
+    console.log('CurrentCount:', currentCount)
 
-    if (is_done) {
-
-      this.epds_chatbot(chatbox);
-    } else {
+    if (currentCount % 2 === 0 && currentCount <= 19) {
+      currentCount++;
+      console.log('text1 in:', text1)
       // hide the chat_preset
+      //text1 = questioms tag
+      
       toggleChatPreset(true);
       fetch('http://127.0.0.1:5000/predict', {
         method: 'POST',
@@ -206,7 +197,80 @@ class Chatbox {
           textField.value = ''
         });
 
+    } else if (currentCount % 2 !== 0 && currentCount <= 19) {
+      console.log('other:', text1)
+      toggleChatPreset(false);
+      currentCount++;
+      this.epds_chatbot(chatbox);
+      currentChat++;
+
+    } else {
+      fetch('http://127.0.0.1:5000/predict', {
+        method: 'POST',
+        body: JSON.stringify({ message: text1 }),
+        mode: 'cors',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+      })
+        .then(r => r.json())
+        .then(r => {
+          let msg2 = { name: "Sanitybot", message: r.answer };
+          this.messages.push(msg2);
+          this.updateChatText(chatbox)
+          textField.value = ''
+
+        }).catch((error) => {
+          console.error('Error:', error);
+          this.updateChatText(chatbox)
+          textField.value = ''
+        });
     }
+
+    // if (text1.toLowerCase().includes("yes") || text1.toLowerCase().includes("okay") || text1.toLowerCase().includes("sure")) {
+    //   this.epds_chatbot(chatbox)
+    // } else 
+    // if (text1.toLowerCase().includes("thanks") || text1.toLowerCase().includes("thank you") || text1.toLowerCase().includes("thank you!")) {
+    //   is_done = true;
+    //   let msg2 = { name: "Sanitybot", message: "Wait up! May I ask you something if... " };
+    //   let msg3 = { name: "Sanitybot", message: "Lately did you have a little interest or pleasure in doing things?" };
+    //   this.messages.push(msg2);
+    //   this.messages.push(msg3);
+    //   this.updateChatText(chatbox)
+    //   textField.value = ''
+
+    //   // show the chat_preset
+    //   toggleChatPreset(false);
+    // }
+
+    // if (is_done) {
+
+    //   this.epds_chatbot(chatbox);
+    // } else {
+    //   // hide the chat_preset
+    //   toggleChatPreset(true);
+    //   fetch('http://127.0.0.1:5000/predict', {
+    //     method: 'POST',
+    //     body: JSON.stringify({ message: text1 }),
+    //     mode: 'cors',
+    //     headers: {
+    //       'Content-Type': 'application/json'
+    //     },
+    //   })
+    //     .then(r => r.json())
+    //     .then(r => {
+    //       let msg2 = { name: "Sanitybot", message: r.answer };
+    //       this.messages.push(msg2);
+    //       this.updateChatText(chatbox)
+    //       textField.value = ''
+
+    //     }).catch((error) => {
+    //       console.error('Error:', error);
+    //       this.updateChatText(chatbox)
+    //       textField.value = ''
+    //     });
+
+    // }
 
 
   }
@@ -218,10 +282,11 @@ class Chatbox {
     if (text1 === "") {
       return;
     }
+    console.log('currentChat:', currentChat)
 
-    currentChat++;
+
     if (currentChat <= 9) {
-      console.log(currentChat)
+      console.log('currentChat1', currentChat)
     } else {
       let sum = 0;
       for (let data of epdsData) {
@@ -230,7 +295,7 @@ class Chatbox {
       epdsData.splice(currentChat, 1, sum);
 
       if (currentChat <= 10) {
-        console.log(epdsData)
+        console.log('epdsData', epdsData)
         fetch("http://127.0.0.1:5000/predict_epds", {
           method: "POST",
           body: JSON.stringify({ message: epdsData }),
@@ -259,28 +324,29 @@ class Chatbox {
             this.updateChatText(chatbox);
             textField.value = "";
           });
-      } else {
-        fetch('http://127.0.0.1:5000/predict', {
-          method: 'POST',
-          body: JSON.stringify({ message: text1 }),
-          mode: 'cors',
-          headers: {
-            'Content-Type': 'application/json'
-          },
-        })
-          .then(r => r.json())
-          .then(r => {
-            let msg2 = { name: "Sanitybot", message: r.answer };
-            this.messages.push(msg2);
-            this.updateChatText(chatbox)
-            textField.value = ''
-
-          }).catch((error) => {
-            console.error('Error:', error);
-            this.updateChatText(chatbox)
-            textField.value = ''
-          });
       }
+      // else {
+      //   fetch('http://127.0.0.1:5000/predict', {
+      //     method: 'POST',
+      //     body: JSON.stringify({ message: text1 }),
+      //     mode: 'cors',
+      //     headers: {
+      //       'Content-Type': 'application/json'
+      //     },
+      //   })
+      //     .then(r => r.json())
+      //     .then(r => {
+      //       let msg2 = { name: "Sanitybot", message: r.answer };
+      //       this.messages.push(msg2);
+      //       this.updateChatText(chatbox)
+      //       textField.value = ''
+
+      //     }).catch((error) => {
+      //       console.error('Error:', error);
+      //       this.updateChatText(chatbox)
+      //       textField.value = ''
+      //     });
+      // }
     }
 
     console.log(epdsData);

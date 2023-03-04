@@ -10,12 +10,12 @@ import docx
 from io import BytesIO
 from datetime import datetime
 
-with open(r'sanitybot\pickles\ppd_decisiontree.pkl', 'rb') as f:
+with open(r'sanitybot\pickles\PHQ9_decisiontree.pkl', 'rb') as f:
     decisionTree_model = pickle.load(f)
-with open(r'sanitybot\pickles\ppd_naiveBayes.pkl', 'rb') as f:
+with open(r'sanitybot\pickles\PHQ9_naiveBayes.pkl', 'rb') as f:
     naiveBayes_model = pickle.load(f)
-with open(r'sanitybot\pickles\PHQ9_svm.pkl', 'rb') as f:
-    svm_model = pickle.load(f)
+with open(r'sanitybot\pickles\model\PHQ9_lstm.pkl', 'rb') as f:
+    lstm_model = pickle.load(f)
 
 
 def get_frequency_label(frequency):
@@ -29,7 +29,7 @@ def get_frequency_label(frequency):
 
 
 def pdd_prediction(input_list):
-    pred_result = svm_model.predict([input_list])[0]
+    pred_result = lstm_model.predict([input_list])[0]
     print(pred_result)
 
     user = current_user
@@ -49,19 +49,24 @@ def pdd_prediction(input_list):
     # health = User_health(firstname=user.firstname, middlename=user.middlename,
     #                      lastname=user.lastname, address=user.address, contact=user.contact, condition=int(pred_result))
     # db.session.add(health)
+
+    
     ppd = ""
     epds_class = ""
     if (pred_result) == 0:
-        ppd = """Thank you for answering questions. Based on the conversation in AI chatbot, A mental health disorder may start out as subtle changes to a person’s feelings, thinking and behaviour. Ongoing and significant changes, you are likely to have a Low Risk mental health problem or possible developing a mental health disorder. If something doesn’t seem ‘quite right’, it’s important to start the conversation or consultation about getting help.  So you better  monitored closely about your condition."""
-        epds_class = "Low Risk"
+        ppd = """Thank you for answering questions. Based on the conversation with me, A mental health disorder may start out as subtle changes to a person’s feelings, thinking and behaviour. Ongoing and significant changes, you are likely to have a Minimal Risk or none mental health problem or possible developing a mental health disorder. If something doesn’t seem ‘quite right’, it’s important to start the conversation or consultation about getting help.  So you better  monitored closely about your condition."""
+        epds_class = "Minimal Risk"
     elif (pred_result) == 1:
-        ppd = """Thank you for answering questions. Based on the conversation in AI chatbot, You are possible to have a mild risk level on mental health problem, learning about developing symptoms, or early warning signs, and taking action can help to ensure prompt treatment. Early intervention can help reduce the severity of this problem and interruptions in quality of life and functions. It may even be possible to delay or prevent a major mental illness altogether. Most mental problem don't improve on their own, and if untreated, a mental illness may get worse over time and cause serious problems."""
-        epds_class = "Mild Risk"
+        ppd = """Thank you for answering questions. Based on the conversation with me, You are possible to have a Low Risk level on mental health problem, learning about developing symptoms, or early warning signs, and taking action can help to ensure prompt treatment. Early intervention can help reduce the severity of this problem and interruptions in quality of life and functions. It may even be possible to delay or prevent a major mental illness altogether. Most mental problem don't improve on their own, and if untreated, a mental illness may get worse over time and cause serious problems."""
+        epds_class = "Low Risk"
     elif (pred_result) == 2:
-        ppd = """Thank you for answering questions. Based on the conversation in AI chatbot, You are possible in a moderate risk level of mental health problem that is something to look out for! When concerned that a you may be  is a change in behavior or the presence of entirely new behaviors. It can make you miserable and can cause problems in your daily life, such as at school or work or in relationships. In most cases, symptoms can be managed with a combination of medications and talk therapy (psychotherapy)."""
-        epds_class = "Moderate Risk"
+        ppd = """Thank you for answering questions. Based on the conversation with me, You are possible in a Mild risk level of mental health problem that is something to look out for! When concerned that a you may be  is a change in behavior or the presence of entirely new behaviors. It can make you miserable and can cause problems in your daily life, such as at school or work or in relationships. In most cases, symptoms can be managed with a combination of medications and talk therapy (psychotherapy)."""
+        epds_class = "Mild Risk"
     elif (pred_result) == 3:
-        ppd = """Thank you for answering questions. Based on the conversation in AI chatbot, This is the sharpest concern if the new or changed behavior is related to a painful event, loss, or change. Most people who take their lives exhibit one or more warning signs, either through what they say or what they do. Untreated mental problem can cause severe emotional, behavioral and physical health problems. If you have any signs or symptoms of this problems, see your primary care provider or a mental health professional right away."""
+        ppd = """Thank you for answering questions. Based on the conversation with me, I can see that you are in Moderate risk level,  the sharpest concern like new or changed behavior that is related to a painful event, loss, or change probably people who take their lives exhibit one or more warning signs. It can cause severe emotional, behavioral and physical health problems, so it is important to seek attention from a primary care provider or mental health professional as soon as possible."""
+        epds_class = "Moderate Risk"
+    elif (pred_result) == 4:
+        ppd = """Thank you for answering questions. Based on the conversation with me, I can see that you are in High risk level,  the sharpest concern like new or changed behavior that is related to a painful event, loss, or change probably people who take their lives exhibit one or more warning signs. It can cause severe emotional, behavioral and physical health problems, so it is important to seek attention from a primary care provider or mental health professional as soon as possible."""
         epds_class = "High Risk"
     else:
         ppd = 'Nothing'
