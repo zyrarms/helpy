@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="{{ url_for('static', filename='/css/style_profile.css') }}" />
   <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <title>SanityBot | Profile</title>
+  <title>Helpy | Profile</title>
 </head>
 
 <body>
@@ -30,6 +30,9 @@
 
     <!-- profilepage -->
     <div class="wrapper light ">
+
+      <div style="height: 5vh; background-image: url('static/images/result.svg');"></div>
+
       <header>
         <div class="container">
 
@@ -46,7 +49,7 @@
         <form action="" method="post">
           <div class="row">
             <div class="col">
-              <h3 class="title">Result</h3>
+              <h1 class="title1">Thank you for answering those questions. This result section is to objectively present your key result to support your mental wellbeing.  Overall, I found out that this is the outcome of your answer in my questions.</h1>
               <div class="flex1">
                 <div class="inputBox">
                   <span></span>
@@ -55,7 +58,7 @@
                 </div>
                 <div class="inputBox">
                   <span></span>
-                  <span style="color:#92b84c">Answer :</span>
+                  <span style="color:#BB7070">Answer :</span>
                   <span>{{ user.q1 }}</span>
                 </div>
               </div>
@@ -67,7 +70,7 @@
                 </div>
                 <div class="inputBox">
                   <span></span>
-                  <span style="color:#92b84c">Answer :</span>
+                  <span style="color:#BB7070">Answer :</span>
                   <span>{{ user.q2 }}</span>
                 </div>
               </div>
@@ -79,7 +82,7 @@
                 </div>
                 <div class="inputBox">
                   <span></span>
-                  <span style="color:#92b84c">Answer :</span>
+                  <span style="color:#BB7070">Answer :</span>
                   <span>{{ user.q3 }}</span>
                 </div>
               </div>
@@ -91,7 +94,7 @@
                 </div>
                 <div class="inputBox">
                   <span></span>
-                  <span style="color:#92b84c">Answer :</span>
+                  <span style="color:#BB7070">Answer :</span>
                   <span>{{ user.q4 }}</span>
                 </div>
               </div>
@@ -103,7 +106,7 @@
                 </div>
                 <div class="inputBox">
                   <span></span>
-                  <span style="color:#92b84c">Answer :</span>
+                  <span style="color:#BB7070">Answer :</span>
                   <span>{{ user.q5 }}</span>
                 </div>
               </div>
@@ -115,7 +118,7 @@
                 </div>
                 <div class="inputBox">
                   <span></span>
-                  <span style="color:#92b84c">Answer :</span>
+                  <span style="color:#BB7070">Answer :</span>
                   <span>{{ user.q6 }}</span>
                 </div>
               </div>
@@ -127,7 +130,7 @@
                 </div>
                 <div class="inputBox">
                   <span></span>
-                  <span style="color:#92b84c">Answer :</span>
+                  <span style="color:#BB7070">Answer :</span>
                   <span>{{ user.q7 }}</span>
                 </div>
               </div>
@@ -139,7 +142,7 @@
                 </div>
                 <div class="inputBox">
                   <span></span>
-                  <span style="color:#92b84c">Answer :</span>
+                  <span style="color:#BB7070">Answer :</span>
                   <span>{{ user.q8 }}</span>
                 </div>
               </div>
@@ -151,18 +154,18 @@
                 </div>
                 <div class="inputBox">
                   <span></span>
-                  <span style="color:#92b84c">Answer :</span>
+                  <span style="color:#BB7070">Answer :</span>
                   <span>{{ user.q9 }}</span>
                 </div>
               </div>
               <div class="flex1">
                 <div class="inputBox">
                   <span></span>
-                  <h3 style="color:#9024c2">PHQ-9 Score :</h3>
+                  <h3 style="color:black">Score :</h3>
                 </div>
                 <div class="inputBox">
                   <span></span>
-                  <h3 style="color:#9024c2">{{ user.result }}</h3><div>
+                  <h3 style="color:black">{{ user.result }}</h3><div>
                 <img src="{{ url_for('static', filename='/images/helpy.svg') }}" alt="Image" class="sanity">
               </div>
                 </div>
@@ -173,19 +176,30 @@
                 <div class="flex">
                   <div class="inputBox">
                     <span></span>
-                    <h2 style="color:#BB7070">PHQ-9 Interpretation :
-                    </h2>
-                    <h1> {% if user.epds_score == 0 %}
-                      Low Risk
+                    <h2 style="color:#BB7070">Interpretation:
+                      {% if user.epds_score == 0 %}
+                      Minimal Risk 
+                      </h3>
+                      "Monitor; may not require treatment" 
                       {% elif user.epds_score == 1 %}
-                      Mild Risk
+                      Low Risk 
+                     </h3>
+                      "Use clinical judgment (symptom duration, functional impairment) to determine necessity of treatment"
                       {% elif user.epds_score == 2 %}
-                      Moderate Risk
+                      Mild Risk 
+                      </h3>
+                      "Use clinical judgment (symptom duration, functional impairment) to determine necessity of treatment"
                       {% elif user.epds_score == 3 %}
-                      High Risk
+                      Moderate Risk 
+                      </h3>
+                      "Warrants active treatment with psychotherapy, medications, or combination"
+                      {% elif user.epds_score == 4 %}
+                      High Risk 
+                     </h3>
+                      "Warrants active treatment with psychotherapy, medications, or combination"
                       {% else %}
                       Nothing
-                      {% endif %}</h1>
+                      {% endif %}</h3>
                   </div>
                   
                 </div><a href="http://localhost/econsultation_new/user/appointment.php" class="btn_form">Click here to get an appointment in Guidance Councilor</a>

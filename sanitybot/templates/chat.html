@@ -10,15 +10,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <script type="text/javascript" defer src="{{ url_for('static', filename='app-chatbot.js') }}"></script>
     <script defer src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <title>SanityBot | Talk to Sanity</title>
+    <title>Helpy | Chat me!</title>
 </head>
 
 <body>
     <!-- LOADING HERE -->
     <div id="loading" data-isloading="true" style="background-color:#c3c3c3; width:100vw; height:500vh;">
         <div>
-            <img class="sanitybot_img spinner" src="{{ url_for('static', filename='/images/loading.svg') }}"
-                alt="logo">
+            <img class="sanitybot_img spinner" src="{{ url_for('static', filename='/images/loading.svg') }}" alt="logo">
         </div>
     </div>
     <div id="loading1" data-isloading="true" style="background-color:#c3c3c3; width:100vw; height:500vh; display:none;">
@@ -29,7 +28,8 @@
     </div>
     <div id="loading2" data-isloading="true" style="background-color:#c3c3c3; width:100vw; height:500vh; display:none;">
         <div>
-            <img class="sanitybot_img spinner" src="{{ url_for('static', filename='/images/loading3.svg') }}" alt="logo">
+            <img class="sanitybot_img spinner" src="{{ url_for('static', filename='/images/loading3.svg') }}"
+                alt="logo">
         </div>
     </div>
 
@@ -74,11 +74,13 @@
                                 </div> -->
                                 <img class="logo_img1" src="{{ url_for('static', filename='/images/modalhelpy.svg') }}"
                                     alt="logo">
-                                    <h3 class="modaltext">Hello There! I am Helpy again, your AI friend. Before you go. Would you like to answer some of my questions?</h3>
-                                
+                                <h3 class="modaltext">Hi, Don't skip! Would you be willing to answer some of my
+                                    questions?</h3>
+
                                 <div style="display: inline-flex; gap: 50%; margin-bottom: 30%;">
                                     <a onclick="toggleChatPreset(false)" class="btn_yes_no btn_yes btn_form">Yes</a>
-                                    <a href="http://localhost/econsultation_new/user/index.php" class="btn_yes_no btn_no btn_form">No</a>
+                                    <a href="http://localhost/econsultation_new/user/index.php"
+                                        class="btn_yes_no btn_no btn_form">No</a>
                                 </div>
                             </div>
                         </div>
@@ -86,9 +88,9 @@
                     <!-- end chatbot -->
                 </div>
                 <div class="chatbox__messages">
-                    <div class="messages__item messages__item--visitor">Hi there! I'm SanityBot. I'm here to make you
-                        feel heard. Please try to answer my questions honestly for me to have maternal attachment with
-                        you. Thank you!
+                    <div class="messages__item messages__item--visitor">Hi. I'am Helpy. You may ask me anything about
+                        your thoughts, and I'll listen to you to ensure you can feel better.
+
                     </div>
                     <div></div>
                 </div>
@@ -103,7 +105,7 @@
                     <button class="chatbox__send--footer send__button">
                         <i class="fa fa-arrow-circle-left" aria-hidden="true"></i>
                     </button>
-                    
+
                 </div>
             </div>
             <div class="chatbox__button">

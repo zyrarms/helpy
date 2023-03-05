@@ -46,7 +46,7 @@ def get_response(msg):
             if tag == intent["tag"]:
                 return random.choice(intent['responses'])
 
-    return "Sorry, I didnt get that. what is your question again?"
+    return "I'm sorry! I missed that. Could you try to ask in another way, please?"
 
 
 def chat(inp):

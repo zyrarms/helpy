@@ -19,10 +19,10 @@ epds = {
   },
   3: {
     question: "Trouble falling or staying asleep, or sleeping too much?",
-    3: "Not at all",
-    2: "Several days",
-    1: "More than half the days",
-    0: "Nearly everyday",
+    0: "Not at all",
+    1: "Several days",
+    2: "More than half the days",
+    3: "Nearly everyday",
   },
   4: {
     question: "Feeling tired or having little energy?",
@@ -33,38 +33,38 @@ epds = {
   },
   5: {
     question: "Poor appetite or overeating?",
-    3: "Not at all",
-    2: "Several days",
-    1: "More than half the days",
-    0: "Nearly everyday",
+    0: "Not at all",
+    1: "Several days",
+    2: "More than half the days",
+    3: "Nearly everyday",
   },
   6: {
     question: "Feeling bad about yourself — or that you are a failure or have let yourself or your family down?",
-    3: "Not at all",
-    2: "Several days",
-    1: "More than half the days",
-    0: "Nearly everyday",
+    0: "Not at all",
+    1: "Several days",
+    2: "More than half the days",
+    3: "Nearly everyday",
   },
   7: {
     question: "Trouble concentrating on things, such as reading the newspaper or watching television?",
-    3: "Not at all",
-    2: "Several days",
-    1: "More than half the days",
-    0: "Nearly everyday",
+    0: "Not at all",
+    1: "Several days",
+    2: "More than half the days",
+    3: "Nearly everyday",
   },
   8: {
     question: "Moving or speaking so slowly that other people could have noticed? Or so fidgety or restless that you have been moving a lot more than usual?",
-    3: "Not at all",
-    2: "Several days",
-    1: "More than half the days",
-    0: "Nearly everyday",
+    0: "Not at all",
+    1: "Several days",
+    2: "More than half the days",
+    3: "Nearly everyday",
   },
   9: {
     question: "Thoughts that you would be better off dead, or thoughts of hurting yourself in some way?",
-    3: "Not at all",
-    2: "Several days",
-    1: "More than half the days",
-    0: "Nearly everyday",
+    0: "Not at all",
+    1: "Several days",
+    2: "More than half the days",
+    3: "Nearly everyday",
   },
 };
 
@@ -168,7 +168,7 @@ class Chatbox {
     //   this.epds_chatbot(chatbox)
     // } else 
     if (text1.toLowerCase().includes("thanks") || text1.toLowerCase().includes("thank you") || text1.toLowerCase().includes("thank you!")) {
-      let msg2 = { name: "Sanitybot", message: "Your welcome! But before you go." };
+      let msg2 = { name: "Sanitybot", message: "Wait up! May I ask you something if... " };
       let msg3 = { name: "Sanitybot", message: "Lately did you have a little interest or pleasure in doing things?" };
       this.messages.push(msg2);
       this.messages.push(msg3);
@@ -244,9 +244,8 @@ class Chatbox {
             let msg2 = { name: "Sanitybot", message: r.answer };
             this.messages.push(msg2);
             // TODO: updated the link
-            this.messages.push({ name: "Sanitybot", message: "You can download the detailed version of the assessment. <a href='/result'>Click here</a>" })
-            msg2 = { name: "Sanitybot", message: "Do you have any questions? I will be glad to answer all your queries." };
-            this.messages.push(msg2);
+            this.messages.push({ name: "Sanitybot", message: "Simply go to this page to <a href='/result'>view result.</a>" })
+
             // presetWrapper.style.display = 'flex';
             // elements[0].innerText = "Yes"
             // elements[1].innerText = "No"
