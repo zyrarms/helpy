@@ -19,7 +19,11 @@
     },
     {
       "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
       "responses": [
         "See you later, thanks for visiting!",
         "Have a nice day!",
@@ -28,8 +32,17 @@
     },
     {
       "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["It's my pleasure to help!", "Any time!", "My pleasure!"]
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!"
+      ],
+      "responses": [
+        "It's my pleasure to help!",
+        "Any time!",
+        "My pleasure!"
+      ]
     },
     {
       "tag": "Mental Health",
@@ -41,7 +54,6 @@
       ],
       "responses": [
         "We all have mental health which is made up of our beliefs, thoughts, feelings, and behaviors. Which includes our emotional, psychological, and social well-being. It affects how we think, feel, and act. It also helps determine how we handle stress, relate to others, and make healthy choices."
-        
       ]
     },
     {
@@ -52,7 +64,6 @@
       ],
       "responses": [
         "All people can suffer mental health challenges, but developing our well-being, and resilience, and seeking help early can prevent challenges from becoming serious."
-        
       ]
     },
     {
@@ -62,7 +73,6 @@
         "What causes mental health issues?",
         "Causes of mental health problem",
         "What caueses of mental illness"
-        
       ],
       "responses": [
         "Challenges or problems with mental health can arise from pyschological, biological, and social issues as well as life, events."
@@ -79,7 +89,6 @@
       ],
       "responses": [
         "It is often more realistic and helpful to find out what helps with the issues you face. Talking, counseling, medication, friendships, exercise, good sleep and nutrition, and meaningful occupation can all help."
-        
       ]
     },
     {
@@ -90,7 +99,6 @@
         "What impact does mental health have on physcal health?",
         "How can mental health effect physical health?",
         "Is it possible to affect my physical health because of my mental health?"
-
       ],
       "responses": [
         "Mental health and physical health go hand-in-hand. For example, physical exercise can improve your mood and reduce your anxiety, among many others benefits. Similarly, neglecting your mental health can lead to serious health complications, including heart disease, high blood pressure, a weakened immune system, obesity, and more."
@@ -102,7 +110,6 @@
         "What are the causes of mental illness or mental health issues?",
         "What causes mental illness or mental health issues?",
         "What factors lead to mental illnes or mental health problems?"
-        
       ],
       "responses": [
         "Mental health issues are usually caused by various physical, environmental, and social factors. Physical factors can include a person’s genetic makeup, abuse of substances like street drugs or alcohol, or physical trauma. Social factors include our support networks, like friends or family members, where we live, and work conditions. Environmental factors can include severe psychological trauma caused by events like sexual abuse or war."
@@ -115,7 +122,6 @@
         "How can I determine if someone has a mental illness?",
         "sign of having mental problems",
         "How can I determine if someone is experienceing mental health issues"
-        
       ],
       "responses": [
         "If someone is experiencing or showing a sign of having mental healt problems, they may show significant mood swings, or appear more withdrawn if they are dealing with self-harm or negative thoughts, but everything is dependent on the individual and there is no one way to know whether someone is unwell. "
@@ -129,8 +135,6 @@
         "Who should I talk to?",
         "Can you suggest who should I talk to",
         "kakausapin ko ba si hotdog"
-
-
       ],
       "responses": [
         "The first step you can take is simply to consult a general practitioner or family doctor. Talking with a doctor can help clarify your options and rule out physical causes for mental health problems. While it might feel difficult at first to talk to your doctor about your thoughts and feelings, this discussion may help you access the counseling services you need."
@@ -145,7 +149,6 @@
         "Hindi ako okay",
         "Ano ang gagawin ko kapag hindi ako okay",
         "What to do?"
-      
       ],
       "responses": [
         "If your beliefs, thoughts, feelings or behaviours have a significant impact on your ability to function in what might be considered a normal or ordinary way, it would be important to seek help."
@@ -161,7 +164,6 @@
       ],
       "responses": [
         "The most important thing is to talk to someone you trust. Specially your medical doctor of your psychiatrist or this might be a friend, colleague, family member or GP. In addtion talking to someone, it may be useful to find out more information about what you are experiencing. These things may help to get some perspective on what you are experiencing and be the start of getting help."
-        
       ]
     },
     {
@@ -174,7 +176,6 @@
       ],
       "responses": [
         "Mental illness refers to a wide range of mental health conditions or disorders that affect a person's mood, thinking, and behaviour."
-        
       ]
     },
     {
@@ -195,7 +196,6 @@
         "How common are mental illness?",
         "is mental illness are common?",
         "ano ang dahilan ng mental illness"
-        
       ],
       "responses": [
         "Mental illnesses are very common. In fact, according to studies done by IDRAAC, 1 out 4 Lebanese adults is at risk of developing a mental disorder before the age of 75 years and this varies by country. Lebanon seems to be in the medium range."
@@ -209,11 +209,9 @@
         "what are the symptoms of mental illness",
         "Do you have an idea what are the signs of having mental illness?",
         "type and severity of the mental illness condition"
-        
       ],
       "responses": [
         "Symptoms of mental disorders vary depending on the type and severity of the condition. Some general symptoms that may suggest a mental illness includes:(1)Problems in concentration, (2) Long-lasting sadness or irritability, (3) Recurrent changes in energy, (4) Extremely high and low moods, (5) Excessive fear, worry, or anxiety, (6) Social withdrawal, (7) Dramatic changes in eating or sleeping habits, (8) Strong feelings of anger, (9) Delusions or hallucinations (seeing or hearing things that are not really there), (10) Increasing inability to cope with daily problems and activities, (11) Suicidal thoughts, (12) Many unexplained physical problems, (13) Confused thinking, (14) Abuse of drugs and/or alcohol."
-        
       ]
     },
     {
@@ -222,11 +220,9 @@
         "What type of mental illness and mental health problems can be treated by a psychiatrist?",
         "types of mentall illness and problems",
         "what are the types that can be treated by a Medical Doctor?"
-        
       ],
       "responses": [
         "Psychiatrists can treat various mental health disorders, including (1) Addiction and substance use disorders, (2) Anxiety disorders , (3) Depression , (4) Dissociative disorders, (5) Eating disorders, (6) Gender dysphoria, (7) Obsessive-Compulsive Disorder (OCD), (8) Personality disorders, (9) Post-Traumatic Stress Disorder (PTSD), (10) Schizophrenia, and more."
-        
       ]
     },
     {
@@ -236,11 +232,9 @@
         "mental illness possible treatment",
         "can you suggest what it the possible treatment in mental illness?",
         "treatment methods"
-        
       ],
       "responses": [
         "Depending on the needs of the patient, psychiatrists can use different treatment methods, including Psychotherapy, Medication, psychosocial interventions, and more. So it is better to ask your specialist of your medical doctor."
-        
       ]
     },
     {
@@ -253,7 +247,6 @@
       ],
       "responses": [
         "While the physical sensations of anxiety and stress can be similar, their causes are usually different. Stress is usually caused by external pressures we’re having difficulty coping with. When we’re stressed, we usually know what we’re stressed about, and the symptoms of stress generally resolve themselves once the stressful situation ends.  Anxiety, on the other hand, is usually caused by worries or fears about potential threats or troubles, or even anxiety about the anxiety itself."
-        
       ]
     },
     {
@@ -267,632 +260,573 @@
       ],
       "responses": [
         "Sadness is a normal reaction to some of life’s challenges. Feeling sad from time to time is a normal part of being human. If your feelings of sadness resolve themselves on their own over time and don’t impact your life in a big way, you’re probably not dealing with depression. That being said, if you continue to feel blue, it’s important to seek help, as depression doesn’t usually go away on its own. Depression is much more than low mood or sadness. Look for physical signs, such as problems with sleep, appetite, or energy."
-        
       ]
     },
     {
-    "tag": "depression",
-    "patterns": [
-      "What is Depression?",
-      "What are the symptoms of depression?",
-      "When does mental health depression happen?"
-    ],
-    "responses": [
-      "Depression is a mental health illness when someone feels sad (including crying often), empty, or hopeless most of the time (or loses interest in or takes no pleasure in daily activities) for at least 2 weeks. Depression affects a person’s ability to work, go to school, or have relationships with friends and family."
-      
-    ]
-  },
-  {
-    "tag": "depression last",
-    "patterns": [
-      "How long does mental health depression last?",
-      "How many months does depression knows?",
-      "How common is mental health depression?"
-    ],
-    "responses": [
-      "If left untreated, various types of depressive disorders can last for months or sometimes years. A major depressive episode is characterized by a set of symptoms that typically lasts for a few months."
-      
-    ]
-  },
-  {
-    "tag": "trauma",
-    "patterns": [
-      "How are abuse and trauma related to mental health?",
-      "Do you think that trauma can affect my mental health?",
-      "When does trauma happen?"
-    ],
-    "responses": [
-      "Trauma can happen after you experience an event or events that hurt you physically or emotionally. Trauma can have lasting effects on your mental, physical, and emotional health."
-    ]
-  },
-  {
-    "tag": "abuse",
-    "patterns": [
-      "How do I know if my mental health is affected by past abuse or trauma?",
-      "What should I do if Ive been abused or traumatized?"
-    ],
-    "responses": [
-      "It can be difficult to tell whether or how much your mental health is affected by past abuse or trauma. The sooner you can get professional help for abuse or trauma, the sooner you can begin to get better."
-      
-    ]
-  },
-  {
-    "tag": "trauma and abuse",
-    "patterns": [
-      "How are abuse and trauma treated?",
-      "How are trauma and abuse handled?",
-      "There's a way to treated an abuse or trauma?",
-      "What are the ways to treated this traumas?",
-      "What should I do if I’ve been abused or traumatized?"
-
-    ],
-    "responses": [
-      "Symptoms caused by abuse or trauma can usually be treated with different types of talk therapy, medicine, or both. Therapy with a professional counselor can help you work through your feelings and learn healthy ways to cope. Medicines might include antidepressants or anti-anxiety medicine.",
-      "The sooner you can get professional help for abuse or trauma, the sooner you can begin to get better. If you have been physically hurt, visit a hospital or doctor right away. You may also need to call the police. "
-    ]
-  },
-  {
-    "tag": "mental health treatment",
-    "patterns": [
-      "Does mental health treatment work?",
-      "That therapy better for mental health conditions?",
-      "What kind of treatment is better for mental health?",
-      "Treatment for mental health",
-      "Kind of therapies"
-    ],
-    "responses": [
-      "People can get better with treatment and other types of support. Different types of support and treatments might work for different people.Talking therapies such as cognitive behavioral therapy (CBT) and counseling are becoming more widely available as part of the Improving Access to Psychological Therapies program."
-    ]
-  },
-  {
-    "tag": "counseling",
-    "patterns": [
-      "What is Counseling? ",
-      "Counseling works",
-      "Does counseling really help students with mental health conditions?",
-      "Does counseling really help people with mental health conditions?"
-
-    ],
-    "responses": [
-      "Counseling is designed to facilitate student achievement, improve student behavior and attendance, and help students develop socially. Mental health professionals with master’s degrees or beyond, and school counselors both provide counseling and serve an educational role in and around schools."
-    ]
-  },
-  {
-    "tag": "counseling confidentiality",
-    "patterns": [
-      "Is Confidentiality Guaranteed?",
-      "Confidentiality of people is okay?",
-      "If I talk to counselor, my identity and information still confidential?",
-      "Confidentiality of Information"
-    
-    ],
-    "responses": [
-      "Everything you say is confidential and the therapists have taken out to protect your privacy during counseling sessions. You can ask the therapists questions before the session begins if you have concerns about the confidentiality of the process."
-    ]
-  },
-  {
-    "tag": "stress",
-    "patterns": [
-      "What is Stress?",
-      "Stress",
-      "When does it occur?"
-    ],
-    "responses": [
-      "Stress is how your body reacts to certain situations, such as sudden danger or long-lasting challenges. During stressful events, your body releases chemicals called hormones, such as adrenaline."
-      
-    ]
-},
-  {
-    "tag": "stress_cause",
-    "patterns": [
-      "What causes stress?",
-      "Why stress happened?",
-      "Can you explain what the causes of stress?",
-      "What are the causes of stress?"
-    ],
-    "responses": [
-      "People can feel stress from many different things. Examples of common causes of long-term stress include Poverty and financial worries, Discrimination, and Traumatic Events."
-      
-    ]
-  },
-  {
-    "tag": "mental breakdown",
-    "patterns": [
-      "What is mental breakdown?",
-      "What are the symptomps of having mental breakdown?",
-      "When do you say that Iam having breakdown? "
-    ],
-    "responses": [
-      "A mental breakdown (which is sometimes called a nervous breakdown) describes a period of severe mental illness or distress. People experiencing a mental breakdown may withdraw from life and avoid talking to friends and family."
-    ]
-  },
-  {
-    "tag": "social media_mental health",
-    "patterns": [
-      "Does social media affect mental health?",
-      "Why social media affect our mental health?",
-      "Using social media is helpful in our mental health?",
-      "Is social media good for our mental health?"
-
-    ],
-    "responses": [
-      "Social media keeps us connected with others but it doesnt always make us feel great. Research points to a link between high social media use and depression, anxiety, poor sleep, low self-esteem, and body image concerns."
-    ]
-  },
-  {
-    "tag": "suicide",
-    "patterns": [
-      "Why do people attempt suicide?",
-      "How do you know if someone is attempting suicide?",
-      "What is the possible cause of suicide?"
-      
-    ],
-    "responses": [
-      "Unfortunately, there is no simple answer to this question. People die by suicide for a number of reasons. A suicide attempt is a clear indication that something is gravely wrong in a persons life. "
-    ]
-  },
-  {
-    "tag": "suicidal thoughts",
-    "patterns": [
-      "What should I say to someone having suicidal thoughts?",
-      "What are the best ways to do if the person having suicidal thoughts?",
-      "What advice do you give to someone having suicidal thoughts?"
-    ],
-    "responses": [
-      "There are several ways to talk to a family member, friend, co-worker, or acquaintance thinking about suicide."
-    ]
-  },
-  {
-    "tag": "medication",
-    "patterns": [
-      "What medication options are available?",
-      "Does medication treatment works?",
-      "What should I know before starting a new medication?",
-      "Why do some people choose to just take meds and no therapy, is that safe?"
-
-    ],
-    "responses": [
-      "The best source of information regarding medications is the physician prescribing them."
-    ]
-  },
-  {
-    "tag": "stress_2",
-    "patterns": [
-      "How to handle stress?",
-      "What is the easiest way to handle stress",
-      "self-care",
-      "What to do if Im feeling stress",
-      "What can you suggest to reduce stress"
-      
-    ],
-    "responses": [
-      "Self-care is an important part of managing stress. A few simple strategies you may want to try are yoga, lighting candles, taking baths, and reading a good book."
-      
-    ]
-  },
-  {
-    "tag": "cope up with stress",
-    "patterns": [
-      "What are the Healthy Ways to Cope with Stress?",
-      "how to cope up with stress",
-      "coping up with stress",
-      "What Are the Best Stress-Relieving Techniques?",
-      "can you suggest effective stress relief methods?"
-      
-    ],
-    "responses": [
-      "As an AI chatbot, I can only suggest a little like, take breaks from watching, reading, or listening to news stories, including those on social media and Make time to unwind. Maintain physical exercise and good nutrition"
-      
-    ]
-  },
-  {
-    "tag": "avoid anxiety",
-    "patterns": [
-      "What is anxiety",
-      "how to avoid anxiety",
-      "Can you suggest on how can I reduce my anxiety",
-      "what to avoid when Im having anxiety",
-      "Ano ang pwede ko pang gawin para mabawasan ang aking anxiety?"
-      
-    ],
-    "responses": [
-      "As an AI chatbot, I can only suggest you to avoid alcohol and recreational drugs and you need to Quit smoking and cut back or quit drinking caffeinated beverages. Keep yourself physically active. Develop a routine so that you're physically active most days of the week."
-      
-    ]
-  },
-  {
-    "tag": "lessen anxiety",
-    "patterns": [
-      "What can I do to lessen my anxiety",
-      "how to lessen anxiety",
-      "how can I lessen anxiety",
-      "can you give activities to lessen my anxiety"
-      
-    ],
-    "responses": [
-      "As an AI chatbot I have some suggestion for you so you can atleast lessen and take a break from you anxiety, You can do this through exercises such as yoga, guided meditation, mindful meditation, and breathing exercises. And if you want someone to talk to, you can talk to your support group or family, Use visualizations, music, and meditation to relax and ease your mind. Change your thinking so that you consider other alternatives and solutions to the situation that is causing anxiety."
-      
-    ]
-  },
-  {
-    "tag": "worried",
-    "patterns": [
-      "I feel worried",
-      "What to do If I feel worried?",
-      "Madalas akong mag-alala",
-      "Bakit madalas akong mag-alala"
-      
-    ],
-    "responses": [
-      "When you feel worried about some things, take a time-out and get enough sleep."
-      
-    ]
-  },
-  {
-    "tag": "solution_worried",
-    "patterns": [
-      "What solution do I need if I'm worried?",
-      "what solution do I need?",
-      "Ano ang pwedeng solusyon dito?",
-      "what activities can you suggest to make me feel calm"
-    
-    ],
-    "responses": [
-      "I suggest Go for a jog, do some yoga, practice deep breathing, or perform relaxation skills. Calming your body can be key to calming your mind."
-      
-    ]
-  },
-  {
-    "tag": "mind_worried",
-    "patterns": [
-      "How do I clear my mind when Im worrying?",
-      "how to clear my mind",
-      "How to stop being worried",
-      "What to do If you are worrying about some things?"
-    
-    ],
-    "responses": [
-      "Stop worrying about something you said yesterday, or fretting about something you're going to do tomorrow, by staying in the present."
-    ]
-  },
-  {
-    "tag": "Nervous",
-    "patterns": [
-      "Im nervous",
-      "I feel nervous",
-      "Why do I feel this kind of nervous?",
-      "I don't know what to do",
-      "nervous"
-    
-    ],
-    "responses": [
-      "When you feel nervous try relaxation techniques. Feeling nervous is natural — and part of your body's way of helping you do your best. The stress hormones (like adrenaline) that your body produces at times like these can actually help you focus."
-    ]
-  },
-  {
-    "tag": "comforting",
-    "patterns": [
-      "How do I comfort myself?",
-      "What can I do to practice being calm",
-      "I need to calm",
-      "Can you help me to become calm"
-    
-    ],
-    "responses": [
-      "Hi, Friend! Don't worry if your are nervous the good news is that feeling nervous is completely normal. In fact, its an evolutionary reaction thats programmed into our brains! You need to take slow and deep breaths and count backwards slowly from 100. Challenge your thoughts and Change your focus. Okay?"
-    ]
-  },
-  {
-    "tag": "anxious",
-    "patterns": [
-      "Yes, i feel anxious",
-      "Yes, I feel that way",
-      "So how should I stop this feeling of being anxious?",
-      "Yes, I'm anxious"
-    
-    ],
-    "responses": [
-      "When you feel anxious, take a few slow breaths. Breathe in slowly. Be sure to breathe out all the way. You can use your fingers to count four or five breaths, in and out. Instead, plan to tell yourself something that could help you face the moment with a bit of courage like, I can do this! or, It’s OK to feel anxious. I can do this anyway."
-    ]
-  },
-  {
-    "tag": "anxious_2",
-    "patterns": [
-      "I feel anxious",
-      "why do I feel anxious",
-      "how do I stop to feel anxious",
-      "I'm anxious"
-    
-    ],
-    "responses": [
-      "When you feel anxious, do you feel butterflies in your stomach? Sweaty palms? Shaky hands?"
-    ]
-  },
-  {
-    "tag": "anxious_3",
-    "patterns": [
-      "Im Uncomforatble",
-      "how can I cope up with this feeling",
-      "How can I stop from having anxiety",
-      "It's hard to feel anxious",
-      "Im having a hard time"
-    
-    ],
-    "responses": [
-      "If you are feeling that way, They can be uncomfortable but they aren't harmful. You can cope. Next time you feel them, try to notice them without getting upset that they’re there. You don’t have to push the feelings away. These physical feelings are part of your body’s stress response. "
-    ]
-  },
-  {
-    "tag": "lessen anxiousness",
-    "patterns": [
-      "What should I do to lessen my worries/anxiousness?",
-      "Ano ang pwede kong gawin para ma lessen ang pagiging anxious and worried ko?",
-      "how to lessen worries/anxiousness?",
-      "Can you suggest some things to reduce my worrieness"
-    
-    ],
-    "responses": [
-      "Talk about your worries. It may seem like a simplistic solution, or finding hard to do it you may need a journal and write down your worries there. But talking face-to-face with a trusted friend or family member—someone who will listen to you without judging, criticizing, or continually being distracted—is one of the most effective ways to calm your nervous system and diffuse anxiety."
-    ]
-  },
-  {
-    "tag": "Sad",
-    "patterns": [
-      "Why do I feel sad?",
-      "I feel sad",
-      "Im sad",
-      "Im fine but im still sad",
-      "I dont even know why I feel sad"
-    
-    ],
-    "responses": [
-      "Sadness is a normal emotion that can make life more interesting. Sadness can result from a change that you didn't expect, or it can signal that you might need to make changes in your life. "
-    ]
-  },
-  {
-    "tag": "Sad",
-    "patterns": [
-      "Why do I feel sad?",
-      "I feel sad",
-      "Im sad",
-      "Im fine but im still sad",
-      "I dont even know why I feel sad"
-    
-    ],
-    "responses": [
-      "Sadness is a normal emotion that can make life more interesting. Sadness can result from a change that you didn't expect, or it can signal that you might need to make changes in your life. Do you have thoughts of some past things that makes you feel sad?"
-    ]
-  },
-  {
-    "tag": "cope up sad",
-    "patterns": [
-      "Yes, I have that experience",
-      "Yes, lately",
-      "How to cope up with sadness in healthy ways?",
-      "Why am I like this?",
-      "Whay am I sad",
-      "I dont know why I feel sad"
-    ],
-    "responses": [
-      "Allow yourself to be sad. Denying such feelings may force them underground, where they can do more damage with time. Cry if you feel like it. Notice if you feel relief after the tears stop. Its okay if your feeling that way. Do you want me to suggest some activities for you?"
-    ]
-  },
-  {
-    "tag": "Sadq",
-    "patterns": [
-      "Yes, do you have any suggestions?",
-      "okay",
-      "How can I feel better",
-      "what should I do to feel better",
-      "what can i do for fun"
-    ],
-    "responses": [
-      "If you are feeling that way and you want to atleast feel better, you can write in a journal, listen to music, spend time with friends or family, and/or draw to express the emotion sadness."
-    ]
-  },
-  {
-    "tag": "Suitots",
-    "patterns": [
-      "Can I ask you about suicidal questions?",
-      "Is it okay to ask about suicide",
-      "How do you know if someone is in suicidal thoughts"
-      
-    ],
-    "responses": [
-      "As an AI chatbot what I can suggest for you is you need to consult your medical doctor about that. If you or someone you know is exhibiting either, you should seek immediate assistance from a healthcare provider. Suicidal thoughts and behaviors should be considered a psychiatric emergency right away."
-    ]
-  },
-  {
-    "tag": "Sui",
-    "patterns": [
-      "I don’t know what I’m feeling right now.",
-      "There is so many thoughts in my head."
-      
-    ],
-    "responses": [
-      "Are you having unexplained feelings is there many thoughts in your head?"
-    ]
-  },
-  {
-    "tag": "Suit",
-    "patterns": [
-      "What is the solution to my problem",
-      "What solution can you suggest about having this suicidal feeling?",
-      "Who can I ask for help?"
-      
-    ],
-    "responses": [
-      "If you are having suicidal thoughts, Im encouraging you to talk to a mental health professional as soon as possible. Don’t be afraid to ask whether you are thinking of suicide, are depressed, or have problems. Talking about it won’t make the you act on their feelings. It might actually help ease suicidal thoughts -- and let you know if you need to take further action."
-    ]
-  },
-  {
-    "tag": "Annoyed",
-    "patterns": [
-      "I feel annoyed",
-      "What to do if you are annoyed",
-      "annoyed",
-      "Im annoyed",
-      "naiinis ako"
-      
-    ],
-    "responses": [
-      "When you feel annoyed, Get quiet or alone. Find a quiet place to think things through, or to disengage from the commotion and activity around you."
-    ]
-  },
-  {
-    "tag": "Annoyed1",
-    "patterns": [
-      "How do I overcome being annoyed?",
-      "How can I get over my irritation?",
-      "How can I get over my annoyance?"
-      
-    ],
-    "responses": [
-      "When you feel annoyed, Get quiet or alone. Find a quiet place to think things through, or to disengage from the commotion and activity around you."
-    ]
-  },
-  {
-    "tag": "Annoyed1",
-    "patterns": [
-      "How do I overcome being annoyed?",
-      "How can I get over my irritation?",
-      "How can I get over my annoyance?",
-      "How can I figure it out"
-      
-    ],
-    "responses": [
-      "Figure out if it's hormonal. Get moving and Get quiet or alone time. Sometimes, we just need some peace and quiet."
-    ]
-  },
-  {
-    "tag": "stop annoyed",
-    "patterns": [
-      "What can I do to stop being annoyed easily?",
-      "How can I avoid getting upset so easily",
-      "Do you have some suggestion to make me feel at ease?",
-      "Peaceful",
-      "What do I need to do"
-      
-    ],
-    "responses": [
-      "Sometimes, we just need some peace and quiet.  Find a cozy spot, breathe, disconnect, listen to music, take a bubble bath, journal, meditate, whatever you need to do, just do it by yourself."
-    ]
-  },
-{
-  "tag": "mental health_todo",
-  "patterns": [
-  "What should I do if I have symptoms of mental health?", 
-  "I have feel the symptoms, what should i do?", 
-  "What should  I do to stop this mental health problems?",
-  "What advices do you give to prevent mental health?"
-],
-  "responses": [
-    "Fortunately, there are lots of things that we need to do for our own mental health, but the best way is to have a better consulting to the psychiatrist."
-   
-  ]
-},
-{
-  "tag": "mental health_todohome",
-  "patterns": [
-  "What can I do at home to feel better while dealing in mental health?",
-  "Home remedy", 
-  "What can I do at home?", 
-  "Ways at home to feel me better"
-],
-  "responses": [
-    "Here are some ways to begin feeling better or getting more rest, in addition, talk to your family and friends and Rest as much as you can. Stay Calm and relax dont try to do too much or to do everything to yourself."
-  ]
-},
-{
-  "tag": "mental health_treatment",
-  "patterns": [
-    "How is mental health treated?",
-    "Mental health treatment",
-    "Mental Health problems treatment",
-    "What are the treatments?",
-    "treatments for mental health",
-    "treatments"
-  ],
-  "responses": [
-    "The common types of treatment for mental health illness are talk to Psychotherapy, medication, and Peer Support."
-    
-  ]
-},
-{
-  "tag": "mental health_psychotheraphy",
-  "patterns": [
-    "What is Psychotheraphy?",
-    "talk therapy/psychotherapy",
-    "psychotherapy",
-    "Mental health counselling"
-
- 
-  ],
-  "responses": [
-    "Mental health illness is often treated with psychotherapy (also called talk therapy  or mental health counseling) Psychotherapy may help to talk through your concerns with a psychiatrist, psychologist or other mental health professional."
-  ]
-},
-{
-  "tag": "mental health_talksession",
-  "patterns": [
-    "What happens in talk therapy?",
-    "How talk therapy happen?",
-    "Happenings in talk therapy"
-  
-  ],
-  "responses": [
-    "In talk therapy (also called psychotherapy), you and a mental health professional talk about your feelings and discuss how to manage them. Sometimes, therapy is needed for only a few weeks, but it may be needed for a few months or longer."
-    
-  ]
-},
-{
-  "tag": "mental health_typestalk",
-  "patterns": [
-    "What are the types of talk therapy?",
-    "Types of talk therapy",
-    "Talk Therapy types"
-  ],
-  "responses": [
-    "You may have one-on-one therapy with just you and the therapist or group therapy where you meet with a therapist and other people with problems similar to yours. Another option is family or couples therapy, in which you and your family members or your partner may work with a therapist."
-    
-  ]
-},
-{
-  "tag": "mental health_nottreated",
-  "patterns": [
-    "What can happen if mental health is not treated?",
-    "Not treated mental health",
-    "Not treated mental health illness",
-    "What can happen if mental health illness is not treated?",
-    "What can happen if mental health problem is not treated?"
-  ],
-  "responses": [
-    "Without treatment, the consequences of mental illness for the individual and society are staggering. Untreated mental health conditions can result in unnecessary disability, unemployment, substance abuse, homelessness, inappropriate incarceration, and suicide, and poor quality of life."
-  ]
-},
-{
-  "tag": "mental health_healthcare",
-  "patterns": [
-    "If I think I have mental health, when should I see my health care provider?",
-    "I think I have mental health",
-    "I think I have mental health problem"
-  
-  ],
-  "responses": [
-    "If you think you may have mental health problem, or if your friends or family members are concerned that you do, it is important to do a counseling or other health care professional as soon as possible."
-  ]
-  },
-  {
-  "tag": "anxiety",
+      "tag": "depression",
       "patterns": [
-        "What is Anxiety?",
-        "Anxiety",
-        "anxiety depression is a sign of mental health problem?"
+        "What is Depression?",
+        "What are the symptoms of depression?",
+        "When does mental health depression happen?"
       ],
       "responses": [
-        "Anxiety is a feeling of unease, worry or fear. Everyone feels anxious at some point in their life, but for some people it can be an ongoing problem."
-        
+        "Depression is a mental health illness when someone feels sad (including crying often), empty, or hopeless most of the time (or loses interest in or takes no pleasure in daily activities) for at least 2 weeks. Depression affects a person’s ability to work, go to school, or have relationships with friends and family."
       ]
+    },
+    {
+      "tag": "depression last",
+      "patterns": [
+        "How long does mental health depression last?",
+        "How many months does depression knows?",
+        "How common is mental health depression?"
+      ],
+      "responses": [
+        "If left untreated, various types of depressive disorders can last for months or sometimes years. A major depressive episode is characterized by a set of symptoms that typically lasts for a few months."
+      ]
+    },
+    {
+      "tag": "trauma",
+      "patterns": [
+        "How are abuse and trauma related to mental health?",
+        "Do you think that trauma can affect my mental health?",
+        "When does trauma happen?"
+      ],
+      "responses": [
+        "Trauma can happen after you experience an event or events that hurt you physically or emotionally. Trauma can have lasting effects on your mental, physical, and emotional health."
+      ]
+    },
+    {
+      "tag": "abuse",
+      "patterns": [
+        "How do I know if my mental health is affected by past abuse or trauma?",
+        "What should I do if Ive been abused or traumatized?"
+      ],
+      "responses": [
+        "It can be difficult to tell whether or how much your mental health is affected by past abuse or trauma. The sooner you can get professional help for abuse or trauma, the sooner you can begin to get better."
+      ]
+    },
+    {
+      "tag": "trauma and abuse",
+      "patterns": [
+        "How are abuse and trauma treated?",
+        "How are trauma and abuse handled?",
+        "There's a way to treated an abuse or trauma?",
+        "What are the ways to treated this traumas?",
+        "What should I do if I’ve been abused or traumatized?"
+      ],
+      "responses": [
+        "Symptoms caused by abuse or trauma can usually be treated with different types of talk therapy, medicine, or both. Therapy with a professional counselor can help you work through your feelings and learn healthy ways to cope. Medicines might include antidepressants or anti-anxiety medicine.",
+        "The sooner you can get professional help for abuse or trauma, the sooner you can begin to get better. If you have been physically hurt, visit a hospital or doctor right away. You may also need to call the police. "
+      ]
+    },
+    {
+      "tag": "mental health treatment",
+      "patterns": [
+        "Does mental health treatment work?",
+        "That therapy better for mental health conditions?",
+        "What kind of treatment is better for mental health?",
+        "Treatment for mental health",
+        "Kind of therapies"
+      ],
+      "responses": [
+        "People can get better with treatment and other types of support. Different types of support and treatments might work for different people.Talking therapies such as cognitive behavioral therapy (CBT) and counseling are becoming more widely available as part of the Improving Access to Psychological Therapies program."
+      ]
+    },
+    {
+      "tag": "counseling",
+      "patterns": [
+        "What is Counseling? ",
+        "Counseling works",
+        "Does counseling really help students with mental health conditions?",
+        "Does counseling really help people with mental health conditions?"
+      ],
+      "responses": [
+        "Counseling is designed to facilitate student achievement, improve student behavior and attendance, and help students develop socially. Mental health professionals with master’s degrees or beyond, and school counselors both provide counseling and serve an educational role in and around schools."
+      ]
+    },
+    {
+      "tag": "counseling confidentiality",
+      "patterns": [
+        "Is Confidentiality Guaranteed?",
+        "Confidentiality of people is okay?",
+        "If I talk to counselor, my identity and information still confidential?",
+        "Confidentiality of Information"
+      ],
+      "responses": [
+        "Everything you say is confidential and the therapists have taken out to protect your privacy during counseling sessions. You can ask the therapists questions before the session begins if you have concerns about the confidentiality of the process."
+      ]
+    },
+    {
+      "tag": "stress",
+      "patterns": [
+        "What is Stress?",
+        "Stress",
+        "When does it occur?"
+      ],
+      "responses": [
+        "Stress is how your body reacts to certain situations, such as sudden danger or long-lasting challenges. During stressful events, your body releases chemicals called hormones, such as adrenaline."
+      ]
+    },
+    {
+      "tag": "stress_cause",
+      "patterns": [
+        "What causes stress?",
+        "Why stress happened?",
+        "Can you explain what the causes of stress?",
+        "What are the causes of stress?"
+      ],
+      "responses": [
+        "People can feel stress from many different things. Examples of common causes of long-term stress include Poverty and financial worries, Discrimination, and Traumatic Events."
+      ]
+    },
+    {
+      "tag": "mental breakdown",
+      "patterns": [
+        "What is mental breakdown?",
+        "What are the symptomps of having mental breakdown?",
+        "When do you say that Iam having breakdown? "
+      ],
+      "responses": [
+        "A mental breakdown (which is sometimes called a nervous breakdown) describes a period of severe mental illness or distress. People experiencing a mental breakdown may withdraw from life and avoid talking to friends and family."
+      ]
+    },
+    {
+      "tag": "social media_mental health",
+      "patterns": [
+        "Does social media affect mental health?",
+        "Why social media affect our mental health?",
+        "Using social media is helpful in our mental health?",
+        "Is social media good for our mental health?"
+      ],
+      "responses": [
+        "Social media keeps us connected with others but it doesnt always make us feel great. Research points to a link between high social media use and depression, anxiety, poor sleep, low self-esteem, and body image concerns."
+      ]
+    },
+    {
+      "tag": "suicide",
+      "patterns": [
+        "Why do people attempt suicide?",
+        "How do you know if someone is attempting suicide?",
+        "What is the possible cause of suicide?"
+      ],
+      "responses": [
+        "Unfortunately, there is no simple answer to this question. People die by suicide for a number of reasons. A suicide attempt is a clear indication that something is gravely wrong in a persons life. "
+      ]
+    },
+    {
+      "tag": "suicidal thoughts",
+      "patterns": [
+        "What should I say to someone having suicidal thoughts?",
+        "What are the best ways to do if the person having suicidal thoughts?",
+        "What advice do you give to someone having suicidal thoughts?"
+      ],
+      "responses": [
+        "There are several ways to talk to a family member, friend, co-worker, or acquaintance thinking about suicide."
+      ]
+    },
+    {
+      "tag": "medication",
+      "patterns": [
+        "What medication options are available?",
+        "Does medication treatment works?",
+        "What should I know before starting a new medication?",
+        "Why do some people choose to just take meds and no therapy, is that safe?"
+      ],
+      "responses": [
+        "The best source of information regarding medications is the physician prescribing them."
+      ]
+    },
+    {
+      "tag": "stress_2",
+      "patterns": [
+        "How to handle stress?",
+        "What is the easiest way to handle stress",
+        "self-care",
+        "What to do if Im feeling stress",
+        "What can you suggest to reduce stress"
+      ],
+      "responses": [
+        "Self-care is an important part of managing stress. A few simple strategies you may want to try are yoga, lighting candles, taking baths, and reading a good book."
+      ]
+    },
+    {
+      "tag": "cope up with stress",
+      "patterns": [
+        "What are the Healthy Ways to Cope with Stress?",
+        "how to cope up with stress",
+        "coping up with stress",
+        "What Are the Best Stress-Relieving Techniques?",
+        "can you suggest effective stress relief methods?"
+      ],
+      "responses": [
+        "As an AI chatbot, I can only suggest a little like, take breaks from watching, reading, or listening to news stories, including those on social media and Make time to unwind. Maintain physical exercise and good nutrition"
+      ]
+    },
+    {
+      "tag": "avoid anxiety",
+      "patterns": [
+        "What is anxiety",
+        "how to avoid anxiety",
+        "Can you suggest on how can I reduce my anxiety",
+        "what to avoid when Im having anxiety",
+        "Ano ang pwede ko pang gawin para mabawasan ang aking anxiety?"
+      ],
+      "responses": [
+        "As an AI chatbot, I can only suggest you to avoid alcohol and recreational drugs and you need to Quit smoking and cut back or quit drinking caffeinated beverages. Keep yourself physically active. Develop a routine so that you're physically active most days of the week."
+      ]
+    },
+    {
+      "tag": "lessen anxiety",
+      "patterns": [
+        "What can I do to lessen my anxiety",
+        "how to lessen anxiety",
+        "how can I lessen anxiety",
+        "can you give activities to lessen my anxiety"
+      ],
+      "responses": [
+        "As an AI chatbot I have some suggestion for you so you can atleast lessen and take a break from you anxiety, You can do this through exercises such as yoga, guided meditation, mindful meditation, and breathing exercises. And if you want someone to talk to, you can talk to your support group or family, Use visualizations, music, and meditation to relax and ease your mind. Change your thinking so that you consider other alternatives and solutions to the situation that is causing anxiety."
+      ]
+    },
+    {
+      "tag": "worried",
+      "patterns": [
+        "I feel worried",
+        "What to do If I feel worried?",
+        "Madalas akong mag-alala",
+        "Bakit madalas akong mag-alala"
+      ],
+      "responses": [
+        "When you feel worried about some things, take a time-out and get enough sleep."
+      ]
+    },
+    {
+      "tag": "solution_worried",
+      "patterns": [
+        "What solution do I need if I'm worried?",
+        "what solution do I need?",
+        "Ano ang pwedeng solusyon dito?",
+        "what activities can you suggest to make me feel calm"
+      ],
+      "responses": [
+        "I suggest Go for a jog, do some yoga, practice deep breathing, or perform relaxation skills. Calming your body can be key to calming your mind."
+      ]
+    },
+    {
+      "tag": "mind_worried",
+      "patterns": [
+        "How do I clear my mind when Im worrying?",
+        "how to clear my mind",
+        "How to stop being worried",
+        "What to do If you are worrying about some things?"
+      ],
+      "responses": [
+        "Stop worrying about something you said yesterday, or fretting about something you're going to do tomorrow, by staying in the present."
+      ]
+    },
+    {
+      "tag": "Nervous",
+      "patterns": [
+        "Im nervous",
+        "I feel nervous",
+        "Why do I feel this kind of nervous?",
+        "I don't know what to do",
+        "nervous"
+      ],
+      "responses": [
+        "When you feel nervous try relaxation techniques. Feeling nervous is natural — and part of your body's way of helping you do your best. The stress hormones (like adrenaline) that your body produces at times like these can actually help you focus."
+      ]
+    },
+    {
+      "tag": "comforting",
+      "patterns": [
+        "How do I comfort myself?",
+        "What can I do to practice being calm",
+        "I need to calm",
+        "Can you help me to become calm"
+      ],
+      "responses": [
+        "Hi, Friend! Don't worry if your are nervous the good news is that feeling nervous is completely normal. In fact, its an evolutionary reaction thats programmed into our brains! You need to take slow and deep breaths and count backwards slowly from 100. Challenge your thoughts and Change your focus. Okay?"
+      ]
+    },
+    {
+      "tag": "anxious",
+      "patterns": [
+        "Yes, i feel anxious",
+        "Yes, I feel that way",
+        "So how should I stop this feeling of being anxious?",
+        "Yes, I'm anxious"
+      ],
+      "responses": [
+        "When you feel anxious, take a few slow breaths. Breathe in slowly. Be sure to breathe out all the way. You can use your fingers to count four or five breaths, in and out. Instead, plan to tell yourself something that could help you face the moment with a bit of courage like, I can do this! or, It’s OK to feel anxious. I can do this anyway."
+      ]
+    },
+    {
+      "tag": "anxious_2",
+      "patterns": [
+        "I feel anxious",
+        "why do I feel anxious",
+        "how do I stop to feel anxious",
+        "I'm anxious"
+      ],
+      "responses": [
+        "When you feel anxious, do you feel butterflies in your stomach? Sweaty palms? Shaky hands?"
+      ]
+    },
+    {
+      "tag": "anxious_3",
+      "patterns": [
+        "Im Uncomforatble",
+        "how can I cope up with this feeling",
+        "How can I stop from having anxiety",
+        "It's hard to feel anxious",
+        "Im having a hard time"
+      ],
+      "responses": [
+        "If you are feeling that way, They can be uncomfortable but they aren't harmful. You can cope. Next time you feel them, try to notice them without getting upset that they’re there. You don’t have to push the feelings away. These physical feelings are part of your body’s stress response. "
+      ]
+    },
+    {
+      "tag": "lessen anxiousness",
+      "patterns": [
+        "What should I do to lessen my worries/anxiousness?",
+        "Ano ang pwede kong gawin para ma lessen ang pagiging anxious and worried ko?",
+        "how to lessen worries/anxiousness?",
+        "Can you suggest some things to reduce my worrieness"
+      ],
+      "responses": [
+        "Talk about your worries. It may seem like a simplistic solution, or finding hard to do it you may need a journal and write down your worries there. But talking face-to-face with a trusted friend or family member—someone who will listen to you without judging, criticizing, or continually being distracted—is one of the most effective ways to calm your nervous system and diffuse anxiety."
+      ]
+    },
+    {
+      "tag": "Sad",
+      "patterns": [
+        "Why do I feel sad?",
+        "I feel sad",
+        "Im sad",
+        "Im fine but im still sad",
+        "I dont even know why I feel sad"
+      ],
+      "responses": [
+        "Sadness is a normal emotion that can make life more interesting. Sadness can result from a change that you didn't expect, or it can signal that you might need to make changes in your life. "
+      ]
+    },
+    {
+      "tag": "Sad",
+      "patterns": [
+        "Why do I feel sad?",
+        "I feel sad",
+        "Im sad",
+        "Im fine but im still sad",
+        "I dont even know why I feel sad"
+      ],
+      "responses": [
+        "Sadness is a normal emotion that can make life more interesting. Sadness can result from a change that you didn't expect, or it can signal that you might need to make changes in your life. Do you have thoughts of some past things that makes you feel sad?"
+      ]
+    },
+    {
+      "tag": "cope up sad",
+      "patterns": [
+        "Yes, I have that experience",
+        "Yes, lately",
+        "How to cope up with sadness in healthy ways?",
+        "Why am I like this?",
+        "Whay am I sad",
+        "I dont know why I feel sad"
+      ],
+      "responses": [
+        "Allow yourself to be sad. Denying such feelings may force them underground, where they can do more damage with time. Cry if you feel like it. Notice if you feel relief after the tears stop. Its okay if your feeling that way. Do you want me to suggest some activities for you?"
+      ]
+    },
+    {
+      "tag": "Sadq",
+      "patterns": [
+        "Yes, do you have any suggestions?",
+        "okay",
+        "How can I feel better",
+        "what should I do to feel better",
+        "what can i do for fun"
+      ],
+      "responses": [
+        "If you are feeling that way and you want to atleast feel better, you can write in a journal, listen to music, spend time with friends or family, and/or draw to express the emotion sadness."
+      ]
+    },
+    {
+      "tag": "Suitots",
+      "patterns": [
+        "Can I ask you about suicidal questions?",
+        "Is it okay to ask about suicide",
+        "How do you know if someone is in suicidal thoughts"
+      ],
+      "responses": [
+        "As an AI chatbot what I can suggest for you is you need to consult your medical doctor about that. If you or someone you know is exhibiting either, you should seek immediate assistance from a healthcare provider. Suicidal thoughts and behaviors should be considered a psychiatric emergency right away."
+      ]
+    },
+    {
+      "tag": "Sui",
+      "patterns": [
+        "I don’t know what I’m feeling right now.",
+        "There is so many thoughts in my head."
+      ],
+      "responses": [
+        "Are you having unexplained feelings is there many thoughts in your head?"
+      ]
+    },
+    {
+      "tag": "Suit",
+      "patterns": [
+        "What is the solution to my problem",
+        "What solution can you suggest about having this suicidal feeling?",
+        "Who can I ask for help?"
+      ],
+      "responses": [
+        "If you are having suicidal thoughts, Im encouraging you to talk to a mental health professional as soon as possible. Don’t be afraid to ask whether you are thinking of suicide, are depressed, or have problems. Talking about it won’t make the you act on their feelings. It might actually help ease suicidal thoughts -- and let you know if you need to take further action."
+      ]
+    },
+    {
+      "tag": "Annoyed",
+      "patterns": [
+        "I feel annoyed",
+        "What to do if you are annoyed",
+        "annoyed",
+        "Im annoyed",
+        "naiinis ako"
+      ],
+      "responses": [
+        "When you feel annoyed, Get quiet or alone. Find a quiet place to think things through, or to disengage from the commotion and activity around you."
+      ]
+    },
+    {
+      "tag": "Annoyed1",
+      "patterns": [
+        "How do I overcome being annoyed?",
+        "How can I get over my irritation?",
+        "How can I get over my annoyance?"
+      ],
+      "responses": [
+        "When you feel annoyed, Get quiet or alone. Find a quiet place to think things through, or to disengage from the commotion and activity around you."
+      ]
+    },
+    {
+      "tag": "Annoyed1",
+      "patterns": [
+        "How do I overcome being annoyed?",
+        "How can I get over my irritation?",
+        "How can I get over my annoyance?",
+        "How can I figure it out"
+      ],
+      "responses": [
+        "Figure out if it's hormonal. Get moving and Get quiet or alone time. Sometimes, we just need some peace and quiet."
+      ]
+    },
+    {
+      "tag": "stop annoyed",
+      "patterns": [
+        "What can I do to stop being annoyed easily?",
+        "How can I avoid getting upset so easily",
+        "Do you have some suggestion to make me feel at ease?",
+        "Peaceful",
+        "What do I need to do"
+      ],
+      "responses": [
+        "Sometimes, we just need some peace and quiet.  Find a cozy spot, breathe, disconnect, listen to music, take a bubble bath, journal, meditate, whatever you need to do, just do it by yourself."
+      ]
+    },
+    {
+      "tag": "mental health_todo",
+      "patterns": [
+        "What should I do if I have symptoms of mental health?",
+        "I have feel the symptoms, what should i do?",
+        "What should  I do to stop this mental health problems?",
+        "What advices do you give to prevent mental health?"
+      ],
+      "responses": [
+        "Fortunately, there are lots of things that we need to do for our own mental health, but the best way is to have a better consulting to the psychiatrist."
+      ]
+    },
+    {
+      "tag": "mental health_todohome",
+      "patterns": [
+        "What can I do at home to feel better while dealing in mental health?",
+        "Home remedy",
+        "What can I do at home?",
+        "Ways at home to feel me better"
+      ],
+      "responses": [
+        "Here are some ways to begin feeling better or getting more rest, in addition, talk to your family and friends and Rest as much as you can. Stay Calm and relax dont try to do too much or to do everything to yourself."
+      ]
+    },
+    {
+      "tag": "mental health_treatment",
+      "patterns": [
+        "How is mental health treated?",
+        "Mental health treatment",
+        "Mental Health problems treatment",
+        "What are the treatments?",
+        "treatments for mental health",
+        "treatments"
+      ],
+      "responses": [
+        "The common types of treatment for mental health illness are talk to Psychotherapy, medication, and Peer Support."
+      ]
+    },
+    {
+      "tag": "mental health_psychotheraphy",
+      "patterns": [
+        "What is Psychotheraphy?",
+        "talk therapy/psychotherapy",
+        "psychotherapy",
+        "Mental health counselling"
+      ],
+      "responses": [
+        "Mental health illness is often treated with psychotherapy (also called talk therapy  or mental health counseling) Psychotherapy may help to talk through your concerns with a psychiatrist, psychologist or other mental health professional."
+      ]
+    },
+    {
+      "tag": "mental health_talksession",
+      "patterns": [
+        "What happens in talk therapy?",
+        "How talk therapy happen?",
+        "Happenings in talk therapy"
+      ],
+      "responses": [
+        "In talk therapy (also called psychotherapy), you and a mental health professional talk about your feelings and discuss how to manage them. Sometimes, therapy is needed for only a few weeks, but it may be needed for a few months or longer."
+      ]
+    },
+    {
+      "tag": "mental health_typestalk",
+      "patterns": [
+        "What are the types of talk therapy?",
+        "Types of talk therapy",
+        "Talk Therapy types"
+      ],
+      "responses": [
+        "You may have one-on-one therapy with just you and the therapist or group therapy where you meet with a therapist and other people with problems similar to yours. Another option is family or couples therapy, in which you and your family members or your partner may work with a therapist."
+      ]
+    },
+    {
+      "tag": "mental health_nottreated",
+      "patterns": [
+        "What can happen if mental health is not treated?",
+        "Not treated mental health",
+        "Not treated mental health illness",
+        "What can happen if mental health illness is not treated?",
+        "What can happen if mental health problem is not treated?"
+      ],
+      "responses": [
+        "Without treatment, the consequences of mental illness for the individual and society are staggering. Untreated mental health conditions can result in unnecessary disability, unemployment, substance abuse, homelessness, inappropriate incarceration, and suicide, and poor quality of life."
+      ]
+    },
+    {
+      "tag": "mental health_healthcare",
+      "patterns": [
+        "If I think I have mental health, when should I see my health care provider?",
+        "I think I have mental health",
+        "I think I have mental health problem"
+      ],
+      "responses": [
+        "If you think you may have mental health problem, or if your friends or family members are concerned that you do, it is important to do a counseling or other health care professional as soon as possible."
+      ]
+
     },
     {
       "tag": "convo1_anxiety",
@@ -914,7 +848,6 @@
       ],
       "responses": [
         "I understand what you're going through. It can be really tough to cope with, but it's important to remmeber that you are not alone in this."
-        
       ]
     },
     {
@@ -949,7 +882,6 @@
         "Im afraid about something",
         "Natatakot ako",
         "takot ako"
-        
       ],
       "responses": [
         "Where do you feel afraid?"
@@ -964,7 +896,6 @@
         "im scared",
         "takot",
         "Im terified"
-        
       ],
       "responses": [
         "Oh okay..The only way to deal with fear is to face it. Avoiding our fears only prevents us from moving forward—it makes us anxious. But be gentle with yourself and do only what feels safe to you!"
@@ -978,7 +909,6 @@
         "Im scared. I need someone",
         "Can you assist me in getting over my fear?",
         "How I overcome of feeling afraid"
-        
       ],
       "responses": [
         "There are many reasons for this. Friends and family can help us make a realistic assessment of the threat. With the support of others, we feel more confident that we can deal with issues. And physically, having a loved one close calms us and reduces the fight or flight response."
@@ -991,7 +921,6 @@
         "fear",
         "what causes fear",
         "why fear occurs"
-        
       ],
       "responses": [
         "Do you feel afraid? Like when we sense danger, the brain reacts instantly, sending signals that activate the nervous system. This response is known as fight or flight because that is exactly what the body is preparing itself to do: fight off the danger or run fast to get away"
@@ -1006,7 +935,6 @@
         "I want to relax",
         "calm",
         "walk"
-        
       ],
       "responses": [
         "Go for a walk in nature! As the new field of nature-based therapies shows, being in nature reduces fear and anxiety and increases pleasant feelings."
@@ -1020,7 +948,6 @@
         "what is restless",
         "when do you feel restlesness",
         "I feel restless"
-        
       ],
       "responses": [
         "When restlessness is experienced more frequently and is accompanied by other symptoms, it can interrupt daily life and reduce a persons quality of life. Are you experiencing this type of restlesness?"
@@ -1044,8 +971,7 @@
         "I feel irritable",
         "Why do I feel this way",
         "Why do I feel irritable",
-        "I dont know why Im feeling this way"     
-        
+        "I dont know why Im feeling this way"
       ],
       "responses": [
         "If you are in state that involves feelings of anger or frustration, of being impatient and quick to get annoyed, especially over small things you are mostly a people who irritates the most. Irritability is a common emotion. Many factors can cause or contribute to irritability, including life stress, a lack of sleep, low blood sugar levels, and hormonal changes."
@@ -1057,7 +983,7 @@
         "What is irritable",
         "Why do people feel this kind of emotion",
         "What is irritability",
-        "Bakit tayo naiirita"     
+        "Bakit tayo naiirita"
       ],
       "responses": [
         "People with irritability have a tendency to react with anger to slight provocation. They have a short temper and may snap at people.",
@@ -1065,100 +991,250 @@
       ]
     },
     {
-        "tag": "focus on past",
-        "patterns": [
-          "I focus too much on the past",
-          "What should I do when I feel like I'm not living in the present?",
-          "I have trouble letting go of past traumas or regrets."     
-        ],
-        "responses": [
-          "Not living in the present can refer to a few different things. It could mean that a person is constatntly thinking about the past or the future and is not fully present in the moment.",
-          "It's totally understandable that you feel that way, it's hard to break old habits and sometimes it feels like the past is all we can focus on.",
-          "I encourage you to focus on your present and future. Try to start letting go and moving forward. Remember that you are in control of your own thoughts. Take a step to make you feel better. Goodluck!"
-        ]
-        },
-        {
-            "tag": "worried on health",
-            "patterns": [
-              "I'm worried about my health",
-              "How can I manage the emotional and psychological effects of chronic illness?",
-              "What is the effect of chronic illness?"     
-            ],
-            "responses": [
-              "Not all causes of unhappiness are due to mental or behavioral patterns. Sometimes, chronic health issues can lead to depression and anxiety. If you are struggling with intense unhappiness that you can’t seem to manage, seek the help of a mental health professional.",
-              "I'm sorry to hear that you're feeling worried about your health. It's absolutely understandable to feel anxious and overwhelmed when it comes to chronic illnesses.",
-              "I encourage you to focus on your present and future. Try to start letting go and moving forward. Remember that you are in control of your own thoughts. Take a step to make you feel better. Goodluck!",
-              "The effects of chronic illness can be difficult to manage, but remember that it's not something you have to go through alone. There are so many resources available to help, and don't be afraid to ask for help if you need it."
-            ]
-          },
-          {
-              "tag": "warning signs",
-              "patterns": [
-                "What are the warning signs of serious health problems?",
-                "How to have a healthy diet?",
-                "How can I improve my sleep quality?"     
-              ],
-              "responses": [
-                "Hey there, I'm sorry to hear that you are worried about your health. The most important thing is to look out for any warning signs that might suggest something more serious is going on. Some warning signs can be: sudden pain or swelling in your body, a severe fever that won't go away, difficulty breathing, changes in your vision, sudden confusion or dizziness, chest pain, difficulty swallowing, and an irregular heartbeat.",
-                "A healthy diet includes lots of fruits, vegetables, lean proteins, whole grains, healthy fats, and low-fat dairy products. Try to limit processed and refined foods as much as possible, and make sure to drink plenty of water throughout the day.",
-                "Start by creating a bedtime routine that works for you. Try to get 7-8 hours of sleep each night, avoid screens and stimulants at least an hour before bedtime, and make sure your room is dark, quiet and comfortable."
-              ]
-            },
-            {
-                "tag": "down",
-                "patterns": [
-                  "I feel pretty down",
-                  "Can you tell me a joke or an interesting fact to help me shift my focus?",
-                  "Hahahahahahahaha"     
-                ],
-                "responses": [
-                  "There is always some chance that things can go wrong. But if you always anticipate failure, failure is much more likely. Optimism gives you the energy and drive to make things better, even they’re not perfect.",
-                  "A joke: What did the fish say when it hit the wall? Dam!",
-                  "Great! I make you smile and laugh."
-                ]
-            },
-            {
-                "tag": "unmotivate",
-                "patterns": [
-                  "I always do not act on my goals",
-                  "How will I continue to motivate myself to maintain focus and continue making progress?",
-                  "How can I overcome these problem?"     
-                ],
-                "responses": [
-                  "You may have goals and dreams, but procrastinating or not acting on them can make you feel dissatisfied and unfulfilled. Take small steps to work towards your goals instead of simply building castles in the air.",
-                  "I know it can be so difficult to take action on our goals and can be really discouraging when we don't make progress. I think one way to help motivate yourself and stay focused is to break down your goal into smaller, more achievable goals.",
-                  "To overcome these obstacles, start small by breaking your goal into concrete and manageable steps, set realistic timelines and expectations, find positive motivators to keep you going, practice self-compassion, make a plan and stick to it, and make sure you hold yourself accountable."
-                ]
-              },
-              {
-                  "tag": "time management",
-                  "patterns": [
-                    "I struggle with managing my time.",
-                    "struggling in time management",
-                    "managing my time"
-                
-              
-                  ],
-                  "responses": [
-                    "The key to making enough time to work towards health, fitness, and other goals is to be organized with your time so that you can prioritize what is important.",
-                    "I totally understand how it feels to struggle with managing your time. It can be really overwhelming and make us feel like we're not in control."
-                  ]
-              },
-              {
-                  "tag": "self confidence",
-                  "patterns": [
-                    "I lack of self-confidence",
-                    "lack of confidence",
-                    "How can I reframe negative thoughts and self-talk into positive ones?",
-                    "self confidence"
-              
-                  ],
-                  "responses": [
-                    "If you feel insecure about yourself, it can be difficult to unlock your true potential. Building self-esteem takes work, but it can help you avoid much unhappiness and anxiety.",
-                    "Try to reframe negative thoughts and self-talk by acknowledging them and then turning them around and replacing them with something more positive and realistic. Whenever something negative pops into your head, try to replace it with an affirmation or positive statement.",
-                    "Make sure to remind yourself that you are loved and that no matter what you are going through, you are never alone."                 
-              ]
-              }
-        ]
-     }
-    
+      "tag": "focus on past",
+      "patterns": [
+        "I focus too much on the past",
+        "What should I do when I feel like I'm not living in the present?",
+        "I have trouble letting go of past traumas or regrets."
+      ],
+      "responses": [
+        "Not living in the present can refer to a few different things. It could mean that a person is constatntly thinking about the past or the future and is not fully present in the moment.",
+        "It's totally understandable that you feel that way, it's hard to break old habits and sometimes it feels like the past is all we can focus on.",
+        "I encourage you to focus on your present and future. Try to start letting go and moving forward. Remember that you are in control of your own thoughts. Take a step to make you feel better. Goodluck!"
+      ]
+    },
+    {
+      "tag": "worried on health",
+      "patterns": [
+        "I'm worried about my health",
+        "How can I manage the emotional and psychological effects of chronic illness?",
+        "What is the effect of chronic illness?"
+      ],
+      "responses": [
+        "Not all causes of unhappiness are due to mental or behavioral patterns. Sometimes, chronic health issues can lead to depression and anxiety. If you are struggling with intense unhappiness that you can’t seem to manage, seek the help of a mental health professional.",
+        "I'm sorry to hear that you're feeling worried about your health. It's absolutely understandable to feel anxious and overwhelmed when it comes to chronic illnesses.",
+        "I encourage you to focus on your present and future. Try to start letting go and moving forward. Remember that you are in control of your own thoughts. Take a step to make you feel better. Goodluck!",
+        "The effects of chronic illness can be difficult to manage, but remember that it's not something you have to go through alone. There are so many resources available to help, and don't be afraid to ask for help if you need it."
+      ]
+    },
+    {
+      "tag": "warning signs",
+      "patterns": [
+        "What are the warning signs of serious health problems?",
+        "How to have a healthy diet?",
+        "How can I improve my sleep quality?"
+      ],
+      "responses": [
+        "Hey there, I'm sorry to hear that you are worried about your health. The most important thing is to look out for any warning signs that might suggest something more serious is going on. Some warning signs can be: sudden pain or swelling in your body, a severe fever that won't go away, difficulty breathing, changes in your vision, sudden confusion or dizziness, chest pain, difficulty swallowing, and an irregular heartbeat.",
+        "A healthy diet includes lots of fruits, vegetables, lean proteins, whole grains, healthy fats, and low-fat dairy products. Try to limit processed and refined foods as much as possible, and make sure to drink plenty of water throughout the day.",
+        "Start by creating a bedtime routine that works for you. Try to get 7-8 hours of sleep each night, avoid screens and stimulants at least an hour before bedtime, and make sure your room is dark, quiet and comfortable."
+      ]
+    },
+    {
+      "tag": "down",
+      "patterns": [
+        "I feel pretty down",
+        "Can you tell me a joke or an interesting fact to help me shift my focus?",
+        "Hahahahahahahaha"
+      ],
+      "responses": [
+        "There is always some chance that things can go wrong. But if you always anticipate failure, failure is much more likely. Optimism gives you the energy and drive to make things better, even they’re not perfect.",
+        "A joke: What did the fish say when it hit the wall? Dam!",
+        "Great! I make you smile and laugh."
+      ]
+    },
+    {
+      "tag": "unmotivate",
+      "patterns": [
+        "I always do not act on my goals",
+        "How will I continue to motivate myself to maintain focus and continue making progress?",
+        "How can I overcome these problem?"
+      ],
+      "responses": [
+        "You may have goals and dreams, but procrastinating or not acting on them can make you feel dissatisfied and unfulfilled. Take small steps to work towards your goals instead of simply building castles in the air.",
+        "I know it can be so difficult to take action on our goals and can be really discouraging when we don't make progress. I think one way to help motivate yourself and stay focused is to break down your goal into smaller, more achievable goals.",
+        "To overcome these obstacles, start small by breaking your goal into concrete and manageable steps, set realistic timelines and expectations, find positive motivators to keep you going, practice self-compassion, make a plan and stick to it, and make sure you hold yourself accountable."
+      ]
+    },
+    {
+      "tag": "time management",
+      "patterns": [
+        "I struggle with managing my time.",
+        "struggling in time management",
+        "managing my time"
+      ],
+      "responses": [
+        "The key to making enough time to work towards health, fitness, and other goals is to be organized with your time so that you can prioritize what is important.",
+        "I totally understand how it feels to struggle with managing your time. It can be really overwhelming and make us feel like we're not in control."
+      ]
+    },
+    {
+      "tag": "self confidence",
+      "patterns": [
+        "I lack of self-confidence",
+        "lack of confidence",
+        "How can I reframe negative thoughts and self-talk into positive ones?",
+        "self confidence"
+      ],
+      "responses": [
+        "If you feel insecure about yourself, it can be difficult to unlock your true potential. Building self-esteem takes work, but it can help you avoid much unhappiness and anxiety.",
+        "Try to reframe negative thoughts and self-talk by acknowledging them and then turning them around and replacing them with something more positive and realistic. Whenever something negative pops into your head, try to replace it with an affirmation or positive statement.",
+        "Make sure to remind yourself that you are loved and that no matter what you are going through, you are never alone."
+      ]
+    },{
+      "tag": "manage irritation",
+      "patterns": [
+        "What are the ways to manage irritability",
+        "how to manage irritation",
+        "ways to manage irritation",
+        "general tips for managing irritability",
+        "Ano ano ang pwede kong gawin para maibsan ang aking pagkaka-irita",
+        "What are some methods for dealing with irritability",
+        "What are some strategies for controlling iritation"     
+        
+      ],
+      "responses": [
+        "You can manage your irritability in several different ways. Certain methods will work better for some people than others. It is up to you to find which coping mechanisms best suit your personality and lifestyle. Here are the few general tips for managing irritability include: Exercising regularly eating a balanced diet rich in whole foods, such as fruits and vegetables, and low in processed foods, maintaining a regular sleep schedule, practicing slow breathing techniques or medidate, meeting with a mental health practitioner or counselor, using a journal to keep track of mood changes and triggers."
+      ]
+    },
+    {
+      "tag": "down",
+      "patterns": [
+        "Im feeling down",
+        "Im down",
+        "I dont know why I feel like this"
+
+      ],
+      "responses": [
+        "Lots of people experience depression, while others just have bad days or just are feeling down on themselves. No matter why they’re depressed, sad, or unmotivated to do much of anything, one thing is certain — it’s a tough feeling to experience."
+      ]
+    },
+    {
+      "tag": "down2",
+      "patterns": [
+        "Im feel down",
+        "Why do I feel blue",
+        "I feel blue.",
+        "I feel dejected",
+        "Im discouraged.",
+        "I feel down this past few days"
+        
+      ],
+      "responses": [
+        "Im sorry you felt that way. Would you like some space or Not everyone will feel like talking all the time, and it is vital to respect that. I respect your decision but if you need one to talk to, Im here."
+      ]
+    },
+    {
+      "tag": "ease",
+      "patterns": [
+        "What should I do to feel at ease?",
+        "Things to do to feel at ease",
+        "How can I feel good",
+        "things to do to make me feel at ease"
+
+      ],
+      "responses": [
+        "Here are some activities you can do with your problem, it seems your creativity and sense of fun may be blocked. But it can help to do things that get your creative juices flowing. Paint, draw, or doodle. Sew, cook, or bake. Write, dance, or compose music. "
+      ]
+    },
+    {
+      "tag": "mix",
+      "patterns": [
+        "Im experiencing feelings of sadness, emptiness, or hopelessness.",
+        "I dont know what to feel",
+        "Im loss of words.",
+        "Im not sure how I feel."
+
+
+      ],
+      "responses": [
+        "Do you find yourself wringing your hands, pacing, or showing other signs of anxious restlessness — or the opposite, moving or speaking more slowly than usual?"
+      ]
+    },
+    {
+      "tag": "motivate",
+      "patterns": [
+        "motivation",
+        "How can I motivate myself?",
+        "quotes",
+        "remember"
+
+      ],
+      "responses": [
+        "Im here for you, You can remind yourself that you matter, you are loved, you are not alone. Always remember that … IF YOU COULD ONLY SENSE HOW IMPORTANT YOU ARE TO THE LIVES OF THOSE YOU MEET; HOW IMPORTANT YOU CAN BE TO THE PEOPLE YOU MAY NEVER EVEN DREAM OF. THERE IS SOMETHING OF YOURSELF THAT YOU LEAVE AT EVERY MEETING WITH ANOTHER PERSON. -Fred Rogers"
+      ]
+    },
+    {
+      "tag": "tired",
+      "patterns": [
+        "Lifes not worth living",
+        "Im so tired",
+        "tired",
+        "things overwhelmed me",
+        "im overwhelmed",
+        "Im tired in many things"
+
+      ],
+      "responses": [
+        "Do you feel like you're always tired?"
+      ]
+    },
+    {
+      "tag": "im tired",
+      "patterns": [
+        "Yes, sometimes",
+        "yes i feel overwhelmed",
+        "I fee tired",
+        "procastination",
+        "I feel like not doing usual enjoyable activities",
+        "Im really tired"
+
+      ],
+      "responses": [
+        "Many cases of tiredness are due to stress, not enough sleep, poor diet and other lifestyle factors and academics. If youre not finding relief through sleep or rest, its time to address why youre experiencing excessive tiredness. It might be related to a medical issue or a mental health condition like depression."
+      ]
+    },
+    {
+      "tag": "fatigue",
+      "patterns": [
+        "I feel sleepy",
+        "im sleepy all the time",
+        "is it fatigue or sleepiness",
+        "difference of fatigue and sleepiness",
+        "What is fatigue and sleepiness"
+        
+      ],
+      "responses": [
+        "Sleepiness can occur when a person does not get enough good quality sleep, or when they have a lack of stimulation. However, fatigue — especially when it is chronic — is often associated with a health condition or problem."
+      ]
+    },
+    {
+      "tag": "rid of tiredness",
+      "patterns": [
+        "How do you get rid of tiredness",
+        "How can you get rid of fatigue?",
+        "How can you get rid of exhaustion",
+        "exhausted",
+        "Is it fatigue or sleepiness?",
+        "How to rid tiredness",
+        "How to rid fatigue"
+        
+      ],
+      "responses": [
+        "I have here some tips to overcome your tiredness faster. Get up and get moving, Drink a glass of water, Get outside and breathe in some fresh air, Eat an energy-boosting snack, Splash your face with cold water, Smell some peppermint, Listen to your favourite playlist."
+      ]
+    },
+    {
+      "tag": "avoid when tired",
+      "patterns": [
+        "What things should I avoid when Im feeling tired?",
+        "What activities should I stay away from while I'm tired?",
+        "How to avoid tiredness"
+        
+      ],
+      "responses": [
+        "In these instances, tiredness could be a sign of an underlying health condition or there may be lifestyle factors that you haven't considered which could be causing you to feel tired all he time. Try to avoid relying on caffeine to boost your energy, Dont nap for too long, Dont cave to your cravings, When to consult your doctor about tiredness."
+      ]
+    }
+  ]
+}
