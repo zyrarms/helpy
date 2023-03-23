@@ -13,7 +13,6 @@ epds = {
   },
   2: {
     question: "Feeling down, depressed, or hopeless?",
-
     0: "Not at all",
     1: "Several days",
     2: "More than half the days",
