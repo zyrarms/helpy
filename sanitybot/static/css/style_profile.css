@@ -242,7 +242,7 @@ header .container {
 
 .sanity {
   width: 50%;
-  transform: translate(100%, 70px);
+  transform: translate(200%, 70px);
   z-index: -6;
 }
 

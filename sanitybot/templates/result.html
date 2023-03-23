@@ -53,20 +53,24 @@
                 <div class="inputBox">
                   <span></span>
                   <span style="color:#BB7070">Question 1 :</span>
-                  <span>Little interest or pleasure in doing things?</span>
+                  <span>Are you feeling despair when you are doing something that you typically enjoy?</span>
                 </div>
+              </div>
+              <div class="flex1">
                 <div class="inputBox">
                   <span></span>
                   <span style="color:#BB7070">Answer :</span>
-                  <span>{{ user.q1 }}</span>
+                  <span>{{ user.q1 }}</span></span>
                 </div>
               </div>
               <div class="flex1">
                 <div class="inputBox">
                   <span></span>
                   <span style="color:#BB7070">Question 2 :</span>
-                  <span>Feeling down, depressed, or hopeless?</span>
+                  <span>I've noticed that you've been isolating yourself and feeling down more lately and may be experiencing feelings of hopelessness. Have you noticed any changes or improvements in your mood and outlook?</span>
                 </div>
+              </div>
+              <div class="flex1">
                 <div class="inputBox">
                   <span></span>
                   <span style="color:#BB7070">Answer :</span>
@@ -77,20 +81,24 @@
                 <div class="inputBox">
                   <span></span>
                   <span style="color:#BB7070">Question 3 :</span>
-                  <span>Trouble falling or staying asleep, or sleeping too much?</span>
+                  <span>But how was your sleeping schedule lately? How was your sleep been, and have you been experiencing any difficulty falling or staying asleep? You seem like you're going through a tough time.</span>
                 </div>
+              </div>
+              <div class="flex1">
                 <div class="inputBox">
                   <span></span>
                   <span style="color:#BB7070">Answer :</span>
-                  <span>{{ user.q3 }}</span>
+                  <span>{{ user.q3 }}</span></span>
                 </div>
               </div>
               <div class="flex1">
                 <div class="inputBox">
                   <span></span>
                   <span style="color:#BB7070">Question 4 :</span>
-                  <span>Feeling tired or having little energy?</span>
+                  <span>It will appears in feeling tired and low on energy. So, have you noticed any patterns or triggers that might be contributing to your fatigue like particular reasons for your lack of energy, such as stress or changes in your routine?</span>
                 </div>
+              </div>
+              <div class="flex1">
                 <div class="inputBox">
                   <span></span>
                   <span style="color:#BB7070">Answer :</span>
@@ -101,20 +109,24 @@
                 <div class="inputBox">
                   <span></span>
                   <span style="color:#BB7070">Question 5 :</span>
-                  <span>Poor appetite or overeating?</span>
+                  <span>Oh I see. Somehow I sense that you may be experiencing feelings of shame or self-blame. Is there anything thats been weighing heavily on your mind, such as past mistakes or current challenges that can me you feel of failure or disappointment anything in particular that has been contributing to these thoughts?</span>
                 </div>
+              </div>
+              <div class="flex1">
                 <div class="inputBox">
                   <span></span>
                   <span style="color:#BB7070">Answer :</span>
-                  <span>{{ user.q5 }}</span>
+                  <span>{{ user.q5 }}</span></span>
                 </div>
               </div>
               <div class="flex1">
                 <div class="inputBox">
                   <span></span>
                   <span style="color:#BB7070">Question 6 :</span>
-                  <span>Feeling bad about yourself — or that you are a failure or have let yourself or your family down?</span>
+                  <span>Oh, but one thing that might help to avoid bad thoughts is to focus. So, how is your experience uncontrollable worrying thoughts that seem to dominate your mind, and does it affect your daily life and activities?</span>
                 </div>
+              </div>
+              <div class="flex1">
                 <div class="inputBox">
                   <span></span>
                   <span style="color:#BB7070">Answer :</span>
@@ -125,20 +137,24 @@
                 <div class="inputBox">
                   <span></span>
                   <span style="color:#BB7070">Question 7 :</span>
-                  <span>Trouble concentrating on things, such as reading the newspaper or watching television?</span>
+                  <span>I understand. But have you noticed that you frequently have an overwhelming sense of fear or dread, as if something terrible is about to happen, despite there being no logical reason for it and interfere it with your ability to function normally in your daily life?</span>
                 </div>
+              </div>
+              <div class="flex1">
                 <div class="inputBox">
                   <span></span>
                   <span style="color:#BB7070">Answer :</span>
-                  <span>{{ user.q7 }}</span>
+                  <span>{{ user.q7 }}</span></span>
                 </div>
               </div>
               <div class="flex1">
                 <div class="inputBox">
                   <span></span>
                   <span style="color:#BB7070">Question 8 :</span>
-                  <span>Moving or speaking so slowly that other people could have noticed? Or so fidgety or restless that you have been moving a lot more than usual?</span>
+                  <span>Its important to remember that we all make mistakes and experience setbacks, and that its possible to learn and grow from these experiences. Do you feel having difficulty focusing on certain things?</span>
                 </div>
+              </div>
+              <div class="flex1">
                 <div class="inputBox">
                   <span></span>
                   <span style="color:#BB7070">Answer :</span>
@@ -149,8 +165,10 @@
                 <div class="inputBox">
                   <span></span>
                   <span style="color:#BB7070">Question 9 :</span>
-                  <span>Thoughts that you would be better off dead, or thoughts of hurting yourself in some way?</span>
+                  <span>Well, just remember that it's okay to make mistake and learn form it. Is there any chance that you have thoughts of harming yourself or feeling like you would be better off not living? If so better to address these thoughts as soon as possible and seek professional help, such as talking to a therapist or counselor, to get the support and guidance you need. Remember, you are not alone and there is help available to you.</span>
                 </div>
+              </div>
+              <div class="flex1">
                 <div class="inputBox">
                   <span></span>
                   <span style="color:#BB7070">Answer :</span>
@@ -160,11 +178,7 @@
               <div class="flex1">
                 <div class="inputBox">
                   <span></span>
-                  <h3 style="color:black">Score :</h3>
-                </div>
-                <div class="inputBox">
-                  <span></span>
-                  <h3 style="color:black">{{ user.result }}</h3><div>
+                  <h3 style="color:black">Score : {{ user.result }}</h3><div>
                 <img src="{{ url_for('static', filename='/images/helpy.svg') }}" alt="Image" class="sanity">
               </div>
                 </div>

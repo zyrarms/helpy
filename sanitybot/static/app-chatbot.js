@@ -3,7 +3,7 @@ let is_done = false;
 
 epds = {
   1: {
-    question: "Are you feeling despair when you are doing something that you typically enjoy??",
+    question: "Are you feeling despair when you are doing something that you typically enjoy?",
     0: "Nope, not at all.",
     1: "Yes, I feel that way",
     2: "Almost an entire day",
@@ -166,9 +166,9 @@ class Chatbox {
     // if (text1.toLowerCase().includes("yes") || text1.toLowerCase().includes("okay") || text1.toLowerCase().includes("sure")) {
     //   this.epds_chatbot(chatbox)
     // } else 
-    if (text1.toLowerCase().includes("thanks") || text1.toLowerCase().includes("thank you") || text1.toLowerCase().includes("thank you!")) {
-      let msg2 = { name: "Sanitybot", message: "Wait up! May I ask you something if... " };
-      let msg3 = { name: "Sanitybot", message: "Lately did you have a little interest or pleasure in doing things?" };
+    if (text1.toLowerCase().includes("thanks") || text1.toLowerCase().includes("thank you") || text1.toLowerCase().includes("thank you!") || text1.toLowerCase().includes("stress") ) {
+      let msg2 = { name: "Sanitybot", message: "It's sounds like you're really curious about you're mental health, I know it can be really hard. But.. " };
+      let msg3 = { name: "Sanitybot", message: "Are you feeling despair when you are doing something that you typically enjoy??" };
       this.messages.push(msg2);
       this.messages.push(msg3);
       this.updateChatText(chatbox)
@@ -243,8 +243,8 @@ class Chatbox {
             let msg2 = { name: "Sanitybot", message: r.answer };
             this.messages.push(msg2);
             // TODO: updated the link
-            this.messages.push({ name: "Sanitybot", message: "Simply go to this page to <a href='/result'>view result.</a>" })
-
+            this.messages.push({ name: "Sanitybot", message: "Simply go to this page to <a href='http://127.0.0.1:5000/result'>view result.</a>" })
+            this.messages.push({ name: "Sanitybot", message: "If you ever need anything, don't hesitate to reach out. You don't need to face it alone. I'm here for you." })
             // presetWrapper.style.display = 'flex';
             // elements[0].innerText = "Yes"
             // elements[1].innerText = "No"

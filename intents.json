@@ -228,13 +228,10 @@
     {
       "tag": "Md of mental health",
       "patterns": [
-        "What are some of the treatments of mental illness?",
-        "mental illness possible treatment",
-        "can you suggest what it the possible treatment in mental illness?",
-        "treatment methods"
+        "More than half the days"
       ],
       "responses": [
-        "Depending on the needs of the patient, psychiatrists can use different treatment methods, including Psychotherapy, Medication, psychosocial interventions, and more. So it is better to ask your specialist of your medical doctor."
+        "depending on the needs of the patient, psychiatrists can use different treatment methods, including Psychotherapy, Medication, psychosocial interventions, and more. So it is better to ask your specialist of your medical doctor."
       ]
     },
     {
